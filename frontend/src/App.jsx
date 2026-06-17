@@ -215,15 +215,15 @@ function calcScores(answers, career) {
     };
 
     const vals = answers.map((ans, idx) => getVal(ans, idx));
-    const fitScore = vals.reduce((sum, v) => sum + v, 0);
+    const fitScore = Math.round(vals.reduce((sum, v) => sum + v, 0) / 2);
 
-    const financial = Math.round(((vals[0] + vals[1]) / 8) * 100) || 0;
-    const academic = Math.round(((vals[2] + vals[3] + vals[4]) / 12) * 100) || 0;
-    const analytical = Math.round(((vals[5] + vals[6] + vals[7]) / 12) * 100) || 0;
+    const financial = Math.round(((vals[0] + vals[1] + vals[32] + vals[33] + vals[34] + vals[35]) / 24) * 100) || 0;
+    const academic = Math.round(((vals[2] + vals[3] + vals[4] + vals[24] + vals[25] + vals[26] + vals[27]) / 28) * 100) || 0;
+    const analytical = Math.round(((vals[5] + vals[6] + vals[7] + vals[20] + vals[21] + vals[22] + vals[23]) / 28) * 100) || 0;
     const problem = academic;
-    const commitment = Math.round(((vals[8] + vals[9] + vals[10] + vals[11]) / 16) * 100) || 0;
-    const curiosity = Math.round(((vals[12] + vals[13] + vals[14] + vals[15]) / 16) * 100) || 0;
-    const persistence = Math.round(((vals[16] + vals[17] + vals[18] + vals[19]) / 16) * 100) || 0;
+    const commitment = Math.round(((vals[8] + vals[9] + vals[10] + vals[11] + vals[28] + vals[29]) / 24) * 100) || 0;
+    const curiosity = Math.round(((vals[12] + vals[13] + vals[14] + vals[15] + vals[38] + vals[39]) / 24) * 100) || 0;
+    const persistence = Math.round(((vals[16] + vals[17] + vals[18] + vals[19] + vals[30] + vals[31] + vals[36] + vals[37]) / 32) * 100) || 0;
 
     return {
       fitScore,
@@ -494,7 +494,7 @@ function CareersPage({ setPage, selectedStream, setSelectedCareer, setAnswers, t
     const careerData = CAREERS.find(c => c.id === active);
     const isScience = careerData?.stream === "science";
     const isCommOrArts = COMMERCE_ARTS_QUIZZES[active] !== undefined;
-    const expectedLength = isScience ? 40 : (isCommOrArts ? 20 : 15);
+    const expectedLength = isScience ? 40 : (isCommOrArts ? 40 : 15);
     setAnswers(Array(expectedLength).fill(null));
     localStorage.setItem("career_reality_current_q", "0");
     localStorage.setItem("career_reality_show_review", "false");
@@ -1732,7 +1732,7 @@ function AlternativesPage({ career, answers, setAnswers, setPage, setSelectedCar
               setSelectedCareer(c.id);
               const isScience = c.stream === "science";
               const isCommOrArts = COMMERCE_ARTS_QUIZZES[c.id] !== undefined;
-              const expectedLength = isScience ? 40 : (isCommOrArts ? 20 : 15);
+              const expectedLength = isScience ? 40 : (isCommOrArts ? 40 : 15);
               setAnswers(Array(expectedLength).fill(null));
               localStorage.setItem("career_reality_current_q", "0");
               localStorage.setItem("career_reality_show_review", "false");
@@ -1809,7 +1809,7 @@ export default function App() {
       const careerData = CAREERS.find(c => c.id === savedCareer);
       const isScience = careerData?.stream === "science";
       const isCommOrArts = COMMERCE_ARTS_QUIZZES[savedCareer] !== undefined;
-      const expectedLength = isScience ? 40 : (isCommOrArts ? 20 : 15);
+      const expectedLength = isScience ? 40 : (isCommOrArts ? 40 : 15);
       if (saved) {
         const parsed = JSON.parse(saved);
         if (parsed.length === expectedLength) return parsed;

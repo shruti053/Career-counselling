@@ -3551,16 +3551,462 @@ const PSYCHOLOGY_QUIZ = [
   }
 ];
 
+
+
+// ── GENERAL QUESTIONS FOR COMMERCE & ARTS ────────────────────────────
+const GENERAL_QUESTIONS = [
+  {
+    "cat": "aptitude",
+    "q": "You're solving a problem and realise mid-way that two different methods could both lead to a valid answer. What do you most likely do?",
+    "opts": [
+      {
+        "t": "Stick with the method I started by switching halfway is more confusing than helpful",
+        "s": 1
+      },
+      {
+        "t": "Quickly try the second method to see if it's faster, then decide which to use",
+        "s": 2
+      },
+      {
+        "t": "Work through both methods to compare which gives a cleaner or more efficient result",
+        "s": 3
+      },
+      {
+        "t": "Step back and analyse which approach is more suitable before committing to either",
+        "s": 4
+      }
+    ]
+  },
+  {
+    "cat": "aptitude",
+    "q": "You've completed an assignment ahead of time and notice a related concept that wasn't part of the task, but it seems genuinely interesting. What do you do?",
+    "opts": [
+      {
+        "t": "Move on, I've done what was asked and that's enough",
+        "s": 1
+      },
+      {
+        "t": "Bookmark it to explore if I ever have extra time",
+        "s": 2
+      },
+      {
+        "t": "Spend a few minutes reading more about it out of curiosity",
+        "s": 3
+      },
+      {
+        "t": "Explore it further to see whether it adds anything useful to your thinking or work",
+        "s": 4
+      }
+    ]
+  },
+  {
+    "cat": "aptitude",
+    "q": "Your teacher gives you an open-ended research task with very little guidance on how to structure it. What do you most likely do?",
+    "opts": [
+      {
+        "t": "Wait to see how classmates are approaching it before starting",
+        "s": 1
+      },
+      {
+        "t": "Follow the most familiar structure you've used in past assignments",
+        "s": 2
+      },
+      {
+        "t": "Think about what the task is asking and design an approach that makes logical sense",
+        "s": 3
+      },
+      {
+        "t": "Research different methodologies and structures before deciding how to organise your work",
+        "s": 4
+      }
+    ]
+  },
+  {
+    "cat": "aptitude",
+    "q": "You're choosing between two subject electives. One is harder but opens more career doors. The other is more comfortable but limits your options later. How do you decide?",
+    "opts": [
+      {
+        "t": "Choose the comfortable one, performing well matters more than keeping future options open",
+        "s": 1
+      },
+      {
+        "t": "Ask family or friends what they'd recommend and use their input as my main guide",
+        "s": 2
+      },
+      {
+        "t": "Research both paths and think about where I want to be a few years from now",
+        "s": 3
+      },
+      {
+        "t": "Build a side-by-side comparison: weighing difficulty, outcomes, and personal fit, before deciding",
+        "s": 4
+      }
+    ]
+  },
+  {
+    "cat": "academic",
+    "q": "You have an important assignment due in two weeks. Nobody is checking your progress. What are you most likely to do?",
+    "opts": [
+      {
+        "t": "Wait until the deadline gets closer, I work better under pressure",
+        "s": 1
+      },
+      {
+        "t": "Work on it occasionally when I feel motivated or remember to",
+        "s": 2
+      },
+      {
+        "t": "Create a rough plan and make steady progress over the two weeks",
+        "s": 3
+      },
+      {
+        "t": "Break it into smaller milestones and follow a structured schedule from day one",
+        "s": 4
+      }
+    ]
+  },
+  {
+    "cat": "academic",
+    "q": "In class, your teacher introduces a concept that most students, including you, find confusing. What do you typically do?",
+    "opts": [
+      {
+        "t": "Take notes and trust it will become clearer closer to the exam",
+        "s": 1
+      },
+      {
+        "t": "Ask a classmate to explain it to me after class",
+        "s": 2
+      },
+      {
+        "t": "Ask the teacher a question during or right after class to clarify my understanding",
+        "s": 3
+      },
+      {
+        "t": "Revisit the concept independently, using textbooks or other resources, until it fully makes sense",
+        "s": 4
+      }
+    ]
+  },
+  {
+    "cat": "academic",
+    "q": "When preparing for an important exam, which of the following best describes how you study?",
+    "opts": [
+      {
+        "t": "I focus on memorising key points, formulas, and common answer formats",
+        "s": 1
+      },
+      {
+        "t": "I review my notes and attempt past papers to get comfortable with the format",
+        "s": 2
+      },
+      {
+        "t": "I make sure I understand the underlying concepts, not just the expected answers",
+        "s": 3
+      },
+      {
+        "t": "I test my understanding from multiple angles to confirm I can apply concepts to unfamiliar situations",
+        "s": 4
+      }
+    ]
+  },
+  {
+    "cat": "academic",
+    "q": "You receive a significantly lower mark than expected on a test you thought you'd prepared well for. What is your most likely reaction?",
+    "opts": [
+      {
+        "t": "Feel discouraged, an unexpected result like this knocks my confidence for a while",
+        "s": 1
+      },
+      {
+        "t": "Accept it and move on without spending too much time analysing it",
+        "s": 2
+      },
+      {
+        "t": "Go through the paper carefully to identify where I lost marks and adjust my preparation",
+        "s": 3
+      },
+      {
+        "t": "Treat it as a diagnostic, analyse every mistake in detail and rethink my approach to this subject",
+        "s": 4
+      }
+    ]
+  },
+  {
+    "cat": "commitment",
+    "q": "You've worked hard to get into a competitive programme or selection process, and you don't make it through on your first attempt. What do you do?",
+    "opts": [
+      {
+        "t": "Take it as a sign that this path may not be the right fit and consider alternatives",
+        "s": 1
+      },
+      {
+        "t": "Take time to recover, then decide later whether to try again",
+        "s": 2
+      },
+      {
+        "t": "Identify what held me back and prepare more seriously for the next opportunity",
+        "s": 3
+      },
+      {
+        "t": "Start planning my next attempt almost immediately, a setback like this only sharpens my focus",
+        "s": 4
+      }
+    ]
+  },
+  {
+    "cat": "commitment",
+    "q": "Midway through a course you chose, you find it harder and less enjoyable than you expected. What are you most likely to do?",
+    "opts": [
+      {
+        "t": "Begin exploring alternatives, there's no point continuing something that isn't working",
+        "s": 1
+      },
+      {
+        "t": "Keep going for now but stay open to switching if something better comes along",
+        "s": 2
+      },
+      {
+        "t": "Speak to a mentor or counsellor to understand whether this is a temporary phase or a genuine mismatch",
+        "s": 3
+      },
+      {
+        "t": "Stay fully committed, I chose this pathway for reasons that still hold, and I trust the process",
+        "s": 4
+      }
+    ]
+  },
+  {
+    "cat": "persistence",
+    "q": "A classmate who started at the same level as you is now noticeably ahead in a subject you both care about. How do you respond?",
+    "opts": [
+      {
+        "t": "Accept it, some people are just more naturally suited to certain subjects",
+        "s": 1
+      },
+      {
+        "t": "Feel a burst of motivation initially, but gradually return to my usual pace",
+        "s": 2
+      },
+      {
+        "t": "Ask them how they're studying and try to apply similar habits",
+        "s": 3
+      },
+      {
+        "t": "Use it as a challenge, seeing someone ahead of me pushes me to raise my own standard",
+        "s": 4
+      }
+    ]
+  },
+  {
+    "cat": "persistence",
+    "q": "You come across a free or affordable short course that would build a skill relevant to your career interests, but it requires consistent effort over six weeks. How likely are you to follow through?",
+    "opts": [
+      {
+        "t": "Unlikely, six weeks of extra effort on top of regular schoolwork is a lot to take on",
+        "s": 1
+      },
+      {
+        "t": "I'd start it but may not complete it if other priorities take over",
+        "s": 2
+      },
+      {
+        "t": "I'd make a genuine effort to complete it, six weeks is manageable if I stay organised",
+        "s": 3
+      },
+      {
+        "t": "I'd complete it and actively look for the next skill-building opportunity while doing so",
+        "s": 4
+      }
+    ]
+  },
+  {
+    "cat": "financial",
+    "q": "You're seriously considering a particular career pathway. Which best describes how you think about the financial dimensions of that choice?",
+    "opts": [
+      {
+        "t": "I focus on whether the career interests me, the financial details can be sorted out later",
+        "s": 1
+      },
+      {
+        "t": "I have a general sense that some careers cost more to enter than others",
+        "s": 2
+      },
+      {
+        "t": "I try to understand the typical costs involved and what someone in that field usually earns over time",
+        "s": 3
+      },
+      {
+        "t": "I research both the investment required and realistic earning potential before committing to a direction",
+        "s": 4
+      }
+    ]
+  },
+  {
+    "cat": "financial",
+    "q": "You discover that a course or programme you're interested in offers a merit-based scholarship or funding option. What do you most likely do?",
+    "opts": [
+      {
+        "t": "Assume I'm unlikely to qualify and don't look into it further",
+        "s": 1
+      },
+      {
+        "t": "Note it as a possibility but don't actively research the eligibility criteria",
+        "s": 2
+      },
+      {
+        "t": "Look up the requirements to understand whether it's worth pursuing",
+        "s": 3
+      },
+      {
+        "t": "Research the scholarship thoroughly, understand exactly what's needed, and prepare the strongest possible application if eligible",
+        "s": 4
+      }
+    ]
+  },
+  {
+    "cat": "financial",
+    "q": "Two career paths interest you equally. Path A has lower upfront costs and lets you start earning sooner. Path B requires a larger educational investment but offers stronger long-term growth potential. How do you approach this choice?",
+    "opts": [
+      {
+        "t": "Go with Path A, lower risk and earlier income is the more sensible choice",
+        "s": 1
+      },
+      {
+        "t": "Go with Path B, greater long-term potential is almost always worth the investment",
+        "s": 2
+      },
+      {
+        "t": "Research both paths more carefully, I need more concrete information before deciding",
+        "s": 3
+      },
+      {
+        "t": "Compare the total investment against realistic long-term outcomes for both paths before making a call",
+        "s": 4
+      }
+    ]
+  },
+  {
+    "cat": "financial",
+    "q": "You've identified a career pathway that excites you, and you learn it involves significant associated costs, education, preparation, and related expenses over several years. What is your approach?",
+    "opts": [
+      {
+        "t": "Feel discouraged if the costs seem difficult to manage given my current situation",
+        "s": 1
+      },
+      {
+        "t": "Focus on the career itself for now and hope the financial side works itself out",
+        "s": 2
+      },
+      {
+        "t": "Start researching available scholarships, funding options, and alternative support pathways",
+        "s": 3
+      },
+      {
+        "t": "Map out the likely costs, explore every available funding avenue, and build a realistic plan for pursuing it",
+        "s": 4
+      }
+    ]
+  },
+  {
+    "cat": "softskills",
+    "q": "You're part of a group project and one team member isn't contributing equally. The deadline is approaching. What do you most likely do?",
+    "opts": [
+      {
+        "t": "Quietly cover their share of the work to make sure the project gets done on time",
+        "s": 1
+      },
+      {
+        "t": "Raise it with the group and suggest redistributing the responsibilities more fairly",
+        "s": 2
+      },
+      {
+        "t": "Speak to the team member privately first to understand what's going on before escalating",
+        "s": 3
+      },
+      {
+        "t": "Flag it to the teacher or project supervisor so the issue is formally on record",
+        "s": 4
+      }
+    ]
+  },
+  {
+    "cat": "softskills",
+    "q": "Your class is presenting a group project and nobody volunteers to present. What do you most likely do?",
+    "opts": [
+      {
+        "t": "Stay quiet and wait for someone else to step forward",
+        "s": 1
+      },
+      {
+        "t": "Suggest the most confident speaker in the group should take the lead",
+        "s": 2
+      },
+      {
+        "t": "Offer to co-present with someone so the responsibility is shared",
+        "s": 3
+      },
+      {
+        "t": "Volunteer to lead the presentation",
+        "s": 4
+      }
+    ]
+  },
+  {
+    "cat": "expectation",
+    "q": "You're asked to describe your ideal working life ten years from now. Which comes closest to how you actually think about it?",
+    "opts": [
+      {
+        "t": "A stable, well-paying job with a healthy work-life balance",
+        "s": 1
+      },
+      {
+        "t": "A senior role in my chosen field with strong financial rewards",
+        "s": 2
+      },
+      {
+        "t": "Work that I find genuinely meaningful and that contributes to something larger than myself",
+        "s": 3
+      },
+      {
+        "t": "Something I've built or led, a venture, a body of research, or a career path I've shaped on my own terms",
+        "s": 4
+      }
+    ]
+  },
+  {
+    "cat": "expectation",
+    "q": "You've built a clear career plan, and then you come across a new and emerging field that genuinely excites you, one that wasn't on your radar when you started planning. What do you do?",
+    "opts": [
+      {
+        "t": "Stay the course, I've already committed to a direction and changing it feels risky",
+        "s": 1
+      },
+      {
+        "t": "Keep the new field in mind as something to revisit later, but don't change direction now",
+        "s": 2
+      },
+      {
+        "t": "Research the new field seriously alongside your current path before making any decisions",
+        "s": 3
+      },
+      {
+        "t": "Actively explore it, staying open to emerging opportunities is part of smart career planning",
+        "s": 4
+      }
+    ]
+  }
+];
+
 // ── COMMERCE_ARTS_QUIZZES MAPPING ───────────────────────────────────────────
 const COMMERCE_ARTS_QUIZZES = {
-  accounting: ACCOUNTING_QUIZ,
-  economics: ECONOMICS_QUIZ,
-  entrepreneurship: ENTREPRENEURSHIP_QUIZ,
-  finance: FINANCE_QUIZ,
-  history: HISTORY_QUIZ,
-  marketing: MARKETING_QUIZ,
-  political_science: POLITICAL_SCIENCE_QUIZ,
-  psychology: PSYCHOLOGY_QUIZ
+  accounting: [...ACCOUNTING_QUIZ, ...GENERAL_QUESTIONS],
+  economics: [...ECONOMICS_QUIZ, ...GENERAL_QUESTIONS],
+  entrepreneurship: [...ENTREPRENEURSHIP_QUIZ, ...GENERAL_QUESTIONS],
+  finance: [...FINANCE_QUIZ, ...GENERAL_QUESTIONS],
+  history: [...HISTORY_QUIZ, ...GENERAL_QUESTIONS],
+  marketing: [...MARKETING_QUIZ, ...GENERAL_QUESTIONS],
+  political_science: [...POLITICAL_SCIENCE_QUIZ, ...GENERAL_QUESTIONS],
+  psychology: [...PSYCHOLOGY_QUIZ, ...GENERAL_QUESTIONS]
 };
 
 export { COMMERCE_ARTS_QUIZZES };
