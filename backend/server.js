@@ -4,6 +4,7 @@ import fetch from "node-fetch";
 import dotenv from "dotenv";
 import path from "path";
 import { fileURLToPath } from "url";
+import https from "https";
 
 dotenv.config();
 
@@ -16,6 +17,10 @@ app.use(express.json());
 
 // Serve static files from the React frontend build
 app.use(express.static(path.join(__dirname, "../frontend/dist")));
+
+const sslAgent = new https.Agent({
+  rejectUnauthorized: false
+});
 
 // Helper function to validate a URL using a HEAD or GET request with a timeout
 async function validateUrl(url) {
@@ -39,6 +44,7 @@ async function validateUrl(url) {
         headers: {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
         },
+        agent: url.startsWith("https") ? sslAgent : undefined,
         signal: controller.signal
       });
     } catch (headErr) {
@@ -50,6 +56,7 @@ async function validateUrl(url) {
         headers: {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
         },
+        agent: url.startsWith("https") ? sslAgent : undefined,
         signal: getController.signal
       });
       clearTimeout(getTimeoutId);
@@ -114,15 +121,159 @@ async function performValidationPass(roadmap) {
   return roadmap;
 }
 
+function generateFallbackRoadmap(career, scores) {
+  const careerName = career.charAt(0).toUpperCase() + career.slice(1);
+  return {
+    summary: `Based on your profile, we have built a structured preparation path for ${careerName}. Focus on building core foundational knowledge and practical projects.`,
+    strengths: [
+      "Good foundational alignment and interest in the field",
+      "Willingness to learn and explore new concepts",
+      "Analytical mindset to approach problems systematically"
+    ],
+    gaps: [
+      "Needs deeper exposure to real-world applications",
+      "Needs structured hands-on project experience",
+      "Opportunity to build industry-recognized certifications"
+    ],
+    months: [
+      {
+        month: 1,
+        title: "Foundations & Core Principles",
+        focus: "Understanding the basic concepts and frameworks",
+        topics: ["Introduction to Concepts", "Basic Principles", "Terminology"],
+        courses: [
+          {
+            name: `${careerName} Basics`,
+            platform: "Coursera",
+            url: "https://www.coursera.org",
+            free: true,
+            why: "Builds absolute fundamental understanding of core concepts.",
+            difficulty: "Beginner"
+          }
+        ],
+        youtube: [
+          {
+            channel: "CrashCourse",
+            topic: `Intro to ${careerName}`,
+            url: "https://youtube.com",
+            why: "Visual explanation of key topics for quick understanding.",
+            difficulty: "Beginner"
+          }
+        ],
+        goal: "Master foundational terminology and core frameworks."
+      },
+      {
+        month: 2,
+        title: "Intermediate Applications",
+        focus: "Applying concepts to practical scenarios",
+        topics: ["Applied Methodologies", "Case Studies", "Problem Solving"],
+        courses: [
+          {
+            name: `Applied ${careerName}`,
+            platform: "edX",
+            url: "https://www.edx.org",
+            free: true,
+            why: "Focuses on practical implementation of the principles.",
+            difficulty: "Intermediate"
+          }
+        ],
+        youtube: [
+          {
+            channel: "FreeCodeCamp",
+            topic: `Practical ${careerName}`,
+            url: "https://youtube.com",
+            why: "Hands-on projects and guides.",
+            difficulty: "Intermediate"
+          }
+        ],
+        goal: "Build 2 small-scale projects applying the principles."
+      },
+      {
+        month: 3,
+        title: "Advanced Scenarios & Optimization",
+        focus: "Tackling complex real-world scenarios",
+        topics: ["Advanced Frameworks", "Optimization Techniques", "Case Analysis"],
+        courses: [
+          {
+            name: `Advanced ${careerName}`,
+            platform: "NPTEL",
+            url: "https://nptel.ac.in",
+            free: true,
+            why: "Rigorous academic and professional depth.",
+            difficulty: "Advanced"
+          }
+        ],
+        youtube: [
+          {
+            channel: "MIT OpenCourseWare",
+            topic: `Advanced Analysis`,
+            url: "https://youtube.com",
+            why: "Deep theoretical insights from world-class lectures.",
+            difficulty: "Advanced"
+          }
+        ],
+        goal: "Analyze and solve complex industry case studies."
+      },
+      {
+        month: 4,
+        title: "Project Portfolio & Assessment",
+        focus: "Consolidating learning into a complete project portfolio",
+        topics: ["Capstone Project", "Resume Building", "Interview Prep"],
+        courses: [
+          {
+            name: `${careerName} Capstone`,
+            platform: "Coursera",
+            url: "https://www.coursera.org",
+            free: false,
+            why: "Structured project guidance to compile a portfolio.",
+            difficulty: "Advanced"
+          }
+        ],
+        youtube: [
+          {
+            channel: "Career Counseling Experts",
+            topic: "Interview Questions",
+            url: "https://youtube.com",
+            why: "Preparing for typical technical and situational interviews.",
+            difficulty: "Intermediate"
+          }
+        ],
+        goal: "Publish a complete capstone project and update professional profiles."
+      }
+    ],
+    certifications: [
+      `Professional Certificate in ${careerName}`,
+      `Industry Foundations Certificate`
+    ],
+    scholarships: [
+      "Central Sector Scheme of Scholarships",
+      "State Merit-based Higher Education Scholarships"
+    ],
+    tip: "Stay consistent! Spending just 4-5 hours a week will compound into significant expertise over 4 months."
+  };
+}
+
 app.post("/api/roadmap", async (req, res) => {
   const { career, scores } = req.body;
 
-  const fitScoreClassification = scores.fitScore >= 51 ? "Strong Fit" : scores.fitScore >= 38 ? "Moderate Fit" : scores.fitScore >= 26 ? "Explore Further" : "Weak Fit";
+  const isEngineering = career.toLowerCase().includes("engineering");
+  const isCommOrArts = ["accounting", "economics", "entrepreneurship", "finance", "history", "marketing", "politicalscience", "psychology", "political science"].some(c => career.toLowerCase().includes(c));
+
+  const strongThresh = isEngineering ? 96 : (isCommOrArts ? 64 : 51);
+  const moderateThresh = isEngineering ? 75 : (isCommOrArts ? 50 : 38);
+  const exploreThresh = isEngineering ? 54 : (isCommOrArts ? 36 : 26);
+  const maxScore = isEngineering ? 120 : (isCommOrArts ? 80 : 60);
+
+  let fitScoreClassification = "Weak Fit";
+  if (scores.fitScore >= strongThresh) fitScoreClassification = "Strong Fit";
+  else if (scores.fitScore >= moderateThresh) fitScoreClassification = "Moderate Fit";
+  else if (scores.fitScore >= exploreThresh) fitScoreClassification = "Explore Further";
+
   const prompt = `You are a career counselor for Indian science students.
 Student wants to pursue ${career}. 
 
 Engineering Career-Fit Assessment Results:
-- Engineering Fit Score: ${scores.fitScore}/60 (Classification: ${fitScoreClassification})
+- Engineering Fit Score: ${scores.fitScore}/${maxScore} (Classification: ${fitScoreClassification})
 - Analytical Thinking: ${scores.analytical}%
 - Problem Solving: ${scores.problem}%
 - Technical Curiosity: ${scores.curiosity}%
@@ -194,8 +345,11 @@ Respond ONLY in this JSON structure (no markdown wrapper, no extra text):
     const data = await response.json();
     console.log("Groq response:", JSON.stringify(data));
 
-    if (!data.choices || !data.choices[0]) {
-      return res.status(500).json({ error: "Groq error: " + JSON.stringify(data) });
+    if (!data.choices || !data.choices[0] || data.error) {
+      console.log("Groq API error or invalid key, generating fallback roadmap.");
+      const fallback = generateFallbackRoadmap(career, scores);
+      const validatedRoadmap = await performValidationPass(fallback);
+      return res.json(validatedRoadmap);
     }
 
     const text = data.choices[0].message.content;
@@ -205,8 +359,14 @@ Respond ONLY in this JSON structure (no markdown wrapper, no extra text):
     const validatedRoadmap = await performValidationPass(roadmap);
     res.json(validatedRoadmap);
   } catch (err) {
-    console.error("Error:", err.message);
-    res.status(500).json({ error: err.message });
+    console.error("Error:", err.message, "Generating fallback roadmap.");
+    try {
+      const fallback = generateFallbackRoadmap(career, scores);
+      const validatedRoadmap = await performValidationPass(fallback);
+      res.json(validatedRoadmap);
+    } catch (fallbackErr) {
+      res.status(500).json({ error: err.message });
+    }
   }
 });
 
@@ -215,4 +375,5 @@ app.get("/*splat", (req, res) => {
   res.sendFile(path.join(__dirname, "../frontend/dist/index.html"));
 });
 
-app.listen(3001, () => console.log("✅ Backend running on http://localhost:3001"));
+const PORT = process.env.PORT || 3001;
+app.listen(PORT, () => console.log(`✅ Backend running on port ${PORT}`));

@@ -1,53 +1,63 @@
 import { useState, useEffect } from "react";
+import { COMMERCE_ARTS_QUIZZES } from "./commerce_arts_quizzes.js";
+import { SCIENCE_QUIZZES } from "./science_quizzes.js";
 
 // ── 15 SCIENCE CAREERS ───────────────────────────────────────────────────────
 const CAREERS = [
-  { id:"engineering",   label:"Engineering",        icon:"⚙️",  desc:"B.Tech/BE in CS, Mech, Civil, EE",
+  { id:"engineering",   stream:"science",   label:"Engineering",        icon:"⚙️",  desc:"B.Tech/BE in CS, Mech, Civil, EE",
     fin:{ govt:"1L-4L", pvt:"5L-25L", hostel:"60K-1.2L/yr", coaching:"50K-2L", dur:"4 yrs", start:"4L-12L", long:"15L-40L+", roi:"High" },
-    alts:["data_science","ai_ml","cybersecurity"] },
-  { id:"mbbs",          label:"MBBS",               icon:"🩺",  desc:"Bachelor of Medicine & Surgery",
+    alts:["data_science","ai_ml"] },
+  { id:"mbbs",          stream:"science",   label:"MBBS",               icon:"🩺",  desc:"Bachelor of Medicine & Surgery",
     fin:{ govt:"1L-5L", pvt:"40L-1Cr", hostel:"80K-1.5L/yr", coaching:"1L-5L", dur:"5.5 yrs", start:"6L-12L", long:"20L-60L+", roi:"High" },
-    alts:["nursing","bds","bpharm","physiotherapy"] },
-  { id:"bds",           label:"BDS",                icon:"🦷",  desc:"Bachelor of Dental Surgery",
+    alts:["bds","bpharm"] },
+  { id:"bds",           stream:"science",   label:"BDS",                icon:"🦷",  desc:"Bachelor of Dental Surgery",
     fin:{ govt:"2L-6L", pvt:"15L-50L", hostel:"60K-1L/yr", coaching:"50K-2L", dur:"5 yrs", start:"3L-8L", long:"10L-30L+", roi:"Medium" },
-    alts:["mbbs","bpharm","physiotherapy"] },
-  { id:"bpharm",        label:"B.Pharm",            icon:"💊",  desc:"Bachelor of Pharmacy",
+    alts:["mbbs","bpharm"] },
+  { id:"bpharm",        stream:"science",   label:"B.Pharm",            icon:"💊",  desc:"Bachelor of Pharmacy",
     fin:{ govt:"50K-2L", pvt:"3L-10L", hostel:"50K-1L/yr", coaching:"20K-80K", dur:"4 yrs", start:"2.5L-6L", long:"8L-20L+", roi:"Medium" },
-    alts:["nursing","biotech","pure_sciences"] },
-  { id:"biotech",       label:"Biotechnology",      icon:"🧬",  desc:"B.Tech/BSc in Biotechnology",
+    alts:["biotech"] },
+  { id:"biotech",       stream:"science",   label:"Biotechnology",      icon:"🧬",  desc:"B.Tech/BSc in Biotechnology",
     fin:{ govt:"50K-2L", pvt:"3L-12L", hostel:"50K-1L/yr", coaching:"30K-1L", dur:"4 yrs", start:"3L-7L", long:"10L-25L+", roi:"Medium" },
-    alts:["pure_sciences","agri","enviro"] },
-  { id:"nursing",       label:"Nursing",            icon:"🏥",  desc:"B.Sc Nursing",
-    fin:{ govt:"30K-1L", pvt:"2L-8L", hostel:"40K-80K/yr", coaching:"10K-50K", dur:"4 yrs", start:"2L-5L", long:"6L-15L+", roi:"Medium" },
-    alts:["physiotherapy","bpharm","pure_sciences"] },
-  { id:"physiotherapy", label:"Physiotherapy",      icon:"🦴",  desc:"B.Sc / BPT Physiotherapy",
-    fin:{ govt:"50K-2L", pvt:"3L-10L", hostel:"40K-80K/yr", coaching:"20K-80K", dur:"4.5 yrs", start:"2.5L-6L", long:"8L-20L+", roi:"Medium" },
-    alts:["nursing","bpharm","biotech"] },
-  { id:"data_science",  label:"Data Science",       icon:"📊",  desc:"B.Tech/BSc in Data Science",
+    alts:["agri"] },
+  { id:"data_science",  stream:"science",   label:"Data Science",       icon:"📊",  desc:"B.Tech/BSc in Data Science",
     fin:{ govt:"50K-2L", pvt:"3L-12L", hostel:"50K-1L/yr", coaching:"30K-1.5L", dur:"4 yrs", start:"5L-14L", long:"15L-40L+", roi:"High" },
-    alts:["ai_ml","engineering","cybersecurity"] },
-  { id:"ai_ml",         label:"AI / ML",            icon:"🤖",  desc:"AI & Machine Learning Engineering",
+    alts:["ai_ml","engineering"] },
+  { id:"ai_ml",         stream:"science",   label:"AI / ML",            icon:"🤖",  desc:"AI & Machine Learning Engineering",
     fin:{ govt:"50K-2L", pvt:"4L-15L", hostel:"50K-1L/yr", coaching:"50K-2L", dur:"4 yrs", start:"6L-18L", long:"20L-60L+", roi:"Very High" },
-    alts:["data_science","engineering","cybersecurity"] },
-  { id:"cybersecurity", label:"Cybersecurity",      icon:"🔐",  desc:"B.Tech/BSc Cybersecurity",
-    fin:{ govt:"50K-2L", pvt:"3L-12L", hostel:"50K-1L/yr", coaching:"30K-1.5L", dur:"4 yrs", start:"4L-12L", long:"15L-35L+", roi:"High" },
-    alts:["ai_ml","data_science","engineering"] },
-  { id:"architecture",  label:"Architecture",       icon:"🏛️",  desc:"B.Arch (5 year program)",
+    alts:["data_science","engineering"] },
+  { id:"architecture",  stream:"science",   label:"Architecture",       icon:"🏛️",  desc:"B.Arch (5 year program)",
     fin:{ govt:"50K-3L", pvt:"5L-20L", hostel:"60K-1.2L/yr", coaching:"30K-1.5L", dur:"5 yrs", start:"3L-8L", long:"10L-30L+", roi:"Medium" },
-    alts:["engineering","pure_sciences"] },
-  { id:"pure_sciences", label:"Pure Sciences (BSc)", icon:"🔬", desc:"BSc Physics/Chemistry/Maths/Bio",
-    fin:{ govt:"10K-50K", pvt:"50K-3L", hostel:"40K-80K/yr", coaching:"10K-50K", dur:"3 yrs", start:"2L-5L", long:"6L-20L+", roi:"Medium" },
-    alts:["biotech","enviro","agri"] },
-  { id:"enviro",        label:"Environmental Sci",  icon:"🌿",  desc:"B.Sc Environmental Science",
-    fin:{ govt:"20K-1L", pvt:"1L-5L", hostel:"40K-80K/yr", coaching:"10K-40K", dur:"3 yrs", start:"2L-5L", long:"6L-15L+", roi:"Low-Medium" },
-    alts:["agri","pure_sciences","biotech"] },
-  { id:"agri",          label:"Agriculture",        icon:"🌾",  desc:"B.Sc Agriculture",
+    alts:["engineering"] },
+  { id:"agri",          stream:"science",   label:"Agriculture",        icon:"🌾",  desc:"B.Sc Agriculture",
     fin:{ govt:"20K-1L", pvt:"1L-6L", hostel:"30K-70K/yr", coaching:"10K-40K", dur:"4 yrs", start:"2L-6L", long:"8L-20L+", roi:"Medium" },
-    alts:["enviro","biotech","pure_sciences"] },
-  { id:"veterinary",    label:"Veterinary Science", icon:"🐾",  desc:"B.V.Sc & AH",
-    fin:{ govt:"50K-2L", pvt:"5L-20L", hostel:"50K-1L/yr", coaching:"30K-1L", dur:"5 yrs", start:"3L-8L", long:"10L-25L+", roi:"Medium" },
-    alts:["mbbs","biotech","agri"] },
+    alts:["biotech"] },
+  { id:"accounting",    stream:"commerce",  label:"Accounting",        icon:"📊",  desc:"B.Com/CA, audit, tax, corporate accounts",
+    fin:{ govt:"30K-1.5L", pvt:"3L-10L", hostel:"50K-1.2L/yr", coaching:"50K-2L", dur:"3-5 yrs", start:"4L-10L", long:"15L-40L+", roi:"High" },
+    alts:["finance","entrepreneurship","marketing"] },
+  { id:"entrepreneurship", stream:"commerce", label:"Entrepreneurship", icon:"💡",  desc:"BBA/BMS, startups, business management",
+    fin:{ govt:"50K-2L", pvt:"4L-15L", hostel:"60K-1.5L/yr", coaching:"20K-80K", dur:"3 yrs", start:"5L-12L", long:"20L-50L+", roi:"High" },
+    alts:["marketing","finance","accounting"] },
+  { id:"finance",       stream:"commerce",  label:"Finance",            icon:"💰",  desc:"BBA/B.Com Finance, banking, investment, analysis",
+    fin:{ govt:"40K-2L", pvt:"4L-18L", hostel:"60K-1.5L/yr", coaching:"30K-1.5L", dur:"3 yrs", start:"5L-14L", long:"18L-45L+", roi:"Very High" },
+    alts:["accounting","entrepreneurship","marketing"] },
+  { id:"marketing",     stream:"commerce",  label:"Marketing",          icon:"📢",  desc:"BBA/B.Com Marketing, brand, advertising, sales",
+    fin:{ govt:"30K-1.8L", pvt:"3L-12L", hostel:"50K-1.2L/yr", coaching:"20K-80K", dur:"3 yrs", start:"4L-9L", long:"12L-35L+", roi:"High" },
+    alts:["entrepreneurship","finance","psychology"] },
+  { id:"economics",     stream:"arts",      label:"Economics",          icon:"📈",  desc:"BA/BSc Economics, policy, statistics, analysis",
+    fin:{ govt:"20K-1L", pvt:"2L-10L", hostel:"40K-1L/yr", coaching:"10K-60K", dur:"3 yrs", start:"4L-10L", long:"15L-35L+", roi:"High" },
+    alts:["finance","political_science","psychology"] },
+  { id:"history",       stream:"arts",      label:"History",            icon:"📜",  desc:"BA History, research, curating, archives",
+    fin:{ govt:"15K-80K", pvt:"1.5L-6L", hostel:"35K-90K/yr", coaching:"10K-50K", dur:"3 yrs", start:"2L-5L", long:"6L-15L+", roi:"Medium" },
+    alts:["political_science","economics","psychology"] },
+  { id:"political_science", stream:"arts",  label:"Political Science", icon:"🏛️", desc:"BA Political Science, public policy, governance",
+    fin:{ govt:"15K-80K", pvt:"1.5L-6L", hostel:"35K-90K/yr", coaching:"20K-1L", dur:"3 yrs", start:"2.5L-6L", long:"8L-20L+", roi:"Medium" },
+    alts:["history","economics","psychology"] },
+  { id:"psychology",    stream:"arts",      label:"Psychology",         icon:"🧠",  desc:"BA/BSc Psychology, counselling, mental health, research",
+    fin:{ govt:"20K-1L", pvt:"2L-12L", hostel:"40K-1.2L/yr", coaching:"10K-50K", dur:"3 yrs", start:"3L-7L", long:"10L-25L+", roi:"Medium" },
+    alts:["marketing","economics","political_science"] }
 ];
+
+
 
 // ── 6-CATEGORY QUIZ (3 questions each = 18 total) ────────────────────────────
 const CATEGORIES = [
@@ -59,159 +69,7 @@ const CATEGORIES = [
   { id:"expectation", label:"Career Expectations",     icon:"🎯", color:"#fb923c" },
 ];
 
-// Each option: { text, score } where score is 0-3
-const QUIZ = [
-  {
-    cat: "financial",
-    q: "Your family is discussing education budgets. A top private engineering college costs approximately ₹8–12 lakhs total over 4 years. A government NIT or state college costs ₹2–5 lakhs. Which best describes your situation?",
-    opts: [
-      { t: "My family cannot support significant education expenses and loans or scholarships are not a realistic option right now", s: 1 },
-      { t: "My family can manage government college fees but private college fees would require difficult financial decisions", s: 2 },
-      { t: "My family can manage either option with some financial planning, including loans if needed", s: 3 },
-      { t: "Cost is not a major constraint — my family can support either pathway comfortably", s: 4 }
-    ]
-  },
-  {
-    cat: "academic",
-    q: "Looking honestly at your Class 11 and Class 12 performance so far, which statement most accurately describes you?",
-    opts: [
-      { t: "I have struggled consistently with Maths and Physics", s: 1 },
-      { t: "I perform averagely in Maths and Physics", s: 2 },
-      { t: "I perform well in Maths and Physics with consistent effort", s: 3 },
-      { t: "I perform very well and enjoy challenging problems", s: 4 }
-    ]
-  },
-  {
-    cat: "aptitude",
-    q: "Your school's water cooler has stopped dispensing water properly. No technician is available. What would you most likely do?",
-    opts: [
-      { t: "Wait for someone else to fix it", s: 1 },
-      { t: "Ask a technically inclined friend", s: 2 },
-      { t: "Observe it and attempt a logical fix", s: 3 },
-      { t: "Systematically inspect and diagnose the problem", s: 4 }
-    ]
-  },
-  {
-    cat: "softskills",
-    q: "During a group project, your team is split into two camps with conflicting approaches. What do you do?",
-    opts: [
-      { t: "Stay quiet and follow others", s: 1 },
-      { t: "Defend only my own approach", s: 2 },
-      { t: "Listen to both sides and suggest a balanced solution", s: 3 },
-      { t: "Facilitate discussion and help the team reach consensus", s: 4 }
-    ]
-  },
-  {
-    cat: "commitment",
-    q: "Engineering technology changes rapidly. How do you feel about constantly learning new skills?",
-    opts: [
-      { t: "Sounds exhausting", s: 1 },
-      { t: "I can manage if necessary", s: 2 },
-      { t: "I am comfortable with it", s: 3 },
-      { t: "I genuinely enjoy continuous learning", s: 4 }
-    ]
-  },
-  {
-    cat: "academic",
-    q: "Outside of exams, what best describes your relationship with Mathematics?",
-    opts: [
-      { t: "Just a subject to pass", s: 1 },
-      { t: "Interesting only when practical", s: 2 },
-      { t: "I enjoy solving Maths problems", s: 3 },
-      { t: "I actively explore Maths beyond the syllabus", s: 4 }
-    ]
-  },
-  {
-    cat: "academic",
-    q: "You watch a bridge collapse during high winds. What is your reaction?",
-    opts: [
-      { t: "Just a bridge falling", s: 1 },
-      { t: "Wonder why it wasn't checked properly", s: 2 },
-      { t: "Curious about the structural flaw", s: 3 },
-      { t: "Want to understand the complete physics behind it", s: 4 }
-    ]
-  },
-  {
-    cat: "aptitude",
-    q: "A company claims its energy drink increases productivity by 40%. What is your response?",
-    opts: [
-      { t: "Sounds impressive", s: 1 },
-      { t: "I would ask others about it", s: 2 },
-      { t: "I would question how productivity was measured", s: 3 },
-      { t: "I would analyse methodology, sample size, controls, and bias", s: 4 }
-    ]
-  },
-  {
-    cat: "expectation",
-    q: "Which activity most appeals to you?",
-    opts: [
-      { t: "Creative arts only", s: 1 },
-      { t: "Sports and outdoor activities", s: 2 },
-      { t: "Building and assembling things", s: 3 },
-      { t: "Designing, testing, fixing, and improving systems", s: 4 }
-    ]
-  },
-  {
-    cat: "expectation",
-    q: "A wireless charger stops working. What do you do?",
-    opts: [
-      { t: "Replace it", s: 1 },
-      { t: "Google a quick fix", s: 2 },
-      { t: "Try logical troubleshooting steps", s: 3 },
-      { t: "Investigate the failure deeply and understand the internals", s: 4 }
-    ]
-  },
-  {
-    cat: "expectation",
-    q: "You read about a solar panel that generates electricity from raindrops. What do you do?",
-    opts: [
-      { t: "Interesting, then move on", s: 1 },
-      { t: "Share it with friends", s: 2 },
-      { t: "Read the article completely", s: 3 },
-      { t: "Research the underlying technology and science", s: 4 }
-    ]
-  },
-  {
-    cat: "aptitude",
-    q: "A program should print numbers 1–10 but stops at 9. What is your reaction?",
-    opts: [
-      { t: "Ask someone else to fix it", s: 1 },
-      { t: "Run it again", s: 2 },
-      { t: "Check the loop condition", s: 3 },
-      { t: "Trace the logic step by step and verify edge cases", s: 4 }
-    ]
-  },
-  {
-    cat: "commitment",
-    q: "You need to rename 200 files automatically. What do you do?",
-    opts: [
-      { t: "Rename manually", s: 1 },
-      { t: "Use a ready-made tool", s: 2 },
-      { t: "Follow a tutorial and use a script", s: 3 },
-      { t: "Write or modify a script myself", s: 4 }
-    ]
-  },
-  {
-    cat: "aptitude",
-    q: "You must design the most efficient route for a school bus to pick up 15 students. What is your approach?",
-    opts: [
-      { t: "Guess a route", s: 1 },
-      { t: "Draw a rough route", s: 2 },
-      { t: "Group locations logically and optimize travel", s: 3 },
-      { t: "Treat it as an optimization problem and evaluate multiple solutions", s: 4 }
-    ]
-  },
-  {
-    cat: "commitment",
-    q: "You have spent 45 minutes on a difficult Maths or Physics problem. What do you do?",
-    opts: [
-      { t: "Leave it for later", s: 1 },
-      { t: "Try a little longer then stop", s: 2 },
-      { t: "Take a break and try again", s: 3 },
-      { t: "Become even more determined to solve it", s: 4 }
-    ]
-  }
-];
+
 
 const SCHOLARSHIPS = {
   general:[
@@ -239,59 +97,61 @@ const SCHOLARSHIPS = {
 // ── STYLE FACTORY ─────────────────────────────────────────────────────────────
 function s(theme) {
   const dark       = theme==="dark";
-  const card       = dark?"rgba(13,34,64,.55)":"#ffffff";
-  const cardBorder = dark?"#0d2240":"#e2e8f0";
-  const navBg      = dark?"rgba(5,11,20,0.95)":"rgba(248,250,252,0.95)";
-  const appBg      = dark?"#050b14":"#f1f5f9";
-  const appColor   = dark?"#e8edf5":"#0f172a";
-  const muted      = dark?"#94a3b8":"#64748b";
-  const dim        = dark?"#64748b":"#94a3b8";
-  const optBg      = dark?"rgba(5,11,20,.6)":"#f8fafc";
-  const optBorder  = dark?"#1e3a5f":"#cbd5e1";
-  const optColor   = dark?"#e8edf5":"#0f172a";
-  const statsBg    = dark?"rgba(13,34,64,.3)":"#e0f2fe";
-  const statsBorder= dark?"#0d2240":"#bae6fd";
+  const card       = dark?"rgba(18,10,37,0.75)":"#ffffff";
+  const cardBorder = dark?"rgba(192,132,252,0.15)":"#e2e8f0";
+  const navBg      = dark?"rgba(11,7,24,0.75)":"rgba(248,250,252,0.95)";
+  const appBg      = dark
+    ?"radial-gradient(circle at top right, rgba(139,92,246,0.12), transparent 35%), linear-gradient(180deg,#05010F 0%,#080412 100%)"
+    :"#f1f5f9";
+  const appColor   = dark?"#D8B4FE":"#0f172a";
+  const muted      = dark?"#A855F7":"#64748b";
+  const dim        = dark?"#8B5CF6":"#94a3b8";
+  const optBg      = dark?"rgba(18,10,37,0.5)":"#f8fafc";
+  const optBorder  = dark?"rgba(192,132,252,0.15)":"#cbd5e1";
+  const optColor   = dark?"#D8B4FE":"#0f172a";
+  const statsBg    = dark?"rgba(18,10,37,0.4)":"#e0f2fe";
+  const statsBorder= dark?"rgba(192,132,252,0.15)":"#bae6fd";
   const heroBg     = dark
-    ?"radial-gradient(ellipse 70% 50% at 50% 0%,rgba(56,189,248,.12),transparent)"
+    ?"radial-gradient(circle at top, rgba(139,92,246,0.15), transparent 45%)"
     :"radial-gradient(ellipse 70% 50% at 50% 0%,rgba(2,132,199,.1),transparent)";
   return {
-    app:{minHeight:"100vh",background:appBg,color:appColor,fontFamily:"'Segoe UI',sans-serif",transition:"background .3s,color .3s"},
+    app:{minHeight:"100vh",background:appBg,color:appColor,fontFamily:dark?"'Space Grotesk',sans-serif":"'Segoe UI',sans-serif",transition:"background .3s,color .3s"},
     nav:{display:"flex",alignItems:"center",justifyContent:"space-between",padding:"18px 40px",borderBottom:`1px solid ${cardBorder}`,background:navBg,position:"sticky",top:0,zIndex:100,backdropFilter:"blur(10px)",transition:"background .3s"},
-    logo:{fontSize:"20px",fontWeight:700,background:"linear-gradient(90deg,#38bdf8,#818cf8)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent",letterSpacing:"-0.5px"},
+    logo:{fontSize:"20px",fontWeight:700,background:dark?"linear-gradient(90deg,#8B5CF6,#C084FC)":"linear-gradient(90deg,#38bdf8,#818cf8)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent",letterSpacing:"-0.5px"},
     navLinks:{display:"flex",gap:"28px"},
-    navLink:{background:"none",border:"none",color:muted,fontSize:"14px",cursor:"pointer",fontFamily:"inherit"},
-    navBtn:{background:"linear-gradient(135deg,#38bdf8,#6366f1)",border:"none",color:"#fff",padding:"9px 20px",borderRadius:"8px",fontSize:"14px",fontWeight:600,cursor:"pointer",fontFamily:"inherit"},
-    toggleBtn:{background:dark?"#0d2240":"#e2e8f0",border:`1px solid ${cardBorder}`,color:muted,padding:"7px 14px",borderRadius:"999px",fontSize:"13px",fontWeight:600,cursor:"pointer",fontFamily:"inherit",marginRight:"10px",transition:"background .3s"},
+    navLink:{background:"none",border:"none",color:muted,fontSize:"14px",fontWeight:dark?500:400,cursor:"pointer",fontFamily:"inherit"},
+    navBtn:{background:dark?"linear-gradient(135deg,#8B5CF6,#A855F7)":"linear-gradient(135deg,#38bdf8,#6366f1)",border:"none",color:"#fff",padding:"9px 20px",borderRadius:dark?"15px":"8px",fontSize:"14px",fontWeight:dark?500:600,cursor:"pointer",fontFamily:"inherit",boxShadow:dark?"0 6px 20px rgba(139,92,246,0.25)":"none"},
+    toggleBtn:{background:dark?"rgba(18,10,37,0.75)":"#e2e8f0",border:`1px solid ${cardBorder}`,color:muted,padding:"7px 14px",borderRadius:"999px",fontSize:"13px",fontWeight:600,cursor:"pointer",fontFamily:"inherit",marginRight:"10px",transition:"background .3s"},
     hero:{textAlign:"center",padding:"90px 24px 70px",background:heroBg},
-    badge:{display:"inline-block",background:"rgba(56,189,248,.1)",border:"1px solid rgba(56,189,248,.3)",color:"#38bdf8",padding:"6px 16px",borderRadius:"999px",fontSize:"12px",fontWeight:600,letterSpacing:"1px",marginBottom:"28px",textTransform:"uppercase"},
-    heroTitle:{fontSize:"clamp(32px,5vw,60px)",fontWeight:800,lineHeight:1.1,marginBottom:"22px",letterSpacing:"-1.5px"},
-    heroHL:{background:"linear-gradient(90deg,#38bdf8,#818cf8)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"},
-    heroSub:{maxWidth:"560px",margin:"0 auto 40px",color:muted,fontSize:"17px",lineHeight:1.7},
+    badge:{display:"inline-block",background:dark?"rgba(139,92,246,.12)":"rgba(56,189,248,.1)",border:dark?"1px solid rgba(139,92,246,.3)":"1px solid rgba(56,189,248,.3)",color:dark?"#C084FC":"#38bdf8",padding:"6px 16px",borderRadius:"999px",fontSize:"12px",fontWeight:600,letterSpacing:"1px",marginBottom:"28px",textTransform:"uppercase"},
+    heroTitle:{fontSize:dark?"clamp(56px,6vw,64px)":"clamp(32px,5vw,60px)",fontWeight:700,lineHeight:1.1,marginBottom:"22px",letterSpacing:dark?"-0.02em":"-1.5px"},
+    heroHL:{background:dark?"linear-gradient(90deg,#8B5CF6,#C084FC)":"linear-gradient(90deg,#38bdf8,#818cf8)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"},
+    heroSub:{maxWidth:"560px",margin:"0 auto 40px",color:muted,fontSize:dark?"16px":"17px",lineHeight:1.7,fontWeight:dark?400:400},
     heroBtns:{display:"flex",gap:"14px",justifyContent:"center",flexWrap:"wrap"},
-    primaryBtn:{background:"linear-gradient(135deg,#38bdf8,#6366f1)",border:"none",color:"#fff",padding:"14px 32px",borderRadius:"10px",fontSize:"16px",fontWeight:700,cursor:"pointer",fontFamily:"inherit"},
-    outlineBtn:{background:"transparent",border:`1px solid ${dark?"#1e3a5f":"#94a3b8"}`,color:muted,padding:"14px 32px",borderRadius:"10px",fontSize:"16px",cursor:"pointer",fontFamily:"inherit"},
-    smallBtn:{background:"linear-gradient(135deg,#38bdf8,#6366f1)",border:"none",color:"#fff",padding:"10px 20px",borderRadius:"8px",fontSize:"14px",fontWeight:600,cursor:"pointer",fontFamily:"inherit"},
+    primaryBtn:{background:dark?"linear-gradient(135deg,#8B5CF6,#A855F7)":"linear-gradient(135deg,#38bdf8,#6366f1)",border:"none",color:"#fff",padding:"14px 32px",borderRadius:dark?"15px":"10px",fontSize:"16px",fontWeight:700,cursor:"pointer",fontFamily:"inherit",boxShadow:dark?"0 10px 30px rgba(139,92,246,0.30)":"none"},
+    outlineBtn:{background:"transparent",border:`1px solid ${dark?"rgba(192,132,252,0.35)":"#94a3b8"}`,color:dark?"#D8B4FE":muted,padding:"14px 32px",borderRadius:dark?"15px":"10px",fontSize:"16px",cursor:"pointer",fontFamily:"inherit"},
+    smallBtn:{background:dark?"linear-gradient(135deg,#8B5CF6,#A855F7)":"linear-gradient(135deg,#38bdf8,#6366f1)",border:"none",color:"#fff",padding:"10px 20px",borderRadius:dark?"15px":"8px",fontSize:"14px",fontWeight:600,cursor:"pointer",fontFamily:"inherit",boxShadow:dark?"0 6px 20px rgba(139,92,246,0.25)":"none"},
     statsRow:{display:"flex",justifyContent:"center",gap:"48px",padding:"32px 24px",flexWrap:"wrap",borderTop:`1px solid ${statsBorder}`,borderBottom:`1px solid ${statsBorder}`,background:statsBg},
-    statNum:{fontSize:"32px",fontWeight:800,background:"linear-gradient(90deg,#38bdf8,#818cf8)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"},
+    statNum:{fontSize:"32px",fontWeight:800,background:dark?"linear-gradient(90deg,#8B5CF6,#C084FC)":"linear-gradient(90deg,#38bdf8,#818cf8)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"},
     statLabel:{fontSize:"13px",color:dim,marginTop:"4px"},
     section:{padding:"72px 24px"},
-    sectionTitle:{textAlign:"center",fontSize:"clamp(24px,4vw,38px)",fontWeight:800,marginBottom:"12px",letterSpacing:"-0.5px"},
+    sectionTitle:{textAlign:"center",fontSize:dark?"clamp(36px,4.5vw,40px)":"clamp(24px,4vw,38px)",fontWeight:700,marginBottom:"12px",letterSpacing:"-0.5px"},
     sectionSub:{textAlign:"center",color:dim,maxWidth:"560px",margin:"0 auto 48px",fontSize:"15px",lineHeight:1.7},
     careerGrid:{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(180px,1fr))",gap:"14px",maxWidth:"1100px",margin:"0 auto"},
-    careerCard:{background:card,border:`2px solid ${cardBorder}`,borderRadius:"14px",padding:"20px 16px",cursor:"pointer",transition:"all .2s",textAlign:"center",boxShadow:dark?"none":"0 2px 10px rgba(0,0,0,.06)"},
-    careerCardActive:{background:"rgba(56,189,248,.08)",borderColor:"#38bdf8",boxShadow:"0 0 24px rgba(56,189,248,.15)"},
+    careerCard:{background:card,border:dark?"1px solid rgba(192,132,252,0.15)":`2px solid ${cardBorder}`,borderRadius:"14px",padding:"20px 16px",cursor:"pointer",transition:"all 0.3s cubic-bezier(0.16, 1, 0.3, 1)",textAlign:"center",boxShadow:dark?"0 0 20px rgba(139,92,246,0.1)":"0 2px 10px rgba(0,0,0,.06)",backdropFilter:dark?"blur(20px)":"none"},
+    careerCardActive:{background:dark?"rgba(24,16,50,0.85)":"rgba(56,189,248,.08)",borderColor:dark?"#A855F7":"#38bdf8",boxShadow:dark?"0 0 25px rgba(168,85,247,0.3)":"0 0 24px rgba(56,189,248,.15)",transform:"translateY(-4px)"},
     quizWrap:{maxWidth:"700px",margin:"0 auto",padding:"40px 24px"},
-    card:{background:card,border:`1px solid ${cardBorder}`,borderRadius:"16px",padding:"28px",boxShadow:dark?"none":"0 4px 20px rgba(0,0,0,.07)"},
+    card:{background:card,border:dark?"1px solid rgba(192,132,252,0.15)":`1px solid ${cardBorder}`,borderRadius:"16px",padding:"28px",boxShadow:dark?"0 0 20px rgba(139,92,246,0.1)":"0 4px 20px rgba(0,0,0,.07)",backdropFilter:dark?"blur(20px)":"none"},
     optionBtn:{display:"block",width:"100%",textAlign:"left",background:optBg,border:`1px solid ${optBorder}`,color:optColor,padding:"14px 18px",borderRadius:"10px",marginBottom:"10px",cursor:"pointer",fontFamily:"inherit",fontSize:"14px",transition:"all .15s"},
-    optionCorrect:{background:"rgba(34,197,94,.1)",borderColor:"#22c55e",color:dark?"#4ade80":"#16a34a"},
-    optionWrong:{background:"rgba(239,68,68,.1)",borderColor:"#ef4444",color:dark?"#f87171":"#dc2626"},
+    optionCorrect:{background:dark?"rgba(34,197,94,.15)":"rgba(34,197,94,.1)",borderColor:"#22c55e",color:dark?"#4ade80":"#16a34a"},
+    optionWrong:{background:dark?"rgba(239,68,68,.15)":"rgba(239,68,68,.1)",borderColor:"#ef4444",color:dark?"#f87171":"#dc2626"},
     progressBar:{height:"8px",background:cardBorder,borderRadius:"99px",overflow:"hidden"},
-    progressFill:{height:"100%",background:"linear-gradient(90deg,#38bdf8,#6366f1)",borderRadius:"99px",transition:"width .4s ease"},
+    progressFill:{height:"100%",background:dark?"linear-gradient(90deg,#8B5CF6,#A855F7)":"linear-gradient(90deg,#38bdf8,#6366f1)",borderRadius:"99px",transition:"width .4s ease"},
     resultWrap:{maxWidth:"900px",margin:"0 auto",padding:"40px 24px"},
-    resultCard:{background:card,border:`1px solid ${cardBorder}`,borderRadius:"14px",padding:"22px",boxShadow:dark?"none":"0 2px 12px rgba(0,0,0,.06)"},
+    resultCard:{background:card,border:dark?"1px solid rgba(192,132,252,0.15)":`1px solid ${cardBorder}`,borderRadius:"14px",padding:"22px",boxShadow:dark?"0 0 20px rgba(139,92,246,0.1)":"0 2px 12px rgba(0,0,0,.06)",backdropFilter:dark?"blur(20px)":"none"},
     resultCardTitle:{fontSize:"12px",color:dim,fontWeight:700,textTransform:"uppercase",letterSpacing:"1px",marginBottom:"12px"},
     roadmapWrap:{maxWidth:"860px",margin:"0 auto",padding:"40px 24px"},
-    monthCard:{background:card,border:`1px solid ${cardBorder}`,borderRadius:"16px",padding:"28px",marginBottom:"20px",boxShadow:dark?"none":"0 2px 14px rgba(0,0,0,.07)"},
+    monthCard:{background:card,border:dark?"1px solid rgba(192,132,252,0.15)":`1px solid ${cardBorder}`,borderRadius:"16px",padding:"28px",marginBottom:"20px",boxShadow:dark?"0 0 20px rgba(139,92,246,0.1)":"0 2px 14px rgba(0,0,0,.07)",backdropFilter:dark?"blur(20px)":"none"},
     tag:{display:"inline-block",padding:"3px 10px",borderRadius:"999px",fontSize:"12px",fontWeight:600,marginRight:"6px",marginBottom:"6px"},
     footer:{textAlign:"center",padding:"28px 24px",borderTop:`1px solid ${cardBorder}`,color:dim,fontSize:"13px",background:dark?"transparent":"#f8fafc"},
     card_v:card, cardBorder_v:cardBorder, muted_v:muted, dim_v:dim, dark_v:dark, optBg_v:optBg, optBorder_v:optBorder,
@@ -299,7 +159,84 @@ function s(theme) {
 }
 
 // ── SCORE CALCULATOR ──────────────────────────────────────────────────────────
-function calcScores(answers) {
+function calcScores(answers, career) {
+  const isScience = SCIENCE_QUIZZES[career] !== undefined;
+  if (isScience) {
+    const getVal = (idx, qIdx) => {
+      if (idx === null || idx === undefined) return 0;
+      return SCIENCE_QUIZZES[career][qIdx].opts[idx].s;
+    };
+
+    const vals = answers.map((ans, idx) => getVal(ans, idx));
+    const sumAll40 = vals.reduce((sum, v) => sum + v, 0);
+
+    const sumA = vals.slice(0, 6).reduce((sum, v) => sum + v, 0);
+    const academic = Math.round((sumA / 24) * 100) || 0;
+
+    const sumB = vals.slice(6, 12).reduce((sum, v) => sum + v, 0);
+    const analytical = Math.round((sumB / 24) * 100) || 0;
+
+    const sumC = vals.slice(12, 18).reduce((sum, v) => sum + v, 0);
+    const curiosity = Math.round((sumC / 24) * 100) || 0;
+
+    const sumD = vals.slice(18, 24).reduce((sum, v) => sum + v, 0);
+    const problem = Math.round((sumD / 24) * 100) || 0;
+
+    const sumE = vals.slice(24, 30).reduce((sum, v) => sum + v, 0);
+    const persistence = Math.round((sumE / 24) * 100) || 0;
+
+    const sumF = vals.slice(30, 34).reduce((sum, v) => sum + v, 0);
+    const financial = Math.round((sumF / 16) * 100) || 0;
+
+    const sumG = vals.slice(34, 40).reduce((sum, v) => sum + v, 0);
+    const commitment = Math.round((sumG / 24) * 100) || 0;
+
+    const isEng = career === "engineering";
+    const fitScore = Math.round(sumAll40 * (isEng ? 0.75 : 0.375));
+
+    return {
+      fitScore,
+      analytical,
+      problem,
+      curiosity,
+      commitment,
+      persistence,
+      academic,
+      financial
+    };
+  }
+
+  const isCommOrArts = COMMERCE_ARTS_QUIZZES[career] !== undefined;
+  if (isCommOrArts) {
+    const questions = COMMERCE_ARTS_QUIZZES[career];
+    const getVal = (idx, qIdx) => {
+      if (idx === null || idx === undefined) return 0;
+      return questions[qIdx].opts[idx].s;
+    };
+
+    const vals = answers.map((ans, idx) => getVal(ans, idx));
+    const fitScore = vals.reduce((sum, v) => sum + v, 0);
+
+    const financial = Math.round(((vals[0] + vals[1]) / 8) * 100) || 0;
+    const academic = Math.round(((vals[2] + vals[3] + vals[4]) / 12) * 100) || 0;
+    const analytical = Math.round(((vals[5] + vals[6] + vals[7]) / 12) * 100) || 0;
+    const problem = academic;
+    const commitment = Math.round(((vals[8] + vals[9] + vals[10] + vals[11]) / 16) * 100) || 0;
+    const curiosity = Math.round(((vals[12] + vals[13] + vals[14] + vals[15]) / 16) * 100) || 0;
+    const persistence = Math.round(((vals[16] + vals[17] + vals[18] + vals[19]) / 16) * 100) || 0;
+
+    return {
+      fitScore,
+      analytical,
+      problem,
+      curiosity,
+      commitment,
+      persistence,
+      academic,
+      financial
+    };
+  }
+
   const getVal = (idx) => (idx !== null && idx !== undefined) ? (idx + 1) : 0;
 
   const q1 = getVal(answers[0]);
@@ -362,14 +299,14 @@ function Navbar({ setPage, theme, toggleTheme }) {
       <div style={S.logo}>Career Reality AI</div>
       <div style={S.navLinks}>
         {["home","careers","about"].map(p=>(
-          <button key={p} style={S.navLink} onClick={()=>setPage(p)}>
-            {p.charAt(0).toUpperCase()+p.slice(1)}
+          <button key={p} style={S.navLink} onClick={()=>setPage(p === "careers" ? "stream" : p)}>
+            {p === "careers" ? "Careers" : (p.charAt(0).toUpperCase()+p.slice(1))}
           </button>
         ))}
       </div>
       <div style={{display:"flex",alignItems:"center"}}>
         <button style={S.toggleBtn} onClick={toggleTheme}>{theme==="dark"?"☀️ Light":"🌙 Dark"}</button>
-        <button style={S.navBtn} onClick={()=>setPage("careers")}>Get Started →</button>
+        <button style={S.navBtn} onClick={()=>setPage("stream")}>Get Started →</button>
       </div>
     </nav>
   );
@@ -380,7 +317,7 @@ function LandingPage({ setPage, theme }) {
   const S = s(theme);
   const dark = theme==="dark";
   const features = [
-    {icon:"🔬",title:"15 Science Careers",desc:"Comprehensive coverage of all major science career paths in India."},
+    {icon:"🔬",title:"9 Science Careers",desc:"Comprehensive coverage of all major science career paths in India."},
     {icon:"📊",title:"6-Category Assessment",desc:"Aptitude, academic, financial, commitment, soft skills & expectations."},
     {icon:"💰",title:"Financial Reality Check",desc:"Real cost breakdown with govt vs private college fees, ROI analysis."},
     {icon:"🗺️",title:"AI Personalized Roadmap",desc:"Gemini AI generates a custom 4-month plan based on your profile."},
@@ -394,12 +331,12 @@ function LandingPage({ setPage, theme }) {
         <h1 style={S.heroTitle}>Find Your Science Career<br/><span style={S.heroHL}>Reality Before You Begin</span></h1>
         <p style={S.heroSub}>6-category assessment covering aptitude, finances, academics and more — plus an AI roadmap built just for you.</p>
         <div style={S.heroBtns}>
-          <button style={S.primaryBtn} onClick={()=>setPage("careers")}>Start Free Assessment →</button>
+          <button style={S.primaryBtn} onClick={()=>setPage("stream")}>Start Free Assessment →</button>
           <button style={S.outlineBtn} onClick={()=>setPage("about")}>How It Works</button>
         </div>
       </section>
       <div style={S.statsRow}>
-        {[["15","Science Careers"],["18","Assessment Questions"],["6","Score Categories"],["AI","Roadmap"]].map(([n,l])=>(
+        {[["9","Science Careers"],["18","Assessment Questions"],["6","Score Categories"],["AI","Roadmap"]].map(([n,l])=>(
           <div key={l} style={{textAlign:"center"}}><div style={S.statNum}>{n}</div><div style={S.statLabel}>{l}</div></div>
         ))}
       </div>
@@ -408,7 +345,7 @@ function LandingPage({ setPage, theme }) {
         <p style={S.sectionSub}>Everything a career counselor would tell you — in 5 minutes.</p>
         <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(240px,1fr))",gap:"18px",maxWidth:"1000px",margin:"0 auto"}}>
           {features.map(f=>(
-            <div key={f.title} style={{background:S.card_v,border:`1px solid ${S.cardBorder_v}`,borderRadius:"16px",padding:"24px",boxShadow:dark?"none":"0 2px 12px rgba(0,0,0,.07)"}}>
+            <div key={f.title} className="elevated-card" style={{background:S.card_v,border:dark ? `1px solid rgba(192, 132, 252, 0.15)` : `1px solid ${S.cardBorder_v}`,borderRadius:"16px",padding:"24px",boxShadow:dark?"0 0 20px rgba(139,92,246,0.1)":"0 2px 12px rgba(0,0,0,.07)",backdropFilter:dark?"blur(20px)":"none"}}>
               <div style={{fontSize:"28px",marginBottom:"12px"}}>{f.icon}</div>
               <div style={{fontWeight:700,fontSize:"15px",marginBottom:"7px"}}>{f.title}</div>
               <div style={{color:S.dim_v,fontSize:"13px",lineHeight:1.6}}>{f.desc}</div>
@@ -420,25 +357,172 @@ function LandingPage({ setPage, theme }) {
   );
 }
 
+// ── STREAM SELECTION PAGE ────────────────────────────────────────────────────────
+function StreamSelectionPage({ setPage, setSelectedStream, theme }) {
+  const S = s(theme);
+  const dark = theme === "dark";
+  const streams = [
+    {
+      id: "science",
+      label: "Science",
+      icon: "🔬",
+      desc: "Engineering, MBBS, BDS, B.Pharm, Biotechnology, Data Science, AI/ML, Architecture, Agriculture.",
+      color: dark ? "rgba(139,92,246,.1)" : "rgba(56,189,248,.1)",
+      borderColor: dark ? "#8B5CF6" : "#38bdf8",
+      glow: dark ? "rgba(139,92,246,.15)" : "rgba(56,189,248,.15)"
+    },
+    {
+      id: "commerce",
+      label: "Commerce",
+      icon: "💼",
+      desc: "Accounting, B.Com, Chartered Accountancy (CA), Entrepreneurship, Finance, Banking, Investment Analysis, and Marketing, Advertising & Sales.",
+      color: "rgba(74,222,128,.1)",
+      borderColor: "#4ade80",
+      glow: "rgba(74,222,128,.15)"
+    },
+    {
+      id: "arts",
+      label: "Arts & Humanities",
+      icon: "🎨",
+      desc: "Economics, Public Policy, Governance, Political Science, History, Archives Research, and Clinical & Counselling Psychology.",
+      color: "rgba(244,114,182,.1)",
+      borderColor: "#f472b6",
+      glow: "rgba(244,114,182,.15)"
+    }
+  ];
+
+  const handleSelect = (streamId) => {
+    setSelectedStream(streamId);
+    setPage("careers");
+  };
+
+  return (
+    <section style={S.section}>
+      <h2 style={S.sectionTitle}>Choose Your Stream</h2>
+      <p style={S.sectionSub}>Select your academic stream to explore and assess careers tailored for you.</p>
+      
+      <div style={{
+        display: "grid",
+        gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+        gap: "24px",
+        maxWidth: "1000px",
+        margin: "0 auto",
+        padding: "10px"
+      }}>
+        {streams.map(stream => (
+          <div 
+            key={stream.id} 
+            style={{
+              background: S.card_v,
+              border: `2px solid ${S.cardBorder_v}`,
+              borderRadius: "20px",
+              padding: "32px 24px",
+              cursor: "pointer",
+              transition: "all 0.25s ease-in-out",
+              textAlign: "center",
+              boxShadow: dark ? "none" : "0 4px 20px rgba(0,0,0,.04)",
+              position: "relative",
+              overflow: "hidden"
+            }}
+            onClick={() => handleSelect(stream.id)}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = "translateY(-6px)";
+              e.currentTarget.style.borderColor = stream.borderColor;
+              e.currentTarget.style.boxShadow = `0 10px 30px ${stream.glow}`;
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = "translateY(0)";
+              e.currentTarget.style.borderColor = S.cardBorder_v;
+              e.currentTarget.style.boxShadow = dark ? "none" : "0 4px 20px rgba(0,0,0,.04)";
+            }}
+          >
+            <div style={{
+              display: "inline-flex",
+              alignItems: "center",
+              justifyContent: "center",
+              width: "70px",
+              height: "70px",
+              borderRadius: "50%",
+              background: stream.color,
+              fontSize: "36px",
+              marginBottom: "20px"
+            }}>
+              {stream.icon}
+            </div>
+            <h3 style={{
+              fontSize: "20px",
+              fontWeight: 800,
+              marginBottom: "12px",
+              color: dark ? "#ffffff" : "#0f172a"
+            }}>
+              {stream.label}
+            </h3>
+            <p style={{
+              fontSize: "14px",
+              color: S.dim_v,
+              lineHeight: 1.6,
+              margin: 0
+            }}>
+              {stream.desc}
+            </p>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 // ── CAREERS PAGE ──────────────────────────────────────────────────────────────
-function CareersPage({ setPage, setSelectedCareer, setAnswers, theme }) {
+function CareersPage({ setPage, selectedStream, setSelectedCareer, setAnswers, theme }) {
   const S = s(theme);
   const [active, setActive] = useState(null);
+
+  useEffect(() => {
+    if (!selectedStream) {
+      setPage("stream");
+    }
+  }, [selectedStream, setPage]);
+
+  if (!selectedStream) return null;
+
+  const filteredCareers = CAREERS.filter(c => c.stream === selectedStream);
+  const streamLabel = selectedStream.charAt(0).toUpperCase() + selectedStream.slice(1);
+
   function handleStart() {
     if(!active) return alert("Please select a career first!");
     setSelectedCareer(active);
-    setAnswers(Array(QUIZ.length).fill(null));
+    const careerData = CAREERS.find(c => c.id === active);
+    const isScience = careerData?.stream === "science";
+    const isCommOrArts = COMMERCE_ARTS_QUIZZES[active] !== undefined;
+    const expectedLength = isScience ? 40 : (isCommOrArts ? 20 : 15);
+    setAnswers(Array(expectedLength).fill(null));
     localStorage.setItem("career_reality_current_q", "0");
     localStorage.setItem("career_reality_show_review", "false");
     setPage("quiz");
   }
+
   return (
     <section style={S.section}>
-      <h2 style={S.sectionTitle}>Choose Your Science Career</h2>
+      <div style={{textAlign: "center", marginBottom: "32px"}}>
+        <button 
+          style={{
+            ...S.outlineBtn,
+            padding: "8px 16px",
+            fontSize: "13px",
+            borderRadius: "8px",
+            cursor: "pointer",
+            marginBottom: "16px"
+          }} 
+          onClick={() => setPage("stream")}
+        >
+          ← Back to Stream Selection
+        </button>
+      </div>
+      <h2 style={S.sectionTitle}>Choose Your {streamLabel} Career</h2>
       <p style={S.sectionSub}>Select the career path you want to assess. We will evaluate your fit across 6 categories.</p>
       <div style={S.careerGrid}>
-        {CAREERS.map(c=>(
-          <div key={c.id} style={{...S.careerCard,...(active===c.id?S.careerCardActive:{})}} onClick={()=>setActive(c.id)}>
+        {filteredCareers.map(c=>(
+          <div key={c.id} className="career-card" style={{...S.careerCard,...(active===c.id?S.careerCardActive:{})}} onClick={()=>setActive(c.id)}>
             <div style={{fontSize:"30px",marginBottom:"8px"}}>{c.icon}</div>
             <div style={{fontWeight:700,fontSize:"13px",marginBottom:"4px"}}>{c.label}</div>
             <div style={{color:S.dim_v,fontSize:"11px",lineHeight:1.4}}>{c.desc}</div>
@@ -453,8 +537,14 @@ function CareersPage({ setPage, setSelectedCareer, setAnswers, theme }) {
 }
 
 // ── QUIZ PAGE ─────────────────────────────────────────────────────────────────
-function QuizPage({ career, setPage, answers, setAnswers, theme }) {
+function QuizPage({ career, setSelectedCareer, setPage, answers, setAnswers, theme }) {
   const S = s(theme);
+  let questions = [];
+  if (SCIENCE_QUIZZES[career]) {
+    questions = SCIENCE_QUIZZES[career];
+  } else if (COMMERCE_ARTS_QUIZZES[career]) {
+    questions = COMMERCE_ARTS_QUIZZES[career];
+  }
   const [current, setCurrent] = useState(() => {
     const saved = localStorage.getItem("career_reality_current_q");
     return saved ? parseInt(saved, 10) : 0;
@@ -463,6 +553,21 @@ function QuizPage({ career, setPage, answers, setAnswers, theme }) {
     return localStorage.getItem("career_reality_show_review") === "true";
   });
   const [validationError, setValidationError] = useState("");
+  const [showExitConfirm, setShowExitConfirm] = useState(false);
+  const [focusedOptionIndex, setFocusedOptionIndex] = useState(0);
+
+  // Reset focus when new question loads
+  useEffect(() => {
+    setFocusedOptionIndex(0);
+  }, [current]);
+
+  const handleConfirmExit = () => {
+    setAnswers(Array(questions.length).fill(null));
+    localStorage.setItem("career_reality_current_q", "0");
+    localStorage.setItem("career_reality_show_review", "false");
+    setSelectedCareer(null);
+    setPage("careers");
+  };
 
   // Sync current question and showReview to localStorage
   useEffect(() => {
@@ -473,14 +578,14 @@ function QuizPage({ career, setPage, answers, setAnswers, theme }) {
     localStorage.setItem("career_reality_show_review", showReview ? "true" : "false");
   }, [showReview]);
 
-  const q = QUIZ[current];
+  const q = questions[current];
   const catInfo = CATEGORIES.find(c => c.id === q.cat);
-  const catQuestions = QUIZ.filter(x => x.cat === q.cat);
+  const catQuestions = questions.filter(x => x.cat === q.cat);
   const catIndex = catQuestions.indexOf(q) + 1;
 
   const answeredCount = answers.filter(a => a !== null).length;
-  const unansweredCount = QUIZ.length - answeredCount;
-  const percentComplete = Math.round((answeredCount / QUIZ.length) * 100);
+  const unansweredCount = questions.length - answeredCount;
+  const percentComplete = Math.round((answeredCount / questions.length) * 100);
 
   // Clear validation error when user changes option or current question
   useEffect(() => {
@@ -499,7 +604,7 @@ function QuizPage({ career, setPage, answers, setAnswers, theme }) {
       setValidationError("Please select an option before proceeding.");
       return;
     }
-    if (current + 1 < QUIZ.length) {
+    if (current + 1 < questions.length) {
       setCurrent(current + 1);
     } else {
       setShowReview(true);
@@ -513,7 +618,7 @@ function QuizPage({ career, setPage, answers, setAnswers, theme }) {
   };
 
   const handleSubmit = () => {
-    if (answeredCount < QUIZ.length) {
+    if (answeredCount < questions.length) {
       const missing = [];
       answers.forEach((ans, idx) => {
         if (ans === null) missing.push(idx + 1);
@@ -527,10 +632,30 @@ function QuizPage({ career, setPage, answers, setAnswers, theme }) {
   // Keyboard navigation support
   useEffect(() => {
     const handleKeyDown = (e) => {
-      if (e.key === "Enter") {
-        e.preventDefault();
-        if (showReview) {
+      if (showReview) {
+        if (e.key === "Enter") {
+          e.preventDefault();
           handleSubmit();
+        }
+        return;
+      }
+
+      if (e.key === "ArrowUp") {
+        e.preventDefault();
+        setFocusedOptionIndex((prev) => {
+          const max = q.opts.length;
+          return (prev - 1 + max) % max;
+        });
+      } else if (e.key === "ArrowDown") {
+        e.preventDefault();
+        setFocusedOptionIndex((prev) => {
+          const max = q.opts.length;
+          return (prev + 1) % max;
+        });
+      } else if (e.key === "Enter") {
+        e.preventDefault();
+        if (answers[current] !== focusedOptionIndex) {
+          handleOptionSelect(focusedOptionIndex);
         } else {
           handleNext();
         }
@@ -538,17 +663,125 @@ function QuizPage({ career, setPage, answers, setAnswers, theme }) {
     };
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [current, answers, showReview]);
+  }, [current, answers, showReview, focusedOptionIndex, q]);
 
   // Render the review screen view
   if (showReview) {
     return (
-      <div style={{ maxWidth: "800px", margin: "0 auto", padding: "40px 24px" }}>
+      <>
+        {showExitConfirm && (
+          <div style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            width: "100vw",
+            height: "100vh",
+            backgroundColor: theme === "dark" ? "rgba(5, 11, 20, 0.9)" : "rgba(15, 23, 42, 0.75)",
+            backdropFilter: "blur(12px)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            zIndex: 1000,
+            padding: "24px"
+          }}>
+            <div style={{
+              background: S.card_v,
+              border: `2px solid ${theme === "dark" ? "#1e3a5f" : "#e2e8f0"}`,
+              borderRadius: "24px",
+              maxWidth: "500px",
+              width: "100%",
+              padding: "40px 32px",
+              textAlign: "center",
+              boxShadow: "0 20px 40px rgba(0,0,0,0.3)",
+              fontFamily: "'Segoe UI', sans-serif"
+            }}>
+              <div style={{
+                display: "inline-flex",
+                alignItems: "center",
+                justifyContent: "center",
+                width: "80px",
+                height: "80px",
+                borderRadius: "50%",
+                background: "rgba(239, 68, 68, 0.15)",
+                color: "#ef4444",
+                fontSize: "44px",
+                marginBottom: "24px"
+              }}>
+                ⚠️
+              </div>
+              <h3 style={{
+                fontSize: "22px",
+                fontWeight: 800,
+                marginBottom: "16px",
+                color: theme === "dark" ? "#ffffff" : "#0f172a",
+                lineHeight: 1.4
+              }}>
+                Confirm Assessment Termination
+              </h3>
+              <p style={{
+                fontSize: "15px",
+                color: S.muted_v,
+                lineHeight: 1.6,
+                marginBottom: "32px",
+                marginLeft: 0,
+                marginRight: 0
+              }}>
+                You are about to end your career evaluation. Your progress will be permanently lost.
+              </p>
+              
+              <div style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: "12px"
+              }}>
+                <button
+                  onClick={handleConfirmExit}
+                  style={{
+                    background: "#ef4444",
+                    border: "none",
+                    color: "#fff",
+                    padding: "14px",
+                    borderRadius: "12px",
+                    fontSize: "15px",
+                    fontWeight: 700,
+                    cursor: "pointer",
+                    fontFamily: "inherit",
+                    transition: "background 0.2s"
+                  }}
+                  onMouseEnter={(e) => e.currentTarget.style.background = "#dc2626"}
+                  onMouseLeave={(e) => e.currentTarget.style.background = "#ef4444"}
+                >
+                  🔴 Yes, End Assessment
+                </button>
+                <button
+                  onClick={() => setShowExitConfirm(false)}
+                  style={{
+                    background: theme === "dark" ? "linear-gradient(135deg,#8B5CF6,#A855F7)" : "linear-gradient(135deg,#38bdf8,#6366f1)",
+                    border: "none",
+                    color: "#fff",
+                    padding: "14px",
+                    borderRadius: theme === "dark" ? "15px" : "12px",
+                    fontSize: "15px",
+                    fontWeight: 700,
+                    cursor: "pointer",
+                    fontFamily: "inherit",
+                    boxShadow: theme === "dark" ? "0 10px 30px rgba(139,92,246,0.3)" : "none",
+                    transition: "all 0.3s cubic-bezier(0.16, 1, 0.3, 1)"
+                  }}
+                  className="primary-btn-glow"
+                >
+                  🟢 Continue Evaluation
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+        <div style={{ maxWidth: "800px", margin: "0 auto", padding: "40px 24px" }}>
         <div style={{ textAlign: "center", marginBottom: "32px" }}>
           <div style={S.badge}>📋 Review Your Responses</div>
           <h2 style={{ fontSize: "clamp(22px,4vw,34px)", fontWeight: 800, marginBottom: "8px" }}>Assessment Summary</h2>
           <p style={{ color: S.muted_v, fontSize: "14px" }}>
-            You have answered <strong>{answeredCount}</strong> of <strong>{QUIZ.length}</strong> questions.
+            You have answered <strong>{answeredCount}</strong> of <strong>{questions.length}</strong> questions.
           </p>
         </div>
 
@@ -568,7 +801,7 @@ function QuizPage({ career, setPage, answers, setAnswers, theme }) {
         )}
 
         <div style={{ marginBottom: "24px" }}>
-          {QUIZ.map((question, idx) => {
+          {questions.map((question, idx) => {
             const answerIdx = answers[idx];
             const hasAnswer = answerIdx !== null;
             const optionText = hasAnswer ? question.opts[answerIdx].t : "";
@@ -593,7 +826,7 @@ function QuizPage({ career, setPage, answers, setAnswers, theme }) {
                   <div style={{ fontSize: "15px", fontWeight: 600, marginBottom: "6px" }}>{question.q}</div>
                   <div style={{
                     fontSize: "14px",
-                    color: hasAnswer ? (theme === "dark" ? "#38bdf8" : "#0284c7") : "#ef4444",
+                    color: hasAnswer ? (theme === "dark" ? "#C084FC" : "#0284c7") : "#ef4444",
                     fontWeight: 500
                   }}>
                     {hasAnswer ? `✓ Answered: ${optionText}` : "⚠️ Unanswered"}
@@ -640,19 +873,164 @@ function QuizPage({ career, setPage, answers, setAnswers, theme }) {
               flex: 1,
               padding: "14px",
               fontWeight: 700,
-              opacity: answeredCount === QUIZ.length ? 1 : 0.4,
-              cursor: answeredCount === QUIZ.length ? "pointer" : "not-allowed"
+              opacity: answeredCount === questions.length ? 1 : 0.4,
+              cursor: answeredCount === questions.length ? "pointer" : "not-allowed"
             }}
           >
             Generate Final Report →
           </button>
         </div>
       </div>
+      <button 
+        onClick={() => setShowExitConfirm(true)}
+        style={{
+          position: "fixed",
+          top: "100px",
+          right: "24px",
+          background: "linear-gradient(135deg, #ef4444, #f97316)",
+          border: "none",
+          color: "#fff",
+          padding: "10px 22px",
+          borderRadius: "4px",
+          fontSize: "13.5px",
+          fontWeight: 700,
+          cursor: "pointer",
+          zIndex: 90,
+          boxShadow: theme === "dark" 
+            ? "0 0 20px rgba(239, 68, 68, 0.4)" 
+            : "0 4px 15px rgba(239, 68, 68, 0.35)",
+          fontFamily: "inherit",
+          transition: "all 0.2s ease-in-out"
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.transform = "scale(1.04)";
+          e.currentTarget.style.boxShadow = theme === "dark" 
+            ? "0 0 25px rgba(239, 68, 68, 0.6)" 
+            : "0 6px 20px rgba(239, 68, 68, 0.5)";
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.transform = "scale(1)";
+          e.currentTarget.style.boxShadow = theme === "dark" 
+            ? "0 0 20px rgba(239, 68, 68, 0.4)" 
+            : "0 4px 15px rgba(239, 68, 68, 0.35)";
+        }}
+      >
+        Quit
+      </button>
+      </>
     );
   }
 
   return (
-    <div style={{ maxWidth: "1100px", margin: "0 auto", padding: "40px 24px" }}>
+    <>
+      {showExitConfirm && (
+        <div style={{
+          position: "fixed",
+          top: 0,
+          left: 0,
+          width: "100vw",
+          height: "100vh",
+          backgroundColor: theme === "dark" ? "rgba(5, 11, 20, 0.9)" : "rgba(15, 23, 42, 0.75)",
+          backdropFilter: "blur(12px)",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          zIndex: 1000,
+          padding: "24px"
+        }}>
+          <div style={{
+            background: S.card_v,
+            border: `2px solid ${theme === "dark" ? "#1e3a5f" : "#e2e8f0"}`,
+            borderRadius: "24px",
+            maxWidth: "500px",
+            width: "100%",
+            padding: "40px 32px",
+            textAlign: "center",
+            boxShadow: "0 20px 40px rgba(0,0,0,0.3)",
+            fontFamily: "'Segoe UI', sans-serif"
+          }}>
+            <div style={{
+              display: "inline-flex",
+              alignItems: "center",
+              justifyContent: "center",
+              width: "80px",
+              height: "80px",
+              borderRadius: "50%",
+              background: "rgba(239, 68, 68, 0.15)",
+              color: "#ef4444",
+              fontSize: "44px",
+              marginBottom: "24px"
+            }}>
+              ⚠️
+            </div>
+            <h3 style={{
+              fontSize: "22px",
+              fontWeight: 800,
+              marginBottom: "16px",
+              color: theme === "dark" ? "#ffffff" : "#0f172a",
+              lineHeight: 1.4
+            }}>
+              Confirm Assessment Termination
+            </h3>
+            <p style={{
+              fontSize: "15px",
+              color: S.muted_v,
+              lineHeight: 1.6,
+              marginBottom: "32px",
+              marginLeft: 0,
+              marginRight: 0
+            }}>
+              You are about to end your career evaluation. Your progress will be permanently lost.
+            </p>
+            
+            <div style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: "12px"
+            }}>
+              <button
+                onClick={handleConfirmExit}
+                style={{
+                  background: "#ef4444",
+                  border: "none",
+                  color: "#fff",
+                  padding: "14px",
+                  borderRadius: "12px",
+                  fontSize: "15px",
+                  fontWeight: 700,
+                  cursor: "pointer",
+                  fontFamily: "inherit",
+                  transition: "background 0.2s"
+                }}
+                onMouseEnter={(e) => e.currentTarget.style.background = "#dc2626"}
+                onMouseLeave={(e) => e.currentTarget.style.background = "#ef4444"}
+              >
+                🔴 Yes, End Assessment
+              </button>
+              <button
+                onClick={() => setShowExitConfirm(false)}
+                style={{
+                  background: theme === "dark" ? "linear-gradient(135deg,#8B5CF6,#A855F7)" : "linear-gradient(135deg,#38bdf8,#6366f1)",
+                  border: "none",
+                  color: "#fff",
+                  padding: "14px",
+                  borderRadius: theme === "dark" ? "15px" : "12px",
+                  fontSize: "15px",
+                  fontWeight: 700,
+                  cursor: "pointer",
+                  fontFamily: "inherit",
+                  boxShadow: theme === "dark" ? "0 10px 30px rgba(139,92,246,0.3)" : "none",
+                  transition: "all 0.3s cubic-bezier(0.16, 1, 0.3, 1)"
+                }}
+                className="primary-btn-glow"
+              >
+                🟢 Continue Evaluation
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+      <div style={{ maxWidth: "1100px", margin: "0 auto", padding: "40px 24px" }}>
       <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", gap: "24px" }}>
         
         {/* Left Column: Question Card */}
@@ -673,13 +1051,31 @@ function QuizPage({ career, setPage, answers, setAnswers, theme }) {
             </div>
           )}
 
+          {career === "engineering" && (
+            <div style={{
+              background: theme === "dark" ? "rgba(139, 92, 246, 0.08)" : "rgba(56, 189, 248, 0.08)",
+              border: theme === "dark" ? "1px solid rgba(139, 92, 246, 0.2)" : "1px solid rgba(56, 189, 248, 0.2)",
+              borderRadius: "12px",
+              padding: "16px",
+              marginBottom: "16px",
+              boxShadow: theme === "dark" ? "none" : "0 2px 8px rgba(0,0,0,.02)"
+            }}>
+              <h2 style={{ fontSize: "16px", fontWeight: 800, margin: "0 0 6px 0", color: theme === "dark" ? "#C084FC" : "#38bdf8" }}>
+                Engineering Alignment Assessment
+              </h2>
+              <p style={{ margin: 0, fontSize: "13px", color: S.muted_v, lineHeight: 1.5 }}>
+                "There are no right or wrong answers. Each option represents a different way people naturally think and work. Choose the option that feels MOST like you."
+              </p>
+            </div>
+          )}
+
           <div style={S.card}>
             <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "20px" }}>
               <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
                 <span style={{ fontSize: "24px" }}>{catInfo.icon}</span>
                 <div>
                   <div style={{ fontWeight: 700, fontSize: "15px", color: catInfo.color }}>{catInfo.label}</div>
-                  <div style={{ fontSize: "12px", color: S.dim_v }}>Question {current + 1} of {QUIZ.length}</div>
+                  <div style={{ fontSize: "12px", color: S.dim_v }}>Question {current + 1} of {questions.length}</div>
                 </div>
               </div>
               
@@ -702,23 +1098,35 @@ function QuizPage({ career, setPage, answers, setAnswers, theme }) {
 
             {q.opts.map((opt, i) => {
               const isSelected = i === answers[current];
+              const isFocused = i === focusedOptionIndex;
               return (
                 <button key={i}
                   style={{
                     ...S.optionBtn,
+                    transition: "all 0.2s ease-in-out",
                     ...(isSelected ? {
-                      background: "rgba(56, 189, 248, 0.12)",
-                      borderColor: "#38bdf8",
-                      color: "#38bdf8",
+                      background: theme === "dark" ? "rgba(139, 92, 246, 0.15)" : "rgba(56, 189, 248, 0.12)",
+                      borderColor: theme === "dark" ? "#8B5CF6" : "#38bdf8",
+                      color: theme === "dark" ? "#C084FC" : "#38bdf8",
                       fontWeight: 600,
                     } : {}),
+                    ...(isFocused ? {
+                      borderColor: theme === "dark" ? "#A855F7" : "#38bdf8",
+                      boxShadow: theme === "dark" 
+                        ? "0 0 15px rgba(139, 92, 246, 0.45)" 
+                        : "0 0 12px rgba(56, 189, 248, 0.35)",
+                      background: isSelected 
+                        ? (theme === "dark" ? "rgba(139, 92, 246, 0.22)" : "rgba(56, 189, 248, 0.18)") 
+                        : (theme === "dark" ? "rgba(139, 92, 246, 0.08)" : "rgba(56, 189, 248, 0.05)")
+                    } : {})
                   }}
                   onClick={() => handleOptionSelect(i)}
+                  onMouseEnter={() => setFocusedOptionIndex(i)}
                 >
                   <span style={{
                     marginRight: "10px",
                     fontWeight: isSelected ? 700 : 400,
-                    color: isSelected ? "#38bdf8" : S.dim_v,
+                    color: isSelected ? (theme === "dark" ? "#C084FC" : "#38bdf8") : S.dim_v,
                   }}>
                     {isSelected ? "●" : String.fromCharCode(65 + i) + "."}
                   </span>
@@ -750,7 +1158,7 @@ function QuizPage({ career, setPage, answers, setAnswers, theme }) {
                   padding: "12px"
                 }}
               >
-                {current + 1 < QUIZ.length ? "Next Question →" : "Review & Submit →"}
+                {current + 1 < questions.length ? "Next Question →" : "Review & Submit →"}
               </button>
             </div>
           </div>
@@ -764,7 +1172,7 @@ function QuizPage({ career, setPage, answers, setAnswers, theme }) {
             <div style={{ fontWeight: 800, fontSize: "15px", marginBottom: "12px" }}>Progress Tracker</div>
             <div style={{ display: "flex", justifyContent: "space-between", fontSize: "13px", marginBottom: "6px" }}>
               <span style={{ color: S.muted_v }}>Completed</span>
-              <span style={{ fontWeight: 700, color: "#38bdf8" }}>{percentComplete}%</span>
+              <span style={{ fontWeight: 700, color: theme === "dark" ? "#C084FC" : "#38bdf8" }}>{percentComplete}%</span>
             </div>
             <div style={{ ...S.progressBar, marginBottom: "14px" }}>
               <div style={{ ...S.progressFill, width: `${percentComplete}%` }} />
@@ -786,7 +1194,7 @@ function QuizPage({ career, setPage, answers, setAnswers, theme }) {
               gridTemplateColumns: "repeat(6, 1fr)",
               gap: "6px"
             }}>
-              {QUIZ.map((_, idx) => {
+              {questions.map((_, idx) => {
                 const isCurrent = idx === current;
                 const isAnswered = answers[idx] !== null;
                 
@@ -795,9 +1203,9 @@ function QuizPage({ career, setPage, answers, setAnswers, theme }) {
                 let color = S.muted_v;
                 
                 if (isCurrent) {
-                  bg = theme === "dark" ? "rgba(56, 189, 248, 0.15)" : "#e0f2fe";
-                  border = "#38bdf8";
-                  color = "#38bdf8";
+                  bg = theme === "dark" ? "rgba(139, 92, 246, 0.2)" : "#e0f2fe";
+                  border = theme === "dark" ? "#8B5CF6" : "#38bdf8";
+                  color = theme === "dark" ? "#C084FC" : "#38bdf8";
                 } else if (isAnswered) {
                   bg = theme === "dark" ? "rgba(34, 197, 94, 0.15)" : "#dcfce7";
                   border = "#22c55e";
@@ -841,13 +1249,50 @@ function QuizPage({ career, setPage, answers, setAnswers, theme }) {
                 fontWeight: 700
               }}
             >
-              📋 Review Assessment ({answeredCount}/{QUIZ.length})
+              📋 Review Assessment ({answeredCount}/{questions.length})
             </button>
           </div>
         </div>
 
       </div>
     </div>
+    <button 
+      onClick={() => setShowExitConfirm(true)}
+      style={{
+        position: "fixed",
+        top: "100px",
+        right: "24px",
+        background: "linear-gradient(135deg, #ef4444, #f97316)",
+        border: "none",
+        color: "#fff",
+        padding: "10px 22px",
+        borderRadius: "4px",
+        fontSize: "13.5px",
+        fontWeight: 700,
+        cursor: "pointer",
+        zIndex: 90,
+        boxShadow: theme === "dark" 
+          ? "0 0 20px rgba(239, 68, 68, 0.4)" 
+          : "0 4px 15px rgba(239, 68, 68, 0.35)",
+        fontFamily: "inherit",
+        transition: "all 0.2s ease-in-out"
+      }}
+      onMouseEnter={(e) => {
+        e.currentTarget.style.transform = "scale(1.04)";
+        e.currentTarget.style.boxShadow = theme === "dark" 
+          ? "0 0 25px rgba(239, 68, 68, 0.6)" 
+          : "0 6px 20px rgba(239, 68, 68, 0.5)";
+      }}
+      onMouseLeave={(e) => {
+        e.currentTarget.style.transform = "scale(1)";
+        e.currentTarget.style.boxShadow = theme === "dark" 
+          ? "0 0 20px rgba(239, 68, 68, 0.4)" 
+          : "0 4px 15px rgba(239, 68, 68, 0.35)";
+      }}
+    >
+      Quit
+    </button>
+  </>
   );
 }
 
@@ -874,31 +1319,48 @@ function ScoreBar({ label, score, color, icon }) {
 function ResultPage({ career, answers, setPage, theme }) {
   const S = s(theme);
   const dark = theme==="dark";
-  const scores = calcScores(answers);
+  const scores = calcScores(answers, career);
   const careerData = CAREERS.find(c=>c.id===career);
   const fin = careerData?.fin;
   const overall = scores.fitScore;
 
-  let verdict = "Weak Fit ⚠️";
-  let verdictColor = dark ? "#f87171" : "#dc2626";
-  let verdictDesc = "Based on your current assessment, additional preparation may be beneficial before pursuing this path. Your roadmap will guide you step by step.";
+  const isEng = career === "engineering";
+  const isCommOrArts = COMMERCE_ARTS_QUIZZES[career] !== undefined;
 
-  if (overall >= 51) {
-    verdict = "Strong Fit 🌟";
+  const strongThresh = isEng ? 96 : (isCommOrArts ? 64 : 51);
+  const moderateThresh = isEng ? 75 : (isCommOrArts ? 50 : 38);
+  const exploreThresh = isEng ? 54 : (isCommOrArts ? 36 : 26);
+  const maxScore = isEng ? 120 : (isCommOrArts ? 80 : 60);
+  const minScore = isEng ? 30 : (isCommOrArts ? 20 : 15);
+
+  let verdict = isEng ? "Explore Multiple Fields ⚠️" : "Weak Fit ⚠️";
+  let verdictColor = dark ? "#f87171" : "#dc2626";
+  let verdictDesc = isEng 
+    ? "Based on your current preference profile, exploring a variety of fields including engineering and design will help guide your future choice."
+    : "Based on your current assessment, additional preparation may be beneficial before pursuing this path. Your roadmap will guide you step by step.";
+
+  if (overall >= strongThresh) {
+    verdict = isEng ? "Strong Engineering Alignment 🌟" : (isCommOrArts ? "Strong Career Alignment 🌟" : "Strong Fit 🌟");
     verdictColor = dark ? "#4ade80" : "#16a34a";
-    verdictDesc = "Your profile shows strong alignment with this career. You have the aptitude, commitment and readiness to pursue it successfully.";
-  } else if (overall >= 38) {
-    verdict = "Moderate Fit ✅";
-    verdictColor = dark ? "#38bdf8" : "#0284c7";
-    verdictDesc = "Based on your current assessment, you show good potential. With focused preparation in the identified areas, this career is very achievable.";
-  } else if (overall >= 26) {
-    verdict = "Explore Further 📈";
+    verdictDesc = isEng
+      ? "Your psychometric profile indicates outstanding natural alignment with engineering disciplines. You naturally think in systems, optimization, and structures."
+      : "Your profile shows strong alignment with this career. You have the aptitude, commitment and readiness to pursue it successfully.";
+  } else if (overall >= moderateThresh) {
+    verdict = isEng ? "Good Potential ✅" : (isCommOrArts ? "Good Potential ✅" : "Moderate Fit ✅");
+    verdictColor = dark ? "#8B5CF6" : "#0284c7";
+    verdictDesc = isEng
+      ? "You demonstrate strong logical foundations and curiosity. With focused practice, you show high potential to excel in engineering fields."
+      : "Based on your current assessment, you show good potential. With focused preparation in the identified areas, this career is very achievable.";
+  } else if (overall >= exploreThresh) {
+    verdict = isEng ? "Emerging Interest 📈" : (isCommOrArts ? "Emerging Interest 📈" : "Explore Further 📈");
     verdictColor = dark ? "#fbbf24" : "#ca8a04";
-    verdictDesc = "Based on your current assessment, exploring this path further and building foundational skills will help clarify your interest and suitability.";
+    verdictDesc = isEng
+      ? "Your preferences show emerging interests in logical systems or design. Strengthening analytical habits will help clarify your suitability."
+      : "Based on your current assessment, exploring this path further and building foundational skills will help clarify your interest and suitability.";
   }
 
   const scoreCategories = [
-    {label:"Analytical Thinking", key:"analytical", color:"#38bdf8", icon:"🧠"},
+    {label:"Analytical Thinking", key:"analytical", color: dark ? "#8B5CF6" : "#38bdf8", icon:"🧠"},
     {label:"Problem Solving",     key:"problem",    color:"#818cf8", icon:"⚙️"},
     {label:"Technical Curiosity", key:"curiosity",  color:"#4ade80", icon:"🔍"},
     {label:"Learning Commitment", key:"commitment", color:"#f472b6", icon:"📚"},
@@ -916,7 +1378,7 @@ function ResultPage({ career, answers, setPage, theme }) {
       <div style={{display:"grid",gridTemplateColumns:"160px 1fr",gap:"20px",marginBottom:"24px",alignItems:"center"}}>
         <div style={{width:"140px",height:"140px",borderRadius:"50%",background:dark?"linear-gradient(135deg,#0d2240,#1e3a5f)":"#f0f9ff",border:`5px solid ${verdictColor}`,display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center",boxShadow:`0 0 30px ${verdictColor}44`,margin:"0 auto"}}>
           <div style={{fontSize:"36px",fontWeight:800,color:verdictColor}}>{overall}</div>
-          <div style={{fontSize:"11px",color:S.dim_v,marginTop:"2px"}}>Score (15-60)</div>
+          <div style={{fontSize:"11px",color:S.dim_v,marginTop:"2px"}}>Score ({minScore}-{maxScore})</div>
         </div>
         <div style={{...S.resultCard}}>
           <div style={{color:verdictColor,fontWeight:800,fontSize:"20px",marginBottom:"6px"}}>{verdict}</div>
@@ -944,13 +1406,13 @@ function ResultPage({ career, answers, setPage, theme }) {
             ["⏱️ Duration",fin?.dur],["💼 Starting Salary",fin?.start],
             ["📈 Long-term Salary",fin?.long],["📊 ROI",fin?.roi],
           ].map(([label,val])=>(
-            <div key={label} style={{background:dark?"rgba(13,34,64,.4)":"#f8fafc",border:`1px solid ${S.cardBorder_v}`,borderRadius:"10px",padding:"12px"}}>
+            <div key={label} style={{background:dark?"rgba(18,10,37,0.4)":"#f8fafc",border:`1px solid ${S.cardBorder_v}`,borderRadius:"10px",padding:"12px"}}>
               <div style={{fontSize:"11px",color:S.dim_v,marginBottom:"4px"}}>{label}</div>
               <div style={{fontWeight:700,fontSize:"13px",color:dark?"#e8edf5":"#0f172a"}}>₹{val}</div>
             </div>
           ))}
         </div>
-        <div style={{background:"rgba(56,189,248,.08)",border:"1px solid rgba(56,189,248,.2)",borderRadius:"10px",padding:"12px",fontSize:"13px",color:S.muted_v}}>
+        <div style={{background:dark ? "rgba(139,92,246,.08)" : "rgba(56,189,248,.08)",border:dark ? "1px solid rgba(139,92,246,.2)" : "1px solid rgba(56,189,248,.2)",borderRadius:"10px",padding:"12px",fontSize:"13px",color:S.muted_v}}>
           💡 Financial Capacity Score: <strong style={{color:scores.financial>=70?"#4ade80":scores.financial>=45?"#fbbf24":"#f87171"}}>{scores.financial}%</strong>
           {scores.financial < 50 ? " — Explore government colleges and scholarship options below." : " — Your financial profile is well-suited for this career."}
         </div>
@@ -961,7 +1423,7 @@ function ResultPage({ career, answers, setPage, theme }) {
         <div style={S.resultCardTitle}>🎓 Potential Scholarship Opportunities and Fee Benefits</div>
         <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:"16px"}}>
           <div>
-            <div style={{fontWeight:700,fontSize:"13px",color:"#38bdf8",marginBottom:"8px"}}>🌐 General Scholarships</div>
+            <div style={{fontWeight:700,fontSize:"13px",color:dark ? "#C084FC" : "#38bdf8",marginBottom:"8px"}}>🌐 General Scholarships</div>
             {SCHOLARSHIPS.general.map(sc=><div key={sc} style={{fontSize:"12px",color:S.muted_v,marginBottom:"6px",lineHeight:1.5}}>• {sc}</div>)}
           </div>
           <div>
@@ -980,7 +1442,7 @@ function ResultPage({ career, answers, setPage, theme }) {
         <button style={{...S.primaryBtn,width:"100%"}} onClick={()=>setPage("roadmap")}>🗺️ View AI Roadmap</button>
         <button style={{...S.outlineBtn,width:"100%",borderColor:"#f472b6",color:"#f472b6"}} onClick={()=>setPage("alternatives")}>🔄 Explore Alternative Careers</button>
       </div>
-      <button style={{...S.outlineBtn,width:"100%",marginTop:"12px"}} onClick={()=>setPage("careers")}>← Try Another Career</button>
+      <button style={{...S.outlineBtn,width:"100%",marginTop:"12px"}} onClick={()=>setPage("stream")}>← Try Another Career</button>
     </div>
   );
 }
@@ -988,13 +1450,15 @@ function ResultPage({ career, answers, setPage, theme }) {
 // ── ROADMAP PAGE ──────────────────────────────────────────────────────────────
 function RoadmapPage({ career, answers, setPage, theme }) {
   const S = s(theme);
-  const scores = calcScores(answers);
+  const scores = calcScores(answers, career);
   const [roadmap, setRoadmap]   = useState(null);
   const [loading, setLoading]   = useState(true);
   const [error, setError]       = useState(null);
   const careerData = CAREERS.find(c=>c.id===career);
+  const dark = theme === "dark";
   const tagColors = [
-    {bg:"rgba(56,189,248,.15)",color:"#38bdf8"},{bg:"rgba(99,102,241,.15)",color:"#818cf8"},
+    {bg: dark ? "rgba(139,92,246,.15)" : "rgba(56,189,248,.15)", color: dark ? "#C084FC" : "#38bdf8"},
+    {bg:"rgba(99,102,241,.15)",color:"#818cf8"},
     {bg:"rgba(34,197,94,.15)",color:"#4ade80"},{bg:"rgba(251,191,36,.15)",color:"#fbbf24"},
   ];
 
@@ -1050,7 +1514,13 @@ function RoadmapPage({ career, answers, setPage, theme }) {
 
       {roadmap && !loading && (
         <>
-          <div style={{background:"linear-gradient(135deg,rgba(56,189,248,.1),rgba(99,102,241,.1))",border:"1px solid rgba(56,189,248,.2)",borderRadius:"14px",padding:"20px",marginBottom:"24px"}}>
+          <div style={{
+            background: dark ? "linear-gradient(135deg,rgba(139,92,246,.15),rgba(168,85,247,.15))" : "linear-gradient(135deg,rgba(56,189,248,.1),rgba(99,102,241,.1))",
+            border: dark ? "1px solid rgba(139,92,246,.25)" : "1px solid rgba(56,189,248,.2)",
+            borderRadius: "14px",
+            padding: "20px",
+            marginBottom: "24px"
+          }}>
             <p style={{color:S.muted_v,fontSize:"15px",lineHeight:1.7}}>{roadmap.summary}</p>
           </div>
 
@@ -1070,13 +1540,13 @@ function RoadmapPage({ career, answers, setPage, theme }) {
           {roadmap.months?.map((m,i)=>(
             <div key={i} style={S.monthCard}>
               <div style={{display:"flex",alignItems:"center",gap:"14px",marginBottom:"18px"}}>
-                <div style={{minWidth:"50px",height:"50px",borderRadius:"12px",background:"linear-gradient(135deg,#38bdf8,#6366f1)",display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center",color:"#fff"}}>
+                <div style={{minWidth:"50px",height:"50px",borderRadius:"12px",background:dark ? "linear-gradient(135deg,#8B5CF6,#A855F7)" : "linear-gradient(135deg,#38bdf8,#6366f1)",display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center",color:"#fff"}}>
                   <span style={{fontSize:"9px",fontWeight:600,opacity:.8}}>MONTH</span>
                   <span style={{fontSize:"18px",fontWeight:800,lineHeight:1}}>{m.month}</span>
                 </div>
                 <div>
                   <div style={{fontWeight:800,fontSize:"17px"}}>{m.title}</div>
-                  <div style={{color:"#38bdf8",fontSize:"12px"}}>Focus: {m.focus}</div>
+                  <div style={{color:dark ? "#C084FC" : "#38bdf8",fontSize:"12px"}}>Focus: {m.focus}</div>
                 </div>
               </div>
               <div style={{marginBottom:"16px"}}>
@@ -1104,7 +1574,7 @@ function RoadmapPage({ career, answers, setPage, theme }) {
                             </span>
                             {c.free&&<span style={{background:"rgba(34,197,94,.15)",color:"#4ade80",padding:"2px 6px",borderRadius:"99px",fontSize:"10px",fontWeight:700}}>FREE</span>}
                             {isVerified ? (
-                              <a href={c.url} target="_blank" rel="noreferrer" style={{background:"rgba(56,189,248,.15)",color:"#38bdf8",padding:"4px 12px",borderRadius:"6px",fontSize:"11px",fontWeight:600,textDecoration:"none"}}>Open →</a>
+                              <a href={c.url} target="_blank" rel="noreferrer" style={{background:dark ? "rgba(139,92,246,.15)" : "rgba(56,189,248,.15)",color:dark ? "#C084FC" : "#38bdf8",padding:"4px 12px",borderRadius:"6px",fontSize:"11px",fontWeight:600,textDecoration:"none"}}>Open →</a>
                             ) : (
                               <span style={{background:"rgba(100,116,139,.15)",color:S.dim_v,padding:"4px 12px",borderRadius:"6px",fontSize:"11px",fontWeight:600,cursor:"not-allowed"}}>Resource could not be verified</span>
                             )}
@@ -1154,8 +1624,8 @@ function RoadmapPage({ career, answers, setPage, theme }) {
                   })}
                 </div>
               )}
-              <div style={{background:S.dark_v?"rgba(56,189,248,.05)":"#f0f9ff",border:"1px solid rgba(56,189,248,.2)",borderRadius:"8px",padding:"12px 14px"}}>
-                <span style={{color:"#38bdf8",fontWeight:700,fontSize:"12px"}}>🎯 Month Goal: </span>
+              <div style={{background:S.dark_v?"rgba(139,92,246,.08)":"#f0f9ff",border:S.dark_v?"1px solid rgba(139,92,246,.2)":"1px solid rgba(56,189,248,.2)",borderRadius:"8px",padding:"12px 14px"}}>
+                <span style={{color:S.dark_v?"#C084FC":"#38bdf8",fontWeight:700,fontSize:"12px"}}>🎯 Month Goal: </span>
                 <span style={{color:S.muted_v,fontSize:"13px"}}>{m.goal}</span>
               </div>
             </div>
@@ -1173,7 +1643,14 @@ function RoadmapPage({ career, answers, setPage, theme }) {
           </div>
 
           {roadmap.tip && (
-            <div style={{background:"linear-gradient(135deg,rgba(99,102,241,.1),rgba(56,189,248,.1))",border:"1px solid rgba(99,102,241,.3)",borderRadius:"12px",padding:"18px 22px",marginBottom:"24px",textAlign:"center"}}>
+            <div style={{
+              background: dark ? "linear-gradient(135deg,rgba(168,85,247,.15),rgba(139,92,246,.15))" : "linear-gradient(135deg,rgba(99,102,241,.1),rgba(56,189,248,.1))",
+              border: dark ? "1px solid rgba(168,85,247,.3)" : "1px solid rgba(99,102,241,.3)",
+              borderRadius: "12px",
+              padding: "18px 22px",
+              marginBottom: "24px",
+              textAlign: "center"
+            }}>
               <span style={{fontSize:"18px"}}>💡 </span>
               <span style={{color:S.muted_v,fontSize:"14px",lineHeight:1.7}}>{roadmap.tip}</span>
             </div>
@@ -1192,9 +1669,9 @@ function RoadmapPage({ career, answers, setPage, theme }) {
 }
 
 // ── ALTERNATIVES PAGE ─────────────────────────────────────────────────────────
-function AlternativesPage({ career, answers, setPage, setSelectedCareer, theme }) {
+function AlternativesPage({ career, answers, setAnswers, setPage, setSelectedCareer, theme }) {
   const S = s(theme);
-  const scores = calcScores(answers);
+  const scores = calcScores(answers, career);
   const currentCareer = CAREERS.find(c=>c.id===career);
   const altIds = currentCareer?.alts || [];
   const altCareers = altIds.map(id=>CAREERS.find(c=>c.id===id)).filter(Boolean);
@@ -1222,9 +1699,9 @@ function AlternativesPage({ career, answers, setPage, setSelectedCareer, theme }
           </thead>
           <tbody>
             {[currentCareer,...altCareers].map((c,i)=>(
-              <tr key={c.id} style={{borderBottom:`1px solid ${S.cardBorder_v}`,background:i===0?"rgba(56,189,248,.05)":"transparent"}}>
+              <tr key={c.id} style={{borderBottom:`1px solid ${S.cardBorder_v}`,background:i===0?(theme === "dark" ? "rgba(139,92,246,.1)" : "rgba(56,189,248,.05)"):"transparent"}}>
                 <td style={{padding:"10px 12px",fontWeight:i===0?700:400}}>
-                  {c.icon} {c.label} {i===0&&<span style={{fontSize:"10px",color:"#38bdf8",marginLeft:"4px"}}>(current)</span>}
+                  {c.icon} {c.label} {i===0&&<span style={{fontSize:"10px",color:theme === "dark" ? "#C084FC" : "#38bdf8",marginLeft:"4px"}}>(current)</span>}
                 </td>
                 <td style={{padding:"10px 12px",color:S.muted_v}}>{c.fin.dur}</td>
                 <td style={{padding:"10px 12px",color:S.muted_v}}>₹{c.fin.govt}</td>
@@ -1251,7 +1728,16 @@ function AlternativesPage({ career, answers, setPage, setSelectedCareer, theme }
             <div style={{color:S.dim_v,fontSize:"12px",marginBottom:"12px",lineHeight:1.5}}>{c.desc}</div>
             <div style={{fontSize:"12px",color:S.muted_v,marginBottom:"4px"}}>⏱️ {c.fin.dur} &nbsp;|&nbsp; 💰 Govt: ₹{c.fin.govt}</div>
             <div style={{fontSize:"12px",color:S.muted_v,marginBottom:"16px"}}>💼 Start: ₹{c.fin.start}/yr</div>
-            <button style={{...S.smallBtn,width:"100%"}} onClick={()=>{ setSelectedCareer(c.id); setPage("quiz"); }}>
+            <button style={{...S.smallBtn,width:"100%"}} onClick={()=>{
+              setSelectedCareer(c.id);
+              const isScience = c.stream === "science";
+              const isCommOrArts = COMMERCE_ARTS_QUIZZES[c.id] !== undefined;
+              const expectedLength = isScience ? 40 : (isCommOrArts ? 20 : 15);
+              setAnswers(Array(expectedLength).fill(null));
+              localStorage.setItem("career_reality_current_q", "0");
+              localStorage.setItem("career_reality_show_review", "false");
+              setPage("quiz");
+            }}>
               Assess for {c.label} →
             </button>
           </div>
@@ -1272,13 +1758,13 @@ function AboutPage({ theme }) {
       <p style={S.sectionSub}>A professional career counseling experience in 4 steps.</p>
       <div style={{maxWidth:"700px",margin:"0 auto"}}>
         {[
-          ["01","Choose a Science Career","Pick from 15 science career paths, each with full financial data."],
+          ["01","Choose Your Academic Stream & Career","Select between Science, Commerce, or Arts, then pick from the filtered career paths with complete details."],
           ["02","Complete 6-Category Assessment","18 questions covering aptitude, academics, finances, commitment, soft skills and expectations."],
           ["03","Get Your Full Report","6 individual scores, financial analysis, and scholarship opportunities including girl-specific benefits."],
           ["04","AI Roadmap + Alternatives","Gemini generates a 4-month personalized plan. Not satisfied? Explore better-suited alternatives instantly."],
         ].map(([num,title,desc])=>(
-          <div key={num} style={{display:"flex",gap:"20px",alignItems:"flex-start",marginBottom:"24px",padding:"22px",background:S.card_v,border:`1px solid ${S.cardBorder_v}`,borderRadius:"14px"}}>
-            <div style={{minWidth:"44px",height:"44px",borderRadius:"10px",background:"linear-gradient(135deg,#38bdf8,#6366f1)",display:"flex",alignItems:"center",justifyContent:"center",fontWeight:800,fontSize:"15px",color:"#fff"}}>{num}</div>
+          <div key={num} className="elevated-card" style={{display:"flex",gap:"20px",alignItems:"flex-start",marginBottom:"24px",padding:"22px",background:S.card_v,border:`1px solid ${S.cardBorder_v}`,borderRadius:"14px"}}>
+            <div style={{minWidth:"44px",height:"44px",borderRadius:"10px",background:theme === "dark" ? "linear-gradient(135deg,#8B5CF6,#A855F7)" : "linear-gradient(135deg,#38bdf8,#6366f1)",display:"flex",alignItems:"center",justifyContent:"center",fontWeight:800,fontSize:"15px",color:"#fff"}}>{num}</div>
             <div>
               <div style={{fontWeight:700,fontSize:"16px",marginBottom:"5px"}}>{title}</div>
               <div style={{color:S.dim_v,fontSize:"13px",lineHeight:1.6}}>{desc}</div>
@@ -1292,18 +1778,45 @@ function AboutPage({ theme }) {
 
 // ── APP SHELL ─────────────────────────────────────────────────────────────────
 export default function App() {
-  const [page, setPage] = useState(() => {
-    return localStorage.getItem("career_reality_page") || "home";
+  const [selectedStream, setSelectedStream] = useState(() => {
+    const saved = localStorage.getItem("career_reality_stream");
+    if (saved && !["science", "commerce", "arts"].includes(saved)) {
+      return null;
+    }
+    return saved || null;
   });
   const [selectedCareer, setSelectedCareer] = useState(() => {
-    return localStorage.getItem("career_reality_career") || null;
+    const saved = localStorage.getItem("career_reality_career");
+    if (saved && !CAREERS.some(c => c.id === saved)) {
+      return null;
+    }
+    return saved || null;
+  });
+  const [page, setPage] = useState(() => {
+    const savedPage = localStorage.getItem("career_reality_page") || "home";
+    const savedCareer = localStorage.getItem("career_reality_career");
+    if (["quiz", "result", "roadmap", "alternatives"].includes(savedPage)) {
+      if (!savedCareer || !CAREERS.some(c => c.id === savedCareer)) {
+        return "home";
+      }
+    }
+    return savedPage;
   });
   const [answers, setAnswers] = useState(() => {
     try {
       const saved = localStorage.getItem("career_reality_answers");
-      return saved ? JSON.parse(saved) : Array(18).fill(null);
+      const savedCareer = localStorage.getItem("career_reality_career");
+      const careerData = CAREERS.find(c => c.id === savedCareer);
+      const isScience = careerData?.stream === "science";
+      const isCommOrArts = COMMERCE_ARTS_QUIZZES[savedCareer] !== undefined;
+      const expectedLength = isScience ? 40 : (isCommOrArts ? 20 : 15);
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        if (parsed.length === expectedLength) return parsed;
+      }
+      return Array(expectedLength).fill(null);
     } catch {
-      return Array(18).fill(null);
+      return Array(15).fill(null);
     }
   });
   const [theme, setTheme]                   = useState("dark");
@@ -1314,6 +1827,14 @@ export default function App() {
   useEffect(() => {
     localStorage.setItem("career_reality_page", page);
   }, [page]);
+
+  useEffect(() => {
+    if (selectedStream) {
+      localStorage.setItem("career_reality_stream", selectedStream);
+    } else {
+      localStorage.removeItem("career_reality_stream");
+    }
+  }, [selectedStream]);
 
   useEffect(() => {
     if (selectedCareer) {
@@ -1328,14 +1849,15 @@ export default function App() {
   }, [answers]);
 
   return (
-    <div style={S.app}>
+    <div style={S.app} className={theme}>
       <Navbar setPage={setPage} theme={theme} toggleTheme={toggleTheme}/>
       {page==="home"         && <LandingPage     setPage={setPage} theme={theme}/>}
-      {page==="careers"      && <CareersPage      setPage={setPage} setSelectedCareer={setSelectedCareer} setAnswers={setAnswers} theme={theme}/>}
-      {page==="quiz"         && <QuizPage         career={selectedCareer} setPage={setPage} answers={answers} setAnswers={setAnswers} theme={theme}/>}
+      {page==="stream"       && <StreamSelectionPage setPage={setPage} setSelectedStream={setSelectedStream} theme={theme}/>}
+      {page==="careers"      && <CareersPage      setPage={setPage} selectedStream={selectedStream} setSelectedCareer={setSelectedCareer} setAnswers={setAnswers} theme={theme}/>}
+      {page==="quiz"         && <QuizPage         career={selectedCareer} setSelectedCareer={setSelectedCareer} setPage={setPage} answers={answers} setAnswers={setAnswers} theme={theme}/>}
       {page==="result"       && <ResultPage       career={selectedCareer} answers={answers} setPage={setPage} theme={theme}/>}
       {page==="roadmap"      && <RoadmapPage      career={selectedCareer} answers={answers} setPage={setPage} theme={theme}/>}
-      {page==="alternatives" && <AlternativesPage career={selectedCareer} answers={answers} setPage={setPage} setSelectedCareer={setSelectedCareer} theme={theme}/>}
+      {page==="alternatives" && <AlternativesPage career={selectedCareer} answers={answers} setAnswers={setAnswers} setPage={setPage} setSelectedCareer={setSelectedCareer} theme={theme}/>}
       {page==="about"        && <AboutPage        theme={theme}/>}
       <footer style={S.footer}>© 2024 Career Reality AI — Built for Students, by Students</footer>
     </div>

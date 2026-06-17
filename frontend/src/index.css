@@ -1,7 +1,50 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-.dark  { --card: rgba(13,34,64,0.5); --border: #0d2240; }
-.light { --card: #ffffff;            --border: #e2e8f0; }
+.dark  { --card: rgba(18, 10, 37, 0.75); --border: rgba(192, 132, 252, 0.15); }
+.light { --card: #ffffff;                 --border: #e2e8f0; }
 
-body { background: #050b14; }
+body { background: #05010F; transition: background 0.3s; }
 button:hover { opacity: 0.85; }
+
+/* ── PREMIUM DARK MODE ONLY STYLES ── */
+
+.dark, .dark * {
+  font-family: 'Space Grotesk', sans-serif !important;
+}
+
+/* Base button animations and state */
+.dark button {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.dark button:not([disabled]):hover {
+  opacity: 1 !important;
+  transform: translateY(-2px);
+}
+
+/* Hover styles for primary buttons in Dark Mode */
+.dark .primary-btn-glow:not([disabled]):hover {
+  transform: translateY(-3px) scale(1.01);
+  box-shadow: 0 12px 35px rgba(139, 92, 246, 0.45), 0 0 20px rgba(168, 85, 247, 0.2) !important;
+}
+
+/* Hover style for outline buttons in Dark Mode */
+.dark .outline-btn-glow:not([disabled]):hover {
+  background: rgba(139, 92, 246, 0.08) !important;
+  border-color: rgba(192, 132, 252, 0.4) !important;
+  box-shadow: 0 0 15px rgba(139, 92, 246, 0.15) !important;
+}
+
+/* Hover styles for elevated cards in Dark Mode */
+.dark .career-card,
+.dark .elevated-card {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.dark .career-card:hover,
+.dark .elevated-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(139, 92, 246, 0.2), 0 0 45px rgba(168, 85, 247, 0.12) !important;
+  border-color: rgba(192, 132, 252, 0.3) !important;
+  background: rgba(24, 16, 50, 0.85) !important; /* Hover State: #181032, slightly transparent */
+}

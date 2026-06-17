@@ -7,7 +7,11 @@
     "dev:client": "npm run dev --prefix frontend",
     "dev:server": "node backend/server.js",
     "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
-    "build": "npm run build --prefix frontend"
+    "install:client": "npm install --prefix frontend",
+    "install:server": "npm install --prefix backend",
+    "build:client": "npm run build --prefix frontend",
+    "build": "npm run install:client && npm run build:client && npm run install:server",
+    "start": "node backend/server.js"
   },
   "devDependencies": {
     "concurrently": "^8.2.2"
