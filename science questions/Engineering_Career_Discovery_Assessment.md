@@ -380,368 +380,361 @@ D. Build a table that can be folded away completely when not in use.
 **Question 21**  
 **Category:** Engineering Aptitude & Systems Thinking  
 
-A city has traffic jams every evening on one main road. What would be the most effective first step to understand the problem?
+Your friend asks for help with homework the night before it's due. You have your own work to finish.  
 
-A. Observe the road at different times and note where cars slow down most.  
-B. Immediately build a new flyover.  
-C. Ask all drivers to take alternate routes.  
-D. Reduce the number of traffic lights on that road.  
+A. Share your completed work so they can use it as a reference  
+B. Spend an hour explaining the difficult parts and let them finish the rest  
+C. Tell them you're busy tonight but offer to help them the next day after school  
+D. Suggest they check the textbook examples since the homework is based on those  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Emphasizes data gathering and root cause analysis before solutions.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Problem Decomposition and Root Cause Thinking  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 22**  
 **Category:** Engineering Aptitude & Systems Thinking  
 
-You have to water a garden using a limited amount of water from a tank. Which strategy uses water most efficiently?
+During a class debate, a student makes a point that is factually incorrect, but the teacher doesn't notice.  
 
-A. Water plants early in the morning when evaporation is low and use drip pipes near roots.  
-B. Water everything heavily once a week regardless of weather.  
-C. Use a sprinkler that covers the entire garden quickly.  
-D. Water only the plants that look dry at that moment.  
+A. Raise your hand and politely correct the information  
+B. Note it down and speak to the teacher privately after class  
+C. Say nothing — the teacher may already know and is testing the class  
+D. Ask a follow-up question that gently leads the class to notice the error  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Shows understanding of efficiency, timing, and targeted resource use.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Resource Optimization and Efficiency Thinking  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 23**  
 **Category:** Engineering Aptitude & Systems Thinking  
 
-A classroom has 40 students but only 30 chairs. The teacher wants to arrange seating for a group discussion. What arrangement makes the best use of space?
+You are assigned a group project and one member has not contributed anything with two days left.  
 
-A. Arrange chairs in a circle with some students standing in pairs.  
-B. Keep all chairs in straight rows facing the front.  
-C. Remove 10 chairs and ask students to sit on the floor.  
-D. Push all chairs against the walls and have students stand.  
+A. Redistribute the remaining work among the active members to ensure quality  
+B. Contact the absent member directly and ask what is holding them back  
+C. Inform the teacher so the grading can reflect actual individual effort  
+D. Complete the missing portion yourself to protect the group's overall grade  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Tests creative problem-solving within physical constraints.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Creative Constraint Handling  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 24**  
 **Category:** Engineering Aptitude & Systems Thinking  
 
-A factory produces 1000 items per day but 50 are defective. Which improvement would have the biggest long-term impact?
+You notice a classmate sitting alone during lunch break every day.  
 
-A. Find the step in the process where most defects occur and fix that step.  
-B. Hire more workers to check each item twice.  
-C. Produce 2000 items and throw away the defective ones.  
-D. Change the product design completely.  
+A. Invite them to join your group for that day  
+B. Sit with them for a while and see if they seem comfortable  
+C. Ask a mutual friend to help bring them into the group gradually  
+D. Respect that some people prefer quiet time and give them space  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Rewards systems-level thinking over quick fixes.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Process Improvement and Root Cause Focus  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
-
-## SECTION E — Logical & Analytical Reasoning (Questions 25-30)
 
 **Question 25**  
 **Category:** Logical & Analytical Reasoning  
 
-All engineers in a company are required to wear safety helmets on site. Rahul is an engineer in that company. What can you conclude?
+Your parents have enrolled you in a weekend class that takes away your free time.  
 
-A. Rahul must wear a safety helmet when on site.  
-B. Rahul never wears a safety helmet.  
-C. Rahul works only in the office.  
-D. Rahul is not required to follow any rules.  
+A. Attend without complaint since your parents are investing in your future  
+B. Explain to your parents that you need some personal time to recharge  
+C. Try attending for a few weeks, then evaluate if it's actually helping you  
+D. Ask if the schedule can be adjusted rather than refusing outright  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Tests ability to apply general rules to specific cases without over-assuming.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Deductive Reasoning  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 26**  
 **Category:** Logical & Analytical Reasoning  
 
-In a group of 5 friends, each has a different favorite subject: Math, Physics, Chemistry, Biology, and English. No two have the same favorite. If Priya likes Math and Rahul does not like Physics or Chemistry, who could like Physics?
+A friend confides in you about a personal problem and asks you not to tell anyone. Later, you think an adult should know.  
 
-A. Anyone except Priya and Rahul.  
-B. Only Rahul.  
-C. Only Priya.  
-D. No one in the group.  
+A. Respect the promise and keep the information to yourself  
+B. Encourage your friend to speak to an adult themselves, offering to go with them  
+C. Speak to a trusted adult yourself, without revealing your friend's identity  
+D. Wait and see if the situation resolves before taking any action  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Encourages careful elimination based on given information.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Elimination and Structured Thinking  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 27**  
 **Category:** Logical & Analytical Reasoning  
 
-A statement says: "If it rains, the ground becomes wet." The ground is wet. What can you logically conclude?
+During a school trip, your group reaches a place where everyone has two hours of free time.  
 
-A. It may or may not have rained — other things could make the ground wet.  
-B. It definitely rained.  
-C. It did not rain.  
-D. The statement is false.  
+A. Explore the area with your friends while staying within the agreed boundary  
+B. Visit the information centre and learn about the place first  
+C. Stay with the group and follow what the majority decides  
+D. Find a quiet spot to rest and observe your surroundings alone  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Tests understanding of conditional statements and avoiding false conclusions.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Interpreting Information and Avoiding Assumptions  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
 
 **Question 28**  
 **Category:** Logical & Analytical Reasoning  
 
-You have three boxes: one contains only apples, one only oranges, and one mixed. All labels are wrong. You pick one fruit from the box labeled "Mixed" and it is an apple. What does this tell you about the box labeled "Apples"?
+You receive a test result that is lower than what you expected.  
 
-A. It must contain only oranges.  
-B. It must contain only apples.  
-C. It must be mixed.  
-D. It could be anything.  
+A. Review the paper thoroughly to understand exactly where you lost marks  
+B. Take a day to process it, then plan a revised study schedule  
+C. Meet the teacher to discuss whether there is room for improvement or re-evaluation  
+D. Compare your paper with a topper's to identify the gap in approach  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Requires step-by-step logical deduction from contradictory information.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Complex Deduction and Hidden Assumptions  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
 
 **Question 29**  
 **Category:** Logical & Analytical Reasoning  
 
-Five people A, B, C, D, E are standing in a line. A is not at either end. B is immediately after C. D is not next to E. Who could be at the front of the line?
+Your sibling wants to use your personal tablet for a game, and you have an online class in an hour.  
 
-A. C or E  
-B. Only A  
-C. Only B  
-D. A, B, or D  
+A. Let them use it now and charge it quickly before your class starts  
+B. Explain that you need it soon but offer them your phone instead  
+C. Tell them they can use it after your class is over  
+D. Check how much battery is left and decide based on that  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Practices building possible arrangements from constraints.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Sequence Analysis and Constraint Satisfaction  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 30**  
 **Category:** Logical & Analytical Reasoning  
 
-A puzzle states: "Some engineers are good at drawing. All good drawers are creative." Based on this, which statement must be true?
+A new student joins your class and seems unsure about how things work here.  
 
-A. Some engineers might be creative.  
-B. All engineers are creative.  
-C. No engineer is creative.  
-D. All creative people are engineers.  
+A. Offer to show them around the school on the first day  
+B. Treat them normally and let them adjust at their own pace  
+C. Introduce them to a few students who have similar interests  
+D. Share a printed timetable and some class notes so they feel prepared  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Tests careful interpretation of "some" and "all" statements.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Logical Interpretation of Statements  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
-
-## SECTION F — Financial & Practical Decision Intelligence (Questions 31-34)
 
 **Question 31**  
 **Category:** Financial & Practical Decision Intelligence  
 
-You have ₹5000 saved. You can either buy a new phone now or invest the money for one year where it could grow by 20%. Which choice feels more aligned with long-term thinking?
+Your class is choosing a venue for the farewell party. Two strong options have emerged.  
 
-A. Invest the money because the growth could help buy a better phone later.  
-B. Buy the phone now because you need it immediately.  
-C. Split the money: buy a cheaper phone and invest the rest.  
-D. Keep the money as cash without investing or spending.  
+A. Suggest a vote and accept whatever the majority chooses  
+B. List the pros and cons of each and present them to the class  
+C. Propose a third option that combines the best features of both  
+D. Let the class representatives decide since that is their role  
 
-**Correct Answer:** A or C (depending on need, but A shows delayed gratification)  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals attitude toward delayed gratification and opportunity cost.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Delayed Gratification and Opportunity Cost  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 32**  
 **Category:** Financial & Practical Decision Intelligence  
 
-Two laptops cost the same. One has better battery life but higher repair cost after 2 years. The other has average battery but cheaper repairs. Which factor would you weigh more if you plan to keep it for 4 years?
+You overhear two friends having a disagreement in the corridor.  
 
-A. The total cost including possible repairs over 4 years.  
-B. Only the initial purchase price.  
-C. The brand name of the laptop.  
-D. How it looks and feels on day one.  
+A. Walk past — it is a personal matter between them  
+B. Check on them later individually to see if they are okay  
+C. If it seems serious, inform a teacher nearby  
+D. Bring them together after some time and let them talk it out calmly  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Tests long-term cost-benefit analysis.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Long-term Value Evaluation  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 33**  
 **Category:** Financial & Practical Decision Intelligence  
 
-You need to choose between two routes for a daily commute. Route A saves 20 minutes but costs ₹50 extra in fuel each day. Route B takes longer but is free. Over 20 working days, which calculation helps decide?
+A teacher assigns extra practice problems over the weekend.  
 
-A. Compare total extra fuel cost (₹1000) against the value of 400 minutes saved.  
-B. Always choose the faster route.  
-C. Always choose the cheaper route.  
-D. Choose based on how you feel that morning.  
+A. Complete them on Saturday so Sunday remains free  
+B. Spread them across both days in small sessions  
+C. Do them on Sunday evening when you have a clearer idea of what was covered in class  
+D. Attempt the ones you find challenging and note the rest for doubt-clearing on Monday  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Encourages quantifying trade-offs in recurring decisions.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Resource Allocation and Trade-off Evaluation  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 34**  
 **Category:** Financial & Practical Decision Intelligence  
 
-A machine costs ₹1,00,000. It saves ₹5,000 per month in labor but needs ₹10,000 maintenance every year. After how many months does it start saving money overall (ignoring other factors)?
+You are asked to lead a small team for a science exhibition.  
 
-A. After about 24 months.  
-B. After 12 months.  
-C. After 6 months.  
-D. It never saves money.  
+A. Divide tasks based on each person's strength and check in regularly  
+B. Let the team decide among themselves who does what, and you coordinate  
+C. Take the lead role yourself to ensure the project stays on track  
+D. Set a clear deadline and let everyone work independently until then  
 
-**Correct Answer:** A (net saving calculation: 5000×12 - 10000 = 50000 per year; 100000/50000 = 2 years)  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Tests basic break-even and practical financial thinking.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Practical Financial Judgment  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
-
-## SECTION G — Self-Discovery Through Neutral Situations (Questions 35-40)
 
 **Question 35**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-You spend three hours trying to fix a small electronic toy that still doesn't work. What feels most natural to do next?
+Someone you don't know well borrows a book from you and returns it with a torn page.  
 
-A. Take a short break and come back with a fresh approach.  
-B. Keep trying the same method because it almost worked.  
-C. Look for a completely different way to solve it, even if it means starting over.  
-D. Decide it's not worth the time and move on to something else.  
+A. Accept it quietly — accidents happen and it's not worth making it awkward  
+B. Politely mention the damage so they are aware for next time  
+C. Repair the page yourself and say nothing  
+D. Note it mentally and think twice before lending to them in the future  
 
-**Correct Answer:** Any (reveals persistence style)  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Uncovers natural response to repeated failure without judgment.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Persistence and Reaction to Failure  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 36**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-You are given a new board game with complicated rules. No one has played it before. How do you prefer to start?
+You have an important exam tomorrow and a family function tonight.  
 
-A. Read the entire rulebook carefully first.  
-B. Start playing and figure out rules as you go.  
-C. Watch a short video explanation if available.  
-D. Ask someone who knows similar games for tips.  
+A. Attend the function for a short while, then come home to study  
+B. Skip the function entirely and focus on preparation  
+C. Attend the full function — a relaxed mind studies better than a stressed one  
+D. Attend with your notes and revise during quiet moments at the venue  
 
-**Correct Answer:** Any (reveals learning preference)  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Shows preferred approach to new complex systems.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Learning Orientation and Exploration Style  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 37**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-While working on a group project, the team gets stuck on one part. What role do you naturally take?
+A classmate copies your answer during a quiz. The teacher suspects something.  
 
-A. Suggest breaking the stuck part into smaller questions to tackle one by one.  
-B. Wait for someone else to come up with the next idea.  
-C. Propose trying a completely different direction.  
-D. Focus on finishing the parts that are already working well.  
+A. Tell the teacher honestly if directly asked  
+B. Stay silent and let the teacher handle it their way  
+C. Speak to the classmate privately about it after the quiz  
+D. Mention to the teacher that you noticed something but aren't certain  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals how you handle ambiguity in collaborative settings.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Tolerance for Ambiguity and Leadership Tendency  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 38**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-You build a small model bridge with sticks and glue. It collapses when you test it with weight. What is your immediate feeling?
+You are given a project topic you find uninteresting.  
 
-A. Curious about which part failed and why.  
-B. Disappointed that it didn't work on the first try.  
-C. Ready to rebuild it stronger right away.  
-D. Think about whether building models is the right activity.  
+A. Find one small aspect of the topic that interests you and build from there  
+B. Complete it efficiently with the required information and move on  
+C. Ask the teacher if the scope can be adjusted to include something you enjoy  
+D. Use creative presentation methods to make the topic more engaging for yourself  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Explores emotional response to iterative design failure.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Comfort with Iterative Learning  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 39**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-You have two hours free and a choice between reading about how engines work or playing a strategy video game. Which draws you more?
+Your friend invites you to a movie on the same day you planned to study.  
 
-A. Reading about engines because you want to understand the real mechanism.  
-B. Playing the game because it is interactive and fun.  
-C. Doing both for one hour each.  
-D. Choosing something completely different like drawing.  
+A. Go to the movie — one day of study can be adjusted later  
+B. Decline and stick to your original plan  
+C. Suggest a shorter outing or a different day instead  
+D. Go for the first show and return in time to study in the evening  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Indicates genuine interest in understanding systems vs. other activities.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Curiosity and Preference for Analytical Exploration  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 40**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-After finishing a difficult task that took many attempts, you finally succeed. What do you think about most?
+You notice a small error in the school newsletter that has already been printed.  
 
-A. What you learned from the failed attempts that helped you succeed.  
-B. How good it feels to have finished it.  
-C. Whether you could have done it faster with a different method.  
-D. That you won't have to do something similar again.  
+A. Point it out to the teacher in charge so it can be corrected next time  
+B. Let it be — it is a minor thing and everyone has already received their copy  
+C. Mention it casually to the student editor so they are more careful going forward  
+D. Ignore it unless someone asks you directly about it  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals what you value most in the learning process.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Reflection on Learning and Growth Mindset  
+**Insight Being Measured:** Social Judgment  
 
----
 
 ## How to Use This Assessment
 

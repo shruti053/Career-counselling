@@ -380,368 +380,361 @@ D. How many people viewed the photos.
 **Question 21**  
 **Category:** Analytical Investigation & Problem Decomposition  
 
-A prediction system works well on weekdays but performs poorly on weekends. What aspect seems worth improving?
+Your friend asks for help with homework the night before it's due. You have your own work to finish.  
 
-A. Understanding what is different about weekend data compared to weekday data.  
-B. Ignoring weekend performance.  
-C. Using the same model without changes.  
-D. Blaming users for weekend behavior.  
+A. Share your completed work so they can use it as a reference  
+B. Spend an hour explaining the difficult parts and let them finish the rest  
+C. Tell them you're busy tonight but offer to help them the next day after school  
+D. Suggest they check the textbook examples since the homework is based on those  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Encourages investigating context-specific performance differences.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Context-Aware Performance Analysis  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 22**  
 **Category:** Analytical Investigation & Problem Decomposition  
 
-A game AI wins against most players but loses consistently to one particular strategy. What would help improve it?
+During a class debate, a student makes a point that is factually incorrect, but the teacher doesn't notice.  
 
-A. Studying the specific strategy that defeats it and adding examples of how to respond.  
-B. Assuming the strategy is cheating.  
-C. Stopping the game when that strategy appears.  
-D. Making the AI play randomly.  
+A. Raise your hand and politely correct the information  
+B. Note it down and speak to the teacher privately after class  
+C. Say nothing — the teacher may already know and is testing the class  
+D. Ask a follow-up question that gently leads the class to notice the error  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Links failure analysis to targeted improvement through new examples.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Learning From Specific Failures  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 23**  
 **Category:** Analytical Investigation & Problem Decomposition  
 
-A language system gives good answers for common questions but struggles with unusual phrasing. What feels most useful to do?
+You are assigned a group project and one member has not contributed anything with two days left.  
 
-A. Collect more examples of unusual phrasing and how they should be answered.  
-B. Remove all unusual questions from the system.  
-C. Assume the system can never handle unusual cases.  
-D. Tell users to only ask common questions.  
+A. Redistribute the remaining work among the active members to ensure quality  
+B. Contact the absent member directly and ask what is holding them back  
+C. Inform the teacher so the grading can reflect actual individual effort  
+D. Complete the missing portion yourself to protect the group's overall grade  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Shows preference for expanding the system’s experience rather than restricting inputs.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Iterative Improvement Through Expanded Examples  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 24**  
 **Category:** Analytical Investigation & Problem Decomposition  
 
-A recommendation system suggests items that users rarely choose. What would you naturally want to understand?
+You notice a classmate sitting alone during lunch break every day.  
 
-A. Whether the examples used to train the system no longer match current user preferences.  
-B. That users are simply difficult to please.  
-C. The exact time each suggestion was made.  
-D. The color of the recommendation interface.  
+A. Invite them to join your group for that day  
+B. Sit with them for a while and see if they seem comfortable  
+C. Ask a mutual friend to help bring them into the group gradually  
+D. Respect that some people prefer quiet time and give them space  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Connects poor suggestions to possible mismatch between training data and reality.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Detecting Distribution Shift in Data  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
-
-## SECTION E — Logical & Critical Reasoning (Questions 25-30)
 
 **Question 25**  
 **Category:** Logical & Critical Reasoning  
 
-A system claims it can predict student success based on 50 examples. The examples all come from one school. What is important to consider?
+Your parents have enrolled you in a weekend class that takes away your free time.  
 
-A. The system may not work well for students from other schools because the examples are limited.  
-B. 50 examples are always enough for any prediction.  
-C. The system will work perfectly everywhere.  
-D. School location has no effect on predictions.  
+A. Attend without complaint since your parents are investing in your future  
+B. Explain to your parents that you need some personal time to recharge  
+C. Try attending for a few weeks, then evaluate if it's actually helping you  
+D. Ask if the schedule can be adjusted rather than refusing outright  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Highlights the risk of limited or non-representative examples.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Recognizing Limitations of Narrow Training Data  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 26**  
 **Category:** Logical & Critical Reasoning  
 
-An impressive result shows that a system correctly identified 95% of cats in 1,000 photos. What additional information would help evaluate the claim?
+A friend confides in you about a personal problem and asks you not to tell anyone. Later, you think an adult should know.  
 
-A. How many non-cat photos were tested and how many were mistakenly labeled as cats.  
-B. Only the 95% number.  
-C. The brand of camera used for the photos.  
-D. How long the system took to process each photo.  
+A. Respect the promise and keep the information to yourself  
+B. Encourage your friend to speak to an adult themselves, offering to go with them  
+C. Speak to a trusted adult yourself, without revealing your friend's identity  
+D. Wait and see if the situation resolves before taking any action  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Emphasizes the need for full performance metrics, not just one number.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Critical Evaluation of Performance Claims  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 27**  
 **Category:** Logical & Critical Reasoning  
 
-A pattern appears in data from one month: people who buy item A also buy item B. What is a careful interpretation?
+During a school trip, your group reaches a place where everyone has two hours of free time.  
 
-A. The connection may exist in that month, but it could be temporary or caused by something else.  
-B. Buying A definitely causes people to buy B.  
-C. The pattern will continue forever.  
-D. The pattern is meaningless.  
+A. Explore the area with your friends while staying within the agreed boundary  
+B. Visit the information centre and learn about the place first  
+C. Stay with the group and follow what the majority decides  
+D. Find a quiet spot to rest and observe your surroundings alone  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Encourages caution about generalizing from limited time periods.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Avoiding Overgeneralization From Limited Data  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
 
 **Question 28**  
 **Category:** Logical & Critical Reasoning  
 
-A study concludes that a new learning method is better because students using it scored higher. The study only tested highly motivated volunteers. What is important to consider?
+You receive a test result that is lower than what you expected.  
 
-A. The results may not apply to students who are less motivated or were not volunteers.  
-B. The method is proven to work for everyone.  
-C. Motivation has no effect on learning.  
-D. Volunteer status does not matter.  
+A. Review the paper thoroughly to understand exactly where you lost marks  
+B. Take a day to process it, then plan a revised study schedule  
+C. Meet the teacher to discuss whether there is room for improvement or re-evaluation  
+D. Compare your paper with a topper's to identify the gap in approach  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Shows awareness of selection bias in evaluating methods.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Recognizing Selection Bias in Studies  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
 
 **Question 29**  
 **Category:** Logical & Critical Reasoning  
 
-Two systems are compared. System A performs slightly better on average. However, System B performs much better on the most difficult cases. Which conclusion is most reasonable?
+Your sibling wants to use your personal tablet for a game, and you have an online class in an hour.  
 
-A. Which system is better depends on whether difficult cases are more important than average performance.  
-B. System A is clearly superior.  
-C. System B is clearly superior.  
-D. Neither system should be used.  
+A. Let them use it now and charge it quickly before your class starts  
+B. Explain that you need it soon but offer them your phone instead  
+C. Tell them they can use it after your class is over  
+D. Check how much battery is left and decide based on that  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Demonstrates that “better on average” is not always the full story.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Evaluating Trade-offs in Performance Metrics  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 30**  
 **Category:** Logical & Critical Reasoning  
 
-A system learns from user feedback and improves over time. After several months, its suggestions become less relevant. What is a possible explanation?
+A new student joins your class and seems unsure about how things work here.  
 
-A. User preferences may have changed, making the older examples less relevant.  
-B. The system has learned everything possible.  
-C. Feedback can never improve a system.  
-D. Users are giving incorrect feedback on purpose.  
+A. Offer to show them around the school on the first day  
+B. Treat them normally and let them adjust at their own pace  
+C. Introduce them to a few students who have similar interests  
+D. Share a printed timetable and some class notes so they feel prepared  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Illustrates concept drift — when the world changes faster than the system learns.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Understanding Concept Drift in Learning Systems  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
-
-## SECTION F — Ethics, Fairness & Practical Decision Intelligence (Questions 31-34)
 
 **Question 31**  
 **Category:** Ethics, Fairness & Practical Decision Intelligence  
 
-A system that approves loan applications is very accurate overall but rejects more applications from one particular group even when their qualifications are similar. What consideration would be important?
+Your class is choosing a venue for the farewell party. Two strong options have emerged.  
 
-A. Whether the system’s accuracy comes at the cost of treating different groups unfairly.  
-B. That overall accuracy is the only thing that matters.  
-C. That fairness is impossible to achieve in any system.  
-D. That the group should simply apply more times.  
+A. Suggest a vote and accept whatever the majority chooses  
+B. List the pros and cons of each and present them to the class  
+C. Propose a third option that combines the best features of both  
+D. Let the class representatives decide since that is their role  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Highlights the tension between overall performance and fairness across groups.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Awareness of Fairness vs Efficiency Trade-offs  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 32**  
 **Category:** Ethics, Fairness & Practical Decision Intelligence  
 
-A recommendation system can be made slightly more accurate by collecting more personal information from users. What would be a useful way to decide?
+You overhear two friends having a disagreement in the corridor.  
 
-A. Consider whether the accuracy gain justifies asking users for more information they may prefer not to share.  
-B. Always collect as much information as possible.  
-C. Never collect any personal information.  
-D. Decide based only on what other apps are doing.  
+A. Walk past — it is a personal matter between them  
+B. Check on them later individually to see if they are okay  
+C. If it seems serious, inform a teacher nearby  
+D. Bring them together after some time and let them talk it out calmly  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Shows thoughtful evaluation of privacy versus performance.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Privacy vs Performance Trade-off Thinking  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 33**  
 **Category:** Ethics, Fairness & Practical Decision Intelligence  
 
-Two approaches exist for a content moderation system. One is faster but occasionally removes acceptable content. The other is slower but more careful. How would you evaluate them?
+A teacher assigns extra practice problems over the weekend.  
 
-A. Consider the consequences of removing acceptable content versus the impact of slower decisions.  
-B. Always choose the faster approach.  
-C. Always choose the slower approach.  
-D. Choose randomly.  
+A. Complete them on Saturday so Sunday remains free  
+B. Spread them across both days in small sessions  
+C. Do them on Sunday evening when you have a clearer idea of what was covered in class  
+D. Attempt the ones you find challenging and note the rest for doubt-clearing on Monday  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Encourages weighing different types of errors and their real-world effects.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Error Cost Evaluation in Decision Systems  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 34**  
 **Category:** Ethics, Fairness & Practical Decision Intelligence  
 
-A predictive system works well for the majority of users but performs poorly for a small minority. What would be a reasonable consideration?
+You are asked to lead a small team for a science exhibition.  
 
-A. Whether improving performance for the minority is worth additional effort or resources.  
-B. That the minority does not matter because they are few.  
-C. That the system should be abandoned completely.  
-D. That the minority should change their behavior.  
+A. Divide tasks based on each person's strength and check in regularly  
+B. Let the team decide among themselves who does what, and you coordinate  
+C. Take the lead role yourself to ensure the project stays on track  
+D. Set a clear deadline and let everyone work independently until then  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Tests balancing majority performance with minority inclusion.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Inclusive Performance Considerations  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
-
-## SECTION G — Self-Discovery Through Neutral Situations (Questions 35-40)
 
 **Question 35**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-After improving a solution repeatedly based on feedback, it still makes unexpected mistakes in new situations. What naturally feels most meaningful to do next?
+Someone you don't know well borrows a book from you and returns it with a torn page.  
 
-A. Explore what kinds of new situations expose the remaining weaknesses.  
-B. Feel that further improvement is impossible.  
-C. Blame the feedback for being inconsistent.  
-D. Stop using feedback entirely.  
+A. Accept it quietly — accidents happen and it's not worth making it awkward  
+B. Politely mention the damage so they are aware for next time  
+C. Repair the page yourself and say nothing  
+D. Note it mentally and think twice before lending to them in the future  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals response to persistent imperfection after iteration.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Iterative Thinking and Persistence  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 36**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-You notice that two people learn very different things from the exact same set of examples. What would you naturally want to understand?
+You have an important exam tomorrow and a family function tonight.  
 
-A. What differences in attention or prior experience might lead to different conclusions from the same examples.  
-B. That one person must be learning incorrectly.  
-C. That examples should never be shared.  
-D. That learning is completely random.  
+A. Attend the function for a short while, then come home to study  
+B. Skip the function entirely and focus on preparation  
+C. Attend the full function — a relaxed mind studies better than a stressed one  
+D. Attend with your notes and revise during quiet moments at the venue  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Shows curiosity about individual differences in learning from examples.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Interest in Variation in Learning  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 37**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-When a prediction you expected turns out to be wrong, what feels most natural?
+A classmate copies your answer during a quiz. The teacher suspects something.  
 
-A. Want to understand what information was missing or what assumption was incorrect.  
-B. Feel that predictions are never useful.  
-C. Ignore the incorrect prediction.  
-D. Assume the input data was wrong.  
+A. Tell the teacher honestly if directly asked  
+B. Stay silent and let the teacher handle it their way  
+C. Speak to the classmate privately about it after the quiz  
+D. Mention to the teacher that you noticed something but aren't certain  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Explores how you treat prediction errors.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Learning Orientation From Mistakes  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 38**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-You are shown two systems that perform the same task. One is slightly more accurate but harder to understand. The other is slightly less accurate but easier to understand. Which feels more appealing to you?
+You are given a project topic you find uninteresting.  
 
-A. The easier-to-understand system, even if accuracy is a bit lower.  
-B. The more accurate system, regardless of understandability.  
-C. Neither system.  
-D. A completely different approach.  
+A. Find one small aspect of the topic that interests you and build from there  
+B. Complete it efficiently with the required information and move on  
+C. Ask the teacher if the scope can be adjusted to include something you enjoy  
+D. Use creative presentation methods to make the topic more engaging for yourself  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals preference between accuracy and interpretability.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Interpretability vs Accuracy Preference  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 39**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-When building or improving something step by step, you notice that each small improvement reveals new problems you did not see before. How do you usually respond?
+Your friend invites you to a movie on the same day you planned to study.  
 
-A. Feel that this is a normal part of the process and continue refining.  
-B. Feel frustrated that progress creates new issues.  
-C. Prefer to make one large change instead of many small ones.  
-D. Stop improving once the first version works.  
+A. Go to the movie — one day of study can be adjusted later  
+B. Decline and stick to your original plan  
+C. Suggest a shorter outing or a different day instead  
+D. Go for the first show and return in time to study in the evening  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Indicates comfort with the iterative, revealing nature of improvement.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Comfort With Iterative Discovery  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 40**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-You realize that a conclusion you reached about how something learns was based on an assumption that may not always be true. What feels most natural?
+You notice a small error in the school newsletter that has already been printed.  
 
-A. Update your understanding and consider how the conclusion might change.  
-B. Keep the original conclusion because changing it feels inconvenient.  
-C. Decide that no conclusions can ever be trusted.  
-D. Ignore the assumption completely.  
+A. Point it out to the teacher in charge so it can be corrected next time  
+B. Let it be — it is a minor thing and everyone has already received their copy  
+C. Mention it casually to the student editor so they are more careful going forward  
+D. Ignore it unless someone asks you directly about it  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Explores willingness to revise mental models when assumptions are questioned.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Evidence-Based Adaptability  
+**Insight Being Measured:** Social Judgment  
 
----
 
 ## How to Use This Assessment
 

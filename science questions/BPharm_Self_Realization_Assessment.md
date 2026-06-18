@@ -380,368 +380,361 @@ D. Whether any step can be removed without checking consequences.
 **Question 21**  
 **Category:** Pharmaceutical Aptitude & Systems Thinking  
 
-Two versions of a product appear equally effective, but one has more consistent results across different conditions. What aspect seems worth exploring?
+Your friend asks for help with homework the night before it's due. You have your own work to finish.  
 
-A. What causes the variation in the less consistent version and whether it can be reduced.  
-B. Which version is cheaper to produce.  
-C. Which version looks better.  
-D. Whether both versions can be mixed together.  
+A. Share your completed work so they can use it as a reference  
+B. Spend an hour explaining the difficult parts and let them finish the rest  
+C. Tell them you're busy tonight but offer to help them the next day after school  
+D. Suggest they check the textbook examples since the homework is based on those  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Indicates interest in consistency and quality control.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Quality and Variability Awareness  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 22**  
 **Category:** Pharmaceutical Aptitude & Systems Thinking  
 
-A new ingredient is being considered for a product. It improves one property but may affect another property slightly. What would you want to understand next?
+During a class debate, a student makes a point that is factually incorrect, but the teacher doesn't notice.  
 
-A. How the change in one property might influence the overall performance and safety.  
-B. Whether the ingredient is the most expensive option.  
-C. Whether the ingredient has been used before by others.  
-D. How quickly the change can be implemented.  
+A. Raise your hand and politely correct the information  
+B. Note it down and speak to the teacher privately after class  
+C. Say nothing — the teacher may already know and is testing the class  
+D. Ask a follow-up question that gently leads the class to notice the error  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Tests holistic thinking about trade-offs in formulation.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Systems Thinking and Trade-off Evaluation  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 23**  
 **Category:** Pharmaceutical Aptitude & Systems Thinking  
 
-During a routine check, a small deviation is noticed in one step of a long process. What feels most natural to do?
+You are assigned a group project and one member has not contributed anything with two days left.  
 
-A. Investigate whether this small change could affect later steps or the final product.  
-B. Ignore it because it is small.  
-C. Stop the entire process immediately.  
-D. Change all future steps without checking the cause.  
+A. Redistribute the remaining work among the active members to ensure quality  
+B. Contact the absent member directly and ask what is holding them back  
+C. Inform the teacher so the grading can reflect actual individual effort  
+D. Complete the missing portion yourself to protect the group's overall grade  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals sensitivity to how small changes can propagate through systems.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Safety Awareness and Ripple Effect Thinking  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 24**  
 **Category:** Pharmaceutical Aptitude & Systems Thinking  
 
-A product meets all requirements but could be made slightly more efficient with one additional step. What consideration would guide your decision?
+You notice a classmate sitting alone during lunch break every day.  
 
-A. Whether the benefit of the extra step justifies the added complexity and time.  
-B. Always add the step because more steps mean better quality.  
-C. Never add steps because simplicity is always better.  
-D. Decide based only on what competitors are doing.  
+A. Invite them to join your group for that day  
+B. Sit with them for a while and see if they seem comfortable  
+C. Ask a mutual friend to help bring them into the group gradually  
+D. Respect that some people prefer quiet time and give them space  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Shows balanced judgment between optimization and practicality.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Optimization and Practical Decision-Making  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
-
-## SECTION E — Logical & Analytical Reasoning (Questions 25-30)
 
 **Question 25**  
 **Category:** Logical & Analytical Reasoning  
 
-All medicines of a certain type must be stored below a specific temperature. A batch was accidentally kept at a higher temperature for one day. What can you conclude?
+Your parents have enrolled you in a weekend class that takes away your free time.  
 
-A. The batch should be checked to see if its quality was affected before deciding its use.  
-B. The batch is definitely unsafe and must be discarded.  
-C. Temperature has no effect on medicines.  
-D. The medicine will become stronger after being kept warm.  
+A. Attend without complaint since your parents are investing in your future  
+B. Explain to your parents that you need some personal time to recharge  
+C. Try attending for a few weeks, then evaluate if it's actually helping you  
+D. Ask if the schedule can be adjusted rather than refusing outright  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Tests cautious interpretation of storage guideline violations.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Evidence-Based Decision-Making  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 26**  
 **Category:** Logical & Analytical Reasoning  
 
-In a study, people who took a particular supplement regularly reported fewer seasonal discomforts than those who did not. Which conclusion is most reasonable?
+A friend confides in you about a personal problem and asks you not to tell anyone. Later, you think an adult should know.  
 
-A. The supplement may be associated with the reported difference, but other factors could also play a role.  
-B. The supplement completely prevents all seasonal discomforts.  
-C. People who take supplements are always healthier in every way.  
-D. The supplement has no connection to the reported difference.  
+A. Respect the promise and keep the information to yourself  
+B. Encourage your friend to speak to an adult themselves, offering to go with them  
+C. Speak to a trusted adult yourself, without revealing your friend's identity  
+D. Wait and see if the situation resolves before taking any action  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Encourages balanced interpretation of observed associations.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Careful Evidence Interpretation  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 27**  
 **Category:** Logical & Analytical Reasoning  
 
-A statement on a product label says: "If stored properly, this product remains effective for two years." A customer stored it correctly for 18 months. What follows logically?
+During a school trip, your group reaches a place where everyone has two hours of free time.  
 
-A. The product is likely still within its effective period, but checking the expiry date is advisable.  
-B. The product has definitely lost all effectiveness.  
-C. The label information must be incorrect.  
-D. The product will remain effective forever.  
+A. Explore the area with your friends while staying within the agreed boundary  
+B. Visit the information centre and learn about the place first  
+C. Stay with the group and follow what the majority decides  
+D. Find a quiet spot to rest and observe your surroundings alone  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Tests application of conditional product information.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Interpreting Product Guidelines  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
 
 **Question 28**  
 **Category:** Logical & Analytical Reasoning  
 
-Three people who started using the same new product around the same time report similar mild reactions. What would be a reasonable first step?
+You receive a test result that is lower than what you expected.  
 
-A. Look for what they have in common and whether others using the product experienced the same.  
-B. Assume the product is unsafe for everyone.  
-C. Tell them the reactions are unrelated to the product.  
-D. Ignore the reports because only three people are affected.  
+A. Review the paper thoroughly to understand exactly where you lost marks  
+B. Take a day to process it, then plan a revised study schedule  
+C. Meet the teacher to discuss whether there is room for improvement or re-evaluation  
+D. Compare your paper with a topper's to identify the gap in approach  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Promotes systematic investigation of patterns.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Pattern Recognition and Investigation  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
 
 **Question 29**  
 **Category:** Logical & Analytical Reasoning  
 
-A new method of preparing a product shows better results in laboratory conditions but slightly different results in real use. What would be a thoughtful approach?
+Your sibling wants to use your personal tablet for a game, and you have an online class in an hour.  
 
-A. Investigate what factors in real use might cause the difference and whether they can be addressed.  
-B. Reject the new method completely.  
-C. Assume the laboratory results were wrong.  
-D. Use the new method without any changes.  
+A. Let them use it now and charge it quickly before your class starts  
+B. Explain that you need it soon but offer them your phone instead  
+C. Tell them they can use it after your class is over  
+D. Check how much battery is left and decide based on that  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Shows interest in understanding context-dependent outcomes.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Adaptability and Context Awareness  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 30**  
 **Category:** Logical & Analytical Reasoning  
 
-Research shows that a particular storage condition improves product stability for most batches, but a few batches behave differently. What does this suggest?
+A new student joins your class and seems unsure about how things work here.  
 
-A. General patterns can exist while individual batches may still vary due to other factors.  
-B. The research must be completely incorrect.  
-C. Storage conditions have no effect on any batch.  
-D. All batches will always behave identically.  
+A. Offer to show them around the school on the first day  
+B. Treat them normally and let them adjust at their own pace  
+C. Introduce them to a few students who have similar interests  
+D. Share a printed timetable and some class notes so they feel prepared  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Tests comfort with general findings alongside exceptions.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Comfort with Variability in Scientific Findings  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
-
-## SECTION F — Financial & Practical Decision Intelligence (Questions 31-34)
 
 **Question 31**  
 **Category:** Financial & Practical Decision Intelligence  
 
-A pharmacy has two options for packaging material: a lower-cost option that may not protect the product as well over time, or a higher-cost option that offers better protection. How would you weigh the choice?
+Your class is choosing a venue for the farewell party. Two strong options have emerged.  
 
-A. Consider the total impact on product quality, customer satisfaction, and potential waste over time.  
-B. Always choose the cheaper option to reduce immediate costs.  
-C. Always choose the expensive option without checking necessity.  
-D. Decide based only on what other pharmacies are using.  
+A. Suggest a vote and accept whatever the majority chooses  
+B. List the pros and cons of each and present them to the class  
+C. Propose a third option that combines the best features of both  
+D. Let the class representatives decide since that is their role  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals long-term thinking about quality versus cost.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Resource Optimization and Long-Term Perspective  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 32**  
 **Category:** Financial & Practical Decision Intelligence  
 
-A pharmacy has limited space and must choose between stocking more varieties of a few products or fewer varieties of many products. What consideration would guide the decision?
+You overhear two friends having a disagreement in the corridor.  
 
-A. Which option better meets customer needs while managing inventory efficiently.  
-B. Always stock the maximum number of products.  
-C. Always stock only the cheapest products.  
-D. Choose whichever option requires less planning.  
+A. Walk past — it is a personal matter between them  
+B. Check on them later individually to see if they are okay  
+C. If it seems serious, inform a teacher nearby  
+D. Bring them together after some time and let them talk it out calmly  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Tests balancing variety, demand, and practical constraints.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Inventory and Demand Judgment  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 33**  
 **Category:** Financial & Practical Decision Intelligence  
 
-A pharmacy can either invest in better storage equipment now or continue with current equipment and handle occasional product replacements later. How would you evaluate this?
+A teacher assigns extra practice problems over the weekend.  
 
-A. Compare the upfront cost against the expected reduction in product loss and improved reliability over time.  
-B. Always invest in new equipment immediately.  
-C. Never invest in new equipment.  
-D. Decide based only on the current month's budget.  
+A. Complete them on Saturday so Sunday remains free  
+B. Spread them across both days in small sessions  
+C. Do them on Sunday evening when you have a clearer idea of what was covered in class  
+D. Attempt the ones you find challenging and note the rest for doubt-clearing on Monday  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Encourages cost-benefit thinking with future risk consideration.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Investment Evaluation and Risk Management  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 34**  
 **Category:** Financial & Practical Decision Intelligence  
 
-A new service could help customers but requires staff training and some reorganization of workflow. What would be a useful way to assess whether to implement it?
+You are asked to lead a small team for a science exhibition.  
 
-A. Weigh the potential benefit to customers against the time, cost, and effort required to maintain quality.  
-B. Implement it immediately because it is new.  
-C. Reject it because any change involves effort.  
-D. Copy whatever a neighboring pharmacy is doing.  
+A. Divide tasks based on each person's strength and check in regularly  
+B. Let the team decide among themselves who does what, and you coordinate  
+C. Take the lead role yourself to ensure the project stays on track  
+D. Set a clear deadline and let everyone work independently until then  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Promotes thoughtful evaluation of service improvements.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Practical Innovation and Trade-off Analysis  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
-
-## SECTION G — Self-Discovery Through Neutral Situations (Questions 35-40)
 
 **Question 35**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-You notice that changing one small step in a familiar process produces a slightly different result. What feels most meaningful to understand next?
+Someone you don't know well borrows a book from you and returns it with a torn page.  
 
-A. Why that particular step influences the outcome and whether the change is consistent.  
-B. Whether you can return to the original method quickly.  
-C. Whether anyone else noticed the difference.  
-D. How to avoid noticing such small changes in future.  
+A. Accept it quietly — accidents happen and it's not worth making it awkward  
+B. Politely mention the damage so they are aware for next time  
+C. Repair the page yourself and say nothing  
+D. Note it mentally and think twice before lending to them in the future  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Explores natural curiosity about cause-and-effect relationships.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Scientific Curiosity and Process Awareness  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 36**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-While following a set of instructions for a task, you realize one instruction could be interpreted in two slightly different ways. How do you usually respond?
+You have an important exam tomorrow and a family function tonight.  
 
-A. Consider both interpretations and choose the one that seems more reliable or safer.  
-B. Pick the first interpretation that comes to mind.  
-C. Assume both interpretations will give the same result.  
-D. Skip that instruction and continue with the rest.  
+A. Attend the function for a short while, then come home to study  
+B. Skip the function entirely and focus on preparation  
+C. Attend the full function — a relaxed mind studies better than a stressed one  
+D. Attend with your notes and revise during quiet moments at the venue  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals how you handle ambiguity in instructions.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Responsibility Under Ambiguity  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 37**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-You are working on a task where results improve only after several careful adjustments over time. How do you usually feel about this gradual progress?
+A classmate copies your answer during a quiz. The teacher suspects something.  
 
-A. Interested in seeing how each small change contributes to the final improvement.  
-B. Impatient to reach the end result quickly.  
-C. Prefer to make one large change instead of many small ones.  
-D. Feel that gradual improvement is not worth the effort.  
+A. Tell the teacher honestly if directly asked  
+B. Stay silent and let the teacher handle it their way  
+C. Speak to the classmate privately about it after the quiz  
+D. Mention to the teacher that you noticed something but aren't certain  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Indicates comfort with incremental, evidence-based improvement.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Patience and Persistence in Refinement  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 38**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-After completing a task, you discover that a small detail you paid attention to earlier made a meaningful difference in the outcome. What do you usually think?
+You are given a project topic you find uninteresting.  
 
-A. It is useful to understand why that detail mattered so you can apply it again.  
-B. The detail was probably just luck.  
-C. You prefer not to think about past tasks once they are finished.  
-D. Small details rarely make any real difference.  
+A. Find one small aspect of the topic that interests you and build from there  
+B. Complete it efficiently with the required information and move on  
+C. Ask the teacher if the scope can be adjusted to include something you enjoy  
+D. Use creative presentation methods to make the topic more engaging for yourself  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Shows whether you reflect on the value of attention to detail.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Reflective Thinking and Learning Orientation  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 39**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-You are given information about a process that worked well in one situation but may not work the same way in another situation. How do you naturally approach this?
+Your friend invites you to a movie on the same day you planned to study.  
 
-A. Look for what might be different between the two situations and how that could affect the result.  
-B. Assume the process will work exactly the same everywhere.  
-C. Decide not to use the process at all.  
-D. Use the process without considering differences.  
+A. Go to the movie — one day of study can be adjusted later  
+B. Decline and stick to your original plan  
+C. Suggest a shorter outing or a different day instead  
+D. Go for the first show and return in time to study in the evening  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals systems thinking and context sensitivity.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Adaptability and Context Awareness  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 40**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-When new information suggests that an earlier assumption about a task may need to be revised, how do you usually respond?
+You notice a small error in the school newsletter that has already been printed.  
 
-A. Consider updating your approach based on the new information.  
-B. Feel reluctant to change what was already decided.  
-C. Ignore the new information to avoid extra work.  
-D. Assume the earlier assumption must still be correct.  
+A. Point it out to the teacher in charge so it can be corrected next time  
+B. Let it be — it is a minor thing and everyone has already received their copy  
+C. Mention it casually to the student editor so they are more careful going forward  
+D. Ignore it unless someone asks you directly about it  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Explores openness to revising thinking when evidence changes.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Evidence-Based Reasoning and Flexibility  
+**Insight Being Measured:** Social Judgment  
 
----
 
 ## How to Use This Assessment
 

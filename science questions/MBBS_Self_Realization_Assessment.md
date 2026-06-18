@@ -380,368 +380,361 @@ D. The color of the room where they usually sit in the evening.
 **Question 21**  
 **Category:** Clinical Reasoning & Observation  
 
-Someone describes feeling "dizzy" but when asked to explain, they say the room seems to spin for a few seconds when they stand up quickly. What would you naturally want to clarify next?
+Your friend asks for help with homework the night before it's due. You have your own work to finish.  
 
-A. How long the spinning lasts and whether it happens every time they stand.  
-B. What they were thinking about just before standing up.  
-C. Whether they like the color of their room.  
-D. How many times they have stood up in their life.  
+A. Share your completed work so they can use it as a reference  
+B. Spend an hour explaining the difficult parts and let them finish the rest  
+C. Tell them you're busy tonight but offer to help them the next day after school  
+D. Suggest they check the textbook examples since the homework is based on those  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Shows preference for clarifying the exact nature and triggers of a symptom.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Clarifying Ambiguous Descriptions  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 22**  
 **Category:** Clinical Reasoning & Observation  
 
-A student reports feeling very tired during the day even after sleeping at night. Which piece of information would you find most useful to explore first?
+During a class debate, a student makes a point that is factually incorrect, but the teacher doesn't notice.  
 
-A. Whether their sleep timing has changed recently or they wake up multiple times.  
-B. What subjects they study in the evening.  
-C. How many friends they have in class.  
-D. The brand of their pillow.  
+A. Raise your hand and politely correct the information  
+B. Note it down and speak to the teacher privately after class  
+C. Say nothing — the teacher may already know and is testing the class  
+D. Ask a follow-up question that gently leads the class to notice the error  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Directs attention to sleep quality and patterns as a key factor.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Identifying Relevant Contextual Information  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 23**  
 **Category:** Clinical Reasoning & Observation  
 
-During a conversation, a person keeps touching their stomach area while talking about stomach pain. What would this action make you notice?
+You are assigned a group project and one member has not contributed anything with two days left.  
 
-A. The location and possibly the intensity of discomfort they are experiencing.  
-B. That they are nervous about talking.  
-C. That they have a habit of touching their stomach.  
-D. That they want you to stop asking questions.  
+A. Redistribute the remaining work among the active members to ensure quality  
+B. Contact the absent member directly and ask what is holding them back  
+C. Inform the teacher so the grading can reflect actual individual effort  
+D. Complete the missing portion yourself to protect the group's overall grade  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Tests noticing non-verbal cues that point to physical location of issues.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Attention to Non-Verbal Indicators  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 24**  
 **Category:** Clinical Reasoning & Observation  
 
-An elderly person says they feel unsteady while walking but adds that it only happens in the evening. What would you naturally want to know next?
+You notice a classmate sitting alone during lunch break every day.  
 
-A. Whether they have eaten less or taken any new medicines that day.  
-B. What they usually do in the morning.  
-C. How many times they have fallen in their entire life.  
-D. The color of their walking shoes.  
+A. Invite them to join your group for that day  
+B. Sit with them for a while and see if they seem comfortable  
+C. Ask a mutual friend to help bring them into the group gradually  
+D. Respect that some people prefer quiet time and give them space  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Encourages linking timing of symptoms to possible daily changes.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Connecting Timing with Potential Contributing Factors  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
-
-## SECTION E — Logical & Analytical Reasoning (Questions 25-30)
 
 **Question 25**  
 **Category:** Logical & Analytical Reasoning  
 
-All patients who take a certain medicine are advised to avoid driving for a few hours after the dose. Mr. Sharma took this medicine this morning. What can you conclude?
+Your parents have enrolled you in a weekend class that takes away your free time.  
 
-A. Mr. Sharma should avoid driving for a few hours.  
-B. Mr. Sharma will definitely feel sleepy.  
-C. Mr. Sharma never drives anyway.  
-D. The medicine has no effect on anyone.  
+A. Attend without complaint since your parents are investing in your future  
+B. Explain to your parents that you need some personal time to recharge  
+C. Try attending for a few weeks, then evaluate if it's actually helping you  
+D. Ask if the schedule can be adjusted rather than refusing outright  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Tests applying general medical advice to a specific case without overgeneralizing.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Applying Rules to Specific Situations  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 26**  
 **Category:** Logical & Analytical Reasoning  
 
-In a village health survey, it was found that people who drink boiled water have fewer stomach issues than those who drink water directly from the well. Which conclusion is most reasonable?
+A friend confides in you about a personal problem and asks you not to tell anyone. Later, you think an adult should know.  
 
-A. Boiling water may be reducing something in the well water that causes stomach issues.  
-B. People who boil water are always healthier in every way.  
-C. Well water is completely safe and boiling makes no difference.  
-D. Stomach issues have nothing to do with water.  
+A. Respect the promise and keep the information to yourself  
+B. Encourage your friend to speak to an adult themselves, offering to go with them  
+C. Speak to a trusted adult yourself, without revealing your friend's identity  
+D. Wait and see if the situation resolves before taking any action  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Encourages cautious interpretation of observed associations.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Evidence Interpretation Without Overclaiming  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 27**  
 **Category:** Logical & Analytical Reasoning  
 
-A statement in a health article says: "If a person has high fever for more than three days, they should consult a doctor." A person has had high fever for four days. What follows logically?
+During a school trip, your group reaches a place where everyone has two hours of free time.  
 
-A. They should consult a doctor, but other reasons for fever could also exist.  
-B. They definitely have a serious disease.  
-C. They should never consult a doctor.  
-D. The statement must be wrong.  
+A. Explore the area with your friends while staying within the agreed boundary  
+B. Visit the information centre and learn about the place first  
+C. Stay with the group and follow what the majority decides  
+D. Find a quiet spot to rest and observe your surroundings alone  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Tests understanding of conditional medical advice.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Interpreting Conditional Health Recommendations  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
 
 **Question 28**  
 **Category:** Logical & Analytical Reasoning  
 
-Three people report the same symptom after eating at the same restaurant. What is the most logical next step?
+You receive a test result that is lower than what you expected.  
 
-A. Check what they all ate in common and whether others who ate the same thing also have symptoms.  
-B. Assume the restaurant is always unsafe.  
-C. Tell them it must be something they ate at home.  
-D. Ignore the reports because three people are too few.  
+A. Review the paper thoroughly to understand exactly where you lost marks  
+B. Take a day to process it, then plan a revised study schedule  
+C. Meet the teacher to discuss whether there is room for improvement or re-evaluation  
+D. Compare your paper with a topper's to identify the gap in approach  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Promotes systematic investigation of common factors.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Systematic Investigation of Patterns  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
 
 **Question 29**  
 **Category:** Logical & Analytical Reasoning  
 
-A new health guideline says some vaccines work better when given at a specific age. A child is slightly older than that age. What would be a reasonable approach?
+Your sibling wants to use your personal tablet for a game, and you have an online class in an hour.  
 
-A. Check with a healthcare provider whether the vaccine is still recommended and effective.  
-B. Assume the vaccine will not work at all.  
-C. Never give any vaccine after that exact age.  
-D. Give the vaccine immediately without asking.  
+A. Let them use it now and charge it quickly before your class starts  
+B. Explain that you need it soon but offer them your phone instead  
+C. Tell them they can use it after your class is over  
+D. Check how much battery is left and decide based on that  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Shows balanced decision-making when guidelines have age considerations.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Nuanced Application of Guidelines  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 30**  
 **Category:** Logical & Analytical Reasoning  
 
-Research shows that people who walk daily report better mood on average. However, some people who walk daily still report low mood. What does this suggest?
+A new student joins your class and seems unsure about how things work here.  
 
-A. Walking may help many people but does not guarantee improvement for everyone.  
-B. Walking has no effect on mood at all.  
-C. Only people with good mood walk daily.  
-D. The research must be completely incorrect.  
+A. Offer to show them around the school on the first day  
+B. Treat them normally and let them adjust at their own pace  
+C. Introduce them to a few students who have similar interests  
+D. Share a printed timetable and some class notes so they feel prepared  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Tests comfort with probabilistic findings rather than absolute claims.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Comfort with Probabilistic Evidence  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
-
-## SECTION F — Healthcare, Ethics & Practical Judgment (Questions 31-34)
 
 **Question 31**  
 **Category:** Healthcare, Ethics & Practical Judgment  
 
-A clinic has limited medicine stock for the day. Two patients need the same medicine: one has a mild ongoing condition, the other has a more urgent but temporary issue. How would you think about allocating the medicine?
+Your class is choosing a venue for the farewell party. Two strong options have emerged.  
 
-A. Consider who needs it more urgently while also thinking about long-term availability for both.  
-B. Give it to whoever arrived first.  
-C. Always give it to the person with the more serious-looking condition.  
-D. Save it for a possible third patient who might come later.  
+A. Suggest a vote and accept whatever the majority chooses  
+B. List the pros and cons of each and present them to the class  
+C. Propose a third option that combines the best features of both  
+D. Let the class representatives decide since that is their role  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals how you balance urgency, fairness, and resource limits.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Resource Allocation Under Constraints  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 32**  
 **Category:** Healthcare, Ethics & Practical Judgment  
 
-A patient asks many questions about their condition. You have limited time before your next appointment. What approach feels most practical?
+You overhear two friends having a disagreement in the corridor.  
 
-A. Answer the most important questions clearly and offer to discuss the rest in the next visit.  
-B. Answer every question in full detail even if it delays others.  
-C. Give very short answers so you can finish quickly.  
-D. Ask the patient to come back another day for all questions.  
+A. Walk past — it is a personal matter between them  
+B. Check on them later individually to see if they are okay  
+C. If it seems serious, inform a teacher nearby  
+D. Bring them together after some time and let them talk it out calmly  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Tests balancing thoroughness with practical time management.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Time Management and Communication Prioritization  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 33**  
 **Category:** Healthcare, Ethics & Practical Judgment  
 
-A community health program has enough resources for either screening 200 people for one disease or educating 500 people about prevention of several diseases. Which consideration would guide your choice?
+A teacher assigns extra practice problems over the weekend.  
 
-A. Which option is likely to benefit more people in the long run given the available resources.  
-B. Always choose screening because tests feel more medical.  
-C. Always choose education because it reaches more people.  
-D. Choose whichever program the team prefers personally.  
+A. Complete them on Saturday so Sunday remains free  
+B. Spread them across both days in small sessions  
+C. Do them on Sunday evening when you have a clearer idea of what was covered in class  
+D. Attempt the ones you find challenging and note the rest for doubt-clearing on Monday  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Encourages weighing individual versus population-level impact.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Public Health Trade-off Thinking  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 34**  
 **Category:** Healthcare, Ethics & Practical Judgment  
 
-You notice that a colleague is consistently late for their shift, which affects patient waiting times. What would feel like a reasonable first step?
+You are asked to lead a small team for a science exhibition.  
 
-A. Speak to them privately to understand if there is a reason and suggest solutions.  
-B. Report them immediately to the highest authority.  
-C. Ignore it because it is not your responsibility.  
-D. Start coming late yourself to match them.  
+A. Divide tasks based on each person's strength and check in regularly  
+B. Let the team decide among themselves who does what, and you coordinate  
+C. Take the lead role yourself to ensure the project stays on track  
+D. Set a clear deadline and let everyone work independently until then  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Shows preference for understanding context before escalation.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Constructive Approach to Team Issues  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
-
-## SECTION G — Self-Discovery Through Neutral Situations (Questions 35-40)
 
 **Question 35**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-You have been trying to understand why two classmates react very differently to the same feedback from a teacher. What feels most natural to explore next?
+Someone you don't know well borrows a book from you and returns it with a torn page.  
 
-A. Look for differences in their past experiences or current situations that might explain the reactions.  
-B. Decide that one reaction is correct and the other is wrong.  
-C. Stop thinking about it because both reactions are equally valid.  
-D. Ask the teacher to treat both students the same way in future.  
+A. Accept it quietly — accidents happen and it's not worth making it awkward  
+B. Politely mention the damage so they are aware for next time  
+C. Repair the page yourself and say nothing  
+D. Note it mentally and think twice before lending to them in the future  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Uncovers how you approach understanding individual differences.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Curiosity About Human Variation  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 36**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-While reading about a medical condition, you find that the same treatment works well for some people but not for others. How do you naturally respond to this information?
+You have an important exam tomorrow and a family function tonight.  
 
-A. Feel curious about what factors might make the difference between people.  
-B. Feel frustrated that the treatment is not perfect for everyone.  
-C. Assume the research must be incomplete.  
-D. Decide not to trust any treatment information.  
+A. Attend the function for a short while, then come home to study  
+B. Skip the function entirely and focus on preparation  
+C. Attend the full function — a relaxed mind studies better than a stressed one  
+D. Attend with your notes and revise during quiet moments at the venue  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals comfort level with variability in medical outcomes.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Tolerance for Uncertainty in Outcomes  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 37**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-You spend an hour trying to understand a diagram of how a body system works, but some connections still feel unclear. What do you feel like doing next?
+A classmate copies your answer during a quiz. The teacher suspects something.  
 
-A. Look for another way to understand the same connections, even if it takes more time.  
-B. Move on to the next topic and hope it becomes clearer later.  
-C. Ask someone to explain it completely so you don't have to figure it out.  
-D. Decide that understanding this system is not important.  
+A. Tell the teacher honestly if directly asked  
+B. Stay silent and let the teacher handle it their way  
+C. Speak to the classmate privately about it after the quiz  
+D. Mention to the teacher that you noticed something but aren't certain  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Shows your natural response to incomplete understanding.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Persistence with Complex Information  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 38**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-A friend shares that they feel anxious before every test even though they usually do well. What would you naturally want to understand?
+You are given a project topic you find uninteresting.  
 
-A. Whether there is a pattern in when the anxiety appears and what thoughts come with it.  
-B. Tell them that anxiety is normal and they should ignore it.  
-C. Suggest they stop thinking about tests altogether.  
-D. Compare their anxiety with your own experiences only.  
+A. Find one small aspect of the topic that interests you and build from there  
+B. Complete it efficiently with the required information and move on  
+C. Ask the teacher if the scope can be adjusted to include something you enjoy  
+D. Use creative presentation methods to make the topic more engaging for yourself  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Explores whether you seek to understand emotional patterns.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Interest in Emotional and Behavioral Patterns  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 39**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-After learning something new about how the body defends itself against illness, you find yourself thinking about it later in the day. What usually happens next?
+Your friend invites you to a movie on the same day you planned to study.  
 
-A. You wonder how this defense system might work differently in different situations.  
-B. You feel satisfied that you learned something and move on.  
-C. You try to forget it because it is not immediately useful.  
-D. You look for someone to teach it to right away.  
+A. Go to the movie — one day of study can be adjusted later  
+B. Decline and stick to your original plan  
+C. Suggest a shorter outing or a different day instead  
+D. Go for the first show and return in time to study in the evening  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Indicates whether new biological information sparks further curiosity.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Ongoing Scientific Curiosity  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 40**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-You realize you made an assumption about why someone was behaving a certain way, but later information shows your assumption was incomplete. How do you usually feel?
+You notice a small error in the school newsletter that has already been printed.  
 
-A. Interested in updating your understanding with the new information.  
-B. Slightly uncomfortable that you were not completely right.  
-C. Quick to form a new assumption to replace the old one.  
-D. Prefer not to think about the situation anymore.  
+A. Point it out to the teacher in charge so it can be corrected next time  
+B. Let it be — it is a minor thing and everyone has already received their copy  
+C. Mention it casually to the student editor so they are more careful going forward  
+D. Ignore it unless someone asks you directly about it  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals how open you are to revising your thinking.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Willingness to Revise Assumptions  
+**Insight Being Measured:** Social Judgment  
 
----
 
 ## How to Use This Assessment
 

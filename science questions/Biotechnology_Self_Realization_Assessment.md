@@ -380,368 +380,361 @@ D. Repeat both experiments without checking for differences.
 **Question 21**  
 **Category:** Experimental Thinking & Research Aptitude  
 
-An observation in your experiment contradicts what you expected to happen. What feels most useful to do next?
+Your friend asks for help with homework the night before it's due. You have your own work to finish.  
 
-A. Investigate possible reasons for the unexpected result.  
-B. Ignore the result because it does not match expectations.  
-C. Assume the experiment failed completely.  
-D. Change the observation to match your original expectation.  
+A. Share your completed work so they can use it as a reference  
+B. Spend an hour explaining the difficult parts and let them finish the rest  
+C. Tell them you're busy tonight but offer to help them the next day after school  
+D. Suggest they check the textbook examples since the homework is based on those  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals comfort with unexpected results and interest in understanding them.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Comfort With Uncertainty and Scientific Adaptability  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 22**  
 **Category:** Experimental Thinking & Research Aptitude  
 
-You are testing how a living system responds to different amounts of a substance. What approach feels most natural?
+During a class debate, a student makes a point that is factually incorrect, but the teacher doesn't notice.  
 
-A. Try several different amounts and compare the results carefully.  
-B. Test only one amount and assume it represents all cases.  
-C. Choose the amount that gives the result you hoped for.  
-D. Avoid testing different amounts because it takes more time.  
+A. Raise your hand and politely correct the information  
+B. Note it down and speak to the teacher privately after class  
+C. Say nothing — the teacher may already know and is testing the class  
+D. Ask a follow-up question that gently leads the class to notice the error  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Indicates preference for systematic exploration of variables.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Experimental Design Thinking  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 23**  
 **Category:** Experimental Thinking & Research Aptitude  
 
-After several attempts, an experiment still does not give clear results. What do you feel like doing?
+You are assigned a group project and one member has not contributed anything with two days left.  
 
-A. Look for what might be missing or needs to be adjusted in the setup.  
-B. Decide that the question cannot be answered through experiments.  
-C. Repeat the exact same steps without changes.  
-D. Move on to a different topic entirely.  
+A. Redistribute the remaining work among the active members to ensure quality  
+B. Contact the absent member directly and ask what is holding them back  
+C. Inform the teacher so the grading can reflect actual individual effort  
+D. Complete the missing portion yourself to protect the group's overall grade  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Shows persistence and problem-solving in experimental work.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Persistence Through Iteration  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 24**  
 **Category:** Experimental Thinking & Research Aptitude  
 
-You notice a pattern in your results that you did not expect when you began. What feels most meaningful?
+You notice a classmate sitting alone during lunch break every day.  
 
-A. Exploring whether this pattern holds in other similar situations.  
-B. Assuming the pattern is not important because it was unplanned.  
-C. Stopping the work because the original plan changed.  
-D. Recording only the results that match your initial idea.  
+A. Invite them to join your group for that day  
+B. Sit with them for a while and see if they seem comfortable  
+C. Ask a mutual friend to help bring them into the group gradually  
+D. Respect that some people prefer quiet time and give them space  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals openness to discovery beyond the original hypothesis.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Observational Awareness and Openness to New Patterns  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
-
-## SECTION E — Logical & Analytical Reasoning (Questions 25-30)
 
 **Question 25**  
 **Category:** Logical & Analytical Reasoning  
 
-All organisms of a certain type grow well only within a specific temperature range. An organism of this type is placed in a much higher temperature. What can you conclude?
+Your parents have enrolled you in a weekend class that takes away your free time.  
 
-A. The organism may not grow well or may be affected by the temperature.  
-B. The organism will definitely grow faster.  
-C. Temperature has no effect on this type of organism.  
-D. The organism will grow exactly the same as before.  
+A. Attend without complaint since your parents are investing in your future  
+B. Explain to your parents that you need some personal time to recharge  
+C. Try attending for a few weeks, then evaluate if it's actually helping you  
+D. Ask if the schedule can be adjusted rather than refusing outright  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Tests applying general biological requirements to a specific situation.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Applying General Rules to Specific Cases  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 26**  
 **Category:** Logical & Analytical Reasoning  
 
-In a garden, plants that receive regular water and sunlight grow taller than those that receive less of both. Which conclusion is most reasonable?
+A friend confides in you about a personal problem and asks you not to tell anyone. Later, you think an adult should know.  
 
-A. Water and sunlight are likely contributing to better growth, though other factors may also play a role.  
-B. Water and sunlight are the only things that affect plant growth.  
-C. Plants that grow taller do not need water or sunlight.  
-D. The difference in height has nothing to do with water or sunlight.  
+A. Respect the promise and keep the information to yourself  
+B. Encourage your friend to speak to an adult themselves, offering to go with them  
+C. Speak to a trusted adult yourself, without revealing your friend's identity  
+D. Wait and see if the situation resolves before taking any action  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Encourages balanced interpretation of observed relationships.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Evidence-Based Pattern Interpretation  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 27**  
 **Category:** Logical & Analytical Reasoning  
 
-A statement says: "If a certain condition is met, a biological process occurs at a faster rate." The condition is met in one case. What follows logically?
+During a school trip, your group reaches a place where everyone has two hours of free time.  
 
-A. The process may occur faster, but other factors could also influence the rate.  
-B. The process will definitely occur at the fastest possible rate.  
-C. The process cannot occur at all.  
-D. The statement must be incorrect.  
+A. Explore the area with your friends while staying within the agreed boundary  
+B. Visit the information centre and learn about the place first  
+C. Stay with the group and follow what the majority decides  
+D. Find a quiet spot to rest and observe your surroundings alone  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Tests understanding of conditional relationships in biological systems.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Interpreting Conditional Biological Information  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
 
 **Question 28**  
 **Category:** Logical & Analytical Reasoning  
 
-Several plants in one area show similar unusual growth patterns around the same time. What would be a reasonable first step?
+You receive a test result that is lower than what you expected.  
 
-A. Check what conditions or factors these plants have in common.  
-B. Assume the plants are unhealthy by nature.  
-C. Ignore the patterns because they appeared together.  
-D. Change all plants without investigating further.  
+A. Review the paper thoroughly to understand exactly where you lost marks  
+B. Take a day to process it, then plan a revised study schedule  
+C. Meet the teacher to discuss whether there is room for improvement or re-evaluation  
+D. Compare your paper with a topper's to identify the gap in approach  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Promotes systematic investigation of shared factors.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Systematic Thinking in Problem Investigation  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
 
 **Question 29**  
 **Category:** Logical & Analytical Reasoning  
 
-A method that worked well for growing one type of organism does not work as well for another type. What would be a thoughtful response?
+Your sibling wants to use your personal tablet for a game, and you have an online class in an hour.  
 
-A. Consider what differences between the two organisms might require adjustments in the method.  
-B. Assume the method is completely useless.  
-C. Use the same method without any changes.  
-D. Decide that growing organisms is not possible.  
+A. Let them use it now and charge it quickly before your class starts  
+B. Explain that you need it soon but offer them your phone instead  
+C. Tell them they can use it after your class is over  
+D. Check how much battery is left and decide based on that  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Shows interest in understanding context-specific requirements.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Adaptability and Context Awareness  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 30**  
 **Category:** Logical & Analytical Reasoning  
 
-Research shows that a particular environmental factor improves growth for most organisms of a group, but some individuals respond differently. What does this suggest?
+A new student joins your class and seems unsure about how things work here.  
 
-A. General patterns can exist while individual organisms may still vary due to other factors.  
-B. The research must be completely incorrect.  
-C. The environmental factor has no effect on any organism.  
-D. All organisms will always respond in exactly the same way.  
+A. Offer to show them around the school on the first day  
+B. Treat them normally and let them adjust at their own pace  
+C. Introduce them to a few students who have similar interests  
+D. Share a printed timetable and some class notes so they feel prepared  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Tests comfort with general findings alongside individual variation.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Comfort With Variability in Biological Systems  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
-
-## SECTION F — Innovation, Resource & Practical Decision Intelligence (Questions 31-34)
 
 **Question 31**  
 **Category:** Innovation, Resource & Practical Decision Intelligence  
 
-A new approach could improve crop growth in a region but requires resources that are currently limited. How would you think about implementing it?
+Your class is choosing a venue for the farewell party. Two strong options have emerged.  
 
-A. Consider how the benefits compare with the resources needed and whether it can be made practical.  
-B. Always implement the new approach immediately.  
-C. Reject any new approach because it requires resources.  
-D. Choose whichever approach has been used for the longest time.  
+A. Suggest a vote and accept whatever the majority chooses  
+B. List the pros and cons of each and present them to the class  
+C. Propose a third option that combines the best features of both  
+D. Let the class representatives decide since that is their role  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals balanced thinking about innovation and practical constraints.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Innovation Orientation and Resource Awareness  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 32**  
 **Category:** Innovation, Resource & Practical Decision Intelligence  
 
-You have limited materials to test several ideas for improving a biological process. Which consideration would guide your choices?
+You overhear two friends having a disagreement in the corridor.  
 
-A. Which ideas are most likely to give useful information within the available resources.  
-B. Test every idea regardless of resource use.  
-C. Test only the idea that seems easiest.  
-D. Avoid testing any new ideas.  
+A. Walk past — it is a personal matter between them  
+B. Check on them later individually to see if they are okay  
+C. If it seems serious, inform a teacher nearby  
+D. Bring them together after some time and let them talk it out calmly  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Shows thoughtful allocation of limited experimental resources.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Resource Optimization in Research Settings  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 33**  
 **Category:** Innovation, Resource & Practical Decision Intelligence  
 
-An idea works well in small-scale experiments but may behave differently when applied on a larger scale. What would you want to understand?
+A teacher assigns extra practice problems over the weekend.  
 
-A. What factors might change when moving from small to large scale and how they can be managed.  
-B. Assume the idea will work exactly the same at any scale.  
-C. Avoid scaling up because change is risky.  
-D. Scale up immediately without further checks.  
+A. Complete them on Saturday so Sunday remains free  
+B. Spread them across both days in small sessions  
+C. Do them on Sunday evening when you have a clearer idea of what was covered in class  
+D. Attempt the ones you find challenging and note the rest for doubt-clearing on Monday  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Demonstrates awareness of scale-up challenges in biotechnology.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Systems Thinking About Scaling  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 34**  
 **Category:** Innovation, Resource & Practical Decision Intelligence  
 
-Two possible solutions exist for an agricultural problem: one is faster but less reliable in different conditions, while the other is slower but more consistent. How would you evaluate them?
+You are asked to lead a small team for a science exhibition.  
 
-A. Consider the reliability needed and the consequences of inconsistency in real use.  
-B. Always choose the faster solution.  
-C. Always choose the more consistent solution without checking needs.  
-D. Decide based only on which solution is newer.  
+A. Divide tasks based on each person's strength and check in regularly  
+B. Let the team decide among themselves who does what, and you coordinate  
+C. Take the lead role yourself to ensure the project stays on track  
+D. Set a clear deadline and let everyone work independently until then  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Encourages weighing speed against reliability and real-world consequences.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Practical Judgment and Trade-off Evaluation  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
-
-## SECTION G — Self-Discovery Through Neutral Situations (Questions 35-40)
 
 **Question 35**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-After several weeks of effort on an experiment, you obtain a result that is different from what you expected. What naturally feels most meaningful to do next?
+Someone you don't know well borrows a book from you and returns it with a torn page.  
 
-A. Explore why the result turned out differently and what it might reveal.  
-B. Feel disappointed and stop working on the topic.  
-C. Assume the result is incorrect and repeat the experiment exactly.  
-D. Move on to a completely new experiment without reflection.  
+A. Accept it quietly — accidents happen and it's not worth making it awkward  
+B. Politely mention the damage so they are aware for next time  
+C. Repair the page yourself and say nothing  
+D. Note it mentally and think twice before lending to them in the future  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals how you respond to unexpected outcomes in discovery work.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Comfort With Uncertainty and Scientific Adaptability  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 36**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-You are observing a living system and notice a small pattern that appears repeatedly but was not part of your original focus. What do you usually do?
+You have an important exam tomorrow and a family function tonight.  
 
-A. Become curious about whether the pattern is meaningful and worth exploring further.  
-B. Ignore the pattern because it was not planned.  
-C. Assume the pattern is random and unimportant.  
-D. Feel that noticing unplanned patterns wastes time.  
+A. Attend the function for a short while, then come home to study  
+B. Skip the function entirely and focus on preparation  
+C. Attend the full function — a relaxed mind studies better than a stressed one  
+D. Attend with your notes and revise during quiet moments at the venue  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Indicates openness to emergent observations in research.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Observational Awareness and Curiosity  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 37**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-When working on a question that requires many small observations and adjustments over time, how do you usually feel about the gradual nature of progress?
+A classmate copies your answer during a quiz. The teacher suspects something.  
 
-A. Interested in seeing how each step adds to the overall understanding.  
-B. Impatient to reach a final answer quickly.  
-C. Prefer to make one large change rather than many small ones.  
-D. Feel that slow progress is not worth continuing.  
+A. Tell the teacher honestly if directly asked  
+B. Stay silent and let the teacher handle it their way  
+C. Speak to the classmate privately about it after the quiz  
+D. Mention to the teacher that you noticed something but aren't certain  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Shows comfort with the iterative nature of scientific work.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Persistence Through Iteration  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 38**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-After learning about how one small change in conditions can affect an entire living system, you find yourself thinking about other systems in daily life. What usually happens next?
+You are given a project topic you find uninteresting.  
 
-A. You wonder how similar principles might apply in other situations.  
-B. You feel satisfied and stop thinking about it.  
-C. You try to forget the information because it is not immediately useful.  
-D. You look for someone to explain it again.  
+A. Find one small aspect of the topic that interests you and build from there  
+B. Complete it efficiently with the required information and move on  
+C. Ask the teacher if the scope can be adjusted to include something you enjoy  
+D. Use creative presentation methods to make the topic more engaging for yourself  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals whether new biological insights spark broader curiosity.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Learning Orientation and Systems Thinking  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 39**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-You realize that an earlier assumption you made about a biological process may need to be revised based on new observations. How do you usually respond?
+Your friend invites you to a movie on the same day you planned to study.  
 
-A. Consider updating your thinking with the new information.  
-B. Feel reluctant to change what you had assumed earlier.  
-C. Ignore the new observations to avoid extra work.  
-D. Assume the earlier idea must still be correct.  
+A. Go to the movie — one day of study can be adjusted later  
+B. Decline and stick to your original plan  
+C. Suggest a shorter outing or a different day instead  
+D. Go for the first show and return in time to study in the evening  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Explores openness to revising conclusions when evidence changes.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Evidence-Based Reasoning and Flexibility  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 40**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-When faced with a biological question that does not yet have a clear answer, what feels most natural to you?
+You notice a small error in the school newsletter that has already been printed.  
 
-A. Feel curious about what kinds of observations or experiments might help find an answer.  
-B. Feel that questions without immediate answers are not worth exploring.  
-C. Prefer to wait for someone else to find the answer.  
-D. Assume the question cannot be answered through careful study.  
+A. Point it out to the teacher in charge so it can be corrected next time  
+B. Let it be — it is a minor thing and everyone has already received their copy  
+C. Mention it casually to the student editor so they are more careful going forward  
+D. Ignore it unless someone asks you directly about it  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals your natural response to open-ended scientific questions.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Comfort With Uncertainty and Discovery Orientation  
+**Insight Being Measured:** Social Judgment  
 
----
 
 ## How to Use This Assessment
 

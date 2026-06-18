@@ -380,368 +380,361 @@ D. The exact dimensions of each option.
 **Question 21**  
 **Category:** Design Thinking & Human-Centered Problem Solving  
 
-A beautifully designed library has excellent natural light and comfortable seating, but students report that it feels too quiet and formal to study in groups. What aspect seems worth reconsidering?
+Your friend asks for help with homework the night before it's due. You have your own work to finish.  
 
-A. Whether the design unintentionally discourages the collaborative use the library was meant to support.  
-B. That students should study alone.  
-C. That beauty and function are always in conflict.  
-D. That the library should be made less beautiful.  
+A. Share your completed work so they can use it as a reference  
+B. Spend an hour explaining the difficult parts and let them finish the rest  
+C. Tell them you're busy tonight but offer to help them the next day after school  
+D. Suggest they check the textbook examples since the homework is based on those  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Highlights awareness that aesthetic success does not guarantee functional success.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Balancing Aesthetics with Actual Use  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 22**  
 **Category:** Design Thinking & Human-Centered Problem Solving  
 
-A small change in the placement of a bench in a park significantly increases how many people use it. What does this suggest?
+During a class debate, a student makes a point that is factually incorrect, but the teacher doesn't notice.  
 
-A. Subtle adjustments in position, orientation, or surroundings can dramatically affect how people interact with an element.  
-B. All bench placements are equally effective.  
-C. People use benches randomly.  
-D. Design details never matter.  
+A. Raise your hand and politely correct the information  
+B. Note it down and speak to the teacher privately after class  
+C. Say nothing — the teacher may already know and is testing the class  
+D. Ask a follow-up question that gently leads the class to notice the error  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Demonstrates sensitivity to how small spatial decisions create large behavioral effects.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Awareness of Small Changes and Large Effects  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 23**  
 **Category:** Design Thinking & Human-Centered Problem Solving  
 
-A corridor in a hospital is designed to be efficient and direct, but patients and staff often take longer routes through other areas. What would you naturally want to explore?
+You are assigned a group project and one member has not contributed anything with two days left.  
 
-A. What qualities the alternative routes offer that the efficient corridor lacks.  
-B. That people are making inefficient choices.  
-C. That the corridor should be made even more direct.  
-D. That the alternative routes should be closed.  
+A. Redistribute the remaining work among the active members to ensure quality  
+B. Contact the absent member directly and ask what is holding them back  
+C. Inform the teacher so the grading can reflect actual individual effort  
+D. Complete the missing portion yourself to protect the group's overall grade  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Shows curiosity about why people choose certain paths over others.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Understanding Desire Lines and Actual Behavior  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 24**  
 **Category:** Design Thinking & Human-Centered Problem Solving  
 
-A community space is designed with multiple possible uses in mind. After a few months, one unexpected activity becomes very popular. What feels most natural to consider?
+You notice a classmate sitting alone during lunch break every day.  
 
-A. Whether the space can be gently adapted to better support this emerging use without losing other possibilities.  
-B. That the original design was a failure.  
-C. That the new activity should be discouraged.  
-D. That the space should be redesigned from scratch.  
+A. Invite them to join your group for that day  
+B. Sit with them for a while and see if they seem comfortable  
+C. Ask a mutual friend to help bring them into the group gradually  
+D. Respect that some people prefer quiet time and give them space  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals openness to evolving use and iterative design.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Adaptability and Responsive Design Thinking  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
-
-## SECTION E — Logical & Analytical Reasoning (Questions 25-30)
 
 **Question 25**  
 **Category:** Logical & Analytical Reasoning  
 
-A new park design is praised for its beauty in architectural reviews. However, after opening, very few people use it during weekdays. What is important to consider?
+Your parents have enrolled you in a weekend class that takes away your free time.  
 
-A. Whether the design meets the practical needs and daily routines of the people who live nearby.  
-B. That the design is successful because it looks good.  
-C. That people do not appreciate good design.  
-D. That weekday use is not important.  
+A. Attend without complaint since your parents are investing in your future  
+B. Explain to your parents that you need some personal time to recharge  
+C. Try attending for a few weeks, then evaluate if it's actually helping you  
+D. Ask if the schedule can be adjusted rather than refusing outright  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Tests the ability to distinguish between critical acclaim and actual user experience.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Distinguishing Design Quality from Usability  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 26**  
 **Category:** Logical & Analytical Reasoning  
 
-Two buildings use similar materials and have similar floor areas, but one feels significantly more comfortable in summer. What is a reasonable explanation?
+A friend confides in you about a personal problem and asks you not to tell anyone. Later, you think an adult should know.  
 
-A. Differences in orientation, window placement, shading, or ventilation may create different thermal experiences despite similar materials.  
-B. Material choice is the only factor that matters.  
-C. Both buildings must feel exactly the same.  
-D. Comfort is entirely subjective and cannot be influenced by design.  
+A. Respect the promise and keep the information to yourself  
+B. Encourage your friend to speak to an adult themselves, offering to go with them  
+C. Speak to a trusted adult yourself, without revealing your friend's identity  
+D. Wait and see if the situation resolves before taking any action  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Encourages looking beyond obvious factors to understand environmental performance.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Systems Thinking in Environmental Comfort  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 27**  
 **Category:** Logical & Analytical Reasoning  
 
-A building with many small windows feels brighter inside than a building with fewer but larger windows, even though the total window area is the same. What might explain this?
+During a school trip, your group reaches a place where everyone has two hours of free time.  
 
-A. The distribution and placement of openings can affect how light spreads and how bright a space feels.  
-B. Total window area is the only factor that determines brightness.  
-C. Number of windows never affects light quality.  
-D. Smaller windows always make spaces darker.  
+A. Explore the area with your friends while staying within the agreed boundary  
+B. Visit the information centre and learn about the place first  
+C. Stay with the group and follow what the majority decides  
+D. Find a quiet spot to rest and observe your surroundings alone  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Shows understanding that distribution matters as much as total area.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Light Distribution and Spatial Experience  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
 
 **Question 28**  
 **Category:** Logical & Analytical Reasoning  
 
-A design that works well in a dense urban area is copied exactly in a suburban setting. What is most likely to happen?
+You receive a test result that is lower than what you expected.  
 
-A. The design may not perform the same way because context, surroundings, and user needs are different.  
-B. The design will work exactly the same everywhere.  
-C. Suburban settings always improve any design.  
-D. Context has no effect on design performance.  
+A. Review the paper thoroughly to understand exactly where you lost marks  
+B. Take a day to process it, then plan a revised study schedule  
+C. Meet the teacher to discuss whether there is room for improvement or re-evaluation  
+D. Compare your paper with a topper's to identify the gap in approach  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Highlights the importance of context in architectural solutions.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Context Sensitivity in Design  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
 
 **Question 29**  
 **Category:** Logical & Analytical Reasoning  
 
-A building uses a complex shape that requires more materials and maintenance than a simpler alternative. What is a thoughtful consideration?
+Your sibling wants to use your personal tablet for a game, and you have an online class in an hour.  
 
-A. Whether the additional complexity provides meaningful benefits in experience, function, or identity that justify the extra cost and effort.  
-B. Complex shapes are always better.  
-C. Simpler shapes are always better.  
-D. Material use and maintenance are not important.  
+A. Let them use it now and charge it quickly before your class starts  
+B. Explain that you need it soon but offer them your phone instead  
+C. Tell them they can use it after your class is over  
+D. Check how much battery is left and decide based on that  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Encourages weighing expressive goals against practical consequences.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Trade-off Evaluation Between Expression and Practicality  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 30**  
 **Category:** Logical & Analytical Reasoning  
 
-Two different design approaches achieve the same functional goal but create very different atmospheres. What is a reasonable conclusion?
+A new student joins your class and seems unsure about how things work here.  
 
-A. The choice between them depends on which atmosphere better supports the intended experience and use.  
-B. Both approaches are equally good in every situation.  
-C. One approach must be objectively superior.  
-D. Atmosphere is not relevant in design decisions.  
+A. Offer to show them around the school on the first day  
+B. Treat them normally and let them adjust at their own pace  
+C. Introduce them to a few students who have similar interests  
+D. Share a printed timetable and some class notes so they feel prepared  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Shows comfort with multiple valid solutions depending on priorities.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Multiple Valid Solutions and Priority-Based Choice  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
-
-## SECTION F — Financial, Sustainability & Practical Decision Intelligence (Questions 31-34)
 
 **Question 31**  
 **Category:** Financial, Sustainability & Practical Decision Intelligence  
 
-A project has two material options: one is locally available, affordable, and requires less maintenance, while the other is imported, more expensive, and offers a different appearance. How would you weigh the choice?
+Your class is choosing a venue for the farewell party. Two strong options have emerged.  
 
-A. Consider the total cost over time, environmental impact of transportation, maintenance needs, and whether the appearance difference justifies the trade-offs.  
-B. Always choose the imported material for better appearance.  
-C. Always choose the local material regardless of appearance.  
-D. Decide based only on initial cost.  
+A. Suggest a vote and accept whatever the majority chooses  
+B. List the pros and cons of each and present them to the class  
+C. Propose a third option that combines the best features of both  
+D. Let the class representatives decide since that is their role  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals balanced thinking about cost, sustainability, and long-term consequences.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Long-Term and Sustainability-Oriented Decision Making  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 32**  
 **Category:** Financial, Sustainability & Practical Decision Intelligence  
 
-A building can be designed with features that reduce energy use over time but increase initial construction cost. What consideration would guide the decision?
+You overhear two friends having a disagreement in the corridor.  
 
-A. Whether the long-term energy savings and environmental benefits justify the higher upfront investment.  
-B. Always minimize initial cost regardless of long-term effects.  
-C. Always maximize energy-saving features regardless of cost.  
-D. Energy performance is not relevant in design.  
+A. Walk past — it is a personal matter between them  
+B. Check on them later individually to see if they are okay  
+C. If it seems serious, inform a teacher nearby  
+D. Bring them together after some time and let them talk it out calmly  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Shows thoughtful evaluation of short-term cost versus long-term impact.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Lifecycle Thinking and Sustainability Trade-offs  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 33**  
 **Category:** Financial, Sustainability & Practical Decision Intelligence  
 
-A public space can be designed with low-maintenance materials that last longer but offer fewer seating options, or with more seating that requires regular upkeep. How would you evaluate the options?
+A teacher assigns extra practice problems over the weekend.  
 
-A. Consider how each choice affects daily use, maintenance burden, and long-term quality of the space.  
-B. Always choose low-maintenance materials.  
-C. Always maximize seating.  
-D. Maintenance is not the designer’s concern.  
+A. Complete them on Saturday so Sunday remains free  
+B. Spread them across both days in small sessions  
+C. Do them on Sunday evening when you have a clearer idea of what was covered in class  
+D. Attempt the ones you find challenging and note the rest for doubt-clearing on Monday  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Demonstrates balancing usability with practical maintenance realities.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Maintenance and Usability Trade-off Thinking  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 34**  
 **Category:** Financial, Sustainability & Practical Decision Intelligence  
 
-A design can incorporate features that make the building more adaptable for future changes, but these features add cost and complexity now. What would be a useful way to decide?
+You are asked to lead a small team for a science exhibition.  
 
-A. Weigh the likelihood of future changes against the added cost and whether adaptability provides meaningful long-term value.  
-B. Always include maximum adaptability features.  
-C. Never include adaptability features.  
-D. Decide based only on current needs.  
+A. Divide tasks based on each person's strength and check in regularly  
+B. Let the team decide among themselves who does what, and you coordinate  
+C. Take the lead role yourself to ensure the project stays on track  
+D. Set a clear deadline and let everyone work independently until then  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Encourages thinking about future flexibility versus present constraints.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Future-Proofing and Adaptive Design Judgment  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
-
-## SECTION G — Self-Discovery Through Neutral Situations (Questions 35-40)
 
 **Question 35**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-After refining a design several times based on feedback, you receive new input that suggests a different direction. What naturally feels most meaningful to do next?
+Someone you don't know well borrows a book from you and returns it with a torn page.  
 
-A. Consider how the new feedback changes your understanding and whether it improves the overall idea.  
-B. Feel that further changes are unnecessary.  
-C. Ignore the new feedback to protect earlier work.  
-D. Start the design completely from scratch.  
+A. Accept it quietly — accidents happen and it's not worth making it awkward  
+B. Politely mention the damage so they are aware for next time  
+C. Repair the page yourself and say nothing  
+D. Note it mentally and think twice before lending to them in the future  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Explores openness to iterative change and responsiveness to feedback.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Iterative Creativity and Feedback Responsiveness  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 36**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-When visiting a space you have not designed, you notice small details that make it feel either welcoming or uncomfortable. What do you usually do?
+You have an important exam tomorrow and a family function tonight.  
 
-A. Become curious about why those particular details create that feeling.  
-B. Assume the feeling is purely personal and not worth analyzing.  
-C. Focus only on the overall appearance.  
-D. Ignore details that do not match your own taste.  
+A. Attend the function for a short while, then come home to study  
+B. Skip the function entirely and focus on preparation  
+C. Attend the full function — a relaxed mind studies better than a stressed one  
+D. Attend with your notes and revise during quiet moments at the venue  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals natural attention to experiential details in environments.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Observation Skills and Environmental Sensitivity  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 37**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-You are given a space with clear functional requirements but also freedom to shape its atmosphere. How do you usually approach the task?
+A classmate copies your answer during a quiz. The teacher suspects something.  
 
-A. Explore how different spatial qualities, light, and proportions might support both the required function and a desired feeling.  
-B. Focus only on meeting the functional requirements.  
-C. Prioritize appearance over function.  
-D. Assume function and feeling cannot be addressed together.  
+A. Tell the teacher honestly if directly asked  
+B. Stay silent and let the teacher handle it their way  
+C. Speak to the classmate privately about it after the quiz  
+D. Mention to the teacher that you noticed something but aren't certain  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Shows ability to integrate practical needs with experiential goals.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Balancing Function and Experience  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 38**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-When a design you developed receives criticism that highlights a problem you had not considered, how do you usually respond?
+You are given a project topic you find uninteresting.  
 
-A. Feel interested in understanding the problem and exploring possible adjustments.  
-B. Feel defensive about the original idea.  
-C. Assume the criticism is not relevant.  
-D. Prefer not to revisit the design.  
+A. Find one small aspect of the topic that interests you and build from there  
+B. Complete it efficiently with the required information and move on  
+C. Ask the teacher if the scope can be adjusted to include something you enjoy  
+D. Use creative presentation methods to make the topic more engaging for yourself  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals how you handle unexpected critique and new perspectives.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Adaptability and Growth Through Feedback  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 39**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-You notice that two spaces designed for the same activity feel very different in atmosphere. What naturally draws your attention?
+Your friend invites you to a movie on the same day you planned to study.  
 
-A. What specific design choices create the different feelings and which one better supports the activity.  
-B. That one space must be objectively better.  
-C. That atmosphere does not matter for activities.  
-D. The differences are too subtle to matter.  
+A. Go to the movie — one day of study can be adjusted later  
+B. Decline and stick to your original plan  
+C. Suggest a shorter outing or a different day instead  
+D. Go for the first show and return in time to study in the evening  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Indicates sensitivity to how design choices shape emotional experience.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Aesthetic and Experiential Awareness  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 40**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-When working on a design that must satisfy multiple competing needs (such as openness versus privacy, or cost versus quality), how do you usually feel?
+You notice a small error in the school newsletter that has already been printed.  
 
-A. Engaged by the challenge of finding a thoughtful balance that addresses the most important priorities.  
-B. Frustrated that not all needs can be fully met.  
-C. Prefer to focus on only one need.  
-D. Assume compromise always means failure.  
+A. Point it out to the teacher in charge so it can be corrected next time  
+B. Let it be — it is a minor thing and everyone has already received their copy  
+C. Mention it casually to the student editor so they are more careful going forward  
+D. Ignore it unless someone asks you directly about it  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Explores comfort with navigating constraints and trade-offs.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Comfort With Constraint Navigation  
+**Insight Being Measured:** Social Judgment  
 
----
 
 ## How to Use This Assessment
 

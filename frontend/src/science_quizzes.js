@@ -9,19 +9,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Consistent moisture may support steadier germination, while heavy infrequent watering may create uneven conditions.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Heavy watering is always better for all seeds.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Watering frequency has no effect on sprouting.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The seeds in the heavily watered batch were of lower quality.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology & Nature Observation",
@@ -35,19 +35,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Plants may be conserving water during the hottest part of the day and recovering when conditions become cooler.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The plants are permanently damaged.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Drooping always means the plant is dying.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Leaves change shape randomly without any connection to the environment.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology & Nature Observation",
@@ -61,19 +61,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "They help break down organic matter and create channels that improve soil structure and water movement.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "They only make the soil look darker.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "They have no effect on plants.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "They compete with plants for nutrients.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology & Nature Observation",
@@ -87,19 +87,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Their life cycle and activity are closely tied to temperature, rainfall, or the availability of food sources that change with seasons.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Insects appear randomly without any connection to seasons.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "All insects are active throughout the year.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Seasonal appearance is only due to human activity.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology & Nature Observation",
@@ -113,19 +113,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Some fruits release substances that can influence the ripening of nearby fruits.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "All fruits ripen at exactly the same speed regardless of surroundings.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The banana has no effect on other fruits.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Ripening happens only because of direct sunlight.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology & Nature Observation",
@@ -139,19 +139,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Plants may grow toward available light, and the fence creates a shadow that influences their direction.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Plants always grow straight upward regardless of surroundings.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The fence provides extra nutrients.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Leaning is purely random.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology & Nature Observation",
@@ -165,19 +165,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The soils may have different pH levels or nutrient availability that affect how plants absorb what they need.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Soil chemistry never affects plant growth.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Both soils must have identical chemical composition.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Water and sunlight are the only factors that matter.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry in Everyday Agriculture",
@@ -191,19 +191,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The soils may already have different levels of available nutrients, so the added fertilizer has different effects.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Fertilizer always produces the same result everywhere.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "One field must have received more water.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Fertilizer has no chemical interaction with soil.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry in Everyday Agriculture",
@@ -217,19 +217,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Microorganisms are breaking down the materials through chemical processes, and the smell changes as compounds are transformed.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The smell changes only because of evaporation.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "All waste smells the same regardless of decomposition.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Smell has no connection to chemical changes.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry in Everyday Agriculture",
@@ -243,19 +243,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The soil may lack or have an imbalance of certain nutrients that the plants need for healthy leaf color.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Leaf color is determined only by genetics.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Soil type never affects nutrient availability.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Yellowing always means too much water.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry in Everyday Agriculture",
@@ -269,19 +269,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Reactions involving microorganisms and enzymes that break down food components occur faster under these conditions.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Warmth and moisture have no effect on food.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Food spoils only because of light exposure.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "All foods spoil at the same rate regardless of storage.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry in Everyday Agriculture",
@@ -295,19 +295,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The soil’s chemical balance may have changed, or certain nutrients may have built up while others became less available.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Fertilizers always remain equally effective over time.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Soil chemistry never changes with repeated use.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The fertilizer itself loses its chemical properties.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry in Everyday Agriculture",
@@ -321,19 +321,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The field with large, infrequent watering may lose more water because water remains on the surface longer and is exposed to wind and heat.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Both fields will lose exactly the same amount of water.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Frequent small watering always leads to more evaporation.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Evaporation depends only on the total water amount, not timing.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics in Farming & Natural Systems",
@@ -347,19 +347,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "On steeper slopes, water may run off before it can soak into the soil, so irrigation methods may need adjustment to reduce runoff.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Slope has no effect on how water behaves.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Steeper slopes always absorb water better.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Both slopes will require exactly the same irrigation approach.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics in Farming & Natural Systems",
@@ -373,19 +373,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The covering allows sunlight to enter but traps some of the heat that would otherwise escape, creating a warmer internal environment.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Greenhouses create heat from nothing.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The covering blocks all heat from leaving.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Temperature inside is controlled only by the plants.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics in Farming & Natural Systems",
@@ -399,19 +399,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Reduced wind may lower water loss from plants and soil, and can also protect young plants from physical damage.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Windbreaks have no effect on crops.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Reduced wind always harms crops.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Wind speed inside a field is unaffected by trees.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics in Farming & Natural Systems",
@@ -425,19 +425,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The soil that absorbs water quickly may have larger spaces between particles or better structure, allowing water to move downward more easily.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Both soils must have identical physical properties.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Surface water disappearance depends only on sunlight.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Soil structure never affects water movement.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics in Farming & Natural Systems",
@@ -451,19 +451,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The shaded area may experience less heat stress and lower water loss, which can be beneficial in very hot conditions but may slow growth if light becomes too limited.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Shade always improves growth equally for all plants.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Temperature has no effect on plant growth.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Both areas will have exactly the same growing conditions.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics in Farming & Natural Systems",
@@ -477,19 +477,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "What changed between the two seasons — such as rainfall timing, temperature patterns, pest presence, or soil conditions.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "That the seeds must have been defective this year.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "That farming is too unpredictable to analyze.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The exact date the seeds were purchased.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Agricultural Aptitude & Systems Thinking",
@@ -503,19 +503,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Differences in timing of activities, specific practices, soil management, or micro-variations in conditions between the two farms.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "That one farmer must be luckier.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "That both farms should produce exactly the same results.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The size of the farms only.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Agricultural Aptitude & Systems Thinking",
@@ -525,523 +525,523 @@ export const SCIENCE_QUIZZES = {
     },
     {
       "cat": "expectation",
-      "q": "A new irrigation method increases yield but also leads to more weed growth. What aspect seems worth reconsidering?",
+      "q": "Your friend asks for help with homework the night before it's due. You have your own work to finish.",
       "opts": [
         {
-          "t": "Whether the overall benefit justifies the additional effort required to manage weeds, or if the method can be adjusted.",
-          "s": 1
+          "t": "Share your completed work so they can use it as a reference",
+          "s": 4
         },
         {
-          "t": "That higher yield is always worth any side effect.",
-          "s": 2
-        },
-        {
-          "t": "That weeds are not connected to irrigation.",
+          "t": "Spend an hour explaining the difficult parts and let them finish the rest",
           "s": 3
         },
         {
-          "t": "That the method should be abandoned completely.",
-          "s": 4
+          "t": "Tell them you're busy tonight but offer to help them the next day after school",
+          "s": 2
+        },
+        {
+          "t": "Suggest they check the textbook examples since the homework is based on those",
+          "s": 1
         }
       ],
       "categoryName": "Agricultural Aptitude & Systems Thinking",
-      "correctAnswer": "A",
-      "whyMatters": "Demonstrates awareness that improvements in one area can create challenges in another.",
-      "insight": "Trade-off Recognition in Agricultural Systems"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "expectation",
-      "q": "A farm experiences good rainfall one year but faces water shortage the next. What approach feels most natural when planning for future seasons?",
+      "q": "During a class debate, a student makes a point that is factually incorrect, but the teacher doesn't notice.",
       "opts": [
         {
-          "t": "Considering how to build flexibility into the system so it can respond to both wet and dry conditions.",
-          "s": 1
+          "t": "Raise your hand and politely correct the information",
+          "s": 4
         },
         {
-          "t": "Planning only for the conditions experienced in the most recent year.",
-          "s": 2
-        },
-        {
-          "t": "Assuming rainfall will always be the same.",
+          "t": "Note it down and speak to the teacher privately after class",
           "s": 3
         },
         {
-          "t": "Ignoring water availability in planning.",
-          "s": 4
+          "t": "Say nothing — the teacher may already know and is testing the class",
+          "s": 2
+        },
+        {
+          "t": "Ask a follow-up question that gently leads the class to notice the error",
+          "s": 1
         }
       ],
       "categoryName": "Agricultural Aptitude & Systems Thinking",
-      "correctAnswer": "A",
-      "whyMatters": "Reveals preference for building resilience rather than assuming stable conditions.",
-      "insight": "Adaptability and Resilience Thinking"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "expectation",
-      "q": "Adding a new crop to an existing system increases overall production but requires changes in timing and resource use. What would you naturally want to understand?",
+      "q": "You are assigned a group project and one member has not contributed anything with two days left.",
       "opts": [
         {
-          "t": "How the new crop interacts with existing crops, labor, water, and soil over the full cycle.",
-          "s": 1
+          "t": "Redistribute the remaining work among the active members to ensure quality",
+          "s": 4
         },
         {
-          "t": "That adding any new crop is always beneficial.",
-          "s": 2
-        },
-        {
-          "t": "The new crop in isolation without considering interactions.",
+          "t": "Contact the absent member directly and ask what is holding them back",
           "s": 3
         },
         {
-          "t": "That existing crops should never be changed.",
-          "s": 4
+          "t": "Inform the teacher so the grading can reflect actual individual effort",
+          "s": 2
+        },
+        {
+          "t": "Complete the missing portion yourself to protect the group's overall grade",
+          "s": 1
         }
       ],
       "categoryName": "Agricultural Aptitude & Systems Thinking",
-      "correctAnswer": "A",
-      "whyMatters": "Shows systems-level thinking about introducing new elements.",
-      "insight": "Understanding Interactions in Complex Systems"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "expectation",
-      "q": "A practice that worked well for several years suddenly becomes less effective. What feels most useful to investigate?",
+      "q": "You notice a classmate sitting alone during lunch break every day.",
       "opts": [
         {
-          "t": "Whether gradual changes in soil, pests, weather patterns, or management have altered the conditions that made the practice successful.",
-          "s": 1
+          "t": "Invite them to join your group for that day",
+          "s": 4
         },
         {
-          "t": "That the practice was never good.",
-          "s": 2
-        },
-        {
-          "t": "That nothing should ever be changed.",
+          "t": "Sit with them for a while and see if they seem comfortable",
           "s": 3
         },
         {
-          "t": "The exact date the practice was first used.",
-          "s": 4
+          "t": "Ask a mutual friend to help bring them into the group gradually",
+          "s": 2
+        },
+        {
+          "t": "Respect that some people prefer quiet time and give them space",
+          "s": 1
         }
       ],
       "categoryName": "Agricultural Aptitude & Systems Thinking",
-      "correctAnswer": "A",
-      "whyMatters": "Encourages looking for cumulative or shifting factors rather than assuming sudden failure.",
-      "insight": "Detecting Gradual System Changes"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "softskills",
-      "q": "A field treated with a particular method shows higher yield than an untreated field nearby. What is a careful interpretation?",
+      "q": "Your parents have enrolled you in a weekend class that takes away your free time.",
       "opts": [
         {
-          "t": "The method may have contributed to the difference, but other factors such as soil variation or micro-climate could also play a role.",
-          "s": 1
+          "t": "Attend without complaint since your parents are investing in your future",
+          "s": 4
         },
         {
-          "t": "The method is proven to work everywhere.",
-          "s": 2
-        },
-        {
-          "t": "The untreated field must have been managed poorly.",
+          "t": "Explain to your parents that you need some personal time to recharge",
           "s": 3
         },
         {
-          "t": "Yield differences are always random.",
-          "s": 4
+          "t": "Try attending for a few weeks, then evaluate if it's actually helping you",
+          "s": 2
+        },
+        {
+          "t": "Ask if the schedule can be adjusted rather than refusing outright",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Tests resistance to assuming direct causation from observed differences.",
-      "insight": "Evidence Interpretation and Avoiding Over-Attribution"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "softskills",
-      "q": "In one season, fields that received more irrigation produced higher yields. The following season, the same fields received even more irrigation but yields did not increase further. What might explain this?",
+      "q": "A friend confides in you about a personal problem and asks you not to tell anyone. Later, you think an adult should know.",
       "opts": [
         {
-          "t": "There may be a point beyond which additional water does not improve yield and could even create other problems.",
-          "s": 1
+          "t": "Respect the promise and keep the information to yourself",
+          "s": 4
         },
         {
-          "t": "More water always produces proportionally higher yield.",
-          "s": 2
-        },
-        {
-          "t": "Irrigation has no connection to yield.",
+          "t": "Encourage your friend to speak to an adult themselves, offering to go with them",
           "s": 3
         },
         {
-          "t": "The second season’s data must be incorrect.",
-          "s": 4
+          "t": "Speak to a trusted adult yourself, without revealing your friend's identity",
+          "s": 2
+        },
+        {
+          "t": "Wait and see if the situation resolves before taking any action",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Introduces the concept of diminishing returns and optimal levels.",
-      "insight": "Recognizing Non-Linear Relationships"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "softskills",
-      "q": "A farmer notices that a certain insect appears in large numbers only after a period of heavy rain. What is a reasonable conclusion?",
+      "q": "During a school trip, your group reaches a place where everyone has two hours of free time.",
       "opts": [
         {
-          "t": "There may be a connection between the rain and the insect population, but the exact cause would require further observation.",
-          "s": 1
+          "t": "Explore the area with your friends while staying within the agreed boundary",
+          "s": 4
         },
         {
-          "t": "Rain directly creates insects.",
-          "s": 2
-        },
-        {
-          "t": "The insect appearance is completely unrelated to rain.",
+          "t": "Visit the information centre and learn about the place first",
           "s": 3
         },
         {
-          "t": "All insects appear after rain.",
-          "s": 4
+          "t": "Stay with the group and follow what the majority decides",
+          "s": 2
+        },
+        {
+          "t": "Find a quiet spot to rest and observe your surroundings alone",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Shows balanced interpretation of observed associations.",
-      "insight": "Pattern Interpretation Without Overclaiming"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "softskills",
-      "q": "Two fields receive the same treatment, but one consistently produces better results. What information would help explain the difference?",
+      "q": "You receive a test result that is lower than what you expected.",
       "opts": [
         {
-          "t": "Whether there are differences in soil type, drainage, previous crop history, or micro-climate between the two fields.",
-          "s": 1
+          "t": "Review the paper thoroughly to understand exactly where you lost marks",
+          "s": 4
         },
         {
-          "t": "That one field is simply luckier.",
-          "s": 2
-        },
-        {
-          "t": "The exact size of each field.",
+          "t": "Take a day to process it, then plan a revised study schedule",
           "s": 3
         },
         {
-          "t": "The names of the people working on each field.",
-          "s": 4
+          "t": "Meet the teacher to discuss whether there is room for improvement or re-evaluation",
+          "s": 2
+        },
+        {
+          "t": "Compare your paper with a topper's to identify the gap in approach",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Encourages systematic investigation of hidden variables.",
-      "insight": "Identifying Confounding Factors"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "softskills",
-      "q": "A new variety of crop is introduced and performs well in the first year. What is a thoughtful approach for the second year?",
+      "q": "Your sibling wants to use your personal tablet for a game, and you have an online class in an hour.",
       "opts": [
         {
-          "t": "Continue observing performance while considering that one year’s results may not predict long-term behavior under varying conditions.",
-          "s": 1
+          "t": "Let them use it now and charge it quickly before your class starts",
+          "s": 4
         },
         {
-          "t": "Assume the variety will always perform the same way.",
-          "s": 2
-        },
-        {
-          "t": "Immediately replace all other varieties.",
+          "t": "Explain that you need it soon but offer them your phone instead",
           "s": 3
         },
         {
-          "t": "Ignore the first year’s results completely.",
-          "s": 4
+          "t": "Tell them they can use it after your class is over",
+          "s": 2
+        },
+        {
+          "t": "Check how much battery is left and decide based on that",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Demonstrates caution about generalizing from limited observations.",
-      "insight": "Long-Term Perspective and Evidence Caution"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "softskills",
-      "q": "A practice improves yield in most fields but reduces yield in a few others. What does this suggest?",
+      "q": "A new student joins your class and seems unsure about how things work here.",
       "opts": [
         {
-          "t": "The practice may be beneficial under certain conditions but not universally suitable; understanding the differences between fields would be valuable.",
-          "s": 1
+          "t": "Offer to show them around the school on the first day",
+          "s": 4
         },
         {
-          "t": "The practice should be applied everywhere.",
-          "s": 2
-        },
-        {
-          "t": "The practice should be abandoned completely.",
+          "t": "Treat them normally and let them adjust at their own pace",
           "s": 3
         },
         {
-          "t": "Yield variation is always random.",
-          "s": 4
+          "t": "Introduce them to a few students who have similar interests",
+          "s": 2
+        },
+        {
+          "t": "Share a printed timetable and some class notes so they feel prepared",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Shows comfort with context-dependent outcomes rather than seeking universal rules.",
-      "insight": "Context Sensitivity and Variable Suitability"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "financial",
-      "q": "A farmer has limited water available. One approach uses more water to achieve higher yield this season, while another uses less water with slightly lower yield but preserves soil moisture for future seasons. How would you weigh the options?",
+      "q": "Your class is choosing a venue for the farewell party. Two strong options have emerged.",
       "opts": [
         {
-          "t": "Consider both the immediate yield and the long-term effect on soil and future production capacity.",
-          "s": 1
+          "t": "Suggest a vote and accept whatever the majority chooses",
+          "s": 4
         },
         {
-          "t": "Always maximize yield in the current season.",
-          "s": 2
-        },
-        {
-          "t": "Always minimize water use regardless of yield.",
+          "t": "List the pros and cons of each and present them to the class",
           "s": 3
         },
         {
-          "t": "Decide based only on this season’s needs.",
-          "s": 4
+          "t": "Propose a third option that combines the best features of both",
+          "s": 2
+        },
+        {
+          "t": "Let the class representatives decide since that is their role",
+          "s": 1
         }
       ],
       "categoryName": "Financial, Sustainability & Resource Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Reveals balanced thinking between short-term gain and long-term resource health.",
-      "insight": "Long-Term Resource Perspective"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "financial",
-      "q": "A method increases production but requires regular purchase of external inputs. An alternative method produces slightly less but relies more on resources already available on the farm. What consideration would guide the choice?",
+      "q": "You overhear two friends having a disagreement in the corridor.",
       "opts": [
         {
-          "t": "The balance between higher output and greater dependence on purchased inputs versus self-reliance and long-term cost stability.",
-          "s": 1
+          "t": "Walk past — it is a personal matter between them",
+          "s": 4
         },
         {
-          "t": "Always choose the higher production method.",
-          "s": 2
-        },
-        {
-          "t": "Always choose the self-reliant method.",
+          "t": "Check on them later individually to see if they are okay",
           "s": 3
         },
         {
-          "t": "Input costs are not relevant.",
-          "s": 4
+          "t": "If it seems serious, inform a teacher nearby",
+          "s": 2
+        },
+        {
+          "t": "Bring them together after some time and let them talk it out calmly",
+          "s": 1
         }
       ],
       "categoryName": "Financial, Sustainability & Resource Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Shows thoughtful evaluation of dependency versus productivity.",
-      "insight": "Self-Reliance vs Productivity Trade-off Thinking"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "financial",
-      "q": "A farm has a limited budget for improvements. One option improves water efficiency, another improves soil quality, and a third adds a new crop. How would you prioritize?",
+      "q": "A teacher assigns extra practice problems over the weekend.",
       "opts": [
         {
-          "t": "Consider which improvement addresses the most pressing constraint and offers the greatest long-term benefit within the available budget.",
-          "s": 1
+          "t": "Complete them on Saturday so Sunday remains free",
+          "s": 4
         },
         {
-          "t": "Always choose the option with the highest immediate return.",
-          "s": 2
-        },
-        {
-          "t": "Spread the budget equally without prioritization.",
+          "t": "Spread them across both days in small sessions",
           "s": 3
         },
         {
-          "t": "Choose based only on what neighboring farms are doing.",
-          "s": 4
+          "t": "Do them on Sunday evening when you have a clearer idea of what was covered in class",
+          "s": 2
+        },
+        {
+          "t": "Attempt the ones you find challenging and note the rest for doubt-clearing on Monday",
+          "s": 1
         }
       ],
       "categoryName": "Financial, Sustainability & Resource Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Demonstrates resource allocation under constraints with long-term thinking.",
-      "insight": "Prioritization and Resource Optimization"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "financial",
-      "q": "A practice increases yield this year but may reduce soil health over several years. What would be a useful way to evaluate it?",
+      "q": "You are asked to lead a small team for a science exhibition.",
       "opts": [
         {
-          "t": "Compare the short-term gain against the potential long-term cost of declining soil productivity and the effort required to restore it.",
-          "s": 1
+          "t": "Divide tasks based on each person's strength and check in regularly",
+          "s": 4
         },
         {
-          "t": "Always prioritize this year’s yield.",
-          "s": 2
-        },
-        {
-          "t": "Never consider practices that affect soil.",
+          "t": "Let the team decide among themselves who does what, and you coordinate",
           "s": 3
         },
         {
-          "t": "Soil health is not connected to yield.",
-          "s": 4
+          "t": "Take the lead role yourself to ensure the project stays on track",
+          "s": 2
+        },
+        {
+          "t": "Set a clear deadline and let everyone work independently until then",
+          "s": 1
         }
       ],
       "categoryName": "Financial, Sustainability & Resource Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Encourages evaluating practices through their multi-year consequences.",
-      "insight": "Sustainability and Intergenerational Thinking"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "commitment",
-      "q": "After several months of following a particular approach with crops, the results are different from what you expected. What naturally feels most meaningful to understand next?",
+      "q": "Someone you don't know well borrows a book from you and returns it with a torn page.",
       "opts": [
         {
-          "t": "What factors may have interacted differently than anticipated and what can be learned for future seasons.",
-          "s": 1
+          "t": "Accept it quietly — accidents happen and it's not worth making it awkward",
+          "s": 4
         },
         {
-          "t": "That the approach was completely wrong.",
-          "s": 2
-        },
-        {
-          "t": "That nature is too unpredictable to analyze.",
+          "t": "Politely mention the damage so they are aware for next time",
           "s": 3
         },
         {
-          "t": "The exact date the approach was started.",
-          "s": 4
+          "t": "Repair the page yourself and say nothing",
+          "s": 2
+        },
+        {
+          "t": "Note it mentally and think twice before lending to them in the future",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Explores how you respond to unexpected outcomes in living systems.",
-      "insight": "Learning Orientation and Reflection on Uncertainty"
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "commitment",
-      "q": "When conditions change unexpectedly (such as unusual rainfall or temperature), how do you usually approach adjusting your plans?",
+      "q": "You have an important exam tomorrow and a family function tonight.",
       "opts": [
         {
-          "t": "Look for ways to adapt the existing approach while preserving the overall goal.",
-          "s": 1
+          "t": "Attend the function for a short while, then come home to study",
+          "s": 4
         },
         {
-          "t": "Feel that any change makes planning useless.",
-          "s": 2
-        },
-        {
-          "t": "Continue with the original plan without adjustment.",
+          "t": "Skip the function entirely and focus on preparation",
           "s": 3
         },
         {
-          "t": "Abandon all planning when conditions vary.",
-          "s": 4
+          "t": "Attend the full function — a relaxed mind studies better than a stressed one",
+          "s": 2
+        },
+        {
+          "t": "Attend with your notes and revise during quiet moments at the venue",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Reveals adaptability when working with variable natural conditions.",
-      "insight": "Adaptability Under Changing Conditions"
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "commitment",
-      "q": "You observe that two similar plots respond differently to the same treatment over time. What feels most natural to do?",
+      "q": "A classmate copies your answer during a quiz. The teacher suspects something.",
       "opts": [
         {
-          "t": "Investigate what subtle differences might exist between the plots that could explain the variation.",
-          "s": 1
+          "t": "Tell the teacher honestly if directly asked",
+          "s": 4
         },
         {
-          "t": "Assume the treatment was applied incorrectly.",
-          "s": 2
-        },
-        {
-          "t": "Decide that treatments never work consistently.",
+          "t": "Stay silent and let the teacher handle it their way",
           "s": 3
         },
         {
-          "t": "Ignore the difference and treat both plots the same way.",
-          "s": 4
+          "t": "Speak to the classmate privately about it after the quiz",
+          "s": 2
+        },
+        {
+          "t": "Mention to the teacher that you noticed something but aren't certain",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Shows investigative curiosity about variation in outcomes.",
-      "insight": "Observation Skills and Variation Investigation"
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "commitment",
-      "q": "After trying a new method for one season, you notice both positive and negative effects. How do you usually decide whether to continue?",
+      "q": "You are given a project topic you find uninteresting.",
       "opts": [
         {
-          "t": "Weigh the benefits against the drawbacks and consider whether adjustments could reduce the negative effects.",
-          "s": 1
+          "t": "Find one small aspect of the topic that interests you and build from there",
+          "s": 4
         },
         {
-          "t": "Focus only on the positive effects.",
-          "s": 2
-        },
-        {
-          "t": "Abandon the method at the first sign of any drawback.",
+          "t": "Complete it efficiently with the required information and move on",
           "s": 3
         },
         {
-          "t": "Continue regardless of any negative effects.",
-          "s": 4
+          "t": "Ask the teacher if the scope can be adjusted to include something you enjoy",
+          "s": 2
+        },
+        {
+          "t": "Use creative presentation methods to make the topic more engaging for yourself",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Indicates balanced evaluation of trade-offs in decision-making.",
-      "insight": "Balanced Judgment and Trade-off Evaluation"
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "commitment",
-      "q": "When planning for a season, you realize that several important factors (weather, pests, market prices) cannot be fully predicted. How do you usually feel?",
+      "q": "Your friend invites you to a movie on the same day you planned to study.",
       "opts": [
         {
-          "t": "Comfortable working with uncertainty by building flexibility and observing as the season progresses.",
-          "s": 1
+          "t": "Go to the movie — one day of study can be adjusted later",
+          "s": 4
         },
         {
-          "t": "Frustrated that complete certainty is not possible.",
-          "s": 2
-        },
-        {
-          "t": "Prefer to make rigid plans and follow them exactly.",
+          "t": "Decline and stick to your original plan",
           "s": 3
         },
         {
-          "t": "Avoid planning altogether because of uncertainty.",
-          "s": 4
+          "t": "Suggest a shorter outing or a different day instead",
+          "s": 2
+        },
+        {
+          "t": "Go for the first show and return in time to study in the evening",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Explores comfort with inherent uncertainty in agricultural work.",
-      "insight": "Comfort With Uncertainty and Flexible Planning"
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "commitment",
-      "q": "When multiple approaches could achieve similar results but each has different advantages and limitations, how do you usually choose?",
+      "q": "You notice a small error in the school newsletter that has already been printed.",
       "opts": [
         {
-          "t": "Select the approach that best aligns with your priorities, resources, and values, while accepting that no option is perfect.",
-          "s": 1
+          "t": "Point it out to the teacher in charge so it can be corrected next time",
+          "s": 4
         },
         {
-          "t": "Feel that only one “correct” approach exists.",
-          "s": 2
-        },
-        {
-          "t": "Choose randomly.",
+          "t": "Let it be — it is a minor thing and everyone has already received their copy",
           "s": 3
         },
         {
-          "t": "Avoid choosing because multiple options exist.",
-          "s": 4
+          "t": "Mention it casually to the student editor so they are more careful going forward",
+          "s": 2
+        },
+        {
+          "t": "Ignore it unless someone asks you directly about it",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Reveals how you navigate situations where no single perfect solution exists.",
-      "insight": "Decision-Making in the Absence of Perfect Options"
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     }
   ],
   "ai_ml": [
@@ -1051,19 +1051,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "A consistent relationship between evening temperature drop and next-day rain.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Completely random temperature changes with no connection to rain.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Temperature drops that sometimes lead to rain and sometimes do not, with no pattern.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Rain occurring only on days when temperature does not change at all.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Mathematical & Pattern Intelligence",
@@ -1077,19 +1077,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The opponent may be repeating moves in a predictable way that can be used to anticipate their next action.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The opponent is choosing moves completely at random.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The pattern is too small to be useful.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Winning has nothing to do with previous moves.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Mathematical & Pattern Intelligence",
@@ -1103,19 +1103,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The connection appears consistently across many different users.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Only one person shows this behavior.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The pattern appears only on weekends.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The movies have no connection to each other.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Mathematical & Pattern Intelligence",
@@ -1129,19 +1129,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Group A may show more consistent improvement because regular practice reinforces learning.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Both groups will improve at exactly the same rate.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Group B will improve much faster because of longer sessions.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Neither group will show any improvement.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Mathematical & Pattern Intelligence",
@@ -1155,19 +1155,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "It allows the app to suggest Y and Z to new users who like X, even without knowing them personally.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "It only works for the first user who showed the pattern.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The connection is too common to be useful.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Songs should be suggested randomly instead.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Mathematical & Pattern Intelligence",
@@ -1181,19 +1181,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The connection is useful as a general guide, even though individual results may vary.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The pattern is useless because it is not true for everyone.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Walking has no effect on sleep for anyone.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Only people who already sleep well walk more.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Mathematical & Pattern Intelligence",
@@ -1207,19 +1207,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "As an apple, based on similarity to previous examples.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "As a banana, because it is fruit.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "As neither, because it is a new object.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Randomly, without using previous examples.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Learning Through Examples",
@@ -1233,19 +1233,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Many different photos of cats in various poses, colors, and backgrounds.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Only one photo of a cat.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Photos of cats along with many photos of dogs labeled as “not cat.”",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Photos of only black cats.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Learning Through Examples",
@@ -1259,19 +1259,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Be cautious because the examples of unsafe mushrooms were fewer, so the boundary may not be fully learned.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Assume it is safe because it matches most examples.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Assume it is unsafe because any doubt exists.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Ignore all previous examples.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Learning Through Examples",
@@ -1285,19 +1285,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Different people can form different rules from the same examples depending on what they notice.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "One person must be wrong.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The examples were not clear enough.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Both conclusions are equally correct for all future animals.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Learning Through Examples",
@@ -1311,19 +1311,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The examples may not have covered enough variety of losing positions.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The player is not capable of learning.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "More examples will never help.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The game has no consistent rules.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Learning Through Examples",
@@ -1337,19 +1337,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The rule they extracted may not apply to all problems of this type.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The student should never use examples again.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "All 15 examples must have been wrong.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The new problem is impossible to solve.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Learning Through Examples",
@@ -1363,19 +1363,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "In similar past conditions, it rained 3 out of 4 times.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "It will definitely rain tomorrow.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "There is a 75% chance the app is wrong.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "It will rain for exactly 75% of the day.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Probability, Uncertainty & Prediction",
@@ -1389,19 +1389,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "There is a good chance you will like it, but it is still possible you will not.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "You will definitely like the movie.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The suggestion is useless because it might be wrong.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "You should only watch movies the system is 100% sure about.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Probability, Uncertainty & Prediction",
@@ -1415,19 +1415,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "When events are very rare, even highly accurate systems can produce many incorrect positive predictions.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The system must be broken.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Rare events should never be predicted.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Accuracy above 90% guarantees no errors.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Probability, Uncertainty & Prediction",
@@ -1441,19 +1441,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "System B, because knowing when to be cautious allows better decision-making.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "System A, because higher accuracy is always better.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Neither system is useful.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Both systems are equally good.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Probability, Uncertainty & Prediction",
@@ -1467,19 +1467,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Plan for around 30 minutes but allow extra time because the prediction is not highly confident.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Assume the trip will take exactly 30 minutes.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Ignore the prediction completely.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The trip will definitely take longer than 30 minutes.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Probability, Uncertainty & Prediction",
@@ -1493,19 +1493,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Predictions work best when new situations are similar to the examples the system learned from.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Past study habits have no connection to performance.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The system should never make predictions for anyone.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "All predictions are equally reliable regardless of changes.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Probability, Uncertainty & Prediction",
@@ -1519,19 +1519,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Whether any recent change was made to the data, the examples used, or how the system learns.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The names of all users affected.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Only the most recent recommendations.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Whether users are imagining the change.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Analytical Investigation & Problem Decomposition",
@@ -1545,19 +1545,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "What small differences exist between the two photos that might affect how the system processes them.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "That the system is completely broken.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The file names of the photos.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "How many people viewed the photos.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Analytical Investigation & Problem Decomposition",
@@ -1567,523 +1567,523 @@ export const SCIENCE_QUIZZES = {
     },
     {
       "cat": "expectation",
-      "q": "A prediction system works well on weekdays but performs poorly on weekends. What aspect seems worth improving?",
+      "q": "Your friend asks for help with homework the night before it's due. You have your own work to finish.",
       "opts": [
         {
-          "t": "Understanding what is different about weekend data compared to weekday data.",
-          "s": 1
+          "t": "Share your completed work so they can use it as a reference",
+          "s": 4
         },
         {
-          "t": "Ignoring weekend performance.",
-          "s": 2
-        },
-        {
-          "t": "Using the same model without changes.",
+          "t": "Spend an hour explaining the difficult parts and let them finish the rest",
           "s": 3
         },
         {
-          "t": "Blaming users for weekend behavior.",
-          "s": 4
+          "t": "Tell them you're busy tonight but offer to help them the next day after school",
+          "s": 2
+        },
+        {
+          "t": "Suggest they check the textbook examples since the homework is based on those",
+          "s": 1
         }
       ],
       "categoryName": "Analytical Investigation & Problem Decomposition",
-      "correctAnswer": "A",
-      "whyMatters": "Encourages investigating context-specific performance differences.",
-      "insight": "Context-Aware Performance Analysis"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "expectation",
-      "q": "A game AI wins against most players but loses consistently to one particular strategy. What would help improve it?",
+      "q": "During a class debate, a student makes a point that is factually incorrect, but the teacher doesn't notice.",
       "opts": [
         {
-          "t": "Studying the specific strategy that defeats it and adding examples of how to respond.",
-          "s": 1
+          "t": "Raise your hand and politely correct the information",
+          "s": 4
         },
         {
-          "t": "Assuming the strategy is cheating.",
-          "s": 2
-        },
-        {
-          "t": "Stopping the game when that strategy appears.",
+          "t": "Note it down and speak to the teacher privately after class",
           "s": 3
         },
         {
-          "t": "Making the AI play randomly.",
-          "s": 4
+          "t": "Say nothing — the teacher may already know and is testing the class",
+          "s": 2
+        },
+        {
+          "t": "Ask a follow-up question that gently leads the class to notice the error",
+          "s": 1
         }
       ],
       "categoryName": "Analytical Investigation & Problem Decomposition",
-      "correctAnswer": "A",
-      "whyMatters": "Links failure analysis to targeted improvement through new examples.",
-      "insight": "Learning From Specific Failures"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "expectation",
-      "q": "A language system gives good answers for common questions but struggles with unusual phrasing. What feels most useful to do?",
+      "q": "You are assigned a group project and one member has not contributed anything with two days left.",
       "opts": [
         {
-          "t": "Collect more examples of unusual phrasing and how they should be answered.",
-          "s": 1
+          "t": "Redistribute the remaining work among the active members to ensure quality",
+          "s": 4
         },
         {
-          "t": "Remove all unusual questions from the system.",
-          "s": 2
-        },
-        {
-          "t": "Assume the system can never handle unusual cases.",
+          "t": "Contact the absent member directly and ask what is holding them back",
           "s": 3
         },
         {
-          "t": "Tell users to only ask common questions.",
-          "s": 4
+          "t": "Inform the teacher so the grading can reflect actual individual effort",
+          "s": 2
+        },
+        {
+          "t": "Complete the missing portion yourself to protect the group's overall grade",
+          "s": 1
         }
       ],
       "categoryName": "Analytical Investigation & Problem Decomposition",
-      "correctAnswer": "A",
-      "whyMatters": "Shows preference for expanding the system’s experience rather than restricting inputs.",
-      "insight": "Iterative Improvement Through Expanded Examples"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "expectation",
-      "q": "A recommendation system suggests items that users rarely choose. What would you naturally want to understand?",
+      "q": "You notice a classmate sitting alone during lunch break every day.",
       "opts": [
         {
-          "t": "Whether the examples used to train the system no longer match current user preferences.",
-          "s": 1
+          "t": "Invite them to join your group for that day",
+          "s": 4
         },
         {
-          "t": "That users are simply difficult to please.",
-          "s": 2
-        },
-        {
-          "t": "The exact time each suggestion was made.",
+          "t": "Sit with them for a while and see if they seem comfortable",
           "s": 3
         },
         {
-          "t": "The color of the recommendation interface.",
-          "s": 4
+          "t": "Ask a mutual friend to help bring them into the group gradually",
+          "s": 2
+        },
+        {
+          "t": "Respect that some people prefer quiet time and give them space",
+          "s": 1
         }
       ],
       "categoryName": "Analytical Investigation & Problem Decomposition",
-      "correctAnswer": "A",
-      "whyMatters": "Connects poor suggestions to possible mismatch between training data and reality.",
-      "insight": "Detecting Distribution Shift in Data"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "softskills",
-      "q": "A system claims it can predict student success based on 50 examples. The examples all come from one school. What is important to consider?",
+      "q": "Your parents have enrolled you in a weekend class that takes away your free time.",
       "opts": [
         {
-          "t": "The system may not work well for students from other schools because the examples are limited.",
-          "s": 1
+          "t": "Attend without complaint since your parents are investing in your future",
+          "s": 4
         },
         {
-          "t": "50 examples are always enough for any prediction.",
-          "s": 2
-        },
-        {
-          "t": "The system will work perfectly everywhere.",
+          "t": "Explain to your parents that you need some personal time to recharge",
           "s": 3
         },
         {
-          "t": "School location has no effect on predictions.",
-          "s": 4
+          "t": "Try attending for a few weeks, then evaluate if it's actually helping you",
+          "s": 2
+        },
+        {
+          "t": "Ask if the schedule can be adjusted rather than refusing outright",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Critical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Highlights the risk of limited or non-representative examples.",
-      "insight": "Recognizing Limitations of Narrow Training Data"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "softskills",
-      "q": "An impressive result shows that a system correctly identified 95% of cats in 1,000 photos. What additional information would help evaluate the claim?",
+      "q": "A friend confides in you about a personal problem and asks you not to tell anyone. Later, you think an adult should know.",
       "opts": [
         {
-          "t": "How many non-cat photos were tested and how many were mistakenly labeled as cats.",
-          "s": 1
+          "t": "Respect the promise and keep the information to yourself",
+          "s": 4
         },
         {
-          "t": "Only the 95% number.",
-          "s": 2
-        },
-        {
-          "t": "The brand of camera used for the photos.",
+          "t": "Encourage your friend to speak to an adult themselves, offering to go with them",
           "s": 3
         },
         {
-          "t": "How long the system took to process each photo.",
-          "s": 4
+          "t": "Speak to a trusted adult yourself, without revealing your friend's identity",
+          "s": 2
+        },
+        {
+          "t": "Wait and see if the situation resolves before taking any action",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Critical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Emphasizes the need for full performance metrics, not just one number.",
-      "insight": "Critical Evaluation of Performance Claims"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "softskills",
-      "q": "A pattern appears in data from one month: people who buy item A also buy item B. What is a careful interpretation?",
+      "q": "During a school trip, your group reaches a place where everyone has two hours of free time.",
       "opts": [
         {
-          "t": "The connection may exist in that month, but it could be temporary or caused by something else.",
-          "s": 1
+          "t": "Explore the area with your friends while staying within the agreed boundary",
+          "s": 4
         },
         {
-          "t": "Buying A definitely causes people to buy B.",
-          "s": 2
-        },
-        {
-          "t": "The pattern will continue forever.",
+          "t": "Visit the information centre and learn about the place first",
           "s": 3
         },
         {
-          "t": "The pattern is meaningless.",
-          "s": 4
+          "t": "Stay with the group and follow what the majority decides",
+          "s": 2
+        },
+        {
+          "t": "Find a quiet spot to rest and observe your surroundings alone",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Critical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Encourages caution about generalizing from limited time periods.",
-      "insight": "Avoiding Overgeneralization From Limited Data"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "softskills",
-      "q": "A study concludes that a new learning method is better because students using it scored higher. The study only tested highly motivated volunteers. What is important to consider?",
+      "q": "You receive a test result that is lower than what you expected.",
       "opts": [
         {
-          "t": "The results may not apply to students who are less motivated or were not volunteers.",
-          "s": 1
+          "t": "Review the paper thoroughly to understand exactly where you lost marks",
+          "s": 4
         },
         {
-          "t": "The method is proven to work for everyone.",
-          "s": 2
-        },
-        {
-          "t": "Motivation has no effect on learning.",
+          "t": "Take a day to process it, then plan a revised study schedule",
           "s": 3
         },
         {
-          "t": "Volunteer status does not matter.",
-          "s": 4
+          "t": "Meet the teacher to discuss whether there is room for improvement or re-evaluation",
+          "s": 2
+        },
+        {
+          "t": "Compare your paper with a topper's to identify the gap in approach",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Critical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Shows awareness of selection bias in evaluating methods.",
-      "insight": "Recognizing Selection Bias in Studies"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "softskills",
-      "q": "Two systems are compared. System A performs slightly better on average. However, System B performs much better on the most difficult cases. Which conclusion is most reasonable?",
+      "q": "Your sibling wants to use your personal tablet for a game, and you have an online class in an hour.",
       "opts": [
         {
-          "t": "Which system is better depends on whether difficult cases are more important than average performance.",
-          "s": 1
+          "t": "Let them use it now and charge it quickly before your class starts",
+          "s": 4
         },
         {
-          "t": "System A is clearly superior.",
-          "s": 2
-        },
-        {
-          "t": "System B is clearly superior.",
+          "t": "Explain that you need it soon but offer them your phone instead",
           "s": 3
         },
         {
-          "t": "Neither system should be used.",
-          "s": 4
+          "t": "Tell them they can use it after your class is over",
+          "s": 2
+        },
+        {
+          "t": "Check how much battery is left and decide based on that",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Critical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Demonstrates that “better on average” is not always the full story.",
-      "insight": "Evaluating Trade-offs in Performance Metrics"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "softskills",
-      "q": "A system learns from user feedback and improves over time. After several months, its suggestions become less relevant. What is a possible explanation?",
+      "q": "A new student joins your class and seems unsure about how things work here.",
       "opts": [
         {
-          "t": "User preferences may have changed, making the older examples less relevant.",
-          "s": 1
+          "t": "Offer to show them around the school on the first day",
+          "s": 4
         },
         {
-          "t": "The system has learned everything possible.",
-          "s": 2
-        },
-        {
-          "t": "Feedback can never improve a system.",
+          "t": "Treat them normally and let them adjust at their own pace",
           "s": 3
         },
         {
-          "t": "Users are giving incorrect feedback on purpose.",
-          "s": 4
+          "t": "Introduce them to a few students who have similar interests",
+          "s": 2
+        },
+        {
+          "t": "Share a printed timetable and some class notes so they feel prepared",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Critical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Illustrates concept drift — when the world changes faster than the system learns.",
-      "insight": "Understanding Concept Drift in Learning Systems"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "financial",
-      "q": "A system that approves loan applications is very accurate overall but rejects more applications from one particular group even when their qualifications are similar. What consideration would be important?",
+      "q": "Your class is choosing a venue for the farewell party. Two strong options have emerged.",
       "opts": [
         {
-          "t": "Whether the system’s accuracy comes at the cost of treating different groups unfairly.",
-          "s": 1
+          "t": "Suggest a vote and accept whatever the majority chooses",
+          "s": 4
         },
         {
-          "t": "That overall accuracy is the only thing that matters.",
-          "s": 2
-        },
-        {
-          "t": "That fairness is impossible to achieve in any system.",
+          "t": "List the pros and cons of each and present them to the class",
           "s": 3
         },
         {
-          "t": "That the group should simply apply more times.",
-          "s": 4
+          "t": "Propose a third option that combines the best features of both",
+          "s": 2
+        },
+        {
+          "t": "Let the class representatives decide since that is their role",
+          "s": 1
         }
       ],
       "categoryName": "Ethics, Fairness & Practical Decision Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Highlights the tension between overall performance and fairness across groups.",
-      "insight": "Awareness of Fairness vs Efficiency Trade-offs"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "financial",
-      "q": "A recommendation system can be made slightly more accurate by collecting more personal information from users. What would be a useful way to decide?",
+      "q": "You overhear two friends having a disagreement in the corridor.",
       "opts": [
         {
-          "t": "Consider whether the accuracy gain justifies asking users for more information they may prefer not to share.",
-          "s": 1
+          "t": "Walk past — it is a personal matter between them",
+          "s": 4
         },
         {
-          "t": "Always collect as much information as possible.",
-          "s": 2
-        },
-        {
-          "t": "Never collect any personal information.",
+          "t": "Check on them later individually to see if they are okay",
           "s": 3
         },
         {
-          "t": "Decide based only on what other apps are doing.",
-          "s": 4
+          "t": "If it seems serious, inform a teacher nearby",
+          "s": 2
+        },
+        {
+          "t": "Bring them together after some time and let them talk it out calmly",
+          "s": 1
         }
       ],
       "categoryName": "Ethics, Fairness & Practical Decision Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Shows thoughtful evaluation of privacy versus performance.",
-      "insight": "Privacy vs Performance Trade-off Thinking"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "financial",
-      "q": "Two approaches exist for a content moderation system. One is faster but occasionally removes acceptable content. The other is slower but more careful. How would you evaluate them?",
+      "q": "A teacher assigns extra practice problems over the weekend.",
       "opts": [
         {
-          "t": "Consider the consequences of removing acceptable content versus the impact of slower decisions.",
-          "s": 1
+          "t": "Complete them on Saturday so Sunday remains free",
+          "s": 4
         },
         {
-          "t": "Always choose the faster approach.",
-          "s": 2
-        },
-        {
-          "t": "Always choose the slower approach.",
+          "t": "Spread them across both days in small sessions",
           "s": 3
         },
         {
-          "t": "Choose randomly.",
-          "s": 4
+          "t": "Do them on Sunday evening when you have a clearer idea of what was covered in class",
+          "s": 2
+        },
+        {
+          "t": "Attempt the ones you find challenging and note the rest for doubt-clearing on Monday",
+          "s": 1
         }
       ],
       "categoryName": "Ethics, Fairness & Practical Decision Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Encourages weighing different types of errors and their real-world effects.",
-      "insight": "Error Cost Evaluation in Decision Systems"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "financial",
-      "q": "A predictive system works well for the majority of users but performs poorly for a small minority. What would be a reasonable consideration?",
+      "q": "You are asked to lead a small team for a science exhibition.",
       "opts": [
         {
-          "t": "Whether improving performance for the minority is worth additional effort or resources.",
-          "s": 1
+          "t": "Divide tasks based on each person's strength and check in regularly",
+          "s": 4
         },
         {
-          "t": "That the minority does not matter because they are few.",
-          "s": 2
-        },
-        {
-          "t": "That the system should be abandoned completely.",
+          "t": "Let the team decide among themselves who does what, and you coordinate",
           "s": 3
         },
         {
-          "t": "That the minority should change their behavior.",
-          "s": 4
+          "t": "Take the lead role yourself to ensure the project stays on track",
+          "s": 2
+        },
+        {
+          "t": "Set a clear deadline and let everyone work independently until then",
+          "s": 1
         }
       ],
       "categoryName": "Ethics, Fairness & Practical Decision Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Tests balancing majority performance with minority inclusion.",
-      "insight": "Inclusive Performance Considerations"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "commitment",
-      "q": "After improving a solution repeatedly based on feedback, it still makes unexpected mistakes in new situations. What naturally feels most meaningful to do next?",
+      "q": "Someone you don't know well borrows a book from you and returns it with a torn page.",
       "opts": [
         {
-          "t": "Explore what kinds of new situations expose the remaining weaknesses.",
-          "s": 1
+          "t": "Accept it quietly — accidents happen and it's not worth making it awkward",
+          "s": 4
         },
         {
-          "t": "Feel that further improvement is impossible.",
-          "s": 2
-        },
-        {
-          "t": "Blame the feedback for being inconsistent.",
+          "t": "Politely mention the damage so they are aware for next time",
           "s": 3
         },
         {
-          "t": "Stop using feedback entirely.",
-          "s": 4
+          "t": "Repair the page yourself and say nothing",
+          "s": 2
+        },
+        {
+          "t": "Note it mentally and think twice before lending to them in the future",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Reveals response to persistent imperfection after iteration.",
-      "insight": "Iterative Thinking and Persistence"
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "commitment",
-      "q": "You notice that two people learn very different things from the exact same set of examples. What would you naturally want to understand?",
+      "q": "You have an important exam tomorrow and a family function tonight.",
       "opts": [
         {
-          "t": "What differences in attention or prior experience might lead to different conclusions from the same examples.",
-          "s": 1
+          "t": "Attend the function for a short while, then come home to study",
+          "s": 4
         },
         {
-          "t": "That one person must be learning incorrectly.",
-          "s": 2
-        },
-        {
-          "t": "That examples should never be shared.",
+          "t": "Skip the function entirely and focus on preparation",
           "s": 3
         },
         {
-          "t": "That learning is completely random.",
-          "s": 4
+          "t": "Attend the full function — a relaxed mind studies better than a stressed one",
+          "s": 2
+        },
+        {
+          "t": "Attend with your notes and revise during quiet moments at the venue",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Shows curiosity about individual differences in learning from examples.",
-      "insight": "Interest in Variation in Learning"
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "commitment",
-      "q": "When a prediction you expected turns out to be wrong, what feels most natural?",
+      "q": "A classmate copies your answer during a quiz. The teacher suspects something.",
       "opts": [
         {
-          "t": "Want to understand what information was missing or what assumption was incorrect.",
-          "s": 1
+          "t": "Tell the teacher honestly if directly asked",
+          "s": 4
         },
         {
-          "t": "Feel that predictions are never useful.",
-          "s": 2
-        },
-        {
-          "t": "Ignore the incorrect prediction.",
+          "t": "Stay silent and let the teacher handle it their way",
           "s": 3
         },
         {
-          "t": "Assume the input data was wrong.",
-          "s": 4
+          "t": "Speak to the classmate privately about it after the quiz",
+          "s": 2
+        },
+        {
+          "t": "Mention to the teacher that you noticed something but aren't certain",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Explores how you treat prediction errors.",
-      "insight": "Learning Orientation From Mistakes"
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "commitment",
-      "q": "You are shown two systems that perform the same task. One is slightly more accurate but harder to understand. The other is slightly less accurate but easier to understand. Which feels more appealing to you?",
+      "q": "You are given a project topic you find uninteresting.",
       "opts": [
         {
-          "t": "The easier-to-understand system, even if accuracy is a bit lower.",
-          "s": 1
+          "t": "Find one small aspect of the topic that interests you and build from there",
+          "s": 4
         },
         {
-          "t": "The more accurate system, regardless of understandability.",
-          "s": 2
-        },
-        {
-          "t": "Neither system.",
+          "t": "Complete it efficiently with the required information and move on",
           "s": 3
         },
         {
-          "t": "A completely different approach.",
-          "s": 4
+          "t": "Ask the teacher if the scope can be adjusted to include something you enjoy",
+          "s": 2
+        },
+        {
+          "t": "Use creative presentation methods to make the topic more engaging for yourself",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Reveals preference between accuracy and interpretability.",
-      "insight": "Interpretability vs Accuracy Preference"
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "commitment",
-      "q": "When building or improving something step by step, you notice that each small improvement reveals new problems you did not see before. How do you usually respond?",
+      "q": "Your friend invites you to a movie on the same day you planned to study.",
       "opts": [
         {
-          "t": "Feel that this is a normal part of the process and continue refining.",
-          "s": 1
+          "t": "Go to the movie — one day of study can be adjusted later",
+          "s": 4
         },
         {
-          "t": "Feel frustrated that progress creates new issues.",
-          "s": 2
-        },
-        {
-          "t": "Prefer to make one large change instead of many small ones.",
+          "t": "Decline and stick to your original plan",
           "s": 3
         },
         {
-          "t": "Stop improving once the first version works.",
-          "s": 4
+          "t": "Suggest a shorter outing or a different day instead",
+          "s": 2
+        },
+        {
+          "t": "Go for the first show and return in time to study in the evening",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Indicates comfort with the iterative, revealing nature of improvement.",
-      "insight": "Comfort With Iterative Discovery"
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "commitment",
-      "q": "You realize that a conclusion you reached about how something learns was based on an assumption that may not always be true. What feels most natural?",
+      "q": "You notice a small error in the school newsletter that has already been printed.",
       "opts": [
         {
-          "t": "Update your understanding and consider how the conclusion might change.",
-          "s": 1
+          "t": "Point it out to the teacher in charge so it can be corrected next time",
+          "s": 4
         },
         {
-          "t": "Keep the original conclusion because changing it feels inconvenient.",
-          "s": 2
-        },
-        {
-          "t": "Decide that no conclusions can ever be trusted.",
+          "t": "Let it be — it is a minor thing and everyone has already received their copy",
           "s": 3
         },
         {
-          "t": "Ignore the assumption completely.",
-          "s": 4
+          "t": "Mention it casually to the student editor so they are more careful going forward",
+          "s": 2
+        },
+        {
+          "t": "Ignore it unless someone asks you directly about it",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Explores willingness to revise mental models when assumptions are questioned.",
-      "insight": "Evidence-Based Adaptability"
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     }
   ],
   "architecture": [
@@ -2093,19 +2093,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Students may now walk between clusters rather than along straight aisles.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Students will move exactly the same way as before.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The room will feel smaller regardless of how people walk.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Movement patterns will remain unchanged because the room size is the same.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Spatial Intelligence & Visualization",
@@ -2119,19 +2119,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The widened section may feel like a small resting or gathering spot within the otherwise narrow path.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "People will walk through the corridor at exactly the same speed.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The entire corridor will feel equally wide throughout.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "No change in experience will occur.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Spatial Intelligence & Visualization",
@@ -2145,19 +2145,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Visualizing how the walls, windows, and furniture would appear from that specific viewpoint.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Focusing only on the total area of the room.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Assuming the experience will be the same from every corner.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Ignoring the position and thinking only about the room’s overall shape.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Spatial Intelligence & Visualization",
@@ -2171,19 +2171,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "People may treat the two sides as somewhat separate zones even though they can still see and hear across the partition.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The partition will have no effect because it does not reach the ceiling.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "People will treat the entire hall as one continuous space.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The partition will make the hall feel twice as large.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Spatial Intelligence & Visualization",
@@ -2197,19 +2197,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Placing it against the longer wall leaves more open floor space in the center, while placing it against the shorter wall may make the room feel more divided.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Both placements create exactly the same experience.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The room size changes depending on placement.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Furniture placement has no effect on how the room feels.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Spatial Intelligence & Visualization",
@@ -2223,19 +2223,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The visitor may feel curious about what lies beyond the visible portion and be drawn to explore.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The visitor will assume the staircase leads nowhere.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The staircase will feel less inviting because part of it is hidden.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Visibility has no effect on how people experience stairs.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Spatial Intelligence & Visualization",
@@ -2249,19 +2249,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The square room may feel more balanced and easier to furnish, while the long room may feel more directional or corridor-like.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Both rooms will feel exactly the same because they have the same area.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The long room will always feel larger.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Shape has no effect on how rooms are experienced.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Mathematics & Structural Intuition",
@@ -2275,19 +2275,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "A wider balcony can accommodate seating or small activities, while a narrow one may mainly serve as a passage.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The wider balcony will always feel smaller.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Width has no effect on how balconies are used.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Both balconies will be used in exactly the same way.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Mathematics & Structural Intuition",
@@ -2301,19 +2301,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Low partitions allow visual connection across spaces while still defining separate zones; full-height partitions create more private, isolated rooms.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Both approaches create exactly the same sense of separation.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Low partitions make the hall feel larger.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Partition height has no effect on how spaces are experienced.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Mathematics & Structural Intuition",
@@ -2327,19 +2327,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "People may take more steps and move more slowly, creating a gentler ascent.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The staircase will feel steeper.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Wider steps always make climbing faster.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Step dimensions have no effect on movement.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Mathematics & Structural Intuition",
@@ -2353,19 +2353,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The horizontal building may allow easier movement between spaces at the same level, while the vertical building requires vertical circulation and may feel more compact.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Both buildings will feel exactly the same to users.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The vertical building will always feel larger.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Footprint shape has no effect on daily experience.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Mathematics & Structural Intuition",
@@ -2379,19 +2379,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The courtyard may feel more open and connected to the sky, while the narrower version may feel more enclosed.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Both courtyards will feel exactly the same.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The wider courtyard will feel more enclosed.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Width has no effect on how courtyards are experienced.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Mathematics & Structural Intuition",
@@ -2405,19 +2405,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The side with large windows may receive more direct sunlight and feel brighter and warmer during the day.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Both sides will have exactly the same light and temperature.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Small windows always make a room cooler.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Window size has no effect on indoor conditions.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics of Buildings & Everyday Structures",
@@ -2431,19 +2431,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The sloping roof may shed water more effectively, while the flat roof may require better drainage to avoid water accumulation.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Both roofs will perform exactly the same.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Flat roofs are always better in rainy areas.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Roof shape has no effect on water management.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics of Buildings & Everyday Structures",
@@ -2457,19 +2457,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The stone wall may absorb heat during the day and release it slowly at night, while the metal wall may heat up and cool down more quickly.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Both walls will maintain exactly the same indoor temperature.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Metal walls are always more comfortable.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Wall material has no effect on indoor conditions.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics of Buildings & Everyday Structures",
@@ -2483,19 +2483,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The high ceiling may allow sound to travel farther and create more echo, while the low ceiling may absorb or reflect sound differently.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Both rooms will have exactly the same acoustics.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Ceiling height has no effect on sound.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "High ceilings always make sound clearer.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics of Buildings & Everyday Structures",
@@ -2509,19 +2509,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The wider base provides greater resistance to tipping or overturning forces.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The shape makes the building less stable.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Base width has no effect on stability.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Narrower tops always improve stability.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics of Buildings & Everyday Structures",
@@ -2535,19 +2535,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The room with the dark floor may absorb more heat and feel warmer, while the light floor may reflect more light and heat.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Both rooms will have exactly the same temperature.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Floor color has no effect on room conditions.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Dark floors always make rooms cooler.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics of Buildings & Everyday Structures",
@@ -2561,19 +2561,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "How people actually move through or around the plaza and what might discourage them from staying.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "That the construction quality must be poor.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "That people simply do not like public spaces.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The exact cost of building the plaza.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Design Thinking & Human-Centered Problem Solving",
@@ -2587,19 +2587,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "How each option affects daily movement, gathering, and the feeling of arrival for students and visitors.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Which design uses less material.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Which design looks more modern.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The exact dimensions of each option.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Design Thinking & Human-Centered Problem Solving",
@@ -2609,523 +2609,523 @@ export const SCIENCE_QUIZZES = {
     },
     {
       "cat": "expectation",
-      "q": "A beautifully designed library has excellent natural light and comfortable seating, but students report that it feels too quiet and formal to study in groups. What aspect seems worth reconsidering?",
+      "q": "Your friend asks for help with homework the night before it's due. You have your own work to finish.",
       "opts": [
         {
-          "t": "Whether the design unintentionally discourages the collaborative use the library was meant to support.",
-          "s": 1
+          "t": "Share your completed work so they can use it as a reference",
+          "s": 4
         },
         {
-          "t": "That students should study alone.",
-          "s": 2
-        },
-        {
-          "t": "That beauty and function are always in conflict.",
+          "t": "Spend an hour explaining the difficult parts and let them finish the rest",
           "s": 3
         },
         {
-          "t": "That the library should be made less beautiful.",
-          "s": 4
+          "t": "Tell them you're busy tonight but offer to help them the next day after school",
+          "s": 2
+        },
+        {
+          "t": "Suggest they check the textbook examples since the homework is based on those",
+          "s": 1
         }
       ],
       "categoryName": "Design Thinking & Human-Centered Problem Solving",
-      "correctAnswer": "A",
-      "whyMatters": "Highlights awareness that aesthetic success does not guarantee functional success.",
-      "insight": "Balancing Aesthetics with Actual Use"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "expectation",
-      "q": "A small change in the placement of a bench in a park significantly increases how many people use it. What does this suggest?",
+      "q": "During a class debate, a student makes a point that is factually incorrect, but the teacher doesn't notice.",
       "opts": [
         {
-          "t": "Subtle adjustments in position, orientation, or surroundings can dramatically affect how people interact with an element.",
-          "s": 1
+          "t": "Raise your hand and politely correct the information",
+          "s": 4
         },
         {
-          "t": "All bench placements are equally effective.",
-          "s": 2
-        },
-        {
-          "t": "People use benches randomly.",
+          "t": "Note it down and speak to the teacher privately after class",
           "s": 3
         },
         {
-          "t": "Design details never matter.",
-          "s": 4
+          "t": "Say nothing — the teacher may already know and is testing the class",
+          "s": 2
+        },
+        {
+          "t": "Ask a follow-up question that gently leads the class to notice the error",
+          "s": 1
         }
       ],
       "categoryName": "Design Thinking & Human-Centered Problem Solving",
-      "correctAnswer": "A",
-      "whyMatters": "Demonstrates sensitivity to how small spatial decisions create large behavioral effects.",
-      "insight": "Awareness of Small Changes and Large Effects"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "expectation",
-      "q": "A corridor in a hospital is designed to be efficient and direct, but patients and staff often take longer routes through other areas. What would you naturally want to explore?",
+      "q": "You are assigned a group project and one member has not contributed anything with two days left.",
       "opts": [
         {
-          "t": "What qualities the alternative routes offer that the efficient corridor lacks.",
-          "s": 1
+          "t": "Redistribute the remaining work among the active members to ensure quality",
+          "s": 4
         },
         {
-          "t": "That people are making inefficient choices.",
-          "s": 2
-        },
-        {
-          "t": "That the corridor should be made even more direct.",
+          "t": "Contact the absent member directly and ask what is holding them back",
           "s": 3
         },
         {
-          "t": "That the alternative routes should be closed.",
-          "s": 4
+          "t": "Inform the teacher so the grading can reflect actual individual effort",
+          "s": 2
+        },
+        {
+          "t": "Complete the missing portion yourself to protect the group's overall grade",
+          "s": 1
         }
       ],
       "categoryName": "Design Thinking & Human-Centered Problem Solving",
-      "correctAnswer": "A",
-      "whyMatters": "Shows curiosity about why people choose certain paths over others.",
-      "insight": "Understanding Desire Lines and Actual Behavior"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "expectation",
-      "q": "A community space is designed with multiple possible uses in mind. After a few months, one unexpected activity becomes very popular. What feels most natural to consider?",
+      "q": "You notice a classmate sitting alone during lunch break every day.",
       "opts": [
         {
-          "t": "Whether the space can be gently adapted to better support this emerging use without losing other possibilities.",
-          "s": 1
+          "t": "Invite them to join your group for that day",
+          "s": 4
         },
         {
-          "t": "That the original design was a failure.",
-          "s": 2
-        },
-        {
-          "t": "That the new activity should be discouraged.",
+          "t": "Sit with them for a while and see if they seem comfortable",
           "s": 3
         },
         {
-          "t": "That the space should be redesigned from scratch.",
-          "s": 4
+          "t": "Ask a mutual friend to help bring them into the group gradually",
+          "s": 2
+        },
+        {
+          "t": "Respect that some people prefer quiet time and give them space",
+          "s": 1
         }
       ],
       "categoryName": "Design Thinking & Human-Centered Problem Solving",
-      "correctAnswer": "A",
-      "whyMatters": "Reveals openness to evolving use and iterative design.",
-      "insight": "Adaptability and Responsive Design Thinking"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "softskills",
-      "q": "A new park design is praised for its beauty in architectural reviews. However, after opening, very few people use it during weekdays. What is important to consider?",
+      "q": "Your parents have enrolled you in a weekend class that takes away your free time.",
       "opts": [
         {
-          "t": "Whether the design meets the practical needs and daily routines of the people who live nearby.",
-          "s": 1
+          "t": "Attend without complaint since your parents are investing in your future",
+          "s": 4
         },
         {
-          "t": "That the design is successful because it looks good.",
-          "s": 2
-        },
-        {
-          "t": "That people do not appreciate good design.",
+          "t": "Explain to your parents that you need some personal time to recharge",
           "s": 3
         },
         {
-          "t": "That weekday use is not important.",
-          "s": 4
+          "t": "Try attending for a few weeks, then evaluate if it's actually helping you",
+          "s": 2
+        },
+        {
+          "t": "Ask if the schedule can be adjusted rather than refusing outright",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Tests the ability to distinguish between critical acclaim and actual user experience.",
-      "insight": "Distinguishing Design Quality from Usability"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "softskills",
-      "q": "Two buildings use similar materials and have similar floor areas, but one feels significantly more comfortable in summer. What is a reasonable explanation?",
+      "q": "A friend confides in you about a personal problem and asks you not to tell anyone. Later, you think an adult should know.",
       "opts": [
         {
-          "t": "Differences in orientation, window placement, shading, or ventilation may create different thermal experiences despite similar materials.",
-          "s": 1
+          "t": "Respect the promise and keep the information to yourself",
+          "s": 4
         },
         {
-          "t": "Material choice is the only factor that matters.",
-          "s": 2
-        },
-        {
-          "t": "Both buildings must feel exactly the same.",
+          "t": "Encourage your friend to speak to an adult themselves, offering to go with them",
           "s": 3
         },
         {
-          "t": "Comfort is entirely subjective and cannot be influenced by design.",
-          "s": 4
+          "t": "Speak to a trusted adult yourself, without revealing your friend's identity",
+          "s": 2
+        },
+        {
+          "t": "Wait and see if the situation resolves before taking any action",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Encourages looking beyond obvious factors to understand environmental performance.",
-      "insight": "Systems Thinking in Environmental Comfort"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "softskills",
-      "q": "A building with many small windows feels brighter inside than a building with fewer but larger windows, even though the total window area is the same. What might explain this?",
+      "q": "During a school trip, your group reaches a place where everyone has two hours of free time.",
       "opts": [
         {
-          "t": "The distribution and placement of openings can affect how light spreads and how bright a space feels.",
-          "s": 1
+          "t": "Explore the area with your friends while staying within the agreed boundary",
+          "s": 4
         },
         {
-          "t": "Total window area is the only factor that determines brightness.",
-          "s": 2
-        },
-        {
-          "t": "Number of windows never affects light quality.",
+          "t": "Visit the information centre and learn about the place first",
           "s": 3
         },
         {
-          "t": "Smaller windows always make spaces darker.",
-          "s": 4
+          "t": "Stay with the group and follow what the majority decides",
+          "s": 2
+        },
+        {
+          "t": "Find a quiet spot to rest and observe your surroundings alone",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Shows understanding that distribution matters as much as total area.",
-      "insight": "Light Distribution and Spatial Experience"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "softskills",
-      "q": "A design that works well in a dense urban area is copied exactly in a suburban setting. What is most likely to happen?",
+      "q": "You receive a test result that is lower than what you expected.",
       "opts": [
         {
-          "t": "The design may not perform the same way because context, surroundings, and user needs are different.",
-          "s": 1
+          "t": "Review the paper thoroughly to understand exactly where you lost marks",
+          "s": 4
         },
         {
-          "t": "The design will work exactly the same everywhere.",
-          "s": 2
-        },
-        {
-          "t": "Suburban settings always improve any design.",
+          "t": "Take a day to process it, then plan a revised study schedule",
           "s": 3
         },
         {
-          "t": "Context has no effect on design performance.",
-          "s": 4
+          "t": "Meet the teacher to discuss whether there is room for improvement or re-evaluation",
+          "s": 2
+        },
+        {
+          "t": "Compare your paper with a topper's to identify the gap in approach",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Highlights the importance of context in architectural solutions.",
-      "insight": "Context Sensitivity in Design"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "softskills",
-      "q": "A building uses a complex shape that requires more materials and maintenance than a simpler alternative. What is a thoughtful consideration?",
+      "q": "Your sibling wants to use your personal tablet for a game, and you have an online class in an hour.",
       "opts": [
         {
-          "t": "Whether the additional complexity provides meaningful benefits in experience, function, or identity that justify the extra cost and effort.",
-          "s": 1
+          "t": "Let them use it now and charge it quickly before your class starts",
+          "s": 4
         },
         {
-          "t": "Complex shapes are always better.",
-          "s": 2
-        },
-        {
-          "t": "Simpler shapes are always better.",
+          "t": "Explain that you need it soon but offer them your phone instead",
           "s": 3
         },
         {
-          "t": "Material use and maintenance are not important.",
-          "s": 4
+          "t": "Tell them they can use it after your class is over",
+          "s": 2
+        },
+        {
+          "t": "Check how much battery is left and decide based on that",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Encourages weighing expressive goals against practical consequences.",
-      "insight": "Trade-off Evaluation Between Expression and Practicality"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "softskills",
-      "q": "Two different design approaches achieve the same functional goal but create very different atmospheres. What is a reasonable conclusion?",
+      "q": "A new student joins your class and seems unsure about how things work here.",
       "opts": [
         {
-          "t": "The choice between them depends on which atmosphere better supports the intended experience and use.",
-          "s": 1
+          "t": "Offer to show them around the school on the first day",
+          "s": 4
         },
         {
-          "t": "Both approaches are equally good in every situation.",
-          "s": 2
-        },
-        {
-          "t": "One approach must be objectively superior.",
+          "t": "Treat them normally and let them adjust at their own pace",
           "s": 3
         },
         {
-          "t": "Atmosphere is not relevant in design decisions.",
-          "s": 4
+          "t": "Introduce them to a few students who have similar interests",
+          "s": 2
+        },
+        {
+          "t": "Share a printed timetable and some class notes so they feel prepared",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Shows comfort with multiple valid solutions depending on priorities.",
-      "insight": "Multiple Valid Solutions and Priority-Based Choice"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "financial",
-      "q": "A project has two material options: one is locally available, affordable, and requires less maintenance, while the other is imported, more expensive, and offers a different appearance. How would you weigh the choice?",
+      "q": "Your class is choosing a venue for the farewell party. Two strong options have emerged.",
       "opts": [
         {
-          "t": "Consider the total cost over time, environmental impact of transportation, maintenance needs, and whether the appearance difference justifies the trade-offs.",
-          "s": 1
+          "t": "Suggest a vote and accept whatever the majority chooses",
+          "s": 4
         },
         {
-          "t": "Always choose the imported material for better appearance.",
-          "s": 2
-        },
-        {
-          "t": "Always choose the local material regardless of appearance.",
+          "t": "List the pros and cons of each and present them to the class",
           "s": 3
         },
         {
-          "t": "Decide based only on initial cost.",
-          "s": 4
+          "t": "Propose a third option that combines the best features of both",
+          "s": 2
+        },
+        {
+          "t": "Let the class representatives decide since that is their role",
+          "s": 1
         }
       ],
       "categoryName": "Financial, Sustainability & Practical Decision Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Reveals balanced thinking about cost, sustainability, and long-term consequences.",
-      "insight": "Long-Term and Sustainability-Oriented Decision Making"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "financial",
-      "q": "A building can be designed with features that reduce energy use over time but increase initial construction cost. What consideration would guide the decision?",
+      "q": "You overhear two friends having a disagreement in the corridor.",
       "opts": [
         {
-          "t": "Whether the long-term energy savings and environmental benefits justify the higher upfront investment.",
-          "s": 1
+          "t": "Walk past — it is a personal matter between them",
+          "s": 4
         },
         {
-          "t": "Always minimize initial cost regardless of long-term effects.",
-          "s": 2
-        },
-        {
-          "t": "Always maximize energy-saving features regardless of cost.",
+          "t": "Check on them later individually to see if they are okay",
           "s": 3
         },
         {
-          "t": "Energy performance is not relevant in design.",
-          "s": 4
+          "t": "If it seems serious, inform a teacher nearby",
+          "s": 2
+        },
+        {
+          "t": "Bring them together after some time and let them talk it out calmly",
+          "s": 1
         }
       ],
       "categoryName": "Financial, Sustainability & Practical Decision Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Shows thoughtful evaluation of short-term cost versus long-term impact.",
-      "insight": "Lifecycle Thinking and Sustainability Trade-offs"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "financial",
-      "q": "A public space can be designed with low-maintenance materials that last longer but offer fewer seating options, or with more seating that requires regular upkeep. How would you evaluate the options?",
+      "q": "A teacher assigns extra practice problems over the weekend.",
       "opts": [
         {
-          "t": "Consider how each choice affects daily use, maintenance burden, and long-term quality of the space.",
-          "s": 1
+          "t": "Complete them on Saturday so Sunday remains free",
+          "s": 4
         },
         {
-          "t": "Always choose low-maintenance materials.",
-          "s": 2
-        },
-        {
-          "t": "Always maximize seating.",
+          "t": "Spread them across both days in small sessions",
           "s": 3
         },
         {
-          "t": "Maintenance is not the designer’s concern.",
-          "s": 4
+          "t": "Do them on Sunday evening when you have a clearer idea of what was covered in class",
+          "s": 2
+        },
+        {
+          "t": "Attempt the ones you find challenging and note the rest for doubt-clearing on Monday",
+          "s": 1
         }
       ],
       "categoryName": "Financial, Sustainability & Practical Decision Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Demonstrates balancing usability with practical maintenance realities.",
-      "insight": "Maintenance and Usability Trade-off Thinking"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "financial",
-      "q": "A design can incorporate features that make the building more adaptable for future changes, but these features add cost and complexity now. What would be a useful way to decide?",
+      "q": "You are asked to lead a small team for a science exhibition.",
       "opts": [
         {
-          "t": "Weigh the likelihood of future changes against the added cost and whether adaptability provides meaningful long-term value.",
-          "s": 1
+          "t": "Divide tasks based on each person's strength and check in regularly",
+          "s": 4
         },
         {
-          "t": "Always include maximum adaptability features.",
-          "s": 2
-        },
-        {
-          "t": "Never include adaptability features.",
+          "t": "Let the team decide among themselves who does what, and you coordinate",
           "s": 3
         },
         {
-          "t": "Decide based only on current needs.",
-          "s": 4
+          "t": "Take the lead role yourself to ensure the project stays on track",
+          "s": 2
+        },
+        {
+          "t": "Set a clear deadline and let everyone work independently until then",
+          "s": 1
         }
       ],
       "categoryName": "Financial, Sustainability & Practical Decision Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Encourages thinking about future flexibility versus present constraints.",
-      "insight": "Future-Proofing and Adaptive Design Judgment"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "commitment",
-      "q": "After refining a design several times based on feedback, you receive new input that suggests a different direction. What naturally feels most meaningful to do next?",
+      "q": "Someone you don't know well borrows a book from you and returns it with a torn page.",
       "opts": [
         {
-          "t": "Consider how the new feedback changes your understanding and whether it improves the overall idea.",
-          "s": 1
+          "t": "Accept it quietly — accidents happen and it's not worth making it awkward",
+          "s": 4
         },
         {
-          "t": "Feel that further changes are unnecessary.",
-          "s": 2
-        },
-        {
-          "t": "Ignore the new feedback to protect earlier work.",
+          "t": "Politely mention the damage so they are aware for next time",
           "s": 3
         },
         {
-          "t": "Start the design completely from scratch.",
-          "s": 4
+          "t": "Repair the page yourself and say nothing",
+          "s": 2
+        },
+        {
+          "t": "Note it mentally and think twice before lending to them in the future",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Explores openness to iterative change and responsiveness to feedback.",
-      "insight": "Iterative Creativity and Feedback Responsiveness"
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "commitment",
-      "q": "When visiting a space you have not designed, you notice small details that make it feel either welcoming or uncomfortable. What do you usually do?",
+      "q": "You have an important exam tomorrow and a family function tonight.",
       "opts": [
         {
-          "t": "Become curious about why those particular details create that feeling.",
-          "s": 1
+          "t": "Attend the function for a short while, then come home to study",
+          "s": 4
         },
         {
-          "t": "Assume the feeling is purely personal and not worth analyzing.",
-          "s": 2
-        },
-        {
-          "t": "Focus only on the overall appearance.",
+          "t": "Skip the function entirely and focus on preparation",
           "s": 3
         },
         {
-          "t": "Ignore details that do not match your own taste.",
-          "s": 4
+          "t": "Attend the full function — a relaxed mind studies better than a stressed one",
+          "s": 2
+        },
+        {
+          "t": "Attend with your notes and revise during quiet moments at the venue",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Reveals natural attention to experiential details in environments.",
-      "insight": "Observation Skills and Environmental Sensitivity"
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "commitment",
-      "q": "You are given a space with clear functional requirements but also freedom to shape its atmosphere. How do you usually approach the task?",
+      "q": "A classmate copies your answer during a quiz. The teacher suspects something.",
       "opts": [
         {
-          "t": "Explore how different spatial qualities, light, and proportions might support both the required function and a desired feeling.",
-          "s": 1
+          "t": "Tell the teacher honestly if directly asked",
+          "s": 4
         },
         {
-          "t": "Focus only on meeting the functional requirements.",
-          "s": 2
-        },
-        {
-          "t": "Prioritize appearance over function.",
+          "t": "Stay silent and let the teacher handle it their way",
           "s": 3
         },
         {
-          "t": "Assume function and feeling cannot be addressed together.",
-          "s": 4
+          "t": "Speak to the classmate privately about it after the quiz",
+          "s": 2
+        },
+        {
+          "t": "Mention to the teacher that you noticed something but aren't certain",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Shows ability to integrate practical needs with experiential goals.",
-      "insight": "Balancing Function and Experience"
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "commitment",
-      "q": "When a design you developed receives criticism that highlights a problem you had not considered, how do you usually respond?",
+      "q": "You are given a project topic you find uninteresting.",
       "opts": [
         {
-          "t": "Feel interested in understanding the problem and exploring possible adjustments.",
-          "s": 1
+          "t": "Find one small aspect of the topic that interests you and build from there",
+          "s": 4
         },
         {
-          "t": "Feel defensive about the original idea.",
-          "s": 2
-        },
-        {
-          "t": "Assume the criticism is not relevant.",
+          "t": "Complete it efficiently with the required information and move on",
           "s": 3
         },
         {
-          "t": "Prefer not to revisit the design.",
-          "s": 4
+          "t": "Ask the teacher if the scope can be adjusted to include something you enjoy",
+          "s": 2
+        },
+        {
+          "t": "Use creative presentation methods to make the topic more engaging for yourself",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Reveals how you handle unexpected critique and new perspectives.",
-      "insight": "Adaptability and Growth Through Feedback"
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "commitment",
-      "q": "You notice that two spaces designed for the same activity feel very different in atmosphere. What naturally draws your attention?",
+      "q": "Your friend invites you to a movie on the same day you planned to study.",
       "opts": [
         {
-          "t": "What specific design choices create the different feelings and which one better supports the activity.",
-          "s": 1
+          "t": "Go to the movie — one day of study can be adjusted later",
+          "s": 4
         },
         {
-          "t": "That one space must be objectively better.",
-          "s": 2
-        },
-        {
-          "t": "That atmosphere does not matter for activities.",
+          "t": "Decline and stick to your original plan",
           "s": 3
         },
         {
-          "t": "The differences are too subtle to matter.",
-          "s": 4
+          "t": "Suggest a shorter outing or a different day instead",
+          "s": 2
+        },
+        {
+          "t": "Go for the first show and return in time to study in the evening",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Indicates sensitivity to how design choices shape emotional experience.",
-      "insight": "Aesthetic and Experiential Awareness"
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "commitment",
-      "q": "When working on a design that must satisfy multiple competing needs (such as openness versus privacy, or cost versus quality), how do you usually feel?",
+      "q": "You notice a small error in the school newsletter that has already been printed.",
       "opts": [
         {
-          "t": "Engaged by the challenge of finding a thoughtful balance that addresses the most important priorities.",
-          "s": 1
+          "t": "Point it out to the teacher in charge so it can be corrected next time",
+          "s": 4
         },
         {
-          "t": "Frustrated that not all needs can be fully met.",
-          "s": 2
-        },
-        {
-          "t": "Prefer to focus on only one need.",
+          "t": "Let it be — it is a minor thing and everyone has already received their copy",
           "s": 3
         },
         {
-          "t": "Assume compromise always means failure.",
-          "s": 4
+          "t": "Mention it casually to the student editor so they are more careful going forward",
+          "s": 2
+        },
+        {
+          "t": "Ignore it unless someone asks you directly about it",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Explores comfort with navigating constraints and trade-offs.",
-      "insight": "Comfort With Constraint Navigation"
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     }
   ],
   "bds": [
@@ -3135,19 +3135,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The body replaces temporary structures with permanent ones as the jaw grows larger.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Baby teeth fall out because they become weaker over time from use.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The roots of baby teeth dissolve on their own when new teeth are ready.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "External pressure from chewing forces baby teeth to loosen gradually.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology of the Human Body & Oral World",
@@ -3161,19 +3161,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The tissue may be responding to irritation or buildup that needs gentle attention.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Bleeding always means the gums are permanently damaged.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Gums naturally bleed a little every time they are touched.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The bleeding occurs because blood vessels are closer to the surface than usual.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology of the Human Body & Oral World",
@@ -3187,19 +3187,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The moist environment and rich blood supply in the mouth support quicker repair.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Mouth injuries are always smaller so they heal faster by default.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Skin on the arm is thicker and therefore takes longer to heal.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The mouth produces special healing substances not found elsewhere.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology of the Human Body & Oral World",
@@ -3213,19 +3213,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The jaw may not have enough space for all teeth that try to develop.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Wisdom teeth always grow at the wrong angle.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Later teeth are naturally weaker than earlier ones.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The body stops growing new teeth after a certain age.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology of the Human Body & Oral World",
@@ -3239,19 +3239,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The body prepares the mouth for digestion through a reflex triggered by smell.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Saliva increases randomly whenever you think about food.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The nose and mouth are directly connected so smell affects saliva instantly.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "This happens only when you are already hungry.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology of the Human Body & Oral World",
@@ -3265,19 +3265,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Tooth development combines genetic and environmental factors in highly individual ways.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "All people have almost identical teeth but they look different due to brushing habits.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Teeth change shape completely based on what a person eats.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Tooth patterns are random and have no connection to the person's biology.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology of the Human Body & Oral World",
@@ -3291,19 +3291,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Acid can gradually dissolve minerals from the tooth surface, making it softer.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Acid adds a protective layer to the teeth.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Acid changes the color of teeth permanently.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Acid only affects the tongue and not the teeth.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry in Daily Oral Life",
@@ -3317,19 +3317,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The foam helps spread the cleaning agents across tooth surfaces more evenly.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Foam is only added to make the toothpaste look more effective.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Foam is produced by the toothbrush bristles, not the toothpaste.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Foam prevents the toothpaste from touching the teeth.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry in Daily Oral Life",
@@ -3343,19 +3343,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "It supports the rebuilding of minerals on the tooth surface after minor loss.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "It makes teeth permanently harder than they naturally are.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "It changes the color of teeth to make them whiter.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "It kills all bacteria in the mouth instantly.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry in Daily Oral Life",
@@ -3369,19 +3369,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Bacteria in the mouth convert sugar into acids that can affect tooth minerals.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Sugar directly melts the tooth surface.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Sugar sticks to teeth and blocks saliva from reaching them.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Sugar changes the natural color of teeth over time.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry in Daily Oral Life",
@@ -3395,19 +3395,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The mouthwash ingredients can temporarily affect taste receptors on the tongue.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Mouthwash removes all taste ability for several hours.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The taste change happens only because of the strong smell of the mouthwash.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Mouthwash adds new flavors that stay on the tongue.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry in Daily Oral Life",
@@ -3421,19 +3421,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The metal can interact with saliva and other substances, releasing small amounts of ions.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "All metals naturally dissolve completely in the mouth.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The metal heats up and changes the taste of food.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The reaction happens only when the metal touches the teeth directly.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry in Daily Oral Life",
@@ -3447,19 +3447,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "It allows bone and tissues around the teeth to adapt slowly to the new position.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "It makes the braces less visible to others.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "It reduces the total number of visits needed.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "It prevents the braces from becoming too tight at any point.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics Behind Dentistry",
@@ -3473,19 +3473,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The sharp edge concentrates the force over a much smaller area, increasing pressure.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Sharp objects are always made of harder material.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Blunt objects lose force through friction with air.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Sharp objects move faster by nature.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics Behind Dentistry",
@@ -3499,19 +3499,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Softer foods require less force while harder or tougher foods need greater force to break down.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "All foods require exactly the same chewing force.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The tongue does most of the work regardless of food type.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Chewing force depends only on how hungry a person is.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics Behind Dentistry",
@@ -3525,19 +3525,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The mirror reflects light from hidden surfaces into the line of sight.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The mirror makes objects appear larger than they actually are.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The mirror changes the color of the surfaces being viewed.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The mirror blocks light from reaching the back of the mouth.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics Behind Dentistry",
@@ -3551,19 +3551,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "High rotational speed combined with a small cutting surface concentrates energy effectively.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The drill uses heat to melt away tooth structure.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The small size makes the drill weaker, so it must be used very slowly.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Drills work only because of the material they are made from.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics Behind Dentistry",
@@ -3577,19 +3577,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Sudden temperature change can cause slight expansion or contraction that affects the tooth structure.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Cold and hot foods change the color of teeth temporarily.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Temperature affects only the tongue, not the teeth.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Sensitivity occurs only when teeth are already damaged.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics Behind Dentistry",
@@ -3603,19 +3603,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The small difference in size stands out even though it is minor.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "You focus on the overall pattern and do not notice individual variations.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "You assume all shapes are the same and move on quickly.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "You look for the largest shapes first.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Precision, Spatial & Hand-Skill Aptitude",
@@ -3629,19 +3629,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Knowing exactly how each piece relates spatially to the ones next to it.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Focusing only on completing the model as quickly as possible.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Ignoring the instructions and guessing the positions.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Checking only whether the final model looks roughly correct.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Precision, Spatial & Hand-Skill Aptitude",
@@ -3651,523 +3651,523 @@ export const SCIENCE_QUIZZES = {
     },
     {
       "cat": "expectation",
-      "q": "While adjusting a very small component that needs to be moved by less than a millimeter, what guides your decision most naturally?",
+      "q": "Your friend asks for help with homework the night before it's due. You have your own work to finish.",
       "opts": [
         {
-          "t": "Making tiny, careful movements and checking the result after each one.",
-          "s": 1
+          "t": "Share your completed work so they can use it as a reference",
+          "s": 4
         },
         {
-          "t": "Moving it in one larger adjustment and hoping it lands correctly.",
-          "s": 2
-        },
-        {
-          "t": "Focusing on the surrounding parts rather than the component itself.",
+          "t": "Spend an hour explaining the difficult parts and let them finish the rest",
           "s": 3
         },
         {
-          "t": "Deciding the exact position without further checking.",
-          "s": 4
+          "t": "Tell them you're busy tonight but offer to help them the next day after school",
+          "s": 2
+        },
+        {
+          "t": "Suggest they check the textbook examples since the homework is based on those",
+          "s": 1
         }
       ],
       "categoryName": "Precision, Spatial & Hand-Skill Aptitude",
-      "correctAnswer": "A",
-      "whyMatters": "Shows comfort with incremental, feedback-based adjustments.",
-      "insight": "Precision Orientation and Gradual Refinement"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "expectation",
-      "q": "You are copying a simple geometric drawing but must match the angles and lengths as closely as possible. What approach feels most natural?",
+      "q": "During a class debate, a student makes a point that is factually incorrect, but the teacher doesn't notice.",
       "opts": [
         {
-          "t": "Checking measurements and angles multiple times during the process.",
-          "s": 1
+          "t": "Raise your hand and politely correct the information",
+          "s": 4
         },
         {
-          "t": "Drawing it quickly and correcting only if it looks obviously wrong.",
-          "s": 2
-        },
-        {
-          "t": "Focusing mainly on making the drawing look artistic.",
+          "t": "Note it down and speak to the teacher privately after class",
           "s": 3
         },
         {
-          "t": "Copying the overall shape without worrying about exact proportions.",
-          "s": 4
+          "t": "Say nothing — the teacher may already know and is testing the class",
+          "s": 2
+        },
+        {
+          "t": "Ask a follow-up question that gently leads the class to notice the error",
+          "s": 1
         }
       ],
       "categoryName": "Precision, Spatial & Hand-Skill Aptitude",
-      "correctAnswer": "A",
-      "whyMatters": "Reveals preference for accuracy over speed in visual reproduction tasks.",
-      "insight": "Accuracy and Measurement Sensitivity"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "expectation",
-      "q": "When arranging several small objects into a neat row with equal spacing, what do you naturally pay attention to?",
+      "q": "You are assigned a group project and one member has not contributed anything with two days left.",
       "opts": [
         {
-          "t": "The gaps between objects and whether they appear consistent.",
-          "s": 1
+          "t": "Redistribute the remaining work among the active members to ensure quality",
+          "s": 4
         },
         {
-          "t": "Only whether all objects are facing the same direction.",
-          "s": 2
-        },
-        {
-          "t": "The total length of the row rather than individual spacing.",
+          "t": "Contact the absent member directly and ask what is holding them back",
           "s": 3
         },
         {
-          "t": "How quickly you can complete the arrangement.",
-          "s": 4
+          "t": "Inform the teacher so the grading can reflect actual individual effort",
+          "s": 2
+        },
+        {
+          "t": "Complete the missing portion yourself to protect the group's overall grade",
+          "s": 1
         }
       ],
       "categoryName": "Precision, Spatial & Hand-Skill Aptitude",
-      "correctAnswer": "A",
-      "whyMatters": "Tests natural attention to uniformity and spacing.",
-      "insight": "Consistency and Alignment Awareness"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "expectation",
-      "q": "You are trying to fit a small piece into a tight space where you cannot see it directly and must rely on touch. What feels most helpful?",
+      "q": "You notice a classmate sitting alone during lunch break every day.",
       "opts": [
         {
-          "t": "Moving slowly and noticing how the piece resists or slides into place.",
-          "s": 1
+          "t": "Invite them to join your group for that day",
+          "s": 4
         },
         {
-          "t": "Pushing firmly until it fits or does not fit.",
-          "s": 2
-        },
-        {
-          "t": "Guessing the correct angle without testing.",
+          "t": "Sit with them for a while and see if they seem comfortable",
           "s": 3
         },
         {
-          "t": "Focusing on the visible parts only.",
-          "s": 4
+          "t": "Ask a mutual friend to help bring them into the group gradually",
+          "s": 2
+        },
+        {
+          "t": "Respect that some people prefer quiet time and give them space",
+          "s": 1
         }
       ],
       "categoryName": "Precision, Spatial & Hand-Skill Aptitude",
-      "correctAnswer": "A",
-      "whyMatters": "Indicates comfort with tactile feedback in constrained situations.",
-      "insight": "Tactile Spatial Reasoning"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "softskills",
-      "q": "All patients who receive certain dental treatments are advised to avoid very hard foods for a few days. A patient received this treatment today. What can you conclude?",
+      "q": "Your parents have enrolled you in a weekend class that takes away your free time.",
       "opts": [
         {
-          "t": "The patient should avoid very hard foods for the advised period.",
-          "s": 1
+          "t": "Attend without complaint since your parents are investing in your future",
+          "s": 4
         },
         {
-          "t": "The patient will definitely damage their teeth if they eat anything.",
-          "s": 2
-        },
-        {
-          "t": "The advice applies only to people who have never had dental work before.",
+          "t": "Explain to your parents that you need some personal time to recharge",
           "s": 3
         },
         {
-          "t": "The treatment has no effect on food choices.",
-          "s": 4
+          "t": "Try attending for a few weeks, then evaluate if it's actually helping you",
+          "s": 2
+        },
+        {
+          "t": "Ask if the schedule can be adjusted rather than refusing outright",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Tests applying general post-treatment advice to an individual case.",
-      "insight": "Applying Guidelines to Specific Situations"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "softskills",
-      "q": "In a dental clinic, it is observed that patients who maintain regular check-ups tend to need fewer major treatments later. Which conclusion is most reasonable?",
+      "q": "A friend confides in you about a personal problem and asks you not to tell anyone. Later, you think an adult should know.",
       "opts": [
         {
-          "t": "Regular visits may help catch small issues before they become larger problems.",
-          "s": 1
+          "t": "Respect the promise and keep the information to yourself",
+          "s": 4
         },
         {
-          "t": "People who visit regularly never develop any dental problems.",
-          "s": 2
-        },
-        {
-          "t": "Check-ups are only useful for people who already have perfect teeth.",
+          "t": "Encourage your friend to speak to an adult themselves, offering to go with them",
           "s": 3
         },
         {
-          "t": "The number of visits has no connection to future treatment needs.",
-          "s": 4
+          "t": "Speak to a trusted adult yourself, without revealing your friend's identity",
+          "s": 2
+        },
+        {
+          "t": "Wait and see if the situation resolves before taking any action",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Encourages interpreting observed patterns without overgeneralizing.",
-      "insight": "Evidence-Based Pattern Interpretation"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "softskills",
-      "q": "A dental material works well for most patients but shows different results in a small number of cases. What is a logical next consideration?",
+      "q": "During a school trip, your group reaches a place where everyone has two hours of free time.",
       "opts": [
         {
-          "t": "There may be individual factors (such as oral environment or habits) that influence the outcome.",
-          "s": 1
+          "t": "Explore the area with your friends while staying within the agreed boundary",
+          "s": 4
         },
         {
-          "t": "The material must be completely unsuitable for everyone.",
-          "s": 2
-        },
-        {
-          "t": "The material works perfectly and the different results are random.",
+          "t": "Visit the information centre and learn about the place first",
           "s": 3
         },
         {
-          "t": "No further investigation is needed.",
-          "s": 4
+          "t": "Stay with the group and follow what the majority decides",
+          "s": 2
+        },
+        {
+          "t": "Find a quiet spot to rest and observe your surroundings alone",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Shows comfort with variability in outcomes and interest in underlying factors.",
-      "insight": "Nuanced Reasoning About Variability"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "softskills",
-      "q": "Three patients who had similar dental work done around the same time report the same minor discomfort. What would be a reasonable first step?",
+      "q": "You receive a test result that is lower than what you expected.",
       "opts": [
         {
-          "t": "Check what they have in common (diet, habits, or care instructions followed).",
-          "s": 1
+          "t": "Review the paper thoroughly to understand exactly where you lost marks",
+          "s": 4
         },
         {
-          "t": "Assume the treatment was performed incorrectly in all cases.",
-          "s": 2
-        },
-        {
-          "t": "Tell them the discomfort is normal and ignore further reports.",
+          "t": "Take a day to process it, then plan a revised study schedule",
           "s": 3
         },
         {
-          "t": "Change the treatment method completely for future patients.",
-          "s": 4
+          "t": "Meet the teacher to discuss whether there is room for improvement or re-evaluation",
+          "s": 2
+        },
+        {
+          "t": "Compare your paper with a topper's to identify the gap in approach",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Promotes systematic investigation of shared factors.",
-      "insight": "Systematic Thinking in Problem Investigation"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "softskills",
-      "q": "A new dental product claims better results when used in a specific way. A patient uses it differently and still sees improvement. What would be a thoughtful response?",
+      "q": "Your sibling wants to use your personal tablet for a game, and you have an online class in an hour.",
       "opts": [
         {
-          "t": "The product may work under slightly different conditions than claimed, but more information would help.",
-          "s": 1
+          "t": "Let them use it now and charge it quickly before your class starts",
+          "s": 4
         },
         {
-          "t": "The product works exactly the same for everyone regardless of use.",
-          "s": 2
-        },
-        {
-          "t": "The original claim must be completely false.",
+          "t": "Explain that you need it soon but offer them your phone instead",
           "s": 3
         },
         {
-          "t": "The patient should stop using the product.",
-          "s": 4
+          "t": "Tell them they can use it after your class is over",
+          "s": 2
+        },
+        {
+          "t": "Check how much battery is left and decide based on that",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Demonstrates balanced evaluation of claims versus real-world results.",
-      "insight": "Evaluating Claims Against Experience"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "softskills",
-      "q": "Research indicates that certain oral habits are more common in one age group than another. However, exceptions exist in every group. What does this suggest?",
+      "q": "A new student joins your class and seems unsure about how things work here.",
       "opts": [
         {
-          "t": "Trends can exist while still allowing for individual differences within groups.",
-          "s": 1
+          "t": "Offer to show them around the school on the first day",
+          "s": 4
         },
         {
-          "t": "Age completely determines whether someone will have the habit.",
-          "s": 2
-        },
-        {
-          "t": "The research must be incorrect because exceptions were found.",
+          "t": "Treat them normally and let them adjust at their own pace",
           "s": 3
         },
         {
-          "t": "No useful information can be gained from such research.",
-          "s": 4
+          "t": "Introduce them to a few students who have similar interests",
+          "s": 2
+        },
+        {
+          "t": "Share a printed timetable and some class notes so they feel prepared",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Tests acceptance of general patterns alongside individual variation.",
-      "insight": "Comfort with Probabilistic and Individual Information"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "financial",
-      "q": "A dental clinic has two options for a frequently used instrument: a lower-cost version that may need earlier replacement or a higher-cost version that lasts significantly longer. How would you weigh the decision?",
+      "q": "Your class is choosing a venue for the farewell party. Two strong options have emerged.",
       "opts": [
         {
-          "t": "Consider the total cost over several years including replacement frequency and reliability.",
-          "s": 1
+          "t": "Suggest a vote and accept whatever the majority chooses",
+          "s": 4
         },
         {
-          "t": "Always choose the cheaper option to save money immediately.",
-          "s": 2
-        },
-        {
-          "t": "Always choose the expensive option because higher price means better quality.",
+          "t": "List the pros and cons of each and present them to the class",
           "s": 3
         },
         {
-          "t": "Decide based only on which one looks better.",
-          "s": 4
+          "t": "Propose a third option that combines the best features of both",
+          "s": 2
+        },
+        {
+          "t": "Let the class representatives decide since that is their role",
+          "s": 1
         }
       ],
       "categoryName": "Financial & Practice Management Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Reveals long-term cost and reliability thinking.",
-      "insight": "Resource Optimization and Long-term Evaluation"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "financial",
-      "q": "A clinic has a limited budget for equipment upgrades this year. It can either replace one older machine completely or perform maintenance on several machines. Which factor would guide your choice?",
+      "q": "You overhear two friends having a disagreement in the corridor.",
       "opts": [
         {
-          "t": "Which option improves overall reliability and patient care most effectively within the budget.",
-          "s": 1
+          "t": "Walk past — it is a personal matter between them",
+          "s": 4
         },
         {
-          "t": "Always replace the oldest machine regardless of need.",
-          "s": 2
-        },
-        {
-          "t": "Always spread the budget across as many items as possible.",
+          "t": "Check on them later individually to see if they are okay",
           "s": 3
         },
         {
-          "t": "Choose whichever option requires the least decision-making.",
-          "s": 4
+          "t": "If it seems serious, inform a teacher nearby",
+          "s": 2
+        },
+        {
+          "t": "Bring them together after some time and let them talk it out calmly",
+          "s": 1
         }
       ],
       "categoryName": "Financial & Practice Management Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Tests balancing immediate needs with overall practice improvement.",
-      "insight": "Practical Prioritization Under Budget Constraints"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "financial",
-      "q": "Appointment slots are limited. Two patients need follow-up visits: one requires a short check, the other needs a longer procedure. How would you think about scheduling?",
+      "q": "A teacher assigns extra practice problems over the weekend.",
       "opts": [
         {
-          "t": "Consider both the time required and how delaying either might affect their treatment progress.",
-          "s": 1
+          "t": "Complete them on Saturday so Sunday remains free",
+          "s": 4
         },
         {
-          "t": "Schedule the longer procedure first because it takes more time.",
-          "s": 2
-        },
-        {
-          "t": "Give both patients the same short slot.",
+          "t": "Spread them across both days in small sessions",
           "s": 3
         },
         {
-          "t": "Schedule whoever calls first without considering treatment needs.",
-          "s": 4
+          "t": "Do them on Sunday evening when you have a clearer idea of what was covered in class",
+          "s": 2
+        },
+        {
+          "t": "Attempt the ones you find challenging and note the rest for doubt-clearing on Monday",
+          "s": 1
         }
       ],
       "categoryName": "Financial & Practice Management Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Shows thoughtful allocation of limited time resources.",
-      "insight": "Time and Resource Allocation Judgment"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "financial",
-      "q": "A clinic is considering investing in a new technology that could improve certain procedures but requires training time and has ongoing maintenance costs. What would be a useful way to evaluate it?",
+      "q": "You are asked to lead a small team for a science exhibition.",
       "opts": [
         {
-          "t": "Compare the expected improvement in outcomes and efficiency against the total costs over time.",
-          "s": 1
+          "t": "Divide tasks based on each person's strength and check in regularly",
+          "s": 4
         },
         {
-          "t": "Adopt it immediately because new technology is always better.",
-          "s": 2
-        },
-        {
-          "t": "Reject it because any change involves some cost.",
+          "t": "Let the team decide among themselves who does what, and you coordinate",
           "s": 3
         },
         {
-          "t": "Decide based only on what other clinics are doing.",
-          "s": 4
+          "t": "Take the lead role yourself to ensure the project stays on track",
+          "s": 2
+        },
+        {
+          "t": "Set a clear deadline and let everyone work independently until then",
+          "s": 1
         }
       ],
       "categoryName": "Financial & Practice Management Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Encourages comprehensive cost-benefit thinking for practice decisions.",
-      "insight": "Investment Evaluation and Trade-off Analysis"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "commitment",
-      "q": "You spend a long time adjusting a small detail in a drawing or model so that it looks slightly more balanced, even though most people might not notice the change. What feels most meaningful about continuing?",
+      "q": "Someone you don't know well borrows a book from you and returns it with a torn page.",
       "opts": [
         {
-          "t": "The satisfaction of making the overall result more harmonious through small refinements.",
-          "s": 1
+          "t": "Accept it quietly — accidents happen and it's not worth making it awkward",
+          "s": 4
         },
         {
-          "t": "The desire to finish the task as quickly as possible.",
-          "s": 2
-        },
-        {
-          "t": "The hope that someone will immediately notice and praise the change.",
+          "t": "Politely mention the damage so they are aware for next time",
           "s": 3
         },
         {
-          "t": "The feeling that further changes are unnecessary.",
-          "s": 4
+          "t": "Repair the page yourself and say nothing",
+          "s": 2
+        },
+        {
+          "t": "Note it mentally and think twice before lending to them in the future",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Explores whether you find value in subtle aesthetic or functional improvements.",
-      "insight": "Aesthetic Sensitivity and Refinement Orientation"
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "commitment",
-      "q": "While working on a task that requires repeating a similar precise action many times, you notice your attention starting to drift. What feels most natural to do?",
+      "q": "You have an important exam tomorrow and a family function tonight.",
       "opts": [
         {
-          "t": "Take a short pause and then return with renewed focus on maintaining quality.",
-          "s": 1
+          "t": "Attend the function for a short while, then come home to study",
+          "s": 4
         },
         {
-          "t": "Speed up to finish the repetitive part faster.",
-          "s": 2
-        },
-        {
-          "t": "Continue without changing anything and accept varying quality.",
+          "t": "Skip the function entirely and focus on preparation",
           "s": 3
         },
         {
-          "t": "Switch to a completely different task immediately.",
-          "s": 4
+          "t": "Attend the full function — a relaxed mind studies better than a stressed one",
+          "s": 2
+        },
+        {
+          "t": "Attend with your notes and revise during quiet moments at the venue",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Reveals your approach to maintaining standards during repetition.",
-      "insight": "Focus Under Repetition"
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "commitment",
-      "q": "You are shown two versions of the same object: one is functionally correct but slightly uneven, the other is perfectly even but took much longer to achieve. Which version feels more satisfying to you personally?",
+      "q": "A classmate copies your answer during a quiz. The teacher suspects something.",
       "opts": [
         {
-          "t": "The perfectly even version, even though it required more time and effort.",
-          "s": 1
+          "t": "Tell the teacher honestly if directly asked",
+          "s": 4
         },
         {
-          "t": "The functionally correct version because it works and was faster to make.",
-          "s": 2
-        },
-        {
-          "t": "Either version is equally good.",
+          "t": "Stay silent and let the teacher handle it their way",
           "s": 3
         },
         {
-          "t": "The one that looks more impressive at first glance.",
-          "s": 4
+          "t": "Speak to the classmate privately about it after the quiz",
+          "s": 2
+        },
+        {
+          "t": "Mention to the teacher that you noticed something but aren't certain",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Indicates preference between speed/function and precision/aesthetics.",
-      "insight": "Precision Versus Efficiency Preference"
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "commitment",
-      "q": "When learning a new skill that involves many small, careful movements, you find that progress feels slow at first. How do you usually respond?",
+      "q": "You are given a project topic you find uninteresting.",
       "opts": [
         {
-          "t": "Stay interested in the gradual improvement even when changes are tiny.",
-          "s": 1
+          "t": "Find one small aspect of the topic that interests you and build from there",
+          "s": 4
         },
         {
-          "t": "Feel impatient and look for shortcuts to speed up learning.",
-          "s": 2
-        },
-        {
-          "t": "Decide the skill may not be worth the slow start.",
+          "t": "Complete it efficiently with the required information and move on",
           "s": 3
         },
         {
-          "t": "Focus only on the final result rather than the process.",
-          "s": 4
+          "t": "Ask the teacher if the scope can be adjusted to include something you enjoy",
+          "s": 2
+        },
+        {
+          "t": "Use creative presentation methods to make the topic more engaging for yourself",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Shows comfort with the slow, incremental nature of skill development.",
-      "insight": "Patience with Gradual Improvement"
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "commitment",
-      "q": "You notice that two similar objects have a very small difference in shape that affects how they fit together. What do you naturally want to do next?",
+      "q": "Your friend invites you to a movie on the same day you planned to study.",
       "opts": [
         {
-          "t": "Understand exactly why that small difference matters for the fit.",
-          "s": 1
+          "t": "Go to the movie — one day of study can be adjusted later",
+          "s": 4
         },
         {
-          "t": "Assume the difference is too minor to be important.",
-          "s": 2
-        },
-        {
-          "t": "Try to make both objects identical without checking the reason.",
+          "t": "Decline and stick to your original plan",
           "s": 3
         },
         {
-          "t": "Move on without exploring the difference further.",
-          "s": 4
+          "t": "Suggest a shorter outing or a different day instead",
+          "s": 2
+        },
+        {
+          "t": "Go for the first show and return in time to study in the evening",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Reveals curiosity about how small variations produce functional differences.",
-      "insight": "Interest in Subtle Functional Relationships"
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "commitment",
-      "q": "After completing a detailed task, you realize there is one more small adjustment you could make that would improve the result slightly. How do you usually decide?",
+      "q": "You notice a small error in the school newsletter that has already been printed.",
       "opts": [
         {
-          "t": "Make the adjustment if it feels meaningful to you, even if others might not notice.",
-          "s": 1
+          "t": "Point it out to the teacher in charge so it can be corrected next time",
+          "s": 4
         },
         {
-          "t": "Stop because the task is already good enough.",
-          "s": 2
-        },
-        {
-          "t": "Make the adjustment only if someone else points it out.",
+          "t": "Let it be — it is a minor thing and everyone has already received their copy",
           "s": 3
         },
         {
-          "t": "Avoid the adjustment because it would take extra time.",
-          "s": 4
+          "t": "Mention it casually to the student editor so they are more careful going forward",
+          "s": 2
+        },
+        {
+          "t": "Ignore it unless someone asks you directly about it",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Explores your internal standard for quality and completion.",
-      "insight": "Internal Standard for Excellence and Completion"
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     }
   ],
   "biotech": [
@@ -4177,19 +4177,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Tiny living organisms are using the milk's components to multiply and transform it.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The milk is simply thickening because water is evaporating slowly.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Heat from the room is causing the milk to separate into layers.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The milk is reacting with air particles and becoming more acidic over time.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology Hidden in Everyday Life",
@@ -4203,19 +4203,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Microscopic organisms are producing gas that gets trapped and expands the dough.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The flour is absorbing moisture from the air and swelling.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Warmth is causing the water and flour to combine chemically.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Air bubbles from mixing are slowly growing larger on their own.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology Hidden in Everyday Life",
@@ -4229,19 +4229,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The fruit continues internal processes that ripen it even after being separated from the plant.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The fruit is simply drying out and becoming sweeter.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Room temperature alone causes all fruits to ripen at the same rate.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The color change happens only because of exposure to light.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology Hidden in Everyday Life",
@@ -4255,19 +4255,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Seeds contain the potential for growth that becomes active when the right conditions are met.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Seeds grow only because soil provides new materials from outside.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Moisture alone is enough to make any dry object grow.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Growth happens randomly without any connection to the seed's structure.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology Hidden in Everyday Life",
@@ -4281,19 +4281,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "People can have natural differences in how their bodies handle certain components of milk.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Milk changes its composition depending on who drinks it.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Discomfort after drinking milk is always due to the milk being spoiled.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Everyone digests milk in exactly the same way.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology Hidden in Everyday Life",
@@ -4307,19 +4307,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Microorganisms are breaking down the waste into simpler substances that become part of the soil.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The waste is simply drying out and becoming soil.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Soil naturally absorbs waste without any biological activity.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The change happens only because of sunlight and air.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology Hidden in Everyday Life",
@@ -4333,19 +4333,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "It creates conditions that slow the chemical reaction responsible for the color change.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "It adds color that hides the browning completely.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "It removes all oxygen from the apple surface.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "It makes the apple sweeter so browning cannot occur.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry Behind Living Systems",
@@ -4359,19 +4359,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Microorganisms produce acids that alter the milk's proteins and create the new taste and texture.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The milk simply loses water and becomes thicker.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Heat alone changes the milk into a different substance.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The milk reacts with air and becomes sweeter.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry Behind Living Systems",
@@ -4385,19 +4385,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Its acidity creates an environment where many microorganisms find it difficult to grow.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "It adds sweetness that prevents spoilage.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "It removes all water from the food.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "It changes the color of food so microorganisms cannot recognize it.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry Behind Living Systems",
@@ -4411,19 +4411,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Heat causes the proteins to change their structure and form a solid network.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The water in the egg evaporates completely.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The egg white turns solid only because of the shell.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Proteins in eggs never change when heated.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry Behind Living Systems",
@@ -4437,19 +4437,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The chemical nature of substances determines how they interact with water molecules.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "All substances behave the same way in water.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Mixing depends only on how hard you stir.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Temperature has no effect on whether substances mix.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry Behind Living Systems",
@@ -4463,19 +4463,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "It increases the rate of chemical and biological changes that lead to spoilage.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "It adds extra substances to the milk from the air.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "It makes the milk container react with the milk.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "It prevents any change from happening in the milk.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry Behind Living Systems",
@@ -4489,19 +4489,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The plant grows in a way that maximizes its exposure to light, which is useful for its survival.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The plant is pulled toward the light by some force outside itself.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "All plants bend in exactly the same direction regardless of light.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The bending happens only because of gravity.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics in Biology & Biotechnology",
@@ -4515,19 +4515,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "It bends light in a way that makes small objects appear larger.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "It creates new light from the object being viewed.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "It changes the color of the object being observed.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "It blocks light so only the outline is visible.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics in Biology & Biotechnology",
@@ -4541,19 +4541,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "It allows the chemical reactions inside living systems to proceed at suitable rates.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "All biological processes work equally well at any temperature.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Temperature affects only the color of the materials.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Higher temperatures always make processes faster and better.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics in Biology & Biotechnology",
@@ -4567,19 +4567,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Different seed designs influence how far they can spread, affecting where new plants grow.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "All seeds travel the same distance regardless of their structure.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Wind always carries seeds in the same direction.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Seed shape has no connection to how plants spread.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics in Biology & Biotechnology",
@@ -4593,19 +4593,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "It provides conditions where biological processes can occur at consistent and suitable rates.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "All living things grow best at the highest possible temperature.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Temperature control is needed only to keep the equipment warm.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Steady temperature prevents any change from happening.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics in Biology & Biotechnology",
@@ -4619,19 +4619,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Smaller pieces have more surface area exposed, allowing faster interaction with surroundings.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Smaller pieces are always made of different material.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Crushing removes all impurities from the substance.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Size has no effect on how substances interact.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics in Biology & Biotechnology",
@@ -4645,19 +4645,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Understanding exactly which change caused the difference and why.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Repeating the experiment without noting what was changed.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Assuming the result happened by chance.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Moving on to a completely different experiment.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Experimental Thinking & Research Aptitude",
@@ -4671,19 +4671,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "What small differences might have existed between the two setups.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Assume one result is correct and ignore the other.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Decide that experiments are never reliable.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Repeat both experiments without checking for differences.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Experimental Thinking & Research Aptitude",
@@ -4693,523 +4693,523 @@ export const SCIENCE_QUIZZES = {
     },
     {
       "cat": "expectation",
-      "q": "An observation in your experiment contradicts what you expected to happen. What feels most useful to do next?",
+      "q": "Your friend asks for help with homework the night before it's due. You have your own work to finish.",
       "opts": [
         {
-          "t": "Investigate possible reasons for the unexpected result.",
-          "s": 1
+          "t": "Share your completed work so they can use it as a reference",
+          "s": 4
         },
         {
-          "t": "Ignore the result because it does not match expectations.",
-          "s": 2
-        },
-        {
-          "t": "Assume the experiment failed completely.",
+          "t": "Spend an hour explaining the difficult parts and let them finish the rest",
           "s": 3
         },
         {
-          "t": "Change the observation to match your original expectation.",
-          "s": 4
+          "t": "Tell them you're busy tonight but offer to help them the next day after school",
+          "s": 2
+        },
+        {
+          "t": "Suggest they check the textbook examples since the homework is based on those",
+          "s": 1
         }
       ],
       "categoryName": "Experimental Thinking & Research Aptitude",
-      "correctAnswer": "A",
-      "whyMatters": "Reveals comfort with unexpected results and interest in understanding them.",
-      "insight": "Comfort With Uncertainty and Scientific Adaptability"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "expectation",
-      "q": "You are testing how a living system responds to different amounts of a substance. What approach feels most natural?",
+      "q": "During a class debate, a student makes a point that is factually incorrect, but the teacher doesn't notice.",
       "opts": [
         {
-          "t": "Try several different amounts and compare the results carefully.",
-          "s": 1
+          "t": "Raise your hand and politely correct the information",
+          "s": 4
         },
         {
-          "t": "Test only one amount and assume it represents all cases.",
-          "s": 2
-        },
-        {
-          "t": "Choose the amount that gives the result you hoped for.",
+          "t": "Note it down and speak to the teacher privately after class",
           "s": 3
         },
         {
-          "t": "Avoid testing different amounts because it takes more time.",
-          "s": 4
+          "t": "Say nothing — the teacher may already know and is testing the class",
+          "s": 2
+        },
+        {
+          "t": "Ask a follow-up question that gently leads the class to notice the error",
+          "s": 1
         }
       ],
       "categoryName": "Experimental Thinking & Research Aptitude",
-      "correctAnswer": "A",
-      "whyMatters": "Indicates preference for systematic exploration of variables.",
-      "insight": "Experimental Design Thinking"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "expectation",
-      "q": "After several attempts, an experiment still does not give clear results. What do you feel like doing?",
+      "q": "You are assigned a group project and one member has not contributed anything with two days left.",
       "opts": [
         {
-          "t": "Look for what might be missing or needs to be adjusted in the setup.",
-          "s": 1
+          "t": "Redistribute the remaining work among the active members to ensure quality",
+          "s": 4
         },
         {
-          "t": "Decide that the question cannot be answered through experiments.",
-          "s": 2
-        },
-        {
-          "t": "Repeat the exact same steps without changes.",
+          "t": "Contact the absent member directly and ask what is holding them back",
           "s": 3
         },
         {
-          "t": "Move on to a different topic entirely.",
-          "s": 4
+          "t": "Inform the teacher so the grading can reflect actual individual effort",
+          "s": 2
+        },
+        {
+          "t": "Complete the missing portion yourself to protect the group's overall grade",
+          "s": 1
         }
       ],
       "categoryName": "Experimental Thinking & Research Aptitude",
-      "correctAnswer": "A",
-      "whyMatters": "Shows persistence and problem-solving in experimental work.",
-      "insight": "Persistence Through Iteration"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "expectation",
-      "q": "You notice a pattern in your results that you did not expect when you began. What feels most meaningful?",
+      "q": "You notice a classmate sitting alone during lunch break every day.",
       "opts": [
         {
-          "t": "Exploring whether this pattern holds in other similar situations.",
-          "s": 1
+          "t": "Invite them to join your group for that day",
+          "s": 4
         },
         {
-          "t": "Assuming the pattern is not important because it was unplanned.",
-          "s": 2
-        },
-        {
-          "t": "Stopping the work because the original plan changed.",
+          "t": "Sit with them for a while and see if they seem comfortable",
           "s": 3
         },
         {
-          "t": "Recording only the results that match your initial idea.",
-          "s": 4
+          "t": "Ask a mutual friend to help bring them into the group gradually",
+          "s": 2
+        },
+        {
+          "t": "Respect that some people prefer quiet time and give them space",
+          "s": 1
         }
       ],
       "categoryName": "Experimental Thinking & Research Aptitude",
-      "correctAnswer": "A",
-      "whyMatters": "Reveals openness to discovery beyond the original hypothesis.",
-      "insight": "Observational Awareness and Openness to New Patterns"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "softskills",
-      "q": "All organisms of a certain type grow well only within a specific temperature range. An organism of this type is placed in a much higher temperature. What can you conclude?",
+      "q": "Your parents have enrolled you in a weekend class that takes away your free time.",
       "opts": [
         {
-          "t": "The organism may not grow well or may be affected by the temperature.",
-          "s": 1
+          "t": "Attend without complaint since your parents are investing in your future",
+          "s": 4
         },
         {
-          "t": "The organism will definitely grow faster.",
-          "s": 2
-        },
-        {
-          "t": "Temperature has no effect on this type of organism.",
+          "t": "Explain to your parents that you need some personal time to recharge",
           "s": 3
         },
         {
-          "t": "The organism will grow exactly the same as before.",
-          "s": 4
+          "t": "Try attending for a few weeks, then evaluate if it's actually helping you",
+          "s": 2
+        },
+        {
+          "t": "Ask if the schedule can be adjusted rather than refusing outright",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Tests applying general biological requirements to a specific situation.",
-      "insight": "Applying General Rules to Specific Cases"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "softskills",
-      "q": "In a garden, plants that receive regular water and sunlight grow taller than those that receive less of both. Which conclusion is most reasonable?",
+      "q": "A friend confides in you about a personal problem and asks you not to tell anyone. Later, you think an adult should know.",
       "opts": [
         {
-          "t": "Water and sunlight are likely contributing to better growth, though other factors may also play a role.",
-          "s": 1
+          "t": "Respect the promise and keep the information to yourself",
+          "s": 4
         },
         {
-          "t": "Water and sunlight are the only things that affect plant growth.",
-          "s": 2
-        },
-        {
-          "t": "Plants that grow taller do not need water or sunlight.",
+          "t": "Encourage your friend to speak to an adult themselves, offering to go with them",
           "s": 3
         },
         {
-          "t": "The difference in height has nothing to do with water or sunlight.",
-          "s": 4
+          "t": "Speak to a trusted adult yourself, without revealing your friend's identity",
+          "s": 2
+        },
+        {
+          "t": "Wait and see if the situation resolves before taking any action",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Encourages balanced interpretation of observed relationships.",
-      "insight": "Evidence-Based Pattern Interpretation"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "softskills",
-      "q": "A statement says: \"If a certain condition is met, a biological process occurs at a faster rate.\" The condition is met in one case. What follows logically?",
+      "q": "During a school trip, your group reaches a place where everyone has two hours of free time.",
       "opts": [
         {
-          "t": "The process may occur faster, but other factors could also influence the rate.",
-          "s": 1
+          "t": "Explore the area with your friends while staying within the agreed boundary",
+          "s": 4
         },
         {
-          "t": "The process will definitely occur at the fastest possible rate.",
-          "s": 2
-        },
-        {
-          "t": "The process cannot occur at all.",
+          "t": "Visit the information centre and learn about the place first",
           "s": 3
         },
         {
-          "t": "The statement must be incorrect.",
-          "s": 4
+          "t": "Stay with the group and follow what the majority decides",
+          "s": 2
+        },
+        {
+          "t": "Find a quiet spot to rest and observe your surroundings alone",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Tests understanding of conditional relationships in biological systems.",
-      "insight": "Interpreting Conditional Biological Information"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "softskills",
-      "q": "Several plants in one area show similar unusual growth patterns around the same time. What would be a reasonable first step?",
+      "q": "You receive a test result that is lower than what you expected.",
       "opts": [
         {
-          "t": "Check what conditions or factors these plants have in common.",
-          "s": 1
+          "t": "Review the paper thoroughly to understand exactly where you lost marks",
+          "s": 4
         },
         {
-          "t": "Assume the plants are unhealthy by nature.",
-          "s": 2
-        },
-        {
-          "t": "Ignore the patterns because they appeared together.",
+          "t": "Take a day to process it, then plan a revised study schedule",
           "s": 3
         },
         {
-          "t": "Change all plants without investigating further.",
-          "s": 4
+          "t": "Meet the teacher to discuss whether there is room for improvement or re-evaluation",
+          "s": 2
+        },
+        {
+          "t": "Compare your paper with a topper's to identify the gap in approach",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Promotes systematic investigation of shared factors.",
-      "insight": "Systematic Thinking in Problem Investigation"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "softskills",
-      "q": "A method that worked well for growing one type of organism does not work as well for another type. What would be a thoughtful response?",
+      "q": "Your sibling wants to use your personal tablet for a game, and you have an online class in an hour.",
       "opts": [
         {
-          "t": "Consider what differences between the two organisms might require adjustments in the method.",
-          "s": 1
+          "t": "Let them use it now and charge it quickly before your class starts",
+          "s": 4
         },
         {
-          "t": "Assume the method is completely useless.",
-          "s": 2
-        },
-        {
-          "t": "Use the same method without any changes.",
+          "t": "Explain that you need it soon but offer them your phone instead",
           "s": 3
         },
         {
-          "t": "Decide that growing organisms is not possible.",
-          "s": 4
+          "t": "Tell them they can use it after your class is over",
+          "s": 2
+        },
+        {
+          "t": "Check how much battery is left and decide based on that",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Shows interest in understanding context-specific requirements.",
-      "insight": "Adaptability and Context Awareness"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "softskills",
-      "q": "Research shows that a particular environmental factor improves growth for most organisms of a group, but some individuals respond differently. What does this suggest?",
+      "q": "A new student joins your class and seems unsure about how things work here.",
       "opts": [
         {
-          "t": "General patterns can exist while individual organisms may still vary due to other factors.",
-          "s": 1
+          "t": "Offer to show them around the school on the first day",
+          "s": 4
         },
         {
-          "t": "The research must be completely incorrect.",
-          "s": 2
-        },
-        {
-          "t": "The environmental factor has no effect on any organism.",
+          "t": "Treat them normally and let them adjust at their own pace",
           "s": 3
         },
         {
-          "t": "All organisms will always respond in exactly the same way.",
-          "s": 4
+          "t": "Introduce them to a few students who have similar interests",
+          "s": 2
+        },
+        {
+          "t": "Share a printed timetable and some class notes so they feel prepared",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Tests comfort with general findings alongside individual variation.",
-      "insight": "Comfort With Variability in Biological Systems"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "financial",
-      "q": "A new approach could improve crop growth in a region but requires resources that are currently limited. How would you think about implementing it?",
+      "q": "Your class is choosing a venue for the farewell party. Two strong options have emerged.",
       "opts": [
         {
-          "t": "Consider how the benefits compare with the resources needed and whether it can be made practical.",
-          "s": 1
+          "t": "Suggest a vote and accept whatever the majority chooses",
+          "s": 4
         },
         {
-          "t": "Always implement the new approach immediately.",
-          "s": 2
-        },
-        {
-          "t": "Reject any new approach because it requires resources.",
+          "t": "List the pros and cons of each and present them to the class",
           "s": 3
         },
         {
-          "t": "Choose whichever approach has been used for the longest time.",
-          "s": 4
+          "t": "Propose a third option that combines the best features of both",
+          "s": 2
+        },
+        {
+          "t": "Let the class representatives decide since that is their role",
+          "s": 1
         }
       ],
       "categoryName": "Innovation, Resource & Practical Decision Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Reveals balanced thinking about innovation and practical constraints.",
-      "insight": "Innovation Orientation and Resource Awareness"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "financial",
-      "q": "You have limited materials to test several ideas for improving a biological process. Which consideration would guide your choices?",
+      "q": "You overhear two friends having a disagreement in the corridor.",
       "opts": [
         {
-          "t": "Which ideas are most likely to give useful information within the available resources.",
-          "s": 1
+          "t": "Walk past — it is a personal matter between them",
+          "s": 4
         },
         {
-          "t": "Test every idea regardless of resource use.",
-          "s": 2
-        },
-        {
-          "t": "Test only the idea that seems easiest.",
+          "t": "Check on them later individually to see if they are okay",
           "s": 3
         },
         {
-          "t": "Avoid testing any new ideas.",
-          "s": 4
+          "t": "If it seems serious, inform a teacher nearby",
+          "s": 2
+        },
+        {
+          "t": "Bring them together after some time and let them talk it out calmly",
+          "s": 1
         }
       ],
       "categoryName": "Innovation, Resource & Practical Decision Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Shows thoughtful allocation of limited experimental resources.",
-      "insight": "Resource Optimization in Research Settings"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "financial",
-      "q": "An idea works well in small-scale experiments but may behave differently when applied on a larger scale. What would you want to understand?",
+      "q": "A teacher assigns extra practice problems over the weekend.",
       "opts": [
         {
-          "t": "What factors might change when moving from small to large scale and how they can be managed.",
-          "s": 1
+          "t": "Complete them on Saturday so Sunday remains free",
+          "s": 4
         },
         {
-          "t": "Assume the idea will work exactly the same at any scale.",
-          "s": 2
-        },
-        {
-          "t": "Avoid scaling up because change is risky.",
+          "t": "Spread them across both days in small sessions",
           "s": 3
         },
         {
-          "t": "Scale up immediately without further checks.",
-          "s": 4
+          "t": "Do them on Sunday evening when you have a clearer idea of what was covered in class",
+          "s": 2
+        },
+        {
+          "t": "Attempt the ones you find challenging and note the rest for doubt-clearing on Monday",
+          "s": 1
         }
       ],
       "categoryName": "Innovation, Resource & Practical Decision Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Demonstrates awareness of scale-up challenges in biotechnology.",
-      "insight": "Systems Thinking About Scaling"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "financial",
-      "q": "Two possible solutions exist for an agricultural problem: one is faster but less reliable in different conditions, while the other is slower but more consistent. How would you evaluate them?",
+      "q": "You are asked to lead a small team for a science exhibition.",
       "opts": [
         {
-          "t": "Consider the reliability needed and the consequences of inconsistency in real use.",
-          "s": 1
+          "t": "Divide tasks based on each person's strength and check in regularly",
+          "s": 4
         },
         {
-          "t": "Always choose the faster solution.",
-          "s": 2
-        },
-        {
-          "t": "Always choose the more consistent solution without checking needs.",
+          "t": "Let the team decide among themselves who does what, and you coordinate",
           "s": 3
         },
         {
-          "t": "Decide based only on which solution is newer.",
-          "s": 4
+          "t": "Take the lead role yourself to ensure the project stays on track",
+          "s": 2
+        },
+        {
+          "t": "Set a clear deadline and let everyone work independently until then",
+          "s": 1
         }
       ],
       "categoryName": "Innovation, Resource & Practical Decision Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Encourages weighing speed against reliability and real-world consequences.",
-      "insight": "Practical Judgment and Trade-off Evaluation"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "commitment",
-      "q": "After several weeks of effort on an experiment, you obtain a result that is different from what you expected. What naturally feels most meaningful to do next?",
+      "q": "Someone you don't know well borrows a book from you and returns it with a torn page.",
       "opts": [
         {
-          "t": "Explore why the result turned out differently and what it might reveal.",
-          "s": 1
+          "t": "Accept it quietly — accidents happen and it's not worth making it awkward",
+          "s": 4
         },
         {
-          "t": "Feel disappointed and stop working on the topic.",
-          "s": 2
-        },
-        {
-          "t": "Assume the result is incorrect and repeat the experiment exactly.",
+          "t": "Politely mention the damage so they are aware for next time",
           "s": 3
         },
         {
-          "t": "Move on to a completely new experiment without reflection.",
-          "s": 4
+          "t": "Repair the page yourself and say nothing",
+          "s": 2
+        },
+        {
+          "t": "Note it mentally and think twice before lending to them in the future",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Reveals how you respond to unexpected outcomes in discovery work.",
-      "insight": "Comfort With Uncertainty and Scientific Adaptability"
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "commitment",
-      "q": "You are observing a living system and notice a small pattern that appears repeatedly but was not part of your original focus. What do you usually do?",
+      "q": "You have an important exam tomorrow and a family function tonight.",
       "opts": [
         {
-          "t": "Become curious about whether the pattern is meaningful and worth exploring further.",
-          "s": 1
+          "t": "Attend the function for a short while, then come home to study",
+          "s": 4
         },
         {
-          "t": "Ignore the pattern because it was not planned.",
-          "s": 2
-        },
-        {
-          "t": "Assume the pattern is random and unimportant.",
+          "t": "Skip the function entirely and focus on preparation",
           "s": 3
         },
         {
-          "t": "Feel that noticing unplanned patterns wastes time.",
-          "s": 4
+          "t": "Attend the full function — a relaxed mind studies better than a stressed one",
+          "s": 2
+        },
+        {
+          "t": "Attend with your notes and revise during quiet moments at the venue",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Indicates openness to emergent observations in research.",
-      "insight": "Observational Awareness and Curiosity"
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "commitment",
-      "q": "When working on a question that requires many small observations and adjustments over time, how do you usually feel about the gradual nature of progress?",
+      "q": "A classmate copies your answer during a quiz. The teacher suspects something.",
       "opts": [
         {
-          "t": "Interested in seeing how each step adds to the overall understanding.",
-          "s": 1
+          "t": "Tell the teacher honestly if directly asked",
+          "s": 4
         },
         {
-          "t": "Impatient to reach a final answer quickly.",
-          "s": 2
-        },
-        {
-          "t": "Prefer to make one large change rather than many small ones.",
+          "t": "Stay silent and let the teacher handle it their way",
           "s": 3
         },
         {
-          "t": "Feel that slow progress is not worth continuing.",
-          "s": 4
+          "t": "Speak to the classmate privately about it after the quiz",
+          "s": 2
+        },
+        {
+          "t": "Mention to the teacher that you noticed something but aren't certain",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Shows comfort with the iterative nature of scientific work.",
-      "insight": "Persistence Through Iteration"
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "commitment",
-      "q": "After learning about how one small change in conditions can affect an entire living system, you find yourself thinking about other systems in daily life. What usually happens next?",
+      "q": "You are given a project topic you find uninteresting.",
       "opts": [
         {
-          "t": "You wonder how similar principles might apply in other situations.",
-          "s": 1
+          "t": "Find one small aspect of the topic that interests you and build from there",
+          "s": 4
         },
         {
-          "t": "You feel satisfied and stop thinking about it.",
-          "s": 2
-        },
-        {
-          "t": "You try to forget the information because it is not immediately useful.",
+          "t": "Complete it efficiently with the required information and move on",
           "s": 3
         },
         {
-          "t": "You look for someone to explain it again.",
-          "s": 4
+          "t": "Ask the teacher if the scope can be adjusted to include something you enjoy",
+          "s": 2
+        },
+        {
+          "t": "Use creative presentation methods to make the topic more engaging for yourself",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Reveals whether new biological insights spark broader curiosity.",
-      "insight": "Learning Orientation and Systems Thinking"
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "commitment",
-      "q": "You realize that an earlier assumption you made about a biological process may need to be revised based on new observations. How do you usually respond?",
+      "q": "Your friend invites you to a movie on the same day you planned to study.",
       "opts": [
         {
-          "t": "Consider updating your thinking with the new information.",
-          "s": 1
+          "t": "Go to the movie — one day of study can be adjusted later",
+          "s": 4
         },
         {
-          "t": "Feel reluctant to change what you had assumed earlier.",
-          "s": 2
-        },
-        {
-          "t": "Ignore the new observations to avoid extra work.",
+          "t": "Decline and stick to your original plan",
           "s": 3
         },
         {
-          "t": "Assume the earlier idea must still be correct.",
-          "s": 4
+          "t": "Suggest a shorter outing or a different day instead",
+          "s": 2
+        },
+        {
+          "t": "Go for the first show and return in time to study in the evening",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Explores openness to revising conclusions when evidence changes.",
-      "insight": "Evidence-Based Reasoning and Flexibility"
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "commitment",
-      "q": "When faced with a biological question that does not yet have a clear answer, what feels most natural to you?",
+      "q": "You notice a small error in the school newsletter that has already been printed.",
       "opts": [
         {
-          "t": "Feel curious about what kinds of observations or experiments might help find an answer.",
-          "s": 1
+          "t": "Point it out to the teacher in charge so it can be corrected next time",
+          "s": 4
         },
         {
-          "t": "Feel that questions without immediate answers are not worth exploring.",
-          "s": 2
-        },
-        {
-          "t": "Prefer to wait for someone else to find the answer.",
+          "t": "Let it be — it is a minor thing and everyone has already received their copy",
           "s": 3
         },
         {
-          "t": "Assume the question cannot be answered through careful study.",
-          "s": 4
+          "t": "Mention it casually to the student editor so they are more careful going forward",
+          "s": 2
+        },
+        {
+          "t": "Ignore it unless someone asks you directly about it",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Reveals your natural response to open-ended scientific questions.",
-      "insight": "Comfort With Uncertainty and Discovery Orientation"
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     }
   ],
   "bpharm": [
@@ -5219,19 +5219,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Higher temperature increases the speed of chemical and biological changes that affect the milk.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Warm air adds extra substances to the milk that cause spoilage.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Cold temperatures completely stop any change in milk.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The container material reacts differently with milk at different temperatures.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry in Everyday Life",
@@ -5245,19 +5245,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "It reduces the availability of water for microorganisms that cause spoilage.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "It adds flavor only and has no effect on preservation.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "It changes the color of the food to make it last longer.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "It completely kills all microorganisms instantly.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry in Everyday Life",
@@ -5271,19 +5271,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Baking soda releases gas when it reacts with acidic ingredients, creating air pockets in the batter.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Baking soda melts and mixes with the batter to make it lighter.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Baking soda absorbs moisture and prevents the cake from becoming dense.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Baking soda changes the color of the cake, making it appear softer.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry in Everyday Life",
@@ -5297,19 +5297,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The way the tablet is made and the substances used to hold it together.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The color of the tablet.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The size of the packet it comes in.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Whether the tablet is round or oval.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry in Everyday Life",
@@ -5323,19 +5323,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "It creates an environment that slows the chemical reaction responsible for browning.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "It adds color that hides the browning.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "It removes all oxygen from the fruit surface.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "It makes the fruit sweeter so browning cannot occur.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry in Everyday Life",
@@ -5349,19 +5349,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The scent molecules slowly escape or change even in small amounts over time.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The smell disappears completely and new smell is created.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The bottle material absorbs the entire perfume.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Light inside the bottle destroys the smell instantly.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry in Everyday Life",
@@ -5375,19 +5375,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The body is raising its temperature as part of its defense against the illness.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The fever occurs randomly without any connection to the illness.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Higher temperature always damages the body permanently.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Fever only happens when the person feels cold.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology & Human Systems",
@@ -5401,19 +5401,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The body has mechanisms that detect damage and work to repair it over time.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Skin heals only because new skin grows from outside the body.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Healing happens at the same speed in every person regardless of conditions.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Cuts heal faster when left completely untouched.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology & Human Systems",
@@ -5427,19 +5427,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Individuals can respond differently to the same food due to variations in their body systems.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The food itself changes completely depending on who eats it.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "One person must have eaten a different meal without realizing it.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Energy levels after eating are completely random.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology & Human Systems",
@@ -5453,19 +5453,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The body uses extra rest to complete repair and recovery processes.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Sleep after illness is only due to boredom.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The body needs less energy after illness, so sleep increases.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Rest has no connection to recovery.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology & Human Systems",
@@ -5479,19 +5479,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Water plays an important role in maintaining normal body functions including energy and focus.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Dehydration affects only the stomach and nothing else.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Tiredness during dehydration is purely psychological.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Water has no role in how the body produces energy.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology & Human Systems",
@@ -5505,19 +5505,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The body can be prepared in advance to recognize and respond to specific challenges.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Vaccines completely prevent any future contact with harmful agents.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The body forgets all information after vaccination.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Vaccines work the same way for every person without variation.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology & Human Systems",
@@ -5531,19 +5531,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Pressure created by pushing the plunger forces the liquid through the needle.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The medicine moves on its own without any force.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Gravity alone pulls the medicine into the body.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The needle creates suction that draws medicine in.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics Behind Medicines & Healthcare",
@@ -5557,19 +5557,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Lower temperature slows down chemical changes that can reduce the medicine's effectiveness.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Cold temperatures make all medicines stronger.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Refrigeration only prevents the medicine from freezing.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Cooling changes the color of medicines to show they are safe.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics Behind Medicines & Healthcare",
@@ -5583,19 +5583,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Light can cause certain chemical changes in the medicine over time.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Dark bottles make the medicine look more professional.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Clear bottles are always more expensive.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Dark bottles keep the medicine colder.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics Behind Medicines & Healthcare",
@@ -5609,19 +5609,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The high temperature of steam damages microorganisms while reaching all surfaces.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Steam only cleans visible dirt from equipment.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Steam works because it adds moisture, not because of temperature.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Steam sterilizes only by washing away microorganisms.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics Behind Medicines & Healthcare",
@@ -5635,19 +5635,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Temperature affects the rate of chemical reactions inside the medicine.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "All medicines behave the same way at any temperature.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Temperature only changes how the medicine tastes.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Medicines are unaffected by their surroundings.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics Behind Medicines & Healthcare",
@@ -5661,19 +5661,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The surface area exposed to liquid increases, which can affect how quickly it dissolves.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Crushing always makes the medicine stronger.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The color of the tablet changes permanently.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Crushing removes all active ingredients.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics Behind Medicines & Healthcare",
@@ -5687,19 +5687,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "How the medicine is packaged or scheduled to make regular use easier.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Whether the medicine should be made stronger.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Whether patients should be told to try harder.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Whether the medicine should be removed from use.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Pharmaceutical Aptitude & Systems Thinking",
@@ -5713,19 +5713,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Whether each step is necessary and whether the order affects the final result.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "How quickly the entire process can be completed.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Which step looks the most difficult.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Whether any step can be removed without checking consequences.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Pharmaceutical Aptitude & Systems Thinking",
@@ -5735,523 +5735,523 @@ export const SCIENCE_QUIZZES = {
     },
     {
       "cat": "expectation",
-      "q": "Two versions of a product appear equally effective, but one has more consistent results across different conditions. What aspect seems worth exploring?",
+      "q": "Your friend asks for help with homework the night before it's due. You have your own work to finish.",
       "opts": [
         {
-          "t": "What causes the variation in the less consistent version and whether it can be reduced.",
-          "s": 1
+          "t": "Share your completed work so they can use it as a reference",
+          "s": 4
         },
         {
-          "t": "Which version is cheaper to produce.",
-          "s": 2
-        },
-        {
-          "t": "Which version looks better.",
+          "t": "Spend an hour explaining the difficult parts and let them finish the rest",
           "s": 3
         },
         {
-          "t": "Whether both versions can be mixed together.",
-          "s": 4
+          "t": "Tell them you're busy tonight but offer to help them the next day after school",
+          "s": 2
+        },
+        {
+          "t": "Suggest they check the textbook examples since the homework is based on those",
+          "s": 1
         }
       ],
       "categoryName": "Pharmaceutical Aptitude & Systems Thinking",
-      "correctAnswer": "A",
-      "whyMatters": "Indicates interest in consistency and quality control.",
-      "insight": "Quality and Variability Awareness"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "expectation",
-      "q": "A new ingredient is being considered for a product. It improves one property but may affect another property slightly. What would you want to understand next?",
+      "q": "During a class debate, a student makes a point that is factually incorrect, but the teacher doesn't notice.",
       "opts": [
         {
-          "t": "How the change in one property might influence the overall performance and safety.",
-          "s": 1
+          "t": "Raise your hand and politely correct the information",
+          "s": 4
         },
         {
-          "t": "Whether the ingredient is the most expensive option.",
-          "s": 2
-        },
-        {
-          "t": "Whether the ingredient has been used before by others.",
+          "t": "Note it down and speak to the teacher privately after class",
           "s": 3
         },
         {
-          "t": "How quickly the change can be implemented.",
-          "s": 4
+          "t": "Say nothing — the teacher may already know and is testing the class",
+          "s": 2
+        },
+        {
+          "t": "Ask a follow-up question that gently leads the class to notice the error",
+          "s": 1
         }
       ],
       "categoryName": "Pharmaceutical Aptitude & Systems Thinking",
-      "correctAnswer": "A",
-      "whyMatters": "Tests holistic thinking about trade-offs in formulation.",
-      "insight": "Systems Thinking and Trade-off Evaluation"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "expectation",
-      "q": "During a routine check, a small deviation is noticed in one step of a long process. What feels most natural to do?",
+      "q": "You are assigned a group project and one member has not contributed anything with two days left.",
       "opts": [
         {
-          "t": "Investigate whether this small change could affect later steps or the final product.",
-          "s": 1
+          "t": "Redistribute the remaining work among the active members to ensure quality",
+          "s": 4
         },
         {
-          "t": "Ignore it because it is small.",
-          "s": 2
-        },
-        {
-          "t": "Stop the entire process immediately.",
+          "t": "Contact the absent member directly and ask what is holding them back",
           "s": 3
         },
         {
-          "t": "Change all future steps without checking the cause.",
-          "s": 4
+          "t": "Inform the teacher so the grading can reflect actual individual effort",
+          "s": 2
+        },
+        {
+          "t": "Complete the missing portion yourself to protect the group's overall grade",
+          "s": 1
         }
       ],
       "categoryName": "Pharmaceutical Aptitude & Systems Thinking",
-      "correctAnswer": "A",
-      "whyMatters": "Reveals sensitivity to how small changes can propagate through systems.",
-      "insight": "Safety Awareness and Ripple Effect Thinking"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "expectation",
-      "q": "A product meets all requirements but could be made slightly more efficient with one additional step. What consideration would guide your decision?",
+      "q": "You notice a classmate sitting alone during lunch break every day.",
       "opts": [
         {
-          "t": "Whether the benefit of the extra step justifies the added complexity and time.",
-          "s": 1
+          "t": "Invite them to join your group for that day",
+          "s": 4
         },
         {
-          "t": "Always add the step because more steps mean better quality.",
-          "s": 2
-        },
-        {
-          "t": "Never add steps because simplicity is always better.",
+          "t": "Sit with them for a while and see if they seem comfortable",
           "s": 3
         },
         {
-          "t": "Decide based only on what competitors are doing.",
-          "s": 4
+          "t": "Ask a mutual friend to help bring them into the group gradually",
+          "s": 2
+        },
+        {
+          "t": "Respect that some people prefer quiet time and give them space",
+          "s": 1
         }
       ],
       "categoryName": "Pharmaceutical Aptitude & Systems Thinking",
-      "correctAnswer": "A",
-      "whyMatters": "Shows balanced judgment between optimization and practicality.",
-      "insight": "Optimization and Practical Decision-Making"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "softskills",
-      "q": "All medicines of a certain type must be stored below a specific temperature. A batch was accidentally kept at a higher temperature for one day. What can you conclude?",
+      "q": "Your parents have enrolled you in a weekend class that takes away your free time.",
       "opts": [
         {
-          "t": "The batch should be checked to see if its quality was affected before deciding its use.",
-          "s": 1
+          "t": "Attend without complaint since your parents are investing in your future",
+          "s": 4
         },
         {
-          "t": "The batch is definitely unsafe and must be discarded.",
-          "s": 2
-        },
-        {
-          "t": "Temperature has no effect on medicines.",
+          "t": "Explain to your parents that you need some personal time to recharge",
           "s": 3
         },
         {
-          "t": "The medicine will become stronger after being kept warm.",
-          "s": 4
+          "t": "Try attending for a few weeks, then evaluate if it's actually helping you",
+          "s": 2
+        },
+        {
+          "t": "Ask if the schedule can be adjusted rather than refusing outright",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Tests cautious interpretation of storage guideline violations.",
-      "insight": "Evidence-Based Decision-Making"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "softskills",
-      "q": "In a study, people who took a particular supplement regularly reported fewer seasonal discomforts than those who did not. Which conclusion is most reasonable?",
+      "q": "A friend confides in you about a personal problem and asks you not to tell anyone. Later, you think an adult should know.",
       "opts": [
         {
-          "t": "The supplement may be associated with the reported difference, but other factors could also play a role.",
-          "s": 1
+          "t": "Respect the promise and keep the information to yourself",
+          "s": 4
         },
         {
-          "t": "The supplement completely prevents all seasonal discomforts.",
-          "s": 2
-        },
-        {
-          "t": "People who take supplements are always healthier in every way.",
+          "t": "Encourage your friend to speak to an adult themselves, offering to go with them",
           "s": 3
         },
         {
-          "t": "The supplement has no connection to the reported difference.",
-          "s": 4
+          "t": "Speak to a trusted adult yourself, without revealing your friend's identity",
+          "s": 2
+        },
+        {
+          "t": "Wait and see if the situation resolves before taking any action",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Encourages balanced interpretation of observed associations.",
-      "insight": "Careful Evidence Interpretation"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "softskills",
-      "q": "A statement on a product label says: \"If stored properly, this product remains effective for two years.\" A customer stored it correctly for 18 months. What follows logically?",
+      "q": "During a school trip, your group reaches a place where everyone has two hours of free time.",
       "opts": [
         {
-          "t": "The product is likely still within its effective period, but checking the expiry date is advisable.",
-          "s": 1
+          "t": "Explore the area with your friends while staying within the agreed boundary",
+          "s": 4
         },
         {
-          "t": "The product has definitely lost all effectiveness.",
-          "s": 2
-        },
-        {
-          "t": "The label information must be incorrect.",
+          "t": "Visit the information centre and learn about the place first",
           "s": 3
         },
         {
-          "t": "The product will remain effective forever.",
-          "s": 4
+          "t": "Stay with the group and follow what the majority decides",
+          "s": 2
+        },
+        {
+          "t": "Find a quiet spot to rest and observe your surroundings alone",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Tests application of conditional product information.",
-      "insight": "Interpreting Product Guidelines"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "softskills",
-      "q": "Three people who started using the same new product around the same time report similar mild reactions. What would be a reasonable first step?",
+      "q": "You receive a test result that is lower than what you expected.",
       "opts": [
         {
-          "t": "Look for what they have in common and whether others using the product experienced the same.",
-          "s": 1
+          "t": "Review the paper thoroughly to understand exactly where you lost marks",
+          "s": 4
         },
         {
-          "t": "Assume the product is unsafe for everyone.",
-          "s": 2
-        },
-        {
-          "t": "Tell them the reactions are unrelated to the product.",
+          "t": "Take a day to process it, then plan a revised study schedule",
           "s": 3
         },
         {
-          "t": "Ignore the reports because only three people are affected.",
-          "s": 4
+          "t": "Meet the teacher to discuss whether there is room for improvement or re-evaluation",
+          "s": 2
+        },
+        {
+          "t": "Compare your paper with a topper's to identify the gap in approach",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Promotes systematic investigation of patterns.",
-      "insight": "Pattern Recognition and Investigation"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "softskills",
-      "q": "A new method of preparing a product shows better results in laboratory conditions but slightly different results in real use. What would be a thoughtful approach?",
+      "q": "Your sibling wants to use your personal tablet for a game, and you have an online class in an hour.",
       "opts": [
         {
-          "t": "Investigate what factors in real use might cause the difference and whether they can be addressed.",
-          "s": 1
+          "t": "Let them use it now and charge it quickly before your class starts",
+          "s": 4
         },
         {
-          "t": "Reject the new method completely.",
-          "s": 2
-        },
-        {
-          "t": "Assume the laboratory results were wrong.",
+          "t": "Explain that you need it soon but offer them your phone instead",
           "s": 3
         },
         {
-          "t": "Use the new method without any changes.",
-          "s": 4
+          "t": "Tell them they can use it after your class is over",
+          "s": 2
+        },
+        {
+          "t": "Check how much battery is left and decide based on that",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Shows interest in understanding context-dependent outcomes.",
-      "insight": "Adaptability and Context Awareness"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "softskills",
-      "q": "Research shows that a particular storage condition improves product stability for most batches, but a few batches behave differently. What does this suggest?",
+      "q": "A new student joins your class and seems unsure about how things work here.",
       "opts": [
         {
-          "t": "General patterns can exist while individual batches may still vary due to other factors.",
-          "s": 1
+          "t": "Offer to show them around the school on the first day",
+          "s": 4
         },
         {
-          "t": "The research must be completely incorrect.",
-          "s": 2
-        },
-        {
-          "t": "Storage conditions have no effect on any batch.",
+          "t": "Treat them normally and let them adjust at their own pace",
           "s": 3
         },
         {
-          "t": "All batches will always behave identically.",
-          "s": 4
+          "t": "Introduce them to a few students who have similar interests",
+          "s": 2
+        },
+        {
+          "t": "Share a printed timetable and some class notes so they feel prepared",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Tests comfort with general findings alongside exceptions.",
-      "insight": "Comfort with Variability in Scientific Findings"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "financial",
-      "q": "A pharmacy has two options for packaging material: a lower-cost option that may not protect the product as well over time, or a higher-cost option that offers better protection. How would you weigh the choice?",
+      "q": "Your class is choosing a venue for the farewell party. Two strong options have emerged.",
       "opts": [
         {
-          "t": "Consider the total impact on product quality, customer satisfaction, and potential waste over time.",
-          "s": 1
+          "t": "Suggest a vote and accept whatever the majority chooses",
+          "s": 4
         },
         {
-          "t": "Always choose the cheaper option to reduce immediate costs.",
-          "s": 2
-        },
-        {
-          "t": "Always choose the expensive option without checking necessity.",
+          "t": "List the pros and cons of each and present them to the class",
           "s": 3
         },
         {
-          "t": "Decide based only on what other pharmacies are using.",
-          "s": 4
+          "t": "Propose a third option that combines the best features of both",
+          "s": 2
+        },
+        {
+          "t": "Let the class representatives decide since that is their role",
+          "s": 1
         }
       ],
       "categoryName": "Financial & Practical Decision Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Reveals long-term thinking about quality versus cost.",
-      "insight": "Resource Optimization and Long-Term Perspective"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "financial",
-      "q": "A pharmacy has limited space and must choose between stocking more varieties of a few products or fewer varieties of many products. What consideration would guide the decision?",
+      "q": "You overhear two friends having a disagreement in the corridor.",
       "opts": [
         {
-          "t": "Which option better meets customer needs while managing inventory efficiently.",
-          "s": 1
+          "t": "Walk past — it is a personal matter between them",
+          "s": 4
         },
         {
-          "t": "Always stock the maximum number of products.",
-          "s": 2
-        },
-        {
-          "t": "Always stock only the cheapest products.",
+          "t": "Check on them later individually to see if they are okay",
           "s": 3
         },
         {
-          "t": "Choose whichever option requires less planning.",
-          "s": 4
+          "t": "If it seems serious, inform a teacher nearby",
+          "s": 2
+        },
+        {
+          "t": "Bring them together after some time and let them talk it out calmly",
+          "s": 1
         }
       ],
       "categoryName": "Financial & Practical Decision Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Tests balancing variety, demand, and practical constraints.",
-      "insight": "Inventory and Demand Judgment"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "financial",
-      "q": "A pharmacy can either invest in better storage equipment now or continue with current equipment and handle occasional product replacements later. How would you evaluate this?",
+      "q": "A teacher assigns extra practice problems over the weekend.",
       "opts": [
         {
-          "t": "Compare the upfront cost against the expected reduction in product loss and improved reliability over time.",
-          "s": 1
+          "t": "Complete them on Saturday so Sunday remains free",
+          "s": 4
         },
         {
-          "t": "Always invest in new equipment immediately.",
-          "s": 2
-        },
-        {
-          "t": "Never invest in new equipment.",
+          "t": "Spread them across both days in small sessions",
           "s": 3
         },
         {
-          "t": "Decide based only on the current month's budget.",
-          "s": 4
+          "t": "Do them on Sunday evening when you have a clearer idea of what was covered in class",
+          "s": 2
+        },
+        {
+          "t": "Attempt the ones you find challenging and note the rest for doubt-clearing on Monday",
+          "s": 1
         }
       ],
       "categoryName": "Financial & Practical Decision Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Encourages cost-benefit thinking with future risk consideration.",
-      "insight": "Investment Evaluation and Risk Management"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "financial",
-      "q": "A new service could help customers but requires staff training and some reorganization of workflow. What would be a useful way to assess whether to implement it?",
+      "q": "You are asked to lead a small team for a science exhibition.",
       "opts": [
         {
-          "t": "Weigh the potential benefit to customers against the time, cost, and effort required to maintain quality.",
-          "s": 1
+          "t": "Divide tasks based on each person's strength and check in regularly",
+          "s": 4
         },
         {
-          "t": "Implement it immediately because it is new.",
-          "s": 2
-        },
-        {
-          "t": "Reject it because any change involves effort.",
+          "t": "Let the team decide among themselves who does what, and you coordinate",
           "s": 3
         },
         {
-          "t": "Copy whatever a neighboring pharmacy is doing.",
-          "s": 4
+          "t": "Take the lead role yourself to ensure the project stays on track",
+          "s": 2
+        },
+        {
+          "t": "Set a clear deadline and let everyone work independently until then",
+          "s": 1
         }
       ],
       "categoryName": "Financial & Practical Decision Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Promotes thoughtful evaluation of service improvements.",
-      "insight": "Practical Innovation and Trade-off Analysis"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "commitment",
-      "q": "You notice that changing one small step in a familiar process produces a slightly different result. What feels most meaningful to understand next?",
+      "q": "Someone you don't know well borrows a book from you and returns it with a torn page.",
       "opts": [
         {
-          "t": "Why that particular step influences the outcome and whether the change is consistent.",
-          "s": 1
+          "t": "Accept it quietly — accidents happen and it's not worth making it awkward",
+          "s": 4
         },
         {
-          "t": "Whether you can return to the original method quickly.",
-          "s": 2
-        },
-        {
-          "t": "Whether anyone else noticed the difference.",
+          "t": "Politely mention the damage so they are aware for next time",
           "s": 3
         },
         {
-          "t": "How to avoid noticing such small changes in future.",
-          "s": 4
+          "t": "Repair the page yourself and say nothing",
+          "s": 2
+        },
+        {
+          "t": "Note it mentally and think twice before lending to them in the future",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Explores natural curiosity about cause-and-effect relationships.",
-      "insight": "Scientific Curiosity and Process Awareness"
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "commitment",
-      "q": "While following a set of instructions for a task, you realize one instruction could be interpreted in two slightly different ways. How do you usually respond?",
+      "q": "You have an important exam tomorrow and a family function tonight.",
       "opts": [
         {
-          "t": "Consider both interpretations and choose the one that seems more reliable or safer.",
-          "s": 1
+          "t": "Attend the function for a short while, then come home to study",
+          "s": 4
         },
         {
-          "t": "Pick the first interpretation that comes to mind.",
-          "s": 2
-        },
-        {
-          "t": "Assume both interpretations will give the same result.",
+          "t": "Skip the function entirely and focus on preparation",
           "s": 3
         },
         {
-          "t": "Skip that instruction and continue with the rest.",
-          "s": 4
+          "t": "Attend the full function — a relaxed mind studies better than a stressed one",
+          "s": 2
+        },
+        {
+          "t": "Attend with your notes and revise during quiet moments at the venue",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Reveals how you handle ambiguity in instructions.",
-      "insight": "Responsibility Under Ambiguity"
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "commitment",
-      "q": "You are working on a task where results improve only after several careful adjustments over time. How do you usually feel about this gradual progress?",
+      "q": "A classmate copies your answer during a quiz. The teacher suspects something.",
       "opts": [
         {
-          "t": "Interested in seeing how each small change contributes to the final improvement.",
-          "s": 1
+          "t": "Tell the teacher honestly if directly asked",
+          "s": 4
         },
         {
-          "t": "Impatient to reach the end result quickly.",
-          "s": 2
-        },
-        {
-          "t": "Prefer to make one large change instead of many small ones.",
+          "t": "Stay silent and let the teacher handle it their way",
           "s": 3
         },
         {
-          "t": "Feel that gradual improvement is not worth the effort.",
-          "s": 4
+          "t": "Speak to the classmate privately about it after the quiz",
+          "s": 2
+        },
+        {
+          "t": "Mention to the teacher that you noticed something but aren't certain",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Indicates comfort with incremental, evidence-based improvement.",
-      "insight": "Patience and Persistence in Refinement"
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "commitment",
-      "q": "After completing a task, you discover that a small detail you paid attention to earlier made a meaningful difference in the outcome. What do you usually think?",
+      "q": "You are given a project topic you find uninteresting.",
       "opts": [
         {
-          "t": "It is useful to understand why that detail mattered so you can apply it again.",
-          "s": 1
+          "t": "Find one small aspect of the topic that interests you and build from there",
+          "s": 4
         },
         {
-          "t": "The detail was probably just luck.",
-          "s": 2
-        },
-        {
-          "t": "You prefer not to think about past tasks once they are finished.",
+          "t": "Complete it efficiently with the required information and move on",
           "s": 3
         },
         {
-          "t": "Small details rarely make any real difference.",
-          "s": 4
+          "t": "Ask the teacher if the scope can be adjusted to include something you enjoy",
+          "s": 2
+        },
+        {
+          "t": "Use creative presentation methods to make the topic more engaging for yourself",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Shows whether you reflect on the value of attention to detail.",
-      "insight": "Reflective Thinking and Learning Orientation"
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "commitment",
-      "q": "You are given information about a process that worked well in one situation but may not work the same way in another situation. How do you naturally approach this?",
+      "q": "Your friend invites you to a movie on the same day you planned to study.",
       "opts": [
         {
-          "t": "Look for what might be different between the two situations and how that could affect the result.",
-          "s": 1
+          "t": "Go to the movie — one day of study can be adjusted later",
+          "s": 4
         },
         {
-          "t": "Assume the process will work exactly the same everywhere.",
-          "s": 2
-        },
-        {
-          "t": "Decide not to use the process at all.",
+          "t": "Decline and stick to your original plan",
           "s": 3
         },
         {
-          "t": "Use the process without considering differences.",
-          "s": 4
+          "t": "Suggest a shorter outing or a different day instead",
+          "s": 2
+        },
+        {
+          "t": "Go for the first show and return in time to study in the evening",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Reveals systems thinking and context sensitivity.",
-      "insight": "Adaptability and Context Awareness"
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "commitment",
-      "q": "When new information suggests that an earlier assumption about a task may need to be revised, how do you usually respond?",
+      "q": "You notice a small error in the school newsletter that has already been printed.",
       "opts": [
         {
-          "t": "Consider updating your approach based on the new information.",
-          "s": 1
+          "t": "Point it out to the teacher in charge so it can be corrected next time",
+          "s": 4
         },
         {
-          "t": "Feel reluctant to change what was already decided.",
-          "s": 2
-        },
-        {
-          "t": "Ignore the new information to avoid extra work.",
+          "t": "Let it be — it is a minor thing and everyone has already received their copy",
           "s": 3
         },
         {
-          "t": "Assume the earlier assumption must still be correct.",
-          "s": 4
+          "t": "Mention it casually to the student editor so they are more careful going forward",
+          "s": 2
+        },
+        {
+          "t": "Ignore it unless someone asks you directly about it",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Explores openness to revising thinking when evidence changes.",
-      "insight": "Evidence-Based Reasoning and Flexibility"
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     }
   ],
   "data_science": [
@@ -6261,19 +6261,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The steady increase in visitors suggests something is attracting more people over time.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The numbers are increasing, so sales must be increasing at the same rate.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The pattern is random and not worth further attention.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The shop should stop tracking visitors because the numbers keep changing.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Mathematical Thinking & Pattern Discovery",
@@ -6287,19 +6287,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The second class has a higher percentage of students scoring above 70.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The first class performed better because it has more high scorers.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Both classes performed equally well.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "It is impossible to compare the two classes.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Mathematical Thinking & Pattern Discovery",
@@ -6313,19 +6313,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Interest in the post may have decreased after the first hour.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The post is becoming more popular over time.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The total likes will always double every three hours.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The numbers are too small to draw any conclusion.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Mathematical Thinking & Pattern Discovery",
@@ -6339,19 +6339,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The first city grew at a higher percentage rate.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The second city added more people, so it grew faster.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Both cities grew at the same rate.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Population growth cannot be compared across cities.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Mathematical Thinking & Pattern Discovery",
@@ -6365,19 +6365,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The student is showing consistent improvement relative to the class average.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The student is performing below average in every test.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The scores are increasing randomly without any real pattern.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The class average is more important than individual scores.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Mathematical Thinking & Pattern Discovery",
@@ -6391,19 +6391,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The proportion of total monthly visitors that come on weekends versus weekdays.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Only the highest number of visitors on any single day.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The exact number of visitors on each day without any summary.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The average visitor count without separating weekdays and weekends.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Mathematical Thinking & Pattern Discovery",
@@ -6417,19 +6417,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "In similar past situations, it rained 8 out of 10 times.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "It will definitely rain tomorrow.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "It will rain for 80% of the day.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "There is an 80% chance the forecast is wrong.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Probability, Uncertainty & Decision Thinking",
@@ -6443,19 +6443,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The chance that they actually have the condition depends on both the test accuracy and how common the condition is.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "They definitely have the condition because the test is 95% accurate.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The test result can be ignored because the condition is rare.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The test is always wrong when the condition is rare.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Probability, Uncertainty & Decision Thinking",
@@ -6469,19 +6469,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The prediction is useful as a general guide but cannot guarantee the outcome for any one person.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The model is useless because it is wrong 30% of the time.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Every student has exactly a 70% chance of passing.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The model should not be used at all.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Probability, Uncertainty & Decision Thinking",
@@ -6495,19 +6495,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Rare events can still produce many false positives when the entire population is tested.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The test must be completely inaccurate.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "No one should ever be tested for rare conditions.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "False positives never happen with good tests.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Probability, Uncertainty & Decision Thinking",
@@ -6521,19 +6521,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Choosing Route A because it has a higher probability of success, while still acknowledging it is not guaranteed.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Choosing Route B because the difference is small.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Flipping a coin because neither is certain.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Not choosing either route.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Probability, Uncertainty & Decision Thinking",
@@ -6547,19 +6547,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The team is more likely to lose than win, but winning is still possible.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The team will definitely lose because it is away.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Past performance has no bearing on future matches.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The team will definitely win to balance previous losses.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Probability, Uncertainty & Decision Thinking",
@@ -6573,19 +6573,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Patterns in your listening history compared with patterns from many other users.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Random selection of popular songs.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Only the songs you have already saved.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The time of day you usually listen.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Data Hidden in Everyday Life",
@@ -6599,19 +6599,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Historical travel time data from many users on those routes at similar times.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The shortest distance regardless of traffic.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Only your personal travel history.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Random route selection.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Data Hidden in Everyday Life",
@@ -6625,19 +6625,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Relationships between products that many people tend to purchase together.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Products that are currently on sale.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Only the most expensive items.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Products chosen randomly by the store.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Data Hidden in Everyday Life",
@@ -6651,19 +6651,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The platform adjusts what each person sees based on their past interactions with similar content.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Every user sees exactly the same posts in the same order.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Content is shown randomly.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Only the most recent posts are shown to everyone.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Data Hidden in Everyday Life",
@@ -6677,19 +6677,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Adjust ingredient purchases and staffing for different days based on expected demand.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Remove the less popular items completely.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Serve the same menu every day without changes.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Ignore the difference because it is small.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Data Hidden in Everyday Life",
@@ -6703,19 +6703,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Whether their activity level is generally increasing, decreasing, or staying stable over time.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Only their exact step count on one particular day.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "How many steps their friends took.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The single highest step count they ever achieved.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Data Hidden in Everyday Life",
@@ -6729,19 +6729,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Whether there were any changes in pricing, promotions, new products, or external events during that month.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The exact sales number without any context.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Whether sales will increase again next month.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The names of all customers who bought items.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Analytical Reasoning & Investigation",
@@ -6755,19 +6755,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Whether the groups were similar in prior knowledge, study time, and other relevant factors.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "That one method is definitely superior.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "That the difference is purely due to luck.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "That the groups must have cheated.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Analytical Reasoning & Investigation",
@@ -6777,523 +6777,523 @@ export const SCIENCE_QUIZZES = {
     },
     {
       "cat": "expectation",
-      "q": "An expected seasonal increase in sales did not appear this year. What detail would you naturally revisit?",
+      "q": "Your friend asks for help with homework the night before it's due. You have your own work to finish.",
       "opts": [
         {
-          "t": "Whether any major change occurred in customer behavior, competition, or external conditions this year.",
-          "s": 1
+          "t": "Share your completed work so they can use it as a reference",
+          "s": 4
         },
         {
-          "t": "The sales numbers from five years ago.",
-          "s": 2
-        },
-        {
-          "t": "The exact time the data was recorded.",
+          "t": "Spend an hour explaining the difficult parts and let them finish the rest",
           "s": 3
         },
         {
-          "t": "The names of the sales team members.",
-          "s": 4
+          "t": "Tell them you're busy tonight but offer to help them the next day after school",
+          "s": 2
+        },
+        {
+          "t": "Suggest they check the textbook examples since the homework is based on those",
+          "s": 1
         }
       ],
       "categoryName": "Analytical Reasoning & Investigation",
-      "correctAnswer": "A",
-      "whyMatters": "Demonstrates the habit of looking for what might have broken an established pattern.",
-      "insight": "Pattern Disruption Investigation"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "expectation",
-      "q": "A website’s average time spent per visit increased, but the total number of visits decreased. What would help understand the overall situation better?",
+      "q": "During a class debate, a student makes a point that is factually incorrect, but the teacher doesn't notice.",
       "opts": [
         {
-          "t": "Looking at both metrics together along with other indicators like total time spent across all visits.",
-          "s": 1
+          "t": "Raise your hand and politely correct the information",
+          "s": 4
         },
         {
-          "t": "Focusing only on the increased time per visit.",
-          "s": 2
-        },
-        {
-          "t": "Ignoring both metrics because they moved in opposite directions.",
+          "t": "Note it down and speak to the teacher privately after class",
           "s": 3
         },
         {
-          "t": "Assuming the website is performing better overall.",
-          "s": 4
+          "t": "Say nothing — the teacher may already know and is testing the class",
+          "s": 2
+        },
+        {
+          "t": "Ask a follow-up question that gently leads the class to notice the error",
+          "s": 1
         }
       ],
       "categoryName": "Analytical Reasoning & Investigation",
-      "correctAnswer": "A",
-      "whyMatters": "Rewards holistic view rather than focusing on a single improving metric.",
-      "insight": "Multi-Metric Interpretation and Avoiding Misleading Averages"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "expectation",
-      "q": "You notice that people who buy product A also tend to buy product B. What would be a useful next step?",
+      "q": "You are assigned a group project and one member has not contributed anything with two days left.",
       "opts": [
         {
-          "t": "Check whether buying A actually leads to buying B or whether both are bought by a certain type of customer.",
-          "s": 1
+          "t": "Redistribute the remaining work among the active members to ensure quality",
+          "s": 4
         },
         {
-          "t": "Immediately recommend product B to everyone who buys A.",
-          "s": 2
-        },
-        {
-          "t": "Assume product A causes people to buy B.",
+          "t": "Contact the absent member directly and ask what is holding them back",
           "s": 3
         },
         {
-          "t": "Stop selling product A.",
-          "s": 4
+          "t": "Inform the teacher so the grading can reflect actual individual effort",
+          "s": 2
+        },
+        {
+          "t": "Complete the missing portion yourself to protect the group's overall grade",
+          "s": 1
         }
       ],
       "categoryName": "Analytical Reasoning & Investigation",
-      "correctAnswer": "A",
-      "whyMatters": "Tests awareness of the difference between association and causation.",
-      "insight": "Correlation vs Causation Awareness"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "expectation",
-      "q": "A school’s average test scores improved this year, but the number of students scoring very high decreased. What would you want to understand?",
+      "q": "You notice a classmate sitting alone during lunch break every day.",
       "opts": [
         {
-          "t": "Whether the improvement came from lifting lower-performing students or from changes affecting top performers.",
-          "s": 1
+          "t": "Invite them to join your group for that day",
+          "s": 4
         },
         {
-          "t": "That the school is performing better overall.",
-          "s": 2
-        },
-        {
-          "t": "That the school is performing worse overall.",
+          "t": "Sit with them for a while and see if they seem comfortable",
           "s": 3
         },
         {
-          "t": "The exact scores of every student without any summary.",
-          "s": 4
+          "t": "Ask a mutual friend to help bring them into the group gradually",
+          "s": 2
+        },
+        {
+          "t": "Respect that some people prefer quiet time and give them space",
+          "s": 1
         }
       ],
       "categoryName": "Analytical Reasoning & Investigation",
-      "correctAnswer": "A",
-      "whyMatters": "Highlights how averages can hide important distributional changes.",
-      "insight": "Understanding What Averages Conceal"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "softskills",
-      "q": "A study finds that people who drink more coffee tend to have higher salaries. What is a reasonable conclusion?",
+      "q": "Your parents have enrolled you in a weekend class that takes away your free time.",
       "opts": [
         {
-          "t": "There may be a connection, but coffee drinking does not necessarily cause higher salaries.",
-          "s": 1
+          "t": "Attend without complaint since your parents are investing in your future",
+          "s": 4
         },
         {
-          "t": "Drinking more coffee will definitely increase your salary.",
-          "s": 2
-        },
-        {
-          "t": "People with higher salaries must drink coffee.",
+          "t": "Explain to your parents that you need some personal time to recharge",
           "s": 3
         },
         {
-          "t": "The study must be completely wrong.",
-          "s": 4
+          "t": "Try attending for a few weeks, then evaluate if it's actually helping you",
+          "s": 2
+        },
+        {
+          "t": "Ask if the schedule can be adjusted rather than refusing outright",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Critical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Tests resistance to assuming causation from correlation.",
-      "insight": "Avoiding Causation Assumptions From Correlation"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "softskills",
-      "q": "A news article claims that a new policy caused a drop in crime rates based on data from one city. What would be important to consider?",
+      "q": "A friend confides in you about a personal problem and asks you not to tell anyone. Later, you think an adult should know.",
       "opts": [
         {
-          "t": "Whether other cities without the policy also saw similar changes, and what other factors might be involved.",
-          "s": 1
+          "t": "Respect the promise and keep the information to yourself",
+          "s": 4
         },
         {
-          "t": "That the policy definitely works everywhere.",
-          "s": 2
-        },
-        {
-          "t": "That the data from one city is enough to conclude the policy works.",
+          "t": "Encourage your friend to speak to an adult themselves, offering to go with them",
           "s": 3
         },
         {
-          "t": "That crime rates never change for any reason.",
-          "s": 4
+          "t": "Speak to a trusted adult yourself, without revealing your friend's identity",
+          "s": 2
+        },
+        {
+          "t": "Wait and see if the situation resolves before taking any action",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Critical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Encourages looking for alternative explanations and broader evidence.",
-      "insight": "Critical Evaluation of Causal Claims"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "softskills",
-      "q": "A company notices that employees who attend optional training sessions tend to get promoted faster. What is a careful interpretation?",
+      "q": "During a school trip, your group reaches a place where everyone has two hours of free time.",
       "opts": [
         {
-          "t": "Attending training may be associated with faster promotion, but motivated employees might do both.",
-          "s": 1
+          "t": "Explore the area with your friends while staying within the agreed boundary",
+          "s": 4
         },
         {
-          "t": "Attending training definitely causes faster promotion.",
-          "s": 2
-        },
-        {
-          "t": "The company should make training mandatory for everyone.",
+          "t": "Visit the information centre and learn about the place first",
           "s": 3
         },
         {
-          "t": "Training has no connection to promotion.",
-          "s": 4
+          "t": "Stay with the group and follow what the majority decides",
+          "s": 2
+        },
+        {
+          "t": "Find a quiet spot to rest and observe your surroundings alone",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Critical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Shows awareness that self-selection can create misleading patterns.",
-      "insight": "Recognizing Selection Bias and Alternative Explanations"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "softskills",
-      "q": "A survey of 500 people shows that 60% prefer option X. What is important to know before generalizing to the entire population?",
+      "q": "You receive a test result that is lower than what you expected.",
       "opts": [
         {
-          "t": "Whether the 500 people are representative of the larger population in relevant ways.",
-          "s": 1
+          "t": "Review the paper thoroughly to understand exactly where you lost marks",
+          "s": 4
         },
         {
-          "t": "The exact percentage is enough to conclude everyone prefers X.",
-          "s": 2
-        },
-        {
-          "t": "Surveys are always accurate regardless of who was surveyed.",
+          "t": "Take a day to process it, then plan a revised study schedule",
           "s": 3
         },
         {
-          "t": "The remaining 40% must be wrong.",
-          "s": 4
+          "t": "Meet the teacher to discuss whether there is room for improvement or re-evaluation",
+          "s": 2
+        },
+        {
+          "t": "Compare your paper with a topper's to identify the gap in approach",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Critical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Highlights the importance of sample representativeness.",
-      "insight": "Critical Thinking About Survey Data"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "softskills",
-      "q": "A graph shows that ice cream sales and drowning incidents both increase in summer. What is a logical conclusion?",
+      "q": "Your sibling wants to use your personal tablet for a game, and you have an online class in an hour.",
       "opts": [
         {
-          "t": "Both are likely influenced by a third factor (hot weather) rather than one causing the other.",
-          "s": 1
+          "t": "Let them use it now and charge it quickly before your class starts",
+          "s": 4
         },
         {
-          "t": "Eating ice cream causes drowning.",
-          "s": 2
-        },
-        {
-          "t": "Drowning causes people to eat ice cream.",
+          "t": "Explain that you need it soon but offer them your phone instead",
           "s": 3
         },
         {
-          "t": "The two events are completely unrelated.",
-          "s": 4
+          "t": "Tell them they can use it after your class is over",
+          "s": 2
+        },
+        {
+          "t": "Check how much battery is left and decide based on that",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Critical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Classic correlation vs causation example with a clear third factor.",
-      "insight": "Identifying Spurious Correlations"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "softskills",
-      "q": "A study concludes that a teaching method is effective because students who used it scored higher than those who did not. What key information is missing?",
+      "q": "A new student joins your class and seems unsure about how things work here.",
       "opts": [
         {
-          "t": "Whether the two groups of students were similar before the teaching method was applied.",
-          "s": 1
+          "t": "Offer to show them around the school on the first day",
+          "s": 4
         },
         {
-          "t": "The names of the students.",
-          "s": 2
-        },
-        {
-          "t": "The exact date the study was published.",
+          "t": "Treat them normally and let them adjust at their own pace",
           "s": 3
         },
         {
-          "t": "How many students participated.",
-          "s": 4
+          "t": "Introduce them to a few students who have similar interests",
+          "s": 2
+        },
+        {
+          "t": "Share a printed timetable and some class notes so they feel prepared",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Critical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Emphasizes the need for baseline comparison in evaluating interventions.",
-      "insight": "Importance of Control Groups and Baseline Comparison"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "financial",
-      "q": "A company has limited budget for two data projects: one that could save significant costs but takes longer to implement, and another that offers smaller savings but can be done quickly. How would you weigh the options?",
+      "q": "Your class is choosing a venue for the farewell party. Two strong options have emerged.",
       "opts": [
         {
-          "t": "Consider both the total long-term savings and the time value of implementing each project.",
-          "s": 1
+          "t": "Suggest a vote and accept whatever the majority chooses",
+          "s": 4
         },
         {
-          "t": "Always choose the quicker project.",
-          "s": 2
-        },
-        {
-          "t": "Always choose the project with larger savings regardless of time.",
+          "t": "List the pros and cons of each and present them to the class",
           "s": 3
         },
         {
-          "t": "Choose based only on which project the team prefers.",
-          "s": 4
+          "t": "Propose a third option that combines the best features of both",
+          "s": 2
+        },
+        {
+          "t": "Let the class representatives decide since that is their role",
+          "s": 1
         }
       ],
       "categoryName": "Financial, Business & Resource Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Tests balancing speed versus impact in resource decisions.",
-      "insight": "Long-Term vs Short-Term Trade-off Evaluation"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "financial",
-      "q": "A business can either collect more detailed data from customers (which may reduce response rates) or collect less data but get higher participation. What consideration would guide the choice?",
+      "q": "You overhear two friends having a disagreement in the corridor.",
       "opts": [
         {
-          "t": "Whether the additional detail provides enough value to justify potentially lower participation.",
-          "s": 1
+          "t": "Walk past — it is a personal matter between them",
+          "s": 4
         },
         {
-          "t": "Always collect as much data as possible.",
-          "s": 2
-        },
-        {
-          "t": "Always minimize data collection.",
+          "t": "Check on them later individually to see if they are okay",
           "s": 3
         },
         {
-          "t": "Decide based only on what competitors are doing.",
-          "s": 4
+          "t": "If it seems serious, inform a teacher nearby",
+          "s": 2
+        },
+        {
+          "t": "Bring them together after some time and let them talk it out calmly",
+          "s": 1
         }
       ],
       "categoryName": "Financial, Business & Resource Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Shows thoughtful evaluation of data quality versus quantity trade-offs.",
-      "insight": "Data Collection Strategy and Trade-off Thinking"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "financial",
-      "q": "Two marketing campaigns are being considered. One targets a small group with high expected response rate; the other targets a larger group with lower expected response rate. How would you decide?",
+      "q": "A teacher assigns extra practice problems over the weekend.",
       "opts": [
         {
-          "t": "Compare the expected total impact and cost for each approach.",
-          "s": 1
+          "t": "Complete them on Saturday so Sunday remains free",
+          "s": 4
         },
         {
-          "t": "Always target the larger group.",
-          "s": 2
-        },
-        {
-          "t": "Always target the smaller group with higher response.",
+          "t": "Spread them across both days in small sessions",
           "s": 3
         },
         {
-          "t": "Choose randomly.",
-          "s": 4
+          "t": "Do them on Sunday evening when you have a clearer idea of what was covered in class",
+          "s": 2
+        },
+        {
+          "t": "Attempt the ones you find challenging and note the rest for doubt-clearing on Monday",
+          "s": 1
         }
       ],
       "categoryName": "Financial, Business & Resource Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Encourages calculating overall expected value rather than focusing on rates alone.",
-      "insight": "Resource Allocation and Expected Value Thinking"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "financial",
-      "q": "A data project could improve efficiency but might also affect fairness in how different groups are treated. What would be a useful way to evaluate it?",
+      "q": "You are asked to lead a small team for a science exhibition.",
       "opts": [
         {
-          "t": "Consider both the efficiency gains and whether the approach creates or reduces unfair outcomes for different groups.",
-          "s": 1
+          "t": "Divide tasks based on each person's strength and check in regularly",
+          "s": 4
         },
         {
-          "t": "Focus only on efficiency improvements.",
-          "s": 2
-        },
-        {
-          "t": "Reject any project that involves fairness considerations.",
+          "t": "Let the team decide among themselves who does what, and you coordinate",
           "s": 3
         },
         {
-          "t": "Implement it without checking fairness implications.",
-          "s": 4
+          "t": "Take the lead role yourself to ensure the project stays on track",
+          "s": 2
+        },
+        {
+          "t": "Set a clear deadline and let everyone work independently until then",
+          "s": 1
         }
       ],
       "categoryName": "Financial, Business & Resource Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Demonstrates awareness of fairness-efficiency trade-offs in data-driven decisions.",
-      "insight": "Balancing Efficiency With Fairness Considerations"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "commitment",
-      "q": "You notice a clear pattern in some information you collected, but when you look at additional data the pattern becomes much weaker. What feels most natural to do next?",
+      "q": "Someone you don't know well borrows a book from you and returns it with a torn page.",
       "opts": [
         {
-          "t": "Investigate why the pattern changed with more data and whether the original view was incomplete.",
-          "s": 1
+          "t": "Accept it quietly — accidents happen and it's not worth making it awkward",
+          "s": 4
         },
         {
-          "t": "Keep believing the original pattern because it appeared first.",
-          "s": 2
-        },
-        {
-          "t": "Decide that all patterns are meaningless.",
+          "t": "Politely mention the damage so they are aware for next time",
           "s": 3
         },
         {
-          "t": "Ignore the additional data.",
-          "s": 4
+          "t": "Repair the page yourself and say nothing",
+          "s": 2
+        },
+        {
+          "t": "Note it mentally and think twice before lending to them in the future",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Explores openness to revising conclusions when new evidence appears.",
-      "insight": "Adaptability and Evidence-Based Revision"
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "commitment",
-      "q": "When presented with information that contradicts something you previously believed, how do you usually respond?",
+      "q": "You have an important exam tomorrow and a family function tonight.",
       "opts": [
         {
-          "t": "Feel curious about what the new information might mean and whether your earlier view needs updating.",
-          "s": 1
+          "t": "Attend the function for a short while, then come home to study",
+          "s": 4
         },
         {
-          "t": "Feel defensive and look for reasons to dismiss the new information.",
-          "s": 2
-        },
-        {
-          "t": "Immediately accept the new information without question.",
+          "t": "Skip the function entirely and focus on preparation",
           "s": 3
         },
         {
-          "t": "Avoid thinking about the contradiction.",
-          "s": 4
+          "t": "Attend the full function — a relaxed mind studies better than a stressed one",
+          "s": 2
+        },
+        {
+          "t": "Attend with your notes and revise during quiet moments at the venue",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Reveals your natural response to conflicting evidence.",
-      "insight": "Openness to Changing Conclusions"
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "commitment",
-      "q": "You are trying to understand why two similar groups show different outcomes. What approach feels most natural?",
+      "q": "A classmate copies your answer during a quiz. The teacher suspects something.",
       "opts": [
         {
-          "t": "Look for differences in conditions, behaviors, or other measurable factors between the groups.",
-          "s": 1
+          "t": "Tell the teacher honestly if directly asked",
+          "s": 4
         },
         {
-          "t": "Assume the difference is due to chance and stop investigating.",
-          "s": 2
-        },
-        {
-          "t": "Decide one group must be better by nature.",
+          "t": "Stay silent and let the teacher handle it their way",
           "s": 3
         },
         {
-          "t": "Focus only on the group with the better outcome.",
-          "s": 4
+          "t": "Speak to the classmate privately about it after the quiz",
+          "s": 2
+        },
+        {
+          "t": "Mention to the teacher that you noticed something but aren't certain",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Shows investigative approach to group differences.",
-      "insight": "Investigative Thinking and Factor Exploration"
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "commitment",
-      "q": "After spending time analyzing information, you realize an important piece of context was missing from the beginning. How do you usually feel?",
+      "q": "You are given a project topic you find uninteresting.",
       "opts": [
         {
-          "t": "Interested in understanding how the missing context changes the picture.",
-          "s": 1
+          "t": "Find one small aspect of the topic that interests you and build from there",
+          "s": 4
         },
         {
-          "t": "Frustrated that the earlier work may be less useful.",
-          "s": 2
-        },
-        {
-          "t": "Prefer to continue with the original analysis without the new context.",
+          "t": "Complete it efficiently with the required information and move on",
           "s": 3
         },
         {
-          "t": "Decide analysis is too difficult when information is incomplete.",
-          "s": 4
+          "t": "Ask the teacher if the scope can be adjusted to include something you enjoy",
+          "s": 2
+        },
+        {
+          "t": "Use creative presentation methods to make the topic more engaging for yourself",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Indicates comfort with incomplete information and willingness to incorporate new context.",
-      "insight": "Tolerance for Ambiguity and Iterative Thinking"
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "commitment",
-      "q": "You see a headline claiming a strong relationship between two things based on a study. What do you naturally want to know?",
+      "q": "Your friend invites you to a movie on the same day you planned to study.",
       "opts": [
         {
-          "t": "Details about how the study was conducted, what exactly was measured, and whether other explanations are possible.",
-          "s": 1
+          "t": "Go to the movie — one day of study can be adjusted later",
+          "s": 4
         },
         {
-          "t": "Only the headline conclusion.",
-          "s": 2
-        },
-        {
-          "t": "Whether the study agrees with what you already believed.",
+          "t": "Decline and stick to your original plan",
           "s": 3
         },
         {
-          "t": "The names of the researchers.",
-          "s": 4
+          "t": "Suggest a shorter outing or a different day instead",
+          "s": 2
+        },
+        {
+          "t": "Go for the first show and return in time to study in the evening",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Reveals the depth of skepticism and desire for methodological understanding.",
-      "insight": "Skeptical Inquiry and Evidence Evaluation"
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "commitment",
-      "q": "When making a decision that affects others, you have access to data that shows different outcomes for different groups. What feels most important to consider?",
+      "q": "You notice a small error in the school newsletter that has already been printed.",
       "opts": [
         {
-          "t": "Whether the decision treats groups fairly while still achieving the overall goal.",
-          "s": 1
+          "t": "Point it out to the teacher in charge so it can be corrected next time",
+          "s": 4
         },
         {
-          "t": "Only the option that benefits the largest number of people.",
-          "s": 2
-        },
-        {
-          "t": "The option that is easiest to implement.",
+          "t": "Let it be — it is a minor thing and everyone has already received their copy",
           "s": 3
         },
         {
-          "t": "The decision that matches what was done in the past.",
-          "s": 4
+          "t": "Mention it casually to the student editor so they are more careful going forward",
+          "s": 2
+        },
+        {
+          "t": "Ignore it unless someone asks you directly about it",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Explores how you balance evidence, fairness, and practical outcomes.",
-      "insight": "Practical Judgment and Fairness Awareness"
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     }
   ],
   "engineering": [
@@ -7307,15 +7307,15 @@ export const SCIENCE_QUIZZES = {
         },
         {
           "t": "It follows a smooth curved path that rises and then falls like an arc.",
-          "s": 2
+          "s": 4
         },
         {
           "t": "It moves in small zigzags due to slight changes in direction.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "It moves in a circular loop before settling on the balcony.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics Thinking",
@@ -7329,19 +7329,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Objects naturally want to keep moving in the same direction unless something stops them.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Objects always try to stop immediately when the vehicle stops.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Objects get pulled backward by some invisible force.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Objects change direction randomly when the vehicle stops.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics Thinking",
@@ -7355,19 +7355,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The box will move in the direction of the stronger push, but slower than if both pushed equally hard in the same direction.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The box will not move at all because the pushes cancel each other.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The box will move faster than when both push in the same direction.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The box will move sideways due to the difference in pushes.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics Thinking",
@@ -7381,19 +7381,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Metal allows heat to travel through it more easily than plastic, so heat reaches your hand faster.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Metal naturally produces more heat than plastic.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Plastic keeps the heat trapped inside the spoon.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The metal spoon absorbs heat from the air around it.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics Thinking",
@@ -7407,19 +7407,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The fan moves air around, increasing evaporation of sweat from your skin.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The fan creates cold air from nothing.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The fan reduces the temperature of the room uniformly.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The fan pushes warm air away from you.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics Thinking",
@@ -7433,19 +7433,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The energy used to stretch it is stored and then released as the band returns.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The rubber band creates new energy when released.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The energy disappears completely when the band is stretched.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The band loses all its energy to the air.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics Thinking",
@@ -7463,15 +7463,15 @@ export const SCIENCE_QUIZZES = {
         },
         {
           "t": "4 rows of 12 boxes each.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "3 rows of 16 boxes each.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "2 rows of 24 boxes each.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Mathematical Reasoning",
@@ -7489,15 +7489,15 @@ export const SCIENCE_QUIZZES = {
         },
         {
           "t": "Around 300 people.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Around 200 people.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Around 400 people.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Mathematical Reasoning",
@@ -7515,15 +7515,15 @@ export const SCIENCE_QUIZZES = {
         },
         {
           "t": "120 km",
-          "s": 2
+          "s": 1
         },
         {
           "t": "160 km",
-          "s": 3
+          "s": 1
         },
         {
           "t": "100 km",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Mathematical Reasoning",
@@ -7541,15 +7541,15 @@ export const SCIENCE_QUIZZES = {
         },
         {
           "t": "20 trees",
-          "s": 2
+          "s": 1
         },
         {
           "t": "32 trees",
-          "s": 3
+          "s": 1
         },
         {
           "t": "16 trees",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Mathematical Reasoning",
@@ -7567,15 +7567,15 @@ export const SCIENCE_QUIZZES = {
         },
         {
           "t": "3 more hours",
-          "s": 2
+          "s": 1
         },
         {
           "t": "6 more hours",
-          "s": 3
+          "s": 1
         },
         {
           "t": "2 more hours",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Mathematical Reasoning",
@@ -7589,19 +7589,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The straight path might be faster despite being longer because you can maintain speed.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The shorter path is always better regardless of turns.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Both paths will take the same time.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The longer path is better because it has fewer obstacles.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Mathematical Reasoning",
@@ -7615,19 +7615,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Moisture and salt in the air speed up the reaction between iron and oxygen.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The sea air contains special chemicals that only affect iron.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The gate near the sea is made of weaker iron.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Sunlight is stronger near the sea and causes faster rusting.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry in Daily Life",
@@ -7641,19 +7641,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Lemon juice is acidic and changes the milk's structure.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Lemon juice is basic and neutralizes milk.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Lemon juice adds sweetness that makes milk separate.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Lemon juice cools the milk causing separation.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry in Daily Life",
@@ -7667,19 +7667,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Copper is reacting with air and moisture to form a protective layer.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The vessel is losing its original color due to dirt.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Bacteria are growing on the surface.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The metal is melting slowly.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry in Daily Life",
@@ -7693,19 +7693,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "A chemical reaction is releasing a gas (carbon dioxide).",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The substances are simply mixing without any change.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Heat is being produced causing bubbles.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The bottle is leaking air.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry in Daily Life",
@@ -7719,19 +7719,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Water helps oxygen reach the iron in the steel more easily.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Water adds extra iron to the steel.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Dry air prevents any reaction.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Wet steel is softer and breaks down.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry in Daily Life",
@@ -7745,19 +7745,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Detergent is basic in nature and reacts with skin oils.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Detergent makes water thicker.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Detergent removes all minerals from water.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Detergent adds acid to the water.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry in Daily Life",
@@ -7771,19 +7771,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Divide the line into two separate lines: one for snacks and one for full meals.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Make everyone stand in one single longer line.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Ask students to come at different random times.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Remove the menu board so students decide faster.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Engineering Aptitude & Systems Thinking",
@@ -7797,19 +7797,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Make the table slightly larger than needed and add adjustable shelves above it.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Make the smallest possible table and keep everything on the floor.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Use a round table because it looks nicer.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Build a table that can be folded away completely when not in use.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Engineering Aptitude & Systems Thinking",
@@ -7819,523 +7819,523 @@ export const SCIENCE_QUIZZES = {
     },
     {
       "cat": "expectation",
-      "q": "A city has traffic jams every evening on one main road. What would be the most effective first step to understand the problem?",
+      "q": "Your friend asks for help with homework the night before it's due. You have your own work to finish.",
       "opts": [
         {
-          "t": "Observe the road at different times and note where cars slow down most.",
-          "s": 1
+          "t": "Share your completed work so they can use it as a reference",
+          "s": 4
         },
         {
-          "t": "Immediately build a new flyover.",
-          "s": 2
-        },
-        {
-          "t": "Ask all drivers to take alternate routes.",
+          "t": "Spend an hour explaining the difficult parts and let them finish the rest",
           "s": 3
         },
         {
-          "t": "Reduce the number of traffic lights on that road.",
-          "s": 4
+          "t": "Tell them you're busy tonight but offer to help them the next day after school",
+          "s": 2
+        },
+        {
+          "t": "Suggest they check the textbook examples since the homework is based on those",
+          "s": 1
         }
       ],
       "categoryName": "Engineering Aptitude & Systems Thinking",
-      "correctAnswer": "A",
-      "whyMatters": "Emphasizes data gathering and root cause analysis before solutions.",
-      "insight": "Problem Decomposition and Root Cause Thinking"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "expectation",
-      "q": "You have to water a garden using a limited amount of water from a tank. Which strategy uses water most efficiently?",
+      "q": "During a class debate, a student makes a point that is factually incorrect, but the teacher doesn't notice.",
       "opts": [
         {
-          "t": "Water plants early in the morning when evaporation is low and use drip pipes near roots.",
-          "s": 1
+          "t": "Raise your hand and politely correct the information",
+          "s": 4
         },
         {
-          "t": "Water everything heavily once a week regardless of weather.",
-          "s": 2
-        },
-        {
-          "t": "Use a sprinkler that covers the entire garden quickly.",
+          "t": "Note it down and speak to the teacher privately after class",
           "s": 3
         },
         {
-          "t": "Water only the plants that look dry at that moment.",
-          "s": 4
+          "t": "Say nothing — the teacher may already know and is testing the class",
+          "s": 2
+        },
+        {
+          "t": "Ask a follow-up question that gently leads the class to notice the error",
+          "s": 1
         }
       ],
       "categoryName": "Engineering Aptitude & Systems Thinking",
-      "correctAnswer": "A",
-      "whyMatters": "Shows understanding of efficiency, timing, and targeted resource use.",
-      "insight": "Resource Optimization and Efficiency Thinking"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "expectation",
-      "q": "A classroom has 40 students but only 30 chairs. The teacher wants to arrange seating for a group discussion. What arrangement makes the best use of space?",
+      "q": "You are assigned a group project and one member has not contributed anything with two days left.",
       "opts": [
         {
-          "t": "Arrange chairs in a circle with some students standing in pairs.",
-          "s": 1
+          "t": "Redistribute the remaining work among the active members to ensure quality",
+          "s": 4
         },
         {
-          "t": "Keep all chairs in straight rows facing the front.",
-          "s": 2
-        },
-        {
-          "t": "Remove 10 chairs and ask students to sit on the floor.",
+          "t": "Contact the absent member directly and ask what is holding them back",
           "s": 3
         },
         {
-          "t": "Push all chairs against the walls and have students stand.",
-          "s": 4
+          "t": "Inform the teacher so the grading can reflect actual individual effort",
+          "s": 2
+        },
+        {
+          "t": "Complete the missing portion yourself to protect the group's overall grade",
+          "s": 1
         }
       ],
       "categoryName": "Engineering Aptitude & Systems Thinking",
-      "correctAnswer": "A",
-      "whyMatters": "Tests creative problem-solving within physical constraints.",
-      "insight": "Creative Constraint Handling"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "expectation",
-      "q": "A factory produces 1000 items per day but 50 are defective. Which improvement would have the biggest long-term impact?",
+      "q": "You notice a classmate sitting alone during lunch break every day.",
       "opts": [
         {
-          "t": "Find the step in the process where most defects occur and fix that step.",
-          "s": 1
+          "t": "Invite them to join your group for that day",
+          "s": 4
         },
         {
-          "t": "Hire more workers to check each item twice.",
-          "s": 2
-        },
-        {
-          "t": "Produce 2000 items and throw away the defective ones.",
+          "t": "Sit with them for a while and see if they seem comfortable",
           "s": 3
         },
         {
-          "t": "Change the product design completely.",
-          "s": 4
+          "t": "Ask a mutual friend to help bring them into the group gradually",
+          "s": 2
+        },
+        {
+          "t": "Respect that some people prefer quiet time and give them space",
+          "s": 1
         }
       ],
       "categoryName": "Engineering Aptitude & Systems Thinking",
-      "correctAnswer": "A",
-      "whyMatters": "Rewards systems-level thinking over quick fixes.",
-      "insight": "Process Improvement and Root Cause Focus"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "softskills",
-      "q": "All engineers in a company are required to wear safety helmets on site. Rahul is an engineer in that company. What can you conclude?",
+      "q": "Your parents have enrolled you in a weekend class that takes away your free time.",
       "opts": [
         {
-          "t": "Rahul must wear a safety helmet when on site.",
-          "s": 1
+          "t": "Attend without complaint since your parents are investing in your future",
+          "s": 4
         },
         {
-          "t": "Rahul never wears a safety helmet.",
-          "s": 2
-        },
-        {
-          "t": "Rahul works only in the office.",
+          "t": "Explain to your parents that you need some personal time to recharge",
           "s": 3
         },
         {
-          "t": "Rahul is not required to follow any rules.",
-          "s": 4
+          "t": "Try attending for a few weeks, then evaluate if it's actually helping you",
+          "s": 2
+        },
+        {
+          "t": "Ask if the schedule can be adjusted rather than refusing outright",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Tests ability to apply general rules to specific cases without over-assuming.",
-      "insight": "Deductive Reasoning"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "softskills",
-      "q": "In a group of 5 friends, each has a different favorite subject: Math, Physics, Chemistry, Biology, and English. No two have the same favorite. If Priya likes Math and Rahul does not like Physics or Chemistry, who could like Physics?",
+      "q": "A friend confides in you about a personal problem and asks you not to tell anyone. Later, you think an adult should know.",
       "opts": [
         {
-          "t": "Anyone except Priya and Rahul.",
-          "s": 1
+          "t": "Respect the promise and keep the information to yourself",
+          "s": 4
         },
         {
-          "t": "Only Rahul.",
-          "s": 2
-        },
-        {
-          "t": "Only Priya.",
+          "t": "Encourage your friend to speak to an adult themselves, offering to go with them",
           "s": 3
         },
         {
-          "t": "No one in the group.",
-          "s": 4
+          "t": "Speak to a trusted adult yourself, without revealing your friend's identity",
+          "s": 2
+        },
+        {
+          "t": "Wait and see if the situation resolves before taking any action",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Encourages careful elimination based on given information.",
-      "insight": "Elimination and Structured Thinking"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "softskills",
-      "q": "A statement says: \"If it rains, the ground becomes wet.\" The ground is wet. What can you logically conclude?",
+      "q": "During a school trip, your group reaches a place where everyone has two hours of free time.",
       "opts": [
         {
-          "t": "It may or may not have rained — other things could make the ground wet.",
-          "s": 1
+          "t": "Explore the area with your friends while staying within the agreed boundary",
+          "s": 4
         },
         {
-          "t": "It definitely rained.",
-          "s": 2
-        },
-        {
-          "t": "It did not rain.",
+          "t": "Visit the information centre and learn about the place first",
           "s": 3
         },
         {
-          "t": "The statement is false.",
-          "s": 4
+          "t": "Stay with the group and follow what the majority decides",
+          "s": 2
+        },
+        {
+          "t": "Find a quiet spot to rest and observe your surroundings alone",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Tests understanding of conditional statements and avoiding false conclusions.",
-      "insight": "Interpreting Information and Avoiding Assumptions"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "softskills",
-      "q": "You have three boxes: one contains only apples, one only oranges, and one mixed. All labels are wrong. You pick one fruit from the box labeled \"Mixed\" and it is an apple. What does this tell you about the box labeled \"Apples\"?",
+      "q": "You receive a test result that is lower than what you expected.",
       "opts": [
         {
-          "t": "It must contain only oranges.",
-          "s": 1
+          "t": "Review the paper thoroughly to understand exactly where you lost marks",
+          "s": 4
         },
         {
-          "t": "It must contain only apples.",
-          "s": 2
-        },
-        {
-          "t": "It must be mixed.",
+          "t": "Take a day to process it, then plan a revised study schedule",
           "s": 3
         },
         {
-          "t": "It could be anything.",
-          "s": 4
+          "t": "Meet the teacher to discuss whether there is room for improvement or re-evaluation",
+          "s": 2
+        },
+        {
+          "t": "Compare your paper with a topper's to identify the gap in approach",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Requires step-by-step logical deduction from contradictory information.",
-      "insight": "Complex Deduction and Hidden Assumptions"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "softskills",
-      "q": "Five people A, B, C, D, E are standing in a line. A is not at either end. B is immediately after C. D is not next to E. Who could be at the front of the line?",
+      "q": "Your sibling wants to use your personal tablet for a game, and you have an online class in an hour.",
       "opts": [
         {
-          "t": "C or E",
-          "s": 1
+          "t": "Let them use it now and charge it quickly before your class starts",
+          "s": 4
         },
         {
-          "t": "Only A",
-          "s": 2
-        },
-        {
-          "t": "Only B",
+          "t": "Explain that you need it soon but offer them your phone instead",
           "s": 3
         },
         {
-          "t": "A, B, or D",
-          "s": 4
+          "t": "Tell them they can use it after your class is over",
+          "s": 2
+        },
+        {
+          "t": "Check how much battery is left and decide based on that",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Practices building possible arrangements from constraints.",
-      "insight": "Sequence Analysis and Constraint Satisfaction"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "softskills",
-      "q": "A puzzle states: \"Some engineers are good at drawing. All good drawers are creative.\" Based on this, which statement must be true?",
+      "q": "A new student joins your class and seems unsure about how things work here.",
       "opts": [
         {
-          "t": "Some engineers might be creative.",
-          "s": 1
+          "t": "Offer to show them around the school on the first day",
+          "s": 4
         },
         {
-          "t": "All engineers are creative.",
-          "s": 2
-        },
-        {
-          "t": "No engineer is creative.",
+          "t": "Treat them normally and let them adjust at their own pace",
           "s": 3
         },
         {
-          "t": "All creative people are engineers.",
-          "s": 4
+          "t": "Introduce them to a few students who have similar interests",
+          "s": 2
+        },
+        {
+          "t": "Share a printed timetable and some class notes so they feel prepared",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Tests careful interpretation of \"some\" and \"all\" statements.",
-      "insight": "Logical Interpretation of Statements"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "financial",
-      "q": "You have ₹5000 saved. You can either buy a new phone now or invest the money for one year where it could grow by 20%. Which choice feels more aligned with long-term thinking?",
+      "q": "Your class is choosing a venue for the farewell party. Two strong options have emerged.",
       "opts": [
         {
-          "t": "Invest the money because the growth could help buy a better phone later.",
-          "s": 1
+          "t": "Suggest a vote and accept whatever the majority chooses",
+          "s": 4
         },
         {
-          "t": "Buy the phone now because you need it immediately.",
-          "s": 2
-        },
-        {
-          "t": "Split the money: buy a cheaper phone and invest the rest.",
+          "t": "List the pros and cons of each and present them to the class",
           "s": 3
         },
         {
-          "t": "Keep the money as cash without investing or spending.",
-          "s": 4
+          "t": "Propose a third option that combines the best features of both",
+          "s": 2
+        },
+        {
+          "t": "Let the class representatives decide since that is their role",
+          "s": 1
         }
       ],
       "categoryName": "Financial & Practical Decision Intelligence",
-      "correctAnswer": "A or C (depending on need, but A shows delayed gratification)",
-      "whyMatters": "Reveals attitude toward delayed gratification and opportunity cost.",
-      "insight": "Delayed Gratification and Opportunity Cost"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "financial",
-      "q": "Two laptops cost the same. One has better battery life but higher repair cost after 2 years. The other has average battery but cheaper repairs. Which factor would you weigh more if you plan to keep it for 4 years?",
+      "q": "You overhear two friends having a disagreement in the corridor.",
       "opts": [
         {
-          "t": "The total cost including possible repairs over 4 years.",
-          "s": 1
+          "t": "Walk past — it is a personal matter between them",
+          "s": 4
         },
         {
-          "t": "Only the initial purchase price.",
-          "s": 2
-        },
-        {
-          "t": "The brand name of the laptop.",
+          "t": "Check on them later individually to see if they are okay",
           "s": 3
         },
         {
-          "t": "How it looks and feels on day one.",
-          "s": 4
+          "t": "If it seems serious, inform a teacher nearby",
+          "s": 2
+        },
+        {
+          "t": "Bring them together after some time and let them talk it out calmly",
+          "s": 1
         }
       ],
       "categoryName": "Financial & Practical Decision Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Tests long-term cost-benefit analysis.",
-      "insight": "Long-term Value Evaluation"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "financial",
-      "q": "You need to choose between two routes for a daily commute. Route A saves 20 minutes but costs ₹50 extra in fuel each day. Route B takes longer but is free. Over 20 working days, which calculation helps decide?",
+      "q": "A teacher assigns extra practice problems over the weekend.",
       "opts": [
         {
-          "t": "Compare total extra fuel cost (₹1000) against the value of 400 minutes saved.",
-          "s": 1
+          "t": "Complete them on Saturday so Sunday remains free",
+          "s": 4
         },
         {
-          "t": "Always choose the faster route.",
-          "s": 2
-        },
-        {
-          "t": "Always choose the cheaper route.",
+          "t": "Spread them across both days in small sessions",
           "s": 3
         },
         {
-          "t": "Choose based on how you feel that morning.",
-          "s": 4
+          "t": "Do them on Sunday evening when you have a clearer idea of what was covered in class",
+          "s": 2
+        },
+        {
+          "t": "Attempt the ones you find challenging and note the rest for doubt-clearing on Monday",
+          "s": 1
         }
       ],
       "categoryName": "Financial & Practical Decision Intelligence",
-      "correctAnswer": "A",
-      "whyMatters": "Encourages quantifying trade-offs in recurring decisions.",
-      "insight": "Resource Allocation and Trade-off Evaluation"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "financial",
-      "q": "A machine costs ₹1,00,000. It saves ₹5,000 per month in labor but needs ₹10,000 maintenance every year. After how many months does it start saving money overall (ignoring other factors)?",
+      "q": "You are asked to lead a small team for a science exhibition.",
       "opts": [
         {
-          "t": "After about 24 months.",
-          "s": 1
+          "t": "Divide tasks based on each person's strength and check in regularly",
+          "s": 4
         },
         {
-          "t": "After 12 months.",
-          "s": 2
-        },
-        {
-          "t": "After 6 months.",
+          "t": "Let the team decide among themselves who does what, and you coordinate",
           "s": 3
         },
         {
-          "t": "It never saves money.",
-          "s": 4
+          "t": "Take the lead role yourself to ensure the project stays on track",
+          "s": 2
+        },
+        {
+          "t": "Set a clear deadline and let everyone work independently until then",
+          "s": 1
         }
       ],
       "categoryName": "Financial & Practical Decision Intelligence",
-      "correctAnswer": "A (net saving calculation: 5000×12 - 10000 = 50000 per year; 100000/50000 = 2 years)",
-      "whyMatters": "Tests basic break-even and practical financial thinking.",
-      "insight": "Practical Financial Judgment"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "commitment",
-      "q": "You spend three hours trying to fix a small electronic toy that still doesn't work. What feels most natural to do next?",
+      "q": "Someone you don't know well borrows a book from you and returns it with a torn page.",
       "opts": [
         {
-          "t": "Take a short break and come back with a fresh approach.",
-          "s": 1
+          "t": "Accept it quietly — accidents happen and it's not worth making it awkward",
+          "s": 4
         },
         {
-          "t": "Keep trying the same method because it almost worked.",
-          "s": 2
-        },
-        {
-          "t": "Look for a completely different way to solve it, even if it means starting over.",
+          "t": "Politely mention the damage so they are aware for next time",
           "s": 3
         },
         {
-          "t": "Decide it's not worth the time and move on to something else.",
-          "s": 4
-        }
-      ],
-      "categoryName": "Self-Discovery Through Neutral Situations",
-      "correctAnswer": "Any (reveals persistence style)",
-      "whyMatters": "Uncovers natural response to repeated failure without judgment.",
-      "insight": "Persistence and Reaction to Failure"
-    },
-    {
-      "cat": "commitment",
-      "q": "You are given a new board game with complicated rules. No one has played it before. How do you prefer to start?",
-      "opts": [
-        {
-          "t": "Read the entire rulebook carefully first.",
-          "s": 1
-        },
-        {
-          "t": "Start playing and figure out rules as you go.",
+          "t": "Repair the page yourself and say nothing",
           "s": 2
         },
         {
-          "t": "Watch a short video explanation if available.",
-          "s": 3
-        },
-        {
-          "t": "Ask someone who knows similar games for tips.",
-          "s": 4
-        }
-      ],
-      "categoryName": "Self-Discovery Through Neutral Situations",
-      "correctAnswer": "Any (reveals learning preference)",
-      "whyMatters": "Shows preferred approach to new complex systems.",
-      "insight": "Learning Orientation and Exploration Style"
-    },
-    {
-      "cat": "commitment",
-      "q": "While working on a group project, the team gets stuck on one part. What role do you naturally take?",
-      "opts": [
-        {
-          "t": "Suggest breaking the stuck part into smaller questions to tackle one by one.",
+          "t": "Note it mentally and think twice before lending to them in the future",
           "s": 1
-        },
-        {
-          "t": "Wait for someone else to come up with the next idea.",
-          "s": 2
-        },
-        {
-          "t": "Propose trying a completely different direction.",
-          "s": 3
-        },
-        {
-          "t": "Focus on finishing the parts that are already working well.",
-          "s": 4
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Reveals how you handle ambiguity in collaborative settings.",
-      "insight": "Tolerance for Ambiguity and Leadership Tendency"
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "commitment",
-      "q": "You build a small model bridge with sticks and glue. It collapses when you test it with weight. What is your immediate feeling?",
+      "q": "You have an important exam tomorrow and a family function tonight.",
       "opts": [
         {
-          "t": "Curious about which part failed and why.",
-          "s": 1
+          "t": "Attend the function for a short while, then come home to study",
+          "s": 4
         },
         {
-          "t": "Disappointed that it didn't work on the first try.",
-          "s": 2
-        },
-        {
-          "t": "Ready to rebuild it stronger right away.",
+          "t": "Skip the function entirely and focus on preparation",
           "s": 3
         },
         {
-          "t": "Think about whether building models is the right activity.",
-          "s": 4
+          "t": "Attend the full function — a relaxed mind studies better than a stressed one",
+          "s": 2
+        },
+        {
+          "t": "Attend with your notes and revise during quiet moments at the venue",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Explores emotional response to iterative design failure.",
-      "insight": "Comfort with Iterative Learning"
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "commitment",
-      "q": "You have two hours free and a choice between reading about how engines work or playing a strategy video game. Which draws you more?",
+      "q": "A classmate copies your answer during a quiz. The teacher suspects something.",
       "opts": [
         {
-          "t": "Reading about engines because you want to understand the real mechanism.",
-          "s": 1
+          "t": "Tell the teacher honestly if directly asked",
+          "s": 4
         },
         {
-          "t": "Playing the game because it is interactive and fun.",
-          "s": 2
-        },
-        {
-          "t": "Doing both for one hour each.",
+          "t": "Stay silent and let the teacher handle it their way",
           "s": 3
         },
         {
-          "t": "Choosing something completely different like drawing.",
-          "s": 4
+          "t": "Speak to the classmate privately about it after the quiz",
+          "s": 2
+        },
+        {
+          "t": "Mention to the teacher that you noticed something but aren't certain",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Indicates genuine interest in understanding systems vs. other activities.",
-      "insight": "Curiosity and Preference for Analytical Exploration"
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "commitment",
-      "q": "After finishing a difficult task that took many attempts, you finally succeed. What do you think about most?",
+      "q": "You are given a project topic you find uninteresting.",
       "opts": [
         {
-          "t": "What you learned from the failed attempts that helped you succeed.",
-          "s": 1
+          "t": "Find one small aspect of the topic that interests you and build from there",
+          "s": 4
         },
         {
-          "t": "How good it feels to have finished it.",
-          "s": 2
-        },
-        {
-          "t": "Whether you could have done it faster with a different method.",
+          "t": "Complete it efficiently with the required information and move on",
           "s": 3
         },
         {
-          "t": "That you won't have to do something similar again.",
-          "s": 4
+          "t": "Ask the teacher if the scope can be adjusted to include something you enjoy",
+          "s": 2
+        },
+        {
+          "t": "Use creative presentation methods to make the topic more engaging for yourself",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Reveals what you value most in the learning process.",
-      "insight": "Reflection on Learning and Growth Mindset"
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
+    },
+    {
+      "cat": "commitment",
+      "q": "Your friend invites you to a movie on the same day you planned to study.",
+      "opts": [
+        {
+          "t": "Go to the movie — one day of study can be adjusted later",
+          "s": 4
+        },
+        {
+          "t": "Decline and stick to your original plan",
+          "s": 3
+        },
+        {
+          "t": "Suggest a shorter outing or a different day instead",
+          "s": 2
+        },
+        {
+          "t": "Go for the first show and return in time to study in the evening",
+          "s": 1
+        }
+      ],
+      "categoryName": "Self-Discovery Through Neutral Situations",
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
+    },
+    {
+      "cat": "commitment",
+      "q": "You notice a small error in the school newsletter that has already been printed.",
+      "opts": [
+        {
+          "t": "Point it out to the teacher in charge so it can be corrected next time",
+          "s": 4
+        },
+        {
+          "t": "Let it be — it is a minor thing and everyone has already received their copy",
+          "s": 3
+        },
+        {
+          "t": "Mention it casually to the student editor so they are more careful going forward",
+          "s": 2
+        },
+        {
+          "t": "Ignore it unless someone asks you directly about it",
+          "s": 1
+        }
+      ],
+      "categoryName": "Self-Discovery Through Neutral Situations",
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     }
   ],
   "mbbs": [
@@ -8345,19 +8345,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Tiny living organisms used the milk's nutrients to grow and changed its structure.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The milk simply became thicker because water evaporated slowly.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Heat from the room made the milk separate into layers naturally.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The milk reacted with air particles and became acidic over time.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology in Everyday Life",
@@ -8371,19 +8371,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The body has built-in mechanisms that detect damage and work to repair it.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Blood naturally stops flowing after a while due to gravity.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The skin hardens on its own when exposed to air.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "White blood cells form a hard layer over the cut.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology in Everyday Life",
@@ -8397,19 +8397,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The leaf cells lose water and can no longer maintain their shape.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The leaf is reacting to the room's temperature by changing color.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Sunlight is no longer reaching the leaf so it wilts.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Small insects inside the leaf are eating it from within.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology in Everyday Life",
@@ -8423,19 +8423,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Your body is trying to generate more heat to raise its temperature further.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The fever is making your muscles contract randomly.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "You are losing heat faster than usual through the skin.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The brain is sending signals to rest the body.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology in Everyday Life",
@@ -8449,19 +8449,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Individuals release different amounts of substances through their skin that mosquitoes can detect.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Mosquitoes randomly choose people without any pattern.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "People with more bites have weaker skin that attracts insects.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The mosquitoes are more active near certain body temperatures only.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology in Everyday Life",
@@ -8475,19 +8475,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Tiny organisms are producing gas that gets trapped and expands the dough.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "The flour is absorbing moisture from the air and swelling.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The warmth is causing the water and flour to chemically combine.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Air bubbles from mixing are slowly growing larger.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Biology in Everyday Life",
@@ -8501,19 +8501,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "It reacts with the excess acid in the stomach and reduces its effect.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "It coats the stomach lining so acid cannot touch it.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "It stops the stomach from producing any acid at all.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "It changes the acid into a completely different harmless liquid.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry of the Human World",
@@ -8527,19 +8527,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "It reacts with and damages the structure of microorganisms on the surface.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "It washes away dirt so microorganisms have nothing to grow on.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "It creates a slippery layer that microorganisms cannot stick to.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "It changes the color of surfaces so microorganisms cannot be seen.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry of the Human World",
@@ -8553,19 +8553,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Iron can react with substances in the body and form compounds that irritate tissues.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Iron slowly melts inside the body due to body temperature.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Iron attracts more iron from food and grows larger.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Iron blocks blood flow wherever it stays.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry of the Human World",
@@ -8579,19 +8579,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The minerals in the water react with the soap and reduce its ability to form lather.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Hard water is thicker so soap cannot spread properly.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The soap is being washed away faster by the minerals.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Hard water makes soap change into a different substance.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry of the Human World",
@@ -8605,19 +8605,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The chemical structure of the medicine interacts with taste receptors in a specific way.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Bitter medicines are always stronger than sweet ones.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The bitterness comes from the color of the medicine.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Bitter taste means the medicine has gone bad.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry of the Human World",
@@ -8631,19 +8631,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Higher temperature increases the rate at which microorganisms grow and change the milk.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Heat makes the milk lose water faster.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Cold air prevents any change in milk.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Sunlight directly breaks down milk proteins.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Chemistry of the Human World",
@@ -8657,19 +8657,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "X-rays pass through soft tissues more easily than through dense bone.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "X-rays are completely blocked by everything in the body.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "X-rays only work on bones because bones are harder.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "X-rays change color when they pass through different organs.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics Behind Medicine",
@@ -8683,19 +8683,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Friction between your hands converts movement into heat energy.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Your hands are transferring heat from inside the body to the surface.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Rubbing removes cold air from between your fingers.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The skin produces heat when it is moved.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics Behind Medicine",
@@ -8709,19 +8709,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "The shape bends light differently to help the eye focus at different distances.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Thicker lenses are always stronger regardless of the eye problem.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "The shape only changes how the spectacles look on the face.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Thicker lenses make objects appear larger.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics Behind Medicine",
@@ -8735,19 +8735,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "It temporarily stops blood flow so the returning flow can be detected as pressure changes.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "It measures how fast blood is moving through the arm.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "It warms the arm so blood flows more easily.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "It counts the number of heartbeats directly.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics Behind Medicine",
@@ -8761,19 +8761,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Lower temperature slows down fluid movement and reduces the space taken by swelling.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Ice adds cold that directly pushes swelling down.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Ice melts and the water washes away the swelling.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The weight of the ice presses the swelling flat.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics Behind Medicine",
@@ -8787,19 +8787,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Steam releases extra energy when it changes back into water on the skin.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Steam is hotter than boiling water.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Steam moves faster and hits the skin harder.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Water at 100°C has already lost most of its heat.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Physics Behind Medicine",
@@ -8813,19 +8813,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Whether the child has any visible rash, swelling, or change in skin color.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "Whether the child is still playing with friends as usual.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "What the child ate exactly three days ago.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "Whether the child's favorite toy is missing.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Clinical Reasoning & Observation",
@@ -8839,19 +8839,19 @@ export const SCIENCE_QUIZZES = {
       "opts": [
         {
           "t": "Whether the headaches occur at the same time each evening and how long they last.",
-          "s": 1
+          "s": 4
         },
         {
           "t": "What the person ate for breakfast on the first day.",
-          "s": 2
+          "s": 1
         },
         {
           "t": "Whether they have ever had a headache before in their life.",
-          "s": 3
+          "s": 1
         },
         {
           "t": "The color of the room where they usually sit in the evening.",
-          "s": 4
+          "s": 1
         }
       ],
       "categoryName": "Clinical Reasoning & Observation",
@@ -8861,523 +8861,523 @@ export const SCIENCE_QUIZZES = {
     },
     {
       "cat": "expectation",
-      "q": "Someone describes feeling \"dizzy\" but when asked to explain, they say the room seems to spin for a few seconds when they stand up quickly. What would you naturally want to clarify next?",
+      "q": "Your friend asks for help with homework the night before it's due. You have your own work to finish.",
       "opts": [
         {
-          "t": "How long the spinning lasts and whether it happens every time they stand.",
-          "s": 1
+          "t": "Share your completed work so they can use it as a reference",
+          "s": 4
         },
         {
-          "t": "What they were thinking about just before standing up.",
-          "s": 2
-        },
-        {
-          "t": "Whether they like the color of their room.",
+          "t": "Spend an hour explaining the difficult parts and let them finish the rest",
           "s": 3
         },
         {
-          "t": "How many times they have stood up in their life.",
-          "s": 4
+          "t": "Tell them you're busy tonight but offer to help them the next day after school",
+          "s": 2
+        },
+        {
+          "t": "Suggest they check the textbook examples since the homework is based on those",
+          "s": 1
         }
       ],
       "categoryName": "Clinical Reasoning & Observation",
-      "correctAnswer": "A",
-      "whyMatters": "Shows preference for clarifying the exact nature and triggers of a symptom.",
-      "insight": "Clarifying Ambiguous Descriptions"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "expectation",
-      "q": "A student reports feeling very tired during the day even after sleeping at night. Which piece of information would you find most useful to explore first?",
+      "q": "During a class debate, a student makes a point that is factually incorrect, but the teacher doesn't notice.",
       "opts": [
         {
-          "t": "Whether their sleep timing has changed recently or they wake up multiple times.",
-          "s": 1
+          "t": "Raise your hand and politely correct the information",
+          "s": 4
         },
         {
-          "t": "What subjects they study in the evening.",
-          "s": 2
-        },
-        {
-          "t": "How many friends they have in class.",
+          "t": "Note it down and speak to the teacher privately after class",
           "s": 3
         },
         {
-          "t": "The brand of their pillow.",
-          "s": 4
+          "t": "Say nothing — the teacher may already know and is testing the class",
+          "s": 2
+        },
+        {
+          "t": "Ask a follow-up question that gently leads the class to notice the error",
+          "s": 1
         }
       ],
       "categoryName": "Clinical Reasoning & Observation",
-      "correctAnswer": "A",
-      "whyMatters": "Directs attention to sleep quality and patterns as a key factor.",
-      "insight": "Identifying Relevant Contextual Information"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "expectation",
-      "q": "During a conversation, a person keeps touching their stomach area while talking about stomach pain. What would this action make you notice?",
+      "q": "You are assigned a group project and one member has not contributed anything with two days left.",
       "opts": [
         {
-          "t": "The location and possibly the intensity of discomfort they are experiencing.",
-          "s": 1
+          "t": "Redistribute the remaining work among the active members to ensure quality",
+          "s": 4
         },
         {
-          "t": "That they are nervous about talking.",
-          "s": 2
-        },
-        {
-          "t": "That they have a habit of touching their stomach.",
+          "t": "Contact the absent member directly and ask what is holding them back",
           "s": 3
         },
         {
-          "t": "That they want you to stop asking questions.",
-          "s": 4
+          "t": "Inform the teacher so the grading can reflect actual individual effort",
+          "s": 2
+        },
+        {
+          "t": "Complete the missing portion yourself to protect the group's overall grade",
+          "s": 1
         }
       ],
       "categoryName": "Clinical Reasoning & Observation",
-      "correctAnswer": "A",
-      "whyMatters": "Tests noticing non-verbal cues that point to physical location of issues.",
-      "insight": "Attention to Non-Verbal Indicators"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "expectation",
-      "q": "An elderly person says they feel unsteady while walking but adds that it only happens in the evening. What would you naturally want to know next?",
+      "q": "You notice a classmate sitting alone during lunch break every day.",
       "opts": [
         {
-          "t": "Whether they have eaten less or taken any new medicines that day.",
-          "s": 1
+          "t": "Invite them to join your group for that day",
+          "s": 4
         },
         {
-          "t": "What they usually do in the morning.",
-          "s": 2
-        },
-        {
-          "t": "How many times they have fallen in their entire life.",
+          "t": "Sit with them for a while and see if they seem comfortable",
           "s": 3
         },
         {
-          "t": "The color of their walking shoes.",
-          "s": 4
+          "t": "Ask a mutual friend to help bring them into the group gradually",
+          "s": 2
+        },
+        {
+          "t": "Respect that some people prefer quiet time and give them space",
+          "s": 1
         }
       ],
       "categoryName": "Clinical Reasoning & Observation",
-      "correctAnswer": "A",
-      "whyMatters": "Encourages linking timing of symptoms to possible daily changes.",
-      "insight": "Connecting Timing with Potential Contributing Factors"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "softskills",
-      "q": "All patients who take a certain medicine are advised to avoid driving for a few hours after the dose. Mr. Sharma took this medicine this morning. What can you conclude?",
+      "q": "Your parents have enrolled you in a weekend class that takes away your free time.",
       "opts": [
         {
-          "t": "Mr. Sharma should avoid driving for a few hours.",
-          "s": 1
+          "t": "Attend without complaint since your parents are investing in your future",
+          "s": 4
         },
         {
-          "t": "Mr. Sharma will definitely feel sleepy.",
-          "s": 2
-        },
-        {
-          "t": "Mr. Sharma never drives anyway.",
+          "t": "Explain to your parents that you need some personal time to recharge",
           "s": 3
         },
         {
-          "t": "The medicine has no effect on anyone.",
-          "s": 4
+          "t": "Try attending for a few weeks, then evaluate if it's actually helping you",
+          "s": 2
+        },
+        {
+          "t": "Ask if the schedule can be adjusted rather than refusing outright",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Tests applying general medical advice to a specific case without overgeneralizing.",
-      "insight": "Applying Rules to Specific Situations"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "softskills",
-      "q": "In a village health survey, it was found that people who drink boiled water have fewer stomach issues than those who drink water directly from the well. Which conclusion is most reasonable?",
+      "q": "A friend confides in you about a personal problem and asks you not to tell anyone. Later, you think an adult should know.",
       "opts": [
         {
-          "t": "Boiling water may be reducing something in the well water that causes stomach issues.",
-          "s": 1
+          "t": "Respect the promise and keep the information to yourself",
+          "s": 4
         },
         {
-          "t": "People who boil water are always healthier in every way.",
-          "s": 2
-        },
-        {
-          "t": "Well water is completely safe and boiling makes no difference.",
+          "t": "Encourage your friend to speak to an adult themselves, offering to go with them",
           "s": 3
         },
         {
-          "t": "Stomach issues have nothing to do with water.",
-          "s": 4
+          "t": "Speak to a trusted adult yourself, without revealing your friend's identity",
+          "s": 2
+        },
+        {
+          "t": "Wait and see if the situation resolves before taking any action",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Encourages cautious interpretation of observed associations.",
-      "insight": "Evidence Interpretation Without Overclaiming"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "softskills",
-      "q": "A statement in a health article says: \"If a person has high fever for more than three days, they should consult a doctor.\" A person has had high fever for four days. What follows logically?",
+      "q": "During a school trip, your group reaches a place where everyone has two hours of free time.",
       "opts": [
         {
-          "t": "They should consult a doctor, but other reasons for fever could also exist.",
-          "s": 1
+          "t": "Explore the area with your friends while staying within the agreed boundary",
+          "s": 4
         },
         {
-          "t": "They definitely have a serious disease.",
-          "s": 2
-        },
-        {
-          "t": "They should never consult a doctor.",
+          "t": "Visit the information centre and learn about the place first",
           "s": 3
         },
         {
-          "t": "The statement must be wrong.",
-          "s": 4
+          "t": "Stay with the group and follow what the majority decides",
+          "s": 2
+        },
+        {
+          "t": "Find a quiet spot to rest and observe your surroundings alone",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Tests understanding of conditional medical advice.",
-      "insight": "Interpreting Conditional Health Recommendations"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "softskills",
-      "q": "Three people report the same symptom after eating at the same restaurant. What is the most logical next step?",
+      "q": "You receive a test result that is lower than what you expected.",
       "opts": [
         {
-          "t": "Check what they all ate in common and whether others who ate the same thing also have symptoms.",
-          "s": 1
+          "t": "Review the paper thoroughly to understand exactly where you lost marks",
+          "s": 4
         },
         {
-          "t": "Assume the restaurant is always unsafe.",
-          "s": 2
-        },
-        {
-          "t": "Tell them it must be something they ate at home.",
+          "t": "Take a day to process it, then plan a revised study schedule",
           "s": 3
         },
         {
-          "t": "Ignore the reports because three people are too few.",
-          "s": 4
+          "t": "Meet the teacher to discuss whether there is room for improvement or re-evaluation",
+          "s": 2
+        },
+        {
+          "t": "Compare your paper with a topper's to identify the gap in approach",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Promotes systematic investigation of common factors.",
-      "insight": "Systematic Investigation of Patterns"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "softskills",
-      "q": "A new health guideline says some vaccines work better when given at a specific age. A child is slightly older than that age. What would be a reasonable approach?",
+      "q": "Your sibling wants to use your personal tablet for a game, and you have an online class in an hour.",
       "opts": [
         {
-          "t": "Check with a healthcare provider whether the vaccine is still recommended and effective.",
-          "s": 1
+          "t": "Let them use it now and charge it quickly before your class starts",
+          "s": 4
         },
         {
-          "t": "Assume the vaccine will not work at all.",
-          "s": 2
-        },
-        {
-          "t": "Never give any vaccine after that exact age.",
+          "t": "Explain that you need it soon but offer them your phone instead",
           "s": 3
         },
         {
-          "t": "Give the vaccine immediately without asking.",
-          "s": 4
+          "t": "Tell them they can use it after your class is over",
+          "s": 2
+        },
+        {
+          "t": "Check how much battery is left and decide based on that",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Shows balanced decision-making when guidelines have age considerations.",
-      "insight": "Nuanced Application of Guidelines"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "softskills",
-      "q": "Research shows that people who walk daily report better mood on average. However, some people who walk daily still report low mood. What does this suggest?",
+      "q": "A new student joins your class and seems unsure about how things work here.",
       "opts": [
         {
-          "t": "Walking may help many people but does not guarantee improvement for everyone.",
-          "s": 1
+          "t": "Offer to show them around the school on the first day",
+          "s": 4
         },
         {
-          "t": "Walking has no effect on mood at all.",
-          "s": 2
-        },
-        {
-          "t": "Only people with good mood walk daily.",
+          "t": "Treat them normally and let them adjust at their own pace",
           "s": 3
         },
         {
-          "t": "The research must be completely incorrect.",
-          "s": 4
+          "t": "Introduce them to a few students who have similar interests",
+          "s": 2
+        },
+        {
+          "t": "Share a printed timetable and some class notes so they feel prepared",
+          "s": 1
         }
       ],
       "categoryName": "Logical & Analytical Reasoning",
-      "correctAnswer": "A",
-      "whyMatters": "Tests comfort with probabilistic findings rather than absolute claims.",
-      "insight": "Comfort with Probabilistic Evidence"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you relate to others, practice empathy, and handle self-reflection.",
+      "insight": "Self-Awareness & Empathy"
     },
     {
       "cat": "financial",
-      "q": "A clinic has limited medicine stock for the day. Two patients need the same medicine: one has a mild ongoing condition, the other has a more urgent but temporary issue. How would you think about allocating the medicine?",
+      "q": "Your class is choosing a venue for the farewell party. Two strong options have emerged.",
       "opts": [
         {
-          "t": "Consider who needs it more urgently while also thinking about long-term availability for both.",
-          "s": 1
+          "t": "Suggest a vote and accept whatever the majority chooses",
+          "s": 4
         },
         {
-          "t": "Give it to whoever arrived first.",
-          "s": 2
-        },
-        {
-          "t": "Always give it to the person with the more serious-looking condition.",
+          "t": "List the pros and cons of each and present them to the class",
           "s": 3
         },
         {
-          "t": "Save it for a possible third patient who might come later.",
-          "s": 4
+          "t": "Propose a third option that combines the best features of both",
+          "s": 2
+        },
+        {
+          "t": "Let the class representatives decide since that is their role",
+          "s": 1
         }
       ],
       "categoryName": "Healthcare, Ethics & Practical Judgment",
-      "correctAnswer": "A",
-      "whyMatters": "Reveals how you balance urgency, fairness, and resource limits.",
-      "insight": "Resource Allocation Under Constraints"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "financial",
-      "q": "A patient asks many questions about their condition. You have limited time before your next appointment. What approach feels most practical?",
+      "q": "You overhear two friends having a disagreement in the corridor.",
       "opts": [
         {
-          "t": "Answer the most important questions clearly and offer to discuss the rest in the next visit.",
-          "s": 1
+          "t": "Walk past — it is a personal matter between them",
+          "s": 4
         },
         {
-          "t": "Answer every question in full detail even if it delays others.",
-          "s": 2
-        },
-        {
-          "t": "Give very short answers so you can finish quickly.",
+          "t": "Check on them later individually to see if they are okay",
           "s": 3
         },
         {
-          "t": "Ask the patient to come back another day for all questions.",
-          "s": 4
+          "t": "If it seems serious, inform a teacher nearby",
+          "s": 2
+        },
+        {
+          "t": "Bring them together after some time and let them talk it out calmly",
+          "s": 1
         }
       ],
       "categoryName": "Healthcare, Ethics & Practical Judgment",
-      "correctAnswer": "A",
-      "whyMatters": "Tests balancing thoroughness with practical time management.",
-      "insight": "Time Management and Communication Prioritization"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "financial",
-      "q": "A community health program has enough resources for either screening 200 people for one disease or educating 500 people about prevention of several diseases. Which consideration would guide your choice?",
+      "q": "A teacher assigns extra practice problems over the weekend.",
       "opts": [
         {
-          "t": "Which option is likely to benefit more people in the long run given the available resources.",
-          "s": 1
+          "t": "Complete them on Saturday so Sunday remains free",
+          "s": 4
         },
         {
-          "t": "Always choose screening because tests feel more medical.",
-          "s": 2
-        },
-        {
-          "t": "Always choose education because it reaches more people.",
+          "t": "Spread them across both days in small sessions",
           "s": 3
         },
         {
-          "t": "Choose whichever program the team prefers personally.",
-          "s": 4
+          "t": "Do them on Sunday evening when you have a clearer idea of what was covered in class",
+          "s": 2
+        },
+        {
+          "t": "Attempt the ones you find challenging and note the rest for doubt-clearing on Monday",
+          "s": 1
         }
       ],
       "categoryName": "Healthcare, Ethics & Practical Judgment",
-      "correctAnswer": "A",
-      "whyMatters": "Encourages weighing individual versus population-level impact.",
-      "insight": "Public Health Trade-off Thinking"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "financial",
-      "q": "You notice that a colleague is consistently late for their shift, which affects patient waiting times. What would feel like a reasonable first step?",
+      "q": "You are asked to lead a small team for a science exhibition.",
       "opts": [
         {
-          "t": "Speak to them privately to understand if there is a reason and suggest solutions.",
-          "s": 1
+          "t": "Divide tasks based on each person's strength and check in regularly",
+          "s": 4
         },
         {
-          "t": "Report them immediately to the highest authority.",
-          "s": 2
-        },
-        {
-          "t": "Ignore it because it is not your responsibility.",
+          "t": "Let the team decide among themselves who does what, and you coordinate",
           "s": 3
         },
         {
-          "t": "Start coming late yourself to match them.",
-          "s": 4
+          "t": "Take the lead role yourself to ensure the project stays on track",
+          "s": 2
+        },
+        {
+          "t": "Set a clear deadline and let everyone work independently until then",
+          "s": 1
         }
       ],
       "categoryName": "Healthcare, Ethics & Practical Judgment",
-      "correctAnswer": "A",
-      "whyMatters": "Shows preference for understanding context before escalation.",
-      "insight": "Constructive Approach to Team Issues"
+      "correctAnswer": "Any",
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "commitment",
-      "q": "You have been trying to understand why two classmates react very differently to the same feedback from a teacher. What feels most natural to explore next?",
+      "q": "Someone you don't know well borrows a book from you and returns it with a torn page.",
       "opts": [
         {
-          "t": "Look for differences in their past experiences or current situations that might explain the reactions.",
-          "s": 1
+          "t": "Accept it quietly — accidents happen and it's not worth making it awkward",
+          "s": 4
         },
         {
-          "t": "Decide that one reaction is correct and the other is wrong.",
-          "s": 2
-        },
-        {
-          "t": "Stop thinking about it because both reactions are equally valid.",
+          "t": "Politely mention the damage so they are aware for next time",
           "s": 3
         },
         {
-          "t": "Ask the teacher to treat both students the same way in future.",
-          "s": 4
+          "t": "Repair the page yourself and say nothing",
+          "s": 2
+        },
+        {
+          "t": "Note it mentally and think twice before lending to them in the future",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Uncovers how you approach understanding individual differences.",
-      "insight": "Curiosity About Human Variation"
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "commitment",
-      "q": "While reading about a medical condition, you find that the same treatment works well for some people but not for others. How do you naturally respond to this information?",
+      "q": "You have an important exam tomorrow and a family function tonight.",
       "opts": [
         {
-          "t": "Feel curious about what factors might make the difference between people.",
-          "s": 1
+          "t": "Attend the function for a short while, then come home to study",
+          "s": 4
         },
         {
-          "t": "Feel frustrated that the treatment is not perfect for everyone.",
-          "s": 2
-        },
-        {
-          "t": "Assume the research must be incomplete.",
+          "t": "Skip the function entirely and focus on preparation",
           "s": 3
         },
         {
-          "t": "Decide not to trust any treatment information.",
-          "s": 4
+          "t": "Attend the full function — a relaxed mind studies better than a stressed one",
+          "s": 2
+        },
+        {
+          "t": "Attend with your notes and revise during quiet moments at the venue",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Reveals comfort level with variability in medical outcomes.",
-      "insight": "Tolerance for Uncertainty in Outcomes"
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "commitment",
-      "q": "You spend an hour trying to understand a diagram of how a body system works, but some connections still feel unclear. What do you feel like doing next?",
+      "q": "A classmate copies your answer during a quiz. The teacher suspects something.",
       "opts": [
         {
-          "t": "Look for another way to understand the same connections, even if it takes more time.",
-          "s": 1
+          "t": "Tell the teacher honestly if directly asked",
+          "s": 4
         },
         {
-          "t": "Move on to the next topic and hope it becomes clearer later.",
-          "s": 2
-        },
-        {
-          "t": "Ask someone to explain it completely so you don't have to figure it out.",
+          "t": "Stay silent and let the teacher handle it their way",
           "s": 3
         },
         {
-          "t": "Decide that understanding this system is not important.",
-          "s": 4
+          "t": "Speak to the classmate privately about it after the quiz",
+          "s": 2
+        },
+        {
+          "t": "Mention to the teacher that you noticed something but aren't certain",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Shows your natural response to incomplete understanding.",
-      "insight": "Persistence with Complex Information"
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     },
     {
       "cat": "commitment",
-      "q": "A friend shares that they feel anxious before every test even though they usually do well. What would you naturally want to understand?",
+      "q": "You are given a project topic you find uninteresting.",
       "opts": [
         {
-          "t": "Whether there is a pattern in when the anxiety appears and what thoughts come with it.",
-          "s": 1
+          "t": "Find one small aspect of the topic that interests you and build from there",
+          "s": 4
         },
         {
-          "t": "Tell them that anxiety is normal and they should ignore it.",
-          "s": 2
-        },
-        {
-          "t": "Suggest they stop thinking about tests altogether.",
+          "t": "Complete it efficiently with the required information and move on",
           "s": 3
         },
         {
-          "t": "Compare their anxiety with your own experiences only.",
-          "s": 4
+          "t": "Ask the teacher if the scope can be adjusted to include something you enjoy",
+          "s": 2
+        },
+        {
+          "t": "Use creative presentation methods to make the topic more engaging for yourself",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Explores whether you seek to understand emotional patterns.",
-      "insight": "Interest in Emotional and Behavioral Patterns"
+      "whyMatters": "Measures how you handle group obligations, leadership, and authority.",
+      "insight": "Responsibility & Leadership"
     },
     {
       "cat": "commitment",
-      "q": "After learning something new about how the body defends itself against illness, you find yourself thinking about it later in the day. What usually happens next?",
+      "q": "Your friend invites you to a movie on the same day you planned to study.",
       "opts": [
         {
-          "t": "You wonder how this defense system might work differently in different situations.",
-          "s": 1
+          "t": "Go to the movie — one day of study can be adjusted later",
+          "s": 4
         },
         {
-          "t": "You feel satisfied that you learned something and move on.",
-          "s": 2
-        },
-        {
-          "t": "You try to forget it because it is not immediately useful.",
+          "t": "Decline and stick to your original plan",
           "s": 3
         },
         {
-          "t": "You look for someone to teach it to right away.",
-          "s": 4
+          "t": "Suggest a shorter outing or a different day instead",
+          "s": 2
+        },
+        {
+          "t": "Go for the first show and return in time to study in the evening",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Indicates whether new biological information sparks further curiosity.",
-      "insight": "Ongoing Scientific Curiosity"
+      "whyMatters": "Measures how you balance competing demands and prioritize personal boundaries.",
+      "insight": "Time & Priority Management"
     },
     {
       "cat": "commitment",
-      "q": "You realize you made an assumption about why someone was behaving a certain way, but later information shows your assumption was incomplete. How do you usually feel?",
+      "q": "You notice a small error in the school newsletter that has already been printed.",
       "opts": [
         {
-          "t": "Interested in updating your understanding with the new information.",
-          "s": 1
+          "t": "Point it out to the teacher in charge so it can be corrected next time",
+          "s": 4
         },
         {
-          "t": "Slightly uncomfortable that you were not completely right.",
-          "s": 2
-        },
-        {
-          "t": "Quick to form a new assumption to replace the old one.",
+          "t": "Let it be — it is a minor thing and everyone has already received their copy",
           "s": 3
         },
         {
-          "t": "Prefer not to think about the situation anymore.",
-          "s": 4
+          "t": "Mention it casually to the student editor so they are more careful going forward",
+          "s": 2
+        },
+        {
+          "t": "Ignore it unless someone asks you directly about it",
+          "s": 1
         }
       ],
       "categoryName": "Self-Discovery Through Neutral Situations",
       "correctAnswer": "Any",
-      "whyMatters": "Reveals how open you are to revising your thinking.",
-      "insight": "Willingness to Revise Assumptions"
+      "whyMatters": "Measures how you navigate interpersonal gray areas and handle social conflicts.",
+      "insight": "Social Judgment"
     }
   ]
 };

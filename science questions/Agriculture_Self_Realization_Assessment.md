@@ -380,368 +380,361 @@ D. The size of the farms only.
 **Question 21**  
 **Category:** Agricultural Aptitude & Systems Thinking  
 
-A new irrigation method increases yield but also leads to more weed growth. What aspect seems worth reconsidering?
+Your friend asks for help with homework the night before it's due. You have your own work to finish.  
 
-A. Whether the overall benefit justifies the additional effort required to manage weeds, or if the method can be adjusted.  
-B. That higher yield is always worth any side effect.  
-C. That weeds are not connected to irrigation.  
-D. That the method should be abandoned completely.  
+A. Share your completed work so they can use it as a reference  
+B. Spend an hour explaining the difficult parts and let them finish the rest  
+C. Tell them you're busy tonight but offer to help them the next day after school  
+D. Suggest they check the textbook examples since the homework is based on those  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Demonstrates awareness that improvements in one area can create challenges in another.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Trade-off Recognition in Agricultural Systems  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 22**  
 **Category:** Agricultural Aptitude & Systems Thinking  
 
-A farm experiences good rainfall one year but faces water shortage the next. What approach feels most natural when planning for future seasons?
+During a class debate, a student makes a point that is factually incorrect, but the teacher doesn't notice.  
 
-A. Considering how to build flexibility into the system so it can respond to both wet and dry conditions.  
-B. Planning only for the conditions experienced in the most recent year.  
-C. Assuming rainfall will always be the same.  
-D. Ignoring water availability in planning.  
+A. Raise your hand and politely correct the information  
+B. Note it down and speak to the teacher privately after class  
+C. Say nothing — the teacher may already know and is testing the class  
+D. Ask a follow-up question that gently leads the class to notice the error  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals preference for building resilience rather than assuming stable conditions.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Adaptability and Resilience Thinking  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 23**  
 **Category:** Agricultural Aptitude & Systems Thinking  
 
-Adding a new crop to an existing system increases overall production but requires changes in timing and resource use. What would you naturally want to understand?
+You are assigned a group project and one member has not contributed anything with two days left.  
 
-A. How the new crop interacts with existing crops, labor, water, and soil over the full cycle.  
-B. That adding any new crop is always beneficial.  
-C. The new crop in isolation without considering interactions.  
-D. That existing crops should never be changed.  
+A. Redistribute the remaining work among the active members to ensure quality  
+B. Contact the absent member directly and ask what is holding them back  
+C. Inform the teacher so the grading can reflect actual individual effort  
+D. Complete the missing portion yourself to protect the group's overall grade  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Shows systems-level thinking about introducing new elements.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Understanding Interactions in Complex Systems  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 24**  
 **Category:** Agricultural Aptitude & Systems Thinking  
 
-A practice that worked well for several years suddenly becomes less effective. What feels most useful to investigate?
+You notice a classmate sitting alone during lunch break every day.  
 
-A. Whether gradual changes in soil, pests, weather patterns, or management have altered the conditions that made the practice successful.  
-B. That the practice was never good.  
-C. That nothing should ever be changed.  
-D. The exact date the practice was first used.  
+A. Invite them to join your group for that day  
+B. Sit with them for a while and see if they seem comfortable  
+C. Ask a mutual friend to help bring them into the group gradually  
+D. Respect that some people prefer quiet time and give them space  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Encourages looking for cumulative or shifting factors rather than assuming sudden failure.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Detecting Gradual System Changes  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
-
-## SECTION E — Logical & Analytical Reasoning (Questions 25-30)
 
 **Question 25**  
 **Category:** Logical & Analytical Reasoning  
 
-A field treated with a particular method shows higher yield than an untreated field nearby. What is a careful interpretation?
+Your parents have enrolled you in a weekend class that takes away your free time.  
 
-A. The method may have contributed to the difference, but other factors such as soil variation or micro-climate could also play a role.  
-B. The method is proven to work everywhere.  
-C. The untreated field must have been managed poorly.  
-D. Yield differences are always random.  
+A. Attend without complaint since your parents are investing in your future  
+B. Explain to your parents that you need some personal time to recharge  
+C. Try attending for a few weeks, then evaluate if it's actually helping you  
+D. Ask if the schedule can be adjusted rather than refusing outright  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Tests resistance to assuming direct causation from observed differences.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Evidence Interpretation and Avoiding Over-Attribution  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 26**  
 **Category:** Logical & Analytical Reasoning  
 
-In one season, fields that received more irrigation produced higher yields. The following season, the same fields received even more irrigation but yields did not increase further. What might explain this?
+A friend confides in you about a personal problem and asks you not to tell anyone. Later, you think an adult should know.  
 
-A. There may be a point beyond which additional water does not improve yield and could even create other problems.  
-B. More water always produces proportionally higher yield.  
-C. Irrigation has no connection to yield.  
-D. The second season’s data must be incorrect.  
+A. Respect the promise and keep the information to yourself  
+B. Encourage your friend to speak to an adult themselves, offering to go with them  
+C. Speak to a trusted adult yourself, without revealing your friend's identity  
+D. Wait and see if the situation resolves before taking any action  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Introduces the concept of diminishing returns and optimal levels.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Recognizing Non-Linear Relationships  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 27**  
 **Category:** Logical & Analytical Reasoning  
 
-A farmer notices that a certain insect appears in large numbers only after a period of heavy rain. What is a reasonable conclusion?
+During a school trip, your group reaches a place where everyone has two hours of free time.  
 
-A. There may be a connection between the rain and the insect population, but the exact cause would require further observation.  
-B. Rain directly creates insects.  
-C. The insect appearance is completely unrelated to rain.  
-D. All insects appear after rain.  
+A. Explore the area with your friends while staying within the agreed boundary  
+B. Visit the information centre and learn about the place first  
+C. Stay with the group and follow what the majority decides  
+D. Find a quiet spot to rest and observe your surroundings alone  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Shows balanced interpretation of observed associations.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Pattern Interpretation Without Overclaiming  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
 
 **Question 28**  
 **Category:** Logical & Analytical Reasoning  
 
-Two fields receive the same treatment, but one consistently produces better results. What information would help explain the difference?
+You receive a test result that is lower than what you expected.  
 
-A. Whether there are differences in soil type, drainage, previous crop history, or micro-climate between the two fields.  
-B. That one field is simply luckier.  
-C. The exact size of each field.  
-D. The names of the people working on each field.  
+A. Review the paper thoroughly to understand exactly where you lost marks  
+B. Take a day to process it, then plan a revised study schedule  
+C. Meet the teacher to discuss whether there is room for improvement or re-evaluation  
+D. Compare your paper with a topper's to identify the gap in approach  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Encourages systematic investigation of hidden variables.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Identifying Confounding Factors  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
 
 **Question 29**  
 **Category:** Logical & Analytical Reasoning  
 
-A new variety of crop is introduced and performs well in the first year. What is a thoughtful approach for the second year?
+Your sibling wants to use your personal tablet for a game, and you have an online class in an hour.  
 
-A. Continue observing performance while considering that one year’s results may not predict long-term behavior under varying conditions.  
-B. Assume the variety will always perform the same way.  
-C. Immediately replace all other varieties.  
-D. Ignore the first year’s results completely.  
+A. Let them use it now and charge it quickly before your class starts  
+B. Explain that you need it soon but offer them your phone instead  
+C. Tell them they can use it after your class is over  
+D. Check how much battery is left and decide based on that  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Demonstrates caution about generalizing from limited observations.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Long-Term Perspective and Evidence Caution  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 30**  
 **Category:** Logical & Analytical Reasoning  
 
-A practice improves yield in most fields but reduces yield in a few others. What does this suggest?
+A new student joins your class and seems unsure about how things work here.  
 
-A. The practice may be beneficial under certain conditions but not universally suitable; understanding the differences between fields would be valuable.  
-B. The practice should be applied everywhere.  
-C. The practice should be abandoned completely.  
-D. Yield variation is always random.  
+A. Offer to show them around the school on the first day  
+B. Treat them normally and let them adjust at their own pace  
+C. Introduce them to a few students who have similar interests  
+D. Share a printed timetable and some class notes so they feel prepared  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Shows comfort with context-dependent outcomes rather than seeking universal rules.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Context Sensitivity and Variable Suitability  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
-
-## SECTION F — Financial, Sustainability & Resource Intelligence (Questions 31-34)
 
 **Question 31**  
 **Category:** Financial, Sustainability & Resource Intelligence  
 
-A farmer has limited water available. One approach uses more water to achieve higher yield this season, while another uses less water with slightly lower yield but preserves soil moisture for future seasons. How would you weigh the options?
+Your class is choosing a venue for the farewell party. Two strong options have emerged.  
 
-A. Consider both the immediate yield and the long-term effect on soil and future production capacity.  
-B. Always maximize yield in the current season.  
-C. Always minimize water use regardless of yield.  
-D. Decide based only on this season’s needs.  
+A. Suggest a vote and accept whatever the majority chooses  
+B. List the pros and cons of each and present them to the class  
+C. Propose a third option that combines the best features of both  
+D. Let the class representatives decide since that is their role  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals balanced thinking between short-term gain and long-term resource health.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Long-Term Resource Perspective  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 32**  
 **Category:** Financial, Sustainability & Resource Intelligence  
 
-A method increases production but requires regular purchase of external inputs. An alternative method produces slightly less but relies more on resources already available on the farm. What consideration would guide the choice?
+You overhear two friends having a disagreement in the corridor.  
 
-A. The balance between higher output and greater dependence on purchased inputs versus self-reliance and long-term cost stability.  
-B. Always choose the higher production method.  
-C. Always choose the self-reliant method.  
-D. Input costs are not relevant.  
+A. Walk past — it is a personal matter between them  
+B. Check on them later individually to see if they are okay  
+C. If it seems serious, inform a teacher nearby  
+D. Bring them together after some time and let them talk it out calmly  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Shows thoughtful evaluation of dependency versus productivity.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Self-Reliance vs Productivity Trade-off Thinking  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 33**  
 **Category:** Financial, Sustainability & Resource Intelligence  
 
-A farm has a limited budget for improvements. One option improves water efficiency, another improves soil quality, and a third adds a new crop. How would you prioritize?
+A teacher assigns extra practice problems over the weekend.  
 
-A. Consider which improvement addresses the most pressing constraint and offers the greatest long-term benefit within the available budget.  
-B. Always choose the option with the highest immediate return.  
-C. Spread the budget equally without prioritization.  
-D. Choose based only on what neighboring farms are doing.  
+A. Complete them on Saturday so Sunday remains free  
+B. Spread them across both days in small sessions  
+C. Do them on Sunday evening when you have a clearer idea of what was covered in class  
+D. Attempt the ones you find challenging and note the rest for doubt-clearing on Monday  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Demonstrates resource allocation under constraints with long-term thinking.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Prioritization and Resource Optimization  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 34**  
 **Category:** Financial, Sustainability & Resource Intelligence  
 
-A practice increases yield this year but may reduce soil health over several years. What would be a useful way to evaluate it?
+You are asked to lead a small team for a science exhibition.  
 
-A. Compare the short-term gain against the potential long-term cost of declining soil productivity and the effort required to restore it.  
-B. Always prioritize this year’s yield.  
-C. Never consider practices that affect soil.  
-D. Soil health is not connected to yield.  
+A. Divide tasks based on each person's strength and check in regularly  
+B. Let the team decide among themselves who does what, and you coordinate  
+C. Take the lead role yourself to ensure the project stays on track  
+D. Set a clear deadline and let everyone work independently until then  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Encourages evaluating practices through their multi-year consequences.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Sustainability and Intergenerational Thinking  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
-
-## SECTION G — Self-Discovery Through Neutral Situations (Questions 35-40)
 
 **Question 35**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-After several months of following a particular approach with crops, the results are different from what you expected. What naturally feels most meaningful to understand next?
+Someone you don't know well borrows a book from you and returns it with a torn page.  
 
-A. What factors may have interacted differently than anticipated and what can be learned for future seasons.  
-B. That the approach was completely wrong.  
-C. That nature is too unpredictable to analyze.  
-D. The exact date the approach was started.  
+A. Accept it quietly — accidents happen and it's not worth making it awkward  
+B. Politely mention the damage so they are aware for next time  
+C. Repair the page yourself and say nothing  
+D. Note it mentally and think twice before lending to them in the future  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Explores how you respond to unexpected outcomes in living systems.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Learning Orientation and Reflection on Uncertainty  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 36**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-When conditions change unexpectedly (such as unusual rainfall or temperature), how do you usually approach adjusting your plans?
+You have an important exam tomorrow and a family function tonight.  
 
-A. Look for ways to adapt the existing approach while preserving the overall goal.  
-B. Feel that any change makes planning useless.  
-C. Continue with the original plan without adjustment.  
-D. Abandon all planning when conditions vary.  
+A. Attend the function for a short while, then come home to study  
+B. Skip the function entirely and focus on preparation  
+C. Attend the full function — a relaxed mind studies better than a stressed one  
+D. Attend with your notes and revise during quiet moments at the venue  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals adaptability when working with variable natural conditions.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Adaptability Under Changing Conditions  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 37**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-You observe that two similar plots respond differently to the same treatment over time. What feels most natural to do?
+A classmate copies your answer during a quiz. The teacher suspects something.  
 
-A. Investigate what subtle differences might exist between the plots that could explain the variation.  
-B. Assume the treatment was applied incorrectly.  
-C. Decide that treatments never work consistently.  
-D. Ignore the difference and treat both plots the same way.  
+A. Tell the teacher honestly if directly asked  
+B. Stay silent and let the teacher handle it their way  
+C. Speak to the classmate privately about it after the quiz  
+D. Mention to the teacher that you noticed something but aren't certain  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Shows investigative curiosity about variation in outcomes.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Observation Skills and Variation Investigation  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 38**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-After trying a new method for one season, you notice both positive and negative effects. How do you usually decide whether to continue?
+You are given a project topic you find uninteresting.  
 
-A. Weigh the benefits against the drawbacks and consider whether adjustments could reduce the negative effects.  
-B. Focus only on the positive effects.  
-C. Abandon the method at the first sign of any drawback.  
-D. Continue regardless of any negative effects.  
+A. Find one small aspect of the topic that interests you and build from there  
+B. Complete it efficiently with the required information and move on  
+C. Ask the teacher if the scope can be adjusted to include something you enjoy  
+D. Use creative presentation methods to make the topic more engaging for yourself  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Indicates balanced evaluation of trade-offs in decision-making.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Balanced Judgment and Trade-off Evaluation  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 39**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-When planning for a season, you realize that several important factors (weather, pests, market prices) cannot be fully predicted. How do you usually feel?
+Your friend invites you to a movie on the same day you planned to study.  
 
-A. Comfortable working with uncertainty by building flexibility and observing as the season progresses.  
-B. Frustrated that complete certainty is not possible.  
-C. Prefer to make rigid plans and follow them exactly.  
-D. Avoid planning altogether because of uncertainty.  
+A. Go to the movie — one day of study can be adjusted later  
+B. Decline and stick to your original plan  
+C. Suggest a shorter outing or a different day instead  
+D. Go for the first show and return in time to study in the evening  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Explores comfort with inherent uncertainty in agricultural work.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Comfort With Uncertainty and Flexible Planning  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 40**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-When multiple approaches could achieve similar results but each has different advantages and limitations, how do you usually choose?
+You notice a small error in the school newsletter that has already been printed.  
 
-A. Select the approach that best aligns with your priorities, resources, and values, while accepting that no option is perfect.  
-B. Feel that only one “correct” approach exists.  
-C. Choose randomly.  
-D. Avoid choosing because multiple options exist.  
+A. Point it out to the teacher in charge so it can be corrected next time  
+B. Let it be — it is a minor thing and everyone has already received their copy  
+C. Mention it casually to the student editor so they are more careful going forward  
+D. Ignore it unless someone asks you directly about it  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals how you navigate situations where no single perfect solution exists.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Decision-Making in the Absence of Perfect Options  
+**Insight Being Measured:** Social Judgment  
 
----
 
 ## How to Use This Assessment
 

@@ -128,7 +128,7 @@ const CAREER_RESOURCES = {
       course: {
         name: "Introduction to Engineering Mechanics",
         platform: "Coursera",
-        url: "https://www.coursera.org/learn/engineering-mechanics-1",
+        url: "https://www.coursera.org/learn/engineering-mechanics-statics",
         free: true,
         why: "Provides foundational physics and mechanical concepts.",
         difficulty: "Beginner"
@@ -198,7 +198,7 @@ const CAREER_RESOURCES = {
       course: {
         name: "Anatomy: Human Neuroanatomy",
         platform: "Coursera",
-        url: "https://www.coursera.org/learn/human-neuroanatomy",
+        url: "https://www.coursera.org/learn/medical-neuroscience",
         free: true,
         why: "In-depth understanding of brain anatomy and function.",
         difficulty: "Beginner"
@@ -268,7 +268,7 @@ const CAREER_RESOURCES = {
       course: {
         name: "Introduction to Dental Medicine",
         platform: "Coursera",
-        url: "https://www.coursera.org/learn/dental-medicine-1",
+        url: "https://www.coursera.org/learn/dental-medicine-penn",
         free: true,
         why: "Introduction to dental health, pathology, and practice.",
         difficulty: "Beginner"
@@ -285,7 +285,7 @@ const CAREER_RESOURCES = {
       course: {
         name: "Anatomy of the Abdomen and Pelvis; a journey from science to clinic",
         platform: "Coursera",
-        url: "https://www.coursera.org/learn/anatomy",
+        url: "https://www.coursera.org/learn/medical-neuroscience",
         free: true,
         why: "Prepares dental students for systemic anatomy.",
         difficulty: "Intermediate"
@@ -302,7 +302,7 @@ const CAREER_RESOURCES = {
       course: {
         name: "Introduction to Dental Medicine (Advanced Modules)",
         platform: "Coursera",
-        url: "https://www.coursera.org/learn/dental-medicine-1",
+        url: "https://www.coursera.org/learn/dental-medicine-penn",
         free: true,
         why: "Focuses on advanced oral pathology and diagnoses.",
         difficulty: "Intermediate"
@@ -355,7 +355,7 @@ const CAREER_RESOURCES = {
       course: {
         name: "Drugs, Drug Use, Drug Policy and Health",
         platform: "Coursera",
-        url: "https://www.coursera.org/learn/drugs-and-health",
+        url: "https://www.coursera.org/learn/clinical-terminology",
         free: true,
         why: "Examines pharmacological impact of drugs.",
         difficulty: "Intermediate"
@@ -372,7 +372,7 @@ const CAREER_RESOURCES = {
       course: {
         name: "Introduction to Molecular Spectroscopy",
         platform: "Coursera",
-        url: "https://www.coursera.org/learn/molecular-spectroscopy",
+        url: "https://www.coursera.org/learn/spectroscopy",
         free: true,
         why: "Analyzes drug structures using spectroscopy.",
         difficulty: "Intermediate"
@@ -425,7 +425,7 @@ const CAREER_RESOURCES = {
       course: {
         name: "Genes and the Human Condition (Behavioral and Health Genetics)",
         platform: "Coursera",
-        url: "https://www.coursera.org/learn/genes",
+        url: "https://www.coursera.org/learn/genetics-evolution",
         free: true,
         why: "Explores genetic engineering and human traits.",
         difficulty: "Intermediate"
@@ -652,7 +652,7 @@ const CAREER_RESOURCES = {
       course: {
         name: "Autodesk Certified Professional: Revit for Architectural Design",
         platform: "Coursera",
-        url: "https://www.coursera.org/learn/autodesk-revit-architectural-design",
+        url: "https://www.coursera.org/learn/bim-fundamentals",
         free: false,
         why: "Industry standard BIM software training.",
         difficulty: "Advanced"
@@ -688,7 +688,7 @@ const CAREER_RESOURCES = {
       course: {
         name: "Sustainable Agricultural Land Management",
         platform: "Coursera",
-        url: "https://www.coursera.org/learn/sustainable-agricultural-land-management",
+        url: "https://www.coursera.org/learn/global-environmental-management",
         free: true,
         why: "Foundational soil mechanics and land practices.",
         difficulty: "Beginner"
@@ -705,7 +705,7 @@ const CAREER_RESOURCES = {
       course: {
         name: "Bugs 101: Insect-Human Interactions",
         platform: "Coursera",
-        url: "https://www.coursera.org/learn/bugs101",
+        url: "https://www.coursera.org/learn/bugs-101",
         free: true,
         why: "Essential pest identification and biology concepts.",
         difficulty: "Intermediate"
@@ -775,7 +775,7 @@ const CAREER_RESOURCES = {
       course: {
         name: "Introduction to Managerial Accounting",
         platform: "Coursera",
-        url: "https://www.coursera.org/learn/wharton-managerial-accounting",
+        url: "https://www.coursera.org/learn/uva-darden-managerial-accounting",
         free: true,
         why: "Cost accounting and management decision metrics.",
         difficulty: "Intermediate"
@@ -809,7 +809,7 @@ const CAREER_RESOURCES = {
       course: {
         name: "Accounting Analysis I: The Role of Accounting as an Information System",
         platform: "Coursera",
-        url: "https://www.coursera.org/learn/accounting-analysis-1",
+        url: "https://www.coursera.org/learn/accounting-analytics",
         free: true,
         why: "Examines corporate earnings quality and performance reporting.",
         difficulty: "Advanced"
@@ -828,7 +828,7 @@ const CAREER_RESOURCES = {
       course: {
         name: "Entrepreneurship 1: Developing the Opportunity",
         platform: "Coursera",
-        url: "https://www.coursera.org/learn/wharton-entrepreneurship-opportunity",
+        url: "https://www.coursera.org/learn/uva-darden-designbiz",
         free: true,
         why: "Teaches ideation, market validation, and prototyping.",
         difficulty: "Beginner"
@@ -845,7 +845,7 @@ const CAREER_RESOURCES = {
       course: {
         name: "Entrepreneurship 2: Launching your Start-Up",
         platform: "Coursera",
-        url: "https://www.coursera.org/learn/wharton-entrepreneurship-launch",
+        url: "https://www.coursera.org/learn/startup-funding",
         free: true,
         why: "Covers operational scaling, business structures, and teams.",
         difficulty: "Intermediate"
@@ -862,7 +862,7 @@ const CAREER_RESOURCES = {
       course: {
         name: "Entrepreneurship 3: Growth Strategies",
         platform: "Coursera",
-        url: "https://www.coursera.org/learn/wharton-entrepreneurship-growth",
+        url: "https://www.coursera.org/learn/innovation-management",
         free: true,
         why: "Acquisition strategies, customer retention, and scaling.",
         difficulty: "Intermediate"
@@ -879,7 +879,7 @@ const CAREER_RESOURCES = {
       course: {
         name: "Entrepreneurship 4: Financing and Profitability",
         platform: "Coursera",
-        url: "https://www.coursera.org/learn/wharton-entrepreneurship-funding",
+        url: "https://www.coursera.org/learn/wharton-finance",
         free: true,
         why: "Venture capital, terms sheets, and evaluation methods.",
         difficulty: "Advanced"
@@ -932,7 +932,7 @@ const CAREER_RESOURCES = {
       course: {
         name: "Corporate Finance: Algorithms and Models",
         platform: "Coursera",
-        url: "https://www.coursera.org/learn/corporate-finance-algorithms",
+        url: "https://www.coursera.org/learn/wharton-finance",
         free: true,
         why: "Applies computing and models to calculate firm value.",
         difficulty: "Intermediate"
@@ -949,7 +949,7 @@ const CAREER_RESOURCES = {
       course: {
         name: "Investment and Portfolio Management",
         platform: "Coursera",
-        url: "https://www.coursera.org/learn/investment-portfolio-management",
+        url: "https://www.coursera.org/learn/financial-markets-global",
         free: false,
         why: "Active vs passive strategy and modern portfolio construction.",
         difficulty: "Advanced"
@@ -1055,7 +1055,7 @@ const CAREER_RESOURCES = {
       course: {
         name: "Macroeconomics Principles",
         platform: "Coursera",
-        url: "https://www.coursera.org/learn/macroeconomics",
+        url: "https://www.coursera.org/learn/microeconomics",
         free: true,
         why: "Studies GDP, inflation, fiscal policy, and money markets.",
         difficulty: "Intermediate"
@@ -1089,7 +1089,7 @@ const CAREER_RESOURCES = {
       course: {
         name: "Econometrics: Methods and Applications",
         platform: "Coursera",
-        url: "https://www.coursera.org/learn/econometrics",
+        url: "https://www.coursera.org/learn/erasmus-econometrics",
         free: true,
         why: "Rigorous statistical proofs and regression analysis in R.",
         difficulty: "Advanced"
@@ -1108,7 +1108,7 @@ const CAREER_RESOURCES = {
       course: {
         name: "A Brief History of Humankind",
         platform: "Coursera",
-        url: "https://www.coursera.org/learn/humankind",
+        url: "https://www.coursera.org/learn/bighistory",
         free: true,
         why: "Broad evolutionary and social history from Hunter-Gatherers to AI.",
         difficulty: "Beginner"
@@ -1178,7 +1178,7 @@ const CAREER_RESOURCES = {
       course: {
         name: "Introduction to Political Science",
         platform: "Coursera",
-        url: "https://www.coursera.org/learn/political-science",
+        url: "https://www.coursera.org/learn/moral-politics",
         free: true,
         why: "Foundational course on political systems, states, and systems.",
         difficulty: "Beginner"
@@ -1229,7 +1229,7 @@ const CAREER_RESOURCES = {
       course: {
         name: "Public Policy Analysis",
         platform: "Coursera",
-        url: "https://www.coursera.org/learn/public-policy",
+        url: "https://www.coursera.org/learn/using-public-policy-for-social-change",
         free: true,
         why: "Teaches quantitative methods for designing and evaluating state regulations.",
         difficulty: "Advanced"
@@ -1518,10 +1518,10 @@ app.post("/api/roadmap", async (req, res) => {
   const isEngineering = career.toLowerCase().includes("engineering");
   const isCommOrArts = ["accounting", "economics", "entrepreneurship", "finance", "history", "marketing", "politicalscience", "psychology", "political science"].some(c => career.toLowerCase().includes(c));
 
-  const strongThresh = isEngineering ? 96 : (isCommOrArts ? 64 : 51);
-  const moderateThresh = isEngineering ? 75 : (isCommOrArts ? 50 : 38);
-  const exploreThresh = isEngineering ? 54 : (isCommOrArts ? 36 : 26);
-  const maxScore = isEngineering ? 120 : (isCommOrArts ? 80 : 60);
+  const strongThresh = 75;
+  const moderateThresh = 50;
+  const exploreThresh = 30;
+  const maxScore = 100;
 
   let fitScoreClassification = "Weak Fit";
   if (scores.fitScore >= strongThresh) fitScoreClassification = "Strong Fit";
@@ -1531,7 +1531,7 @@ app.post("/api/roadmap", async (req, res) => {
   const prompt = `You are a career counselor for Indian science students.
 Student wants to pursue ${career}. 
 
-Engineering Career-Fit Assessment Results:
+Career-Fit Assessment Results (out of 100):
 - Engineering Fit Score: ${scores.fitScore}/${maxScore} (Classification: ${fitScoreClassification})
 - Analytical Thinking: ${scores.analytical}%
 - Problem Solving: ${scores.problem}%

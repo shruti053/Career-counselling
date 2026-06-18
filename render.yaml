@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: meraki-path
+    name: mindstix
     env: node
     plan: free
     buildCommand: npm run build

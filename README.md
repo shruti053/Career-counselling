@@ -1,10 +1,10 @@
-# Career Reality AI (Meraki Path)
+# Mindstix (Meraki Path)
 
 **Live Site:** [https://meraki-path.onrender.com](https://meraki-path.onrender.com)
 
 [![Deploy to Render](https://render.com/images/deploy-to-render.svg)](https://render.com/deploy?repo=https://github.com/shruti053/Meraki-Path)
 
-**Career Reality AI** is an AI-powered career evaluation platform that helps science students assess their alignment with 15 different career paths using a 6-category assessment. It provides an encouraging, AI-personalized 4-month preparation roadmap with curated educational resources.
+**Mindstix** is an AI-powered career evaluation platform that helps students assess their alignment with 17 different career paths across Science, Commerce, and Arts using a 6-category assessment. It provides an encouraging, AI-personalized 4-month preparation roadmap with curated educational resources.
 
 ---
 
@@ -77,13 +77,10 @@ If you prefer containerized deployments, the repository includes a multi-stage `
 
 1. Build the Docker image locally:
    ```bash
-   docker build -t career-reality-ai .
+   docker build -t mindstix .
    ```
 2. Run the container:
    ```bash
-   docker run -p 3001:3001 -e GEMINI_KEY="your_api_key" career-reality-ai
+   docker run -p 3001:3001 -e GEMINI_KEY="your_api_key" mindstix
    ```
 3. Your full-stack application will be active at `http://localhost:3001`.
-
-
-

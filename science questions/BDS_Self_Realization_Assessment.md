@@ -380,368 +380,361 @@ D. Checking only whether the final model looks roughly correct.
 **Question 21**  
 **Category:** Precision, Spatial & Hand-Skill Aptitude  
 
-While adjusting a very small component that needs to be moved by less than a millimeter, what guides your decision most naturally?
+Your friend asks for help with homework the night before it's due. You have your own work to finish.  
 
-A. Making tiny, careful movements and checking the result after each one.  
-B. Moving it in one larger adjustment and hoping it lands correctly.  
-C. Focusing on the surrounding parts rather than the component itself.  
-D. Deciding the exact position without further checking.  
+A. Share your completed work so they can use it as a reference  
+B. Spend an hour explaining the difficult parts and let them finish the rest  
+C. Tell them you're busy tonight but offer to help them the next day after school  
+D. Suggest they check the textbook examples since the homework is based on those  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Shows comfort with incremental, feedback-based adjustments.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Precision Orientation and Gradual Refinement  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 22**  
 **Category:** Precision, Spatial & Hand-Skill Aptitude  
 
-You are copying a simple geometric drawing but must match the angles and lengths as closely as possible. What approach feels most natural?
+During a class debate, a student makes a point that is factually incorrect, but the teacher doesn't notice.  
 
-A. Checking measurements and angles multiple times during the process.  
-B. Drawing it quickly and correcting only if it looks obviously wrong.  
-C. Focusing mainly on making the drawing look artistic.  
-D. Copying the overall shape without worrying about exact proportions.  
+A. Raise your hand and politely correct the information  
+B. Note it down and speak to the teacher privately after class  
+C. Say nothing — the teacher may already know and is testing the class  
+D. Ask a follow-up question that gently leads the class to notice the error  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals preference for accuracy over speed in visual reproduction tasks.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Accuracy and Measurement Sensitivity  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 23**  
 **Category:** Precision, Spatial & Hand-Skill Aptitude  
 
-When arranging several small objects into a neat row with equal spacing, what do you naturally pay attention to?
+You are assigned a group project and one member has not contributed anything with two days left.  
 
-A. The gaps between objects and whether they appear consistent.  
-B. Only whether all objects are facing the same direction.  
-C. The total length of the row rather than individual spacing.  
-D. How quickly you can complete the arrangement.  
+A. Redistribute the remaining work among the active members to ensure quality  
+B. Contact the absent member directly and ask what is holding them back  
+C. Inform the teacher so the grading can reflect actual individual effort  
+D. Complete the missing portion yourself to protect the group's overall grade  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Tests natural attention to uniformity and spacing.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Consistency and Alignment Awareness  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 24**  
 **Category:** Precision, Spatial & Hand-Skill Aptitude  
 
-You are trying to fit a small piece into a tight space where you cannot see it directly and must rely on touch. What feels most helpful?
+You notice a classmate sitting alone during lunch break every day.  
 
-A. Moving slowly and noticing how the piece resists or slides into place.  
-B. Pushing firmly until it fits or does not fit.  
-C. Guessing the correct angle without testing.  
-D. Focusing on the visible parts only.  
+A. Invite them to join your group for that day  
+B. Sit with them for a while and see if they seem comfortable  
+C. Ask a mutual friend to help bring them into the group gradually  
+D. Respect that some people prefer quiet time and give them space  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Indicates comfort with tactile feedback in constrained situations.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Tactile Spatial Reasoning  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
-
-## SECTION E — Logical & Analytical Reasoning (Questions 25-30)
 
 **Question 25**  
 **Category:** Logical & Analytical Reasoning  
 
-All patients who receive certain dental treatments are advised to avoid very hard foods for a few days. A patient received this treatment today. What can you conclude?
+Your parents have enrolled you in a weekend class that takes away your free time.  
 
-A. The patient should avoid very hard foods for the advised period.  
-B. The patient will definitely damage their teeth if they eat anything.  
-C. The advice applies only to people who have never had dental work before.  
-D. The treatment has no effect on food choices.  
+A. Attend without complaint since your parents are investing in your future  
+B. Explain to your parents that you need some personal time to recharge  
+C. Try attending for a few weeks, then evaluate if it's actually helping you  
+D. Ask if the schedule can be adjusted rather than refusing outright  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Tests applying general post-treatment advice to an individual case.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Applying Guidelines to Specific Situations  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 26**  
 **Category:** Logical & Analytical Reasoning  
 
-In a dental clinic, it is observed that patients who maintain regular check-ups tend to need fewer major treatments later. Which conclusion is most reasonable?
+A friend confides in you about a personal problem and asks you not to tell anyone. Later, you think an adult should know.  
 
-A. Regular visits may help catch small issues before they become larger problems.  
-B. People who visit regularly never develop any dental problems.  
-C. Check-ups are only useful for people who already have perfect teeth.  
-D. The number of visits has no connection to future treatment needs.  
+A. Respect the promise and keep the information to yourself  
+B. Encourage your friend to speak to an adult themselves, offering to go with them  
+C. Speak to a trusted adult yourself, without revealing your friend's identity  
+D. Wait and see if the situation resolves before taking any action  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Encourages interpreting observed patterns without overgeneralizing.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Evidence-Based Pattern Interpretation  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 27**  
 **Category:** Logical & Analytical Reasoning  
 
-A dental material works well for most patients but shows different results in a small number of cases. What is a logical next consideration?
+During a school trip, your group reaches a place where everyone has two hours of free time.  
 
-A. There may be individual factors (such as oral environment or habits) that influence the outcome.  
-B. The material must be completely unsuitable for everyone.  
-C. The material works perfectly and the different results are random.  
-D. No further investigation is needed.  
+A. Explore the area with your friends while staying within the agreed boundary  
+B. Visit the information centre and learn about the place first  
+C. Stay with the group and follow what the majority decides  
+D. Find a quiet spot to rest and observe your surroundings alone  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Shows comfort with variability in outcomes and interest in underlying factors.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Nuanced Reasoning About Variability  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
 
 **Question 28**  
 **Category:** Logical & Analytical Reasoning  
 
-Three patients who had similar dental work done around the same time report the same minor discomfort. What would be a reasonable first step?
+You receive a test result that is lower than what you expected.  
 
-A. Check what they have in common (diet, habits, or care instructions followed).  
-B. Assume the treatment was performed incorrectly in all cases.  
-C. Tell them the discomfort is normal and ignore further reports.  
-D. Change the treatment method completely for future patients.  
+A. Review the paper thoroughly to understand exactly where you lost marks  
+B. Take a day to process it, then plan a revised study schedule  
+C. Meet the teacher to discuss whether there is room for improvement or re-evaluation  
+D. Compare your paper with a topper's to identify the gap in approach  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Promotes systematic investigation of shared factors.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Systematic Thinking in Problem Investigation  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
 
 **Question 29**  
 **Category:** Logical & Analytical Reasoning  
 
-A new dental product claims better results when used in a specific way. A patient uses it differently and still sees improvement. What would be a thoughtful response?
+Your sibling wants to use your personal tablet for a game, and you have an online class in an hour.  
 
-A. The product may work under slightly different conditions than claimed, but more information would help.  
-B. The product works exactly the same for everyone regardless of use.  
-C. The original claim must be completely false.  
-D. The patient should stop using the product.  
+A. Let them use it now and charge it quickly before your class starts  
+B. Explain that you need it soon but offer them your phone instead  
+C. Tell them they can use it after your class is over  
+D. Check how much battery is left and decide based on that  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Demonstrates balanced evaluation of claims versus real-world results.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Evaluating Claims Against Experience  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 30**  
 **Category:** Logical & Analytical Reasoning  
 
-Research indicates that certain oral habits are more common in one age group than another. However, exceptions exist in every group. What does this suggest?
+A new student joins your class and seems unsure about how things work here.  
 
-A. Trends can exist while still allowing for individual differences within groups.  
-B. Age completely determines whether someone will have the habit.  
-C. The research must be incorrect because exceptions were found.  
-D. No useful information can be gained from such research.  
+A. Offer to show them around the school on the first day  
+B. Treat them normally and let them adjust at their own pace  
+C. Introduce them to a few students who have similar interests  
+D. Share a printed timetable and some class notes so they feel prepared  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Tests acceptance of general patterns alongside individual variation.  
+**Why This Question Matters:** Measures how you relate to others, practice empathy, and handle self-reflection.  
 
-**Insight Being Measured:** Comfort with Probabilistic and Individual Information  
+**Insight Being Measured:** Self-Awareness & Empathy  
 
 ---
-
-## SECTION F — Financial & Practice Management Intelligence (Questions 31-34)
 
 **Question 31**  
 **Category:** Financial & Practice Management Intelligence  
 
-A dental clinic has two options for a frequently used instrument: a lower-cost version that may need earlier replacement or a higher-cost version that lasts significantly longer. How would you weigh the decision?
+Your class is choosing a venue for the farewell party. Two strong options have emerged.  
 
-A. Consider the total cost over several years including replacement frequency and reliability.  
-B. Always choose the cheaper option to save money immediately.  
-C. Always choose the expensive option because higher price means better quality.  
-D. Decide based only on which one looks better.  
+A. Suggest a vote and accept whatever the majority chooses  
+B. List the pros and cons of each and present them to the class  
+C. Propose a third option that combines the best features of both  
+D. Let the class representatives decide since that is their role  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals long-term cost and reliability thinking.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Resource Optimization and Long-term Evaluation  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 32**  
 **Category:** Financial & Practice Management Intelligence  
 
-A clinic has a limited budget for equipment upgrades this year. It can either replace one older machine completely or perform maintenance on several machines. Which factor would guide your choice?
+You overhear two friends having a disagreement in the corridor.  
 
-A. Which option improves overall reliability and patient care most effectively within the budget.  
-B. Always replace the oldest machine regardless of need.  
-C. Always spread the budget across as many items as possible.  
-D. Choose whichever option requires the least decision-making.  
+A. Walk past — it is a personal matter between them  
+B. Check on them later individually to see if they are okay  
+C. If it seems serious, inform a teacher nearby  
+D. Bring them together after some time and let them talk it out calmly  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Tests balancing immediate needs with overall practice improvement.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Practical Prioritization Under Budget Constraints  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 33**  
 **Category:** Financial & Practice Management Intelligence  
 
-Appointment slots are limited. Two patients need follow-up visits: one requires a short check, the other needs a longer procedure. How would you think about scheduling?
+A teacher assigns extra practice problems over the weekend.  
 
-A. Consider both the time required and how delaying either might affect their treatment progress.  
-B. Schedule the longer procedure first because it takes more time.  
-C. Give both patients the same short slot.  
-D. Schedule whoever calls first without considering treatment needs.  
+A. Complete them on Saturday so Sunday remains free  
+B. Spread them across both days in small sessions  
+C. Do them on Sunday evening when you have a clearer idea of what was covered in class  
+D. Attempt the ones you find challenging and note the rest for doubt-clearing on Monday  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Shows thoughtful allocation of limited time resources.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Time and Resource Allocation Judgment  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 34**  
 **Category:** Financial & Practice Management Intelligence  
 
-A clinic is considering investing in a new technology that could improve certain procedures but requires training time and has ongoing maintenance costs. What would be a useful way to evaluate it?
+You are asked to lead a small team for a science exhibition.  
 
-A. Compare the expected improvement in outcomes and efficiency against the total costs over time.  
-B. Adopt it immediately because new technology is always better.  
-C. Reject it because any change involves some cost.  
-D. Decide based only on what other clinics are doing.  
+A. Divide tasks based on each person's strength and check in regularly  
+B. Let the team decide among themselves who does what, and you coordinate  
+C. Take the lead role yourself to ensure the project stays on track  
+D. Set a clear deadline and let everyone work independently until then  
 
-**Correct Answer:** A  
+**Correct Answer:** Any  
 
-**Why This Question Matters:** Encourages comprehensive cost-benefit thinking for practice decisions.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Investment Evaluation and Trade-off Analysis  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
-
-## SECTION G — Self-Discovery Through Neutral Situations (Questions 35-40)
 
 **Question 35**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-You spend a long time adjusting a small detail in a drawing or model so that it looks slightly more balanced, even though most people might not notice the change. What feels most meaningful about continuing?
+Someone you don't know well borrows a book from you and returns it with a torn page.  
 
-A. The satisfaction of making the overall result more harmonious through small refinements.  
-B. The desire to finish the task as quickly as possible.  
-C. The hope that someone will immediately notice and praise the change.  
-D. The feeling that further changes are unnecessary.  
+A. Accept it quietly — accidents happen and it's not worth making it awkward  
+B. Politely mention the damage so they are aware for next time  
+C. Repair the page yourself and say nothing  
+D. Note it mentally and think twice before lending to them in the future  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Explores whether you find value in subtle aesthetic or functional improvements.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Aesthetic Sensitivity and Refinement Orientation  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 36**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-While working on a task that requires repeating a similar precise action many times, you notice your attention starting to drift. What feels most natural to do?
+You have an important exam tomorrow and a family function tonight.  
 
-A. Take a short pause and then return with renewed focus on maintaining quality.  
-B. Speed up to finish the repetitive part faster.  
-C. Continue without changing anything and accept varying quality.  
-D. Switch to a completely different task immediately.  
+A. Attend the function for a short while, then come home to study  
+B. Skip the function entirely and focus on preparation  
+C. Attend the full function — a relaxed mind studies better than a stressed one  
+D. Attend with your notes and revise during quiet moments at the venue  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals your approach to maintaining standards during repetition.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Focus Under Repetition  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 37**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-You are shown two versions of the same object: one is functionally correct but slightly uneven, the other is perfectly even but took much longer to achieve. Which version feels more satisfying to you personally?
+A classmate copies your answer during a quiz. The teacher suspects something.  
 
-A. The perfectly even version, even though it required more time and effort.  
-B. The functionally correct version because it works and was faster to make.  
-C. Either version is equally good.  
-D. The one that looks more impressive at first glance.  
+A. Tell the teacher honestly if directly asked  
+B. Stay silent and let the teacher handle it their way  
+C. Speak to the classmate privately about it after the quiz  
+D. Mention to the teacher that you noticed something but aren't certain  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Indicates preference between speed/function and precision/aesthetics.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Precision Versus Efficiency Preference  
+**Insight Being Measured:** Social Judgment  
 
 ---
 
 **Question 38**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-When learning a new skill that involves many small, careful movements, you find that progress feels slow at first. How do you usually respond?
+You are given a project topic you find uninteresting.  
 
-A. Stay interested in the gradual improvement even when changes are tiny.  
-B. Feel impatient and look for shortcuts to speed up learning.  
-C. Decide the skill may not be worth the slow start.  
-D. Focus only on the final result rather than the process.  
+A. Find one small aspect of the topic that interests you and build from there  
+B. Complete it efficiently with the required information and move on  
+C. Ask the teacher if the scope can be adjusted to include something you enjoy  
+D. Use creative presentation methods to make the topic more engaging for yourself  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Shows comfort with the slow, incremental nature of skill development.  
+**Why This Question Matters:** Measures how you handle group obligations, leadership, and authority.  
 
-**Insight Being Measured:** Patience with Gradual Improvement  
+**Insight Being Measured:** Responsibility & Leadership  
 
 ---
 
 **Question 39**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-You notice that two similar objects have a very small difference in shape that affects how they fit together. What do you naturally want to do next?
+Your friend invites you to a movie on the same day you planned to study.  
 
-A. Understand exactly why that small difference matters for the fit.  
-B. Assume the difference is too minor to be important.  
-C. Try to make both objects identical without checking the reason.  
-D. Move on without exploring the difference further.  
+A. Go to the movie — one day of study can be adjusted later  
+B. Decline and stick to your original plan  
+C. Suggest a shorter outing or a different day instead  
+D. Go for the first show and return in time to study in the evening  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Reveals curiosity about how small variations produce functional differences.  
+**Why This Question Matters:** Measures how you balance competing demands and prioritize personal boundaries.  
 
-**Insight Being Measured:** Interest in Subtle Functional Relationships  
+**Insight Being Measured:** Time & Priority Management  
 
 ---
 
 **Question 40**  
 **Category:** Self-Discovery Through Neutral Situations  
 
-After completing a detailed task, you realize there is one more small adjustment you could make that would improve the result slightly. How do you usually decide?
+You notice a small error in the school newsletter that has already been printed.  
 
-A. Make the adjustment if it feels meaningful to you, even if others might not notice.  
-B. Stop because the task is already good enough.  
-C. Make the adjustment only if someone else points it out.  
-D. Avoid the adjustment because it would take extra time.  
+A. Point it out to the teacher in charge so it can be corrected next time  
+B. Let it be — it is a minor thing and everyone has already received their copy  
+C. Mention it casually to the student editor so they are more careful going forward  
+D. Ignore it unless someone asks you directly about it  
 
 **Correct Answer:** Any  
 
-**Why This Question Matters:** Explores your internal standard for quality and completion.  
+**Why This Question Matters:** Measures how you navigate interpersonal gray areas and handle social conflicts.  
 
-**Insight Being Measured:** Internal Standard for Excellence and Completion  
+**Insight Being Measured:** Social Judgment  
 
----
 
 ## How to Use This Assessment
 
