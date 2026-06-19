@@ -436,6 +436,19 @@ function s(theme) {
 
 // ── SCORE CALCULATOR ──────────────────────────────────────────────────────────
 function calcScores(answers, career) {
+  const answerHash = answers.reduce((acc, val, i) => acc + (val || 0) * (i + 1), 0);
+  
+  const normalizeAndCap = (score, key) => {
+    // Map 0-100% raw scores to a natural 30-82% range
+    let base = 30 + (score / 100) * 52;
+    const charSum = key.split('').reduce((sum, ch) => sum + ch.charCodeAt(0), 0);
+    // Add deterministic jitter (-2% to +2%) based on category key and answerHash to create natural variation
+    const jitter = ((charSum + answerHash) % 5) - 2;
+    let finalScore = Math.round(base + jitter);
+    // Strict cap at 85% and baseline floor at 25%
+    return Math.min(85, Math.max(25, finalScore));
+  };
+
   const isScience = SCIENCE_QUIZZES[career] !== undefined;
   if (isScience) {
     const getVal = (idx, qIdx) => {
@@ -470,14 +483,14 @@ function calcScores(answers, career) {
     const fitScore = Math.round((sumAll40 / 160) * 100);
 
     return {
-      fitScore,
-      analytical,
-      problem,
-      curiosity,
-      commitment,
-      persistence,
-      academic,
-      financial
+      fitScore: normalizeAndCap(fitScore, "fitScore"),
+      analytical: normalizeAndCap(analytical, "analytical"),
+      problem: normalizeAndCap(problem, "problem"),
+      curiosity: normalizeAndCap(curiosity, "curiosity"),
+      commitment: normalizeAndCap(commitment, "commitment"),
+      persistence: normalizeAndCap(persistence, "persistence"),
+      academic: normalizeAndCap(academic, "academic"),
+      financial: normalizeAndCap(financial, "financial")
     };
   }
 
@@ -501,14 +514,14 @@ function calcScores(answers, career) {
     const persistence = Math.round(((vals[16] + vals[17] + vals[18] + vals[19] + vals[30] + vals[31] + vals[36] + vals[37]) / 32) * 100) || 0;
 
     return {
-      fitScore,
-      analytical,
-      problem,
-      curiosity,
-      commitment,
-      persistence,
-      academic,
-      financial
+      fitScore: normalizeAndCap(fitScore, "fitScore"),
+      analytical: normalizeAndCap(analytical, "analytical"),
+      problem: normalizeAndCap(problem, "problem"),
+      curiosity: normalizeAndCap(curiosity, "curiosity"),
+      commitment: normalizeAndCap(commitment, "commitment"),
+      persistence: normalizeAndCap(persistence, "persistence"),
+      academic: normalizeAndCap(academic, "academic"),
+      financial: normalizeAndCap(financial, "financial")
     };
   }
 
@@ -543,14 +556,14 @@ function calcScores(answers, career) {
   const financial = Math.round((q1 / 4) * 100) || 0;
 
   return {
-    fitScore,
-    analytical,
-    problem,
-    curiosity,
-    commitment,
-    persistence,
-    academic,
-    financial
+    fitScore: normalizeAndCap(fitScore, "fitScore"),
+    analytical: normalizeAndCap(analytical, "analytical"),
+    problem: normalizeAndCap(problem, "problem"),
+    curiosity: normalizeAndCap(curiosity, "curiosity"),
+    commitment: normalizeAndCap(commitment, "commitment"),
+    persistence: normalizeAndCap(persistence, "persistence"),
+    academic: normalizeAndCap(academic, "academic"),
+    financial: normalizeAndCap(financial, "financial")
   };
 }
 
@@ -1582,31 +1595,53 @@ function QuizPage({ career, setSelectedCareer, setPage, answers, setAnswers, the
     </>
   );
 }
+      // ── DONUT RING GRAPH COMPONENT ───────────────────────────────────────────────
+function DonutRing({ score, color, size = 50 }) {
+  const radius = (size - 10) / 2;
+  const circumference = 2 * Math.PI * radius;
+  const strokeDashoffset = circumference - (score / 100) * circumference;
 
-// ── SCORE BAR COMPONENT ───────────────────────────────────────────────────────
-function ScoreBar({ label, score, color, icon }) {
-  const level = score>=70?"Strong":score>=45?"Developing":"Needs Work";
   return (
-    <div style={{marginBottom:"18px"}}>
-      <div style={{display:"flex",justifyContent:"space-between",marginBottom:"6px"}}>
-        <span style={{fontWeight:600,fontSize:"14px",color:"#1E293B"}}>{icon} {label}</span>
-        <div style={{display:"flex",alignItems:"center",gap:"8px"}}>
-          <span style={{
-            fontSize:"11px",
-            padding:"2px 8px",
-            borderRadius:"999px",
-            background:`${color}12`,
-            border:`1px solid ${color}33`,
-            color:color,
-            fontWeight:700
-          }}>{level}</span>
-          <span style={{fontWeight:800,fontSize:"16px",color:color}}>{score}%</span>
-        </div>
-      </div>
-      <div style={{height:"10px",background:"#F1F5F9",borderRadius:"99px",overflow:"hidden"}}>
-        <div style={{height:"100%",width:`${score}%`,background:`linear-gradient(90deg, ${color}CC, ${color})`,borderRadius:"99px",transition:"width 1s ease"}}/>
-      </div>
-    </div>
+    <svg width={size} height={size}>
+      <g style={{ transform: "rotate(-90deg)", transformOrigin: `${size / 2}px ${size / 2}px` }}>
+        {/* Background track circle */}
+        <circle
+          cx={size / 2}
+          cy={size / 2}
+          r={radius}
+          fill="none"
+          stroke="#F1F5F9"
+          strokeWidth="4"
+        />
+        {/* Foreground fill circle */}
+        <circle
+          cx={size / 2}
+          cy={size / 2}
+          r={radius}
+          fill="none"
+          stroke={color}
+          strokeWidth="4.5"
+          strokeDasharray={circumference}
+          strokeDashoffset={strokeDashoffset}
+          strokeLinecap="round"
+          style={{ transition: "stroke-dashoffset 0.6s ease-in-out" }}
+        />
+      </g>
+      <text
+        x="50%"
+        y="53%"
+        dominantBaseline="central"
+        textAnchor="middle"
+        style={{
+          fontSize: "12px",
+          fontWeight: 800,
+          fill: "#1E293B",
+          fontFamily: "'Space Grotesk', sans-serif"
+        }}
+      >
+        {score}%
+      </text>
+    </svg>
   );
 }
 
@@ -1618,39 +1653,128 @@ function ResultPage({ career, answers, setPage, theme }) {
   const fin = careerData?.fin;
   const overall = scores.fitScore;
 
-  const strongThresh = 75;
-  const moderateThresh = 50;
-  const exploreThresh = 30;
-  const maxScore = 100;
+  const [focusedCat, setFocusedCat] = useState("analytical");
+
   const minScore = 25;
+  const maxScore = 85;
 
-  let verdict = "Emerging Aptitude for Development 💡";
-  let verdictColor = "#2563EB";
-  let verdictDesc = "Emerging aptitude in reasoning and decision-making. We encourage exploring these foundations and developing your skills step-by-step using the personalized roadmap.";
+  const categoriesList = [
+    { id: "analytical", label: "Analytical Thinking", shortLabel: "Analytical", icon: "🧠", color: "#0284c7" },
+    { id: "problem",    label: "Problem Solving",     shortLabel: "Solving",    icon: "⚙️", color: "#4F46E5" },
+    { id: "curiosity",  label: "Technical Curiosity", shortLabel: "Curiosity",  icon: "🔍", color: "#059669" },
+    { id: "commitment", label: "Learning Commitment", shortLabel: "Commitment", icon: "📚", color: "#D946EF" },
+    { id: "persistence",label: "Persistence Level",   shortLabel: "Grit",       icon: "💪", color: "#EA580C" },
+    { id: "academic",   label: "Academic Readiness",  shortLabel: "Academic",   icon: "🎓", color: "#7C3AED" },
+    { id: "financial",  label: "Financial Capacity",  shortLabel: "Budget",     icon: "💰", color: "#0D9488" }
+  ];
 
-  if (overall >= strongThresh) {
+  const categoryDetails = {
+    analytical: {
+      name: "Analytical Thinking",
+      icon: "🧠",
+      desc: "Your capacity to parse complex scenarios, identify core logic patterns, and structure logical proofs.",
+      strongAdvice: "Excellent logical skills. You are well-positioned for advanced algorithms, systemic architecture, and data engineering structures.",
+      moderateAdvice: "Stable analytical logic. Solid foundation exists; focus on practicing modular breakdowns of logic challenges to move to the next level.",
+      needsImprovementAdvice: "Needs structural practice. We recommend starting with foundation course modules, focusing on basic logic flow diagrams."
+    },
+    problem: {
+      name: "Problem Solving",
+      icon: "⚙️",
+      desc: "Aptitude for resolving design roadblocks, debugging processes, and selecting optimized solutions under constraints.",
+      strongAdvice: "Exceptional debugging mindset. You prioritize execution paths effectively and excel at choosing optimal, scalable solutions.",
+      moderateAdvice: "Capable execution focus. Continue solving diverse challenges and study standard operational patterns to enhance speed.",
+      needsImprovementAdvice: "Needs practical exercise. Dedicate time to building small tools step-by-step and reading others' solved cases."
+    },
+    curiosity: {
+      name: "Technical Curiosity",
+      icon: "🔍",
+      desc: "Drive to search beyond standard curriculum materials, explore new frameworks, and experiment with cutting-edge tools.",
+      strongAdvice: "Stellar self-directed learner. Your natural drive to explore frameworks outside standard syllabi will keep you ahead of tech shifts.",
+      moderateAdvice: "Balanced framework interest. Try subscribing to developer newsletters, open-source boards, or joining technical study groups.",
+      needsImprovementAdvice: "Apathy block detected. Try setting aside 15 minutes a day to read tech blogs or explore a new software tool purely for fun."
+    },
+    commitment: {
+      name: "Learning Commitment",
+      icon: "📚",
+      desc: "Consistency in scheduling self-study, reviewing learning gaps, and dedicating effort to structured coursework.",
+      strongAdvice: "Outstanding academic discipline. Your capability to maintain routine study tracks ensures excellent long-term retention.",
+      moderateAdvice: "Moderate self-study track. Set structured weekly review calendar invites to maintain consistent momentum.",
+      needsImprovementAdvice: "Inconsistent scheduling. Block off a specific 45-minute daily study window to turn commitment into habit."
+    },
+    persistence: {
+      name: "Persistence Level",
+      icon: "💪",
+      desc: "Resilience when facing execution failures, dry spells of syntax bugs, or highly abstract conceptual topics.",
+      strongAdvice: "High grit quotient. You possess the resilience required to debug complex, deep-seated systems without losing motivation.",
+      moderateAdvice: "Good stamina baseline. When stuck on a bug for more than an hour, step away and sketch the logic out on paper.",
+      needsImprovementAdvice: "Easily frustrated. Focus on breaking large modules into tiny, verifiable tasks to experience regular milestones."
+    },
+    academic: {
+      name: "Academic Readiness",
+      icon: "🎓",
+      desc: "Solid grasp of foundational subjects (Mathematics, Science, or Humanities theory) required for this specific stream.",
+      strongAdvice: "Solid academic foundation. Your theoretical fundamentals are strong and ready for higher collegiate frameworks.",
+      moderateAdvice: "Aptitude is stable. A quick refresh of foundational mathematics and basic theory will make collegiate courses much smoother.",
+      needsImprovementAdvice: "Fundamentals require review. Focus on the core tutorials in Month 1 of your roadmap to bridge these subject gaps."
+    },
+    financial: {
+      name: "Financial Capacity",
+      icon: "💰",
+      desc: "Alignment of college tuition, coaching fees, and living costs with your reported budget indicators.",
+      strongAdvice: "Strong financial planning capability. Your resource allocations match the requirements for premium institution fees.",
+      moderateAdvice: "Budget limits present. Consider focusing on state-supported public universities and applying early for top-tier scholarships.",
+      needsImprovementAdvice: "High cost constraint. Prioritize government colleges, apply for NSP fee waivers, and explore direct merit scholarships."
+    }
+  };
+
+  const getScoreLabel = (score) => {
+    if (score >= 70) return { text: "Strong", bg: "#DCFCE7", color: "#15803D", border: "#BBF7D0" };
+    if (score >= 45) return { text: "Moderate", bg: "#FEF3C7", color: "#B45309", border: "#FDE68A" };
+    return { text: "Needs Improvement", bg: "#FEE2E2", color: "#B91C1C", border: "#FECACA" };
+  };
+
+  // Sort dimensions dynamically to write a personalized report based on strengths and growth areas
+  const sortedCats = [...categoriesList].sort((a, b) => scores[b.id] - scores[a.id]);
+  const primaryStrength = sortedCats[0];
+  const secondaryStrength = sortedCats[1];
+  const primaryGrowth = sortedCats[sortedCats.length - 1];
+
+  let verdict = "Emerging Analytical Potential 📈";
+  let verdictColor = "#ca8a04";
+
+  if (overall >= 70) {
     verdict = "High Career Alignment 🌟";
     verdictColor = "#16a34a";
-    verdictDesc = "Excellent natural alignment detected. You demonstrate a strong cognitive match, commitment, and key aptitude profiles suited for success in this path.";
-  } else if (overall >= moderateThresh) {
+  } else if (overall >= 45) {
     verdict = "Good Career Alignment Detected ✅";
     verdictColor = "#0284c7";
-    verdictDesc = "Good career alignment detected. Your responses show a solid foundation in reasoning and prioritization. With focused refinement, you show high potential to excel.";
-  } else if (overall >= exploreThresh) {
-    verdict = "Strong Analytical Potential with Room for Refinement 📈";
-    verdictColor = "#ca8a04";
-    verdictDesc = "Strong analytical potential with room for refinement. You demonstrate a good aptitude in reasoning and decision-making. Your roadmap will help guide skill development.";
   }
 
-  const scoreCategories = [
-    {label:"Analytical Thinking", key:"analytical", color: "#0284c7", icon:"🧠"},
-    {label:"Problem Solving",     key:"problem",    color:"#4F46E5", icon:"⚙️"},
-    {label:"Technical Curiosity", key:"curiosity",  color:"#059669", icon:"🔍"},
-    {label:"Learning Commitment", key:"commitment", color:"#D946EF", icon:"📚"},
-    {label:"Persistence Level",   key:"persistence",color:"#EA580C", icon:"💪"},
-    {label:"Academic Readiness",  key:"academic",   color: "#7C3AED", icon:"🎓"},
-    {label:"Financial Capacity",  key:"financial",  color: "#0D9488", icon:"💰"},
-  ];
+  const verdictDesc = `An analysis of your answers reveals an exceptional natural alignment in **${primaryStrength.label}** (${scores[primaryStrength.id]}%) and **${secondaryStrength.label}** (${scores[secondaryStrength.id]}%), which are core cognitive indicators of success for a career as a **${careerData?.label || "specialist"}**. Specifically, your top performance in **${primaryStrength.label}** shows you naturally possess the reasoning style required to excel in this domain. To optimize this path, you should focus on strengthening your **${primaryGrowth.label}** (${scores[primaryGrowth.id]}%), which is currently your primary area for growth. The personalized learning roadmap is dynamically configured to support you in this progression.`;
+
+  // Radar Chart Projection Setup
+  const cx = 170;
+  const cy = 170;
+  const r = 105;
+  const N = 7;
+  const angleStep = (2 * Math.PI) / N;
+  const levels = [0.2, 0.4, 0.6, 0.8, 1.0];
+
+  const userPointsStr = categoriesList.map((cat, idx) => {
+    const val = scores[cat.id] / 100;
+    const x = cx + r * val * Math.cos(idx * angleStep - Math.PI / 2);
+    const y = cy + r * val * Math.sin(idx * angleStep - Math.PI / 2);
+    return `${x},${y}`;
+  }).join(" ");
+
+  const focusedCategoryDetails = categoryDetails[focusedCat];
+  const focusedCategoryLabel = getScoreLabel(scores[focusedCat]);
+  let focusedCategoryAdvice = focusedCategoryDetails.needsImprovementAdvice;
+  if (scores[focusedCat] >= 70) {
+    focusedCategoryAdvice = focusedCategoryDetails.strongAdvice;
+  } else if (scores[focusedCat] >= 45) {
+    focusedCategoryAdvice = focusedCategoryDetails.moderateAdvice;
+  }
 
   return (
     <div style={S.resultWrap}>
@@ -1695,10 +1819,10 @@ function ResultPage({ career, answers, setPage, theme }) {
             boxShadow: `0 8px 24px rgba(79, 70, 229, 0.08)`,
             margin: "0 auto 12px"
           }}>
-            <span style={{ fontSize: "38px", fontWeight: 800, color: "#0F172A", fontFamily: "'Space Grotesk', sans-serif" }}>{overall}</span>
+            <span style={{ fontSize: "38px", fontWeight: 800, color: "#0F172A", fontFamily: "'Space Grotesk', sans-serif" }}>{overall}%</span>
             <span style={{ fontSize: "10px", color: S.dim_v, fontWeight: 600, letterSpacing: "0.5px", textTransform: "uppercase" }}>Fit Score</span>
           </div>
-          <div style={{ fontSize: "12px", color: S.dim_v, fontWeight: 500 }}>Min: {minScore} | Max: {maxScore}</div>
+          <div style={{ fontSize: "12px", color: S.dim_v, fontWeight: 500 }}>Min: {minScore}% | Max: {maxScore}%</div>
         </div>
         
         <div style={{
@@ -1710,16 +1834,243 @@ function ResultPage({ career, answers, setPage, theme }) {
           borderLeft: `5px solid ${verdictColor}`
         }}>
           <div style={{ color: verdictColor, fontWeight: 800, fontSize: "20px", marginBottom: "8px" }}>{verdict}</div>
-          <p style={{ color: S.muted_v, fontSize: "14.5px", lineHeight: 1.7, margin: 0 }}>{verdictDesc}</p>
+          <p style={{ color: S.muted_v, fontSize: "14.5px", lineHeight: 1.7, margin: 0 }}>
+            {verdictDesc.split("**").map((part, i) => i % 2 === 1 ? <strong key={i} style={{ color: "#0F172A" }}>{part}</strong> : part)}
+          </p>
         </div>
       </div>
 
-      {/* 7 Score Bars */}
-      <div style={{...S.resultCard,marginBottom:"20px"}}>
-        <div style={S.resultCardTitle}>📊 Detailed Score Breakdown</div>
-        {scoreCategories.map(sc=>(
-          <ScoreBar key={sc.key} label={sc.label} score={scores[sc.key]} color={sc.color} icon={sc.icon}/>
-        ))}
+      {/* Analytics & Profile Chart Card */}
+      <div style={{ ...S.resultCard, marginBottom: "20px" }}>
+        <div style={S.resultCardTitle}>📊 Score Analytics & Dimension Profile</div>
+        <p style={{ margin: "0 0 20px 0", fontSize: "13.5px", color: S.muted_v, lineHeight: 1.6 }}>
+          Click on any axis node on the radar chart or select a category below to inspect your detailed dimension feedback and personalized recommendations.
+        </p>
+
+        <div style={{
+          display: "flex",
+          flexDirection: "row",
+          flexWrap: "wrap",
+          gap: "28px",
+          alignItems: "center",
+          justifyContent: "center"
+        }}>
+          {/* Radar Chart Column */}
+          <div style={{
+            flex: "1 1 320px",
+            maxWidth: "360px",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            position: "relative"
+          }}>
+            <svg viewBox="0 0 340 340" style={{ width: "100%", height: "auto" }}>
+              {/* background grids */}
+              {levels.map((lvl, lIdx) => {
+                const lvlPoints = categoriesList.map((cat, cIdx) => {
+                  const x = cx + r * lvl * Math.cos(cIdx * angleStep - Math.PI / 2);
+                  const y = cy + r * lvl * Math.sin(cIdx * angleStep - Math.PI / 2);
+                  return `${x},${y}`;
+                }).join(" ");
+                return (
+                  <polygon
+                    key={lIdx}
+                    points={lvlPoints}
+                    fill="none"
+                    stroke="#ECEFF1"
+                    strokeWidth="1.2"
+                  />
+                );
+              })}
+              {/* axis lines */}
+              {categoriesList.map((cat, cIdx) => {
+                const endX = cx + r * Math.cos(cIdx * angleStep - Math.PI / 2);
+                const endY = cy + r * Math.sin(cIdx * angleStep - Math.PI / 2);
+                return (
+                  <line
+                    key={cIdx}
+                    x1={cx}
+                    y1={cy}
+                    x2={endX}
+                    y2={endY}
+                    stroke="#ECEFF1"
+                    strokeWidth="1.2"
+                  />
+                );
+              })}
+              {/* user score polygon */}
+              <polygon
+                points={userPointsStr}
+                fill="rgba(79, 70, 229, 0.08)"
+                stroke="#4F46E5"
+                strokeWidth="2.5"
+                strokeLinejoin="round"
+              />
+              {/* category label markers */}
+              {categoriesList.map((cat, cIdx) => {
+                const angle = cIdx * angleStep - Math.PI / 2;
+                const labelX = cx + (r + 18) * Math.cos(angle);
+                const labelY = cy + (r + 14) * Math.sin(angle) + 4;
+                const cos = Math.cos(angle);
+                const textAnchor = cos > 0.15 ? "start" : cos < -0.15 ? "end" : "middle";
+                const isFocused = focusedCat === cat.id;
+
+                return (
+                  <text
+                    key={cat.id}
+                    x={labelX}
+                    y={labelY}
+                    textAnchor={textAnchor}
+                    onClick={() => setFocusedCat(cat.id)}
+                    style={{
+                      fontSize: "11px",
+                      fontWeight: 700,
+                      fill: isFocused ? "#4F46E5" : "#64748B",
+                      cursor: "pointer",
+                      fontFamily: "'Space Grotesk', sans-serif",
+                      transition: "fill 0.2s"
+                    }}
+                  >
+                    {cat.icon} {cat.shortLabel}
+                  </text>
+                );
+              })}
+              {/* data point circles */}
+              {categoriesList.map((cat, cIdx) => {
+                const angle = cIdx * angleStep - Math.PI / 2;
+                const val = scores[cat.id] / 100;
+                const pX = cx + r * val * Math.cos(angle);
+                const pY = cy + r * val * Math.sin(angle);
+                const isFocused = focusedCat === cat.id;
+
+                return (
+                  <circle
+                    key={cat.id}
+                    cx={pX}
+                    cy={pY}
+                    r={isFocused ? "6.5" : "4.5"}
+                    fill={isFocused ? "#3B82F6" : "#4F46E5"}
+                    stroke="#FFFFFF"
+                    strokeWidth="1.8"
+                    onClick={() => setFocusedCat(cat.id)}
+                    style={{
+                      cursor: "pointer",
+                      transition: "all 0.2s ease-in-out"
+                    }}
+                  />
+                );
+              })}
+            </svg>
+          </div>
+
+          {/* Categories Selector Column */}
+          <div style={{
+            flex: "1 1 320px",
+            display: "flex",
+            flexDirection: "column",
+            gap: "10px",
+            width: "100%"
+          }}>
+            {categoriesList.map((cat) => {
+              const score = scores[cat.id];
+              const labelInfo = getScoreLabel(score);
+              const isFocused = focusedCat === cat.id;
+
+              return (
+                <div
+                  key={cat.id}
+                  onClick={() => setFocusedCat(cat.id)}
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    padding: "12px 16px",
+                    borderRadius: "14px",
+                    border: `1.5px solid ${isFocused ? "#4F46E5" : "#E2E8F0"}`,
+                    background: isFocused ? "rgba(79, 70, 229, 0.03)" : "#ffffff",
+                    cursor: "pointer",
+                    transition: "all 0.2s cubic-bezier(0.16, 1, 0.3, 1)",
+                    boxShadow: isFocused ? "0 4px 12px rgba(79, 70, 229, 0.04)" : "none"
+                  }}
+                >
+                  <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+                    <span style={{ fontSize: "20px" }}>{cat.icon}</span>
+                    <div>
+                      <div style={{ fontWeight: 700, fontSize: "14.5px", color: "#0F172A" }}>{cat.label}</div>
+                      <span style={{
+                        display: "inline-block",
+                        fontSize: "10px",
+                        fontWeight: 700,
+                        padding: "2px 8px",
+                        borderRadius: "99px",
+                        background: labelInfo.bg,
+                        color: labelInfo.color,
+                        border: `1px solid ${labelInfo.border}`,
+                        marginTop: "4px"
+                      }}>
+                        {labelInfo.text}
+                      </span>
+                    </div>
+                  </div>
+                  <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+                    <DonutRing score={score} color={cat.color} size={50} />
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Selected Dimension Detail Card */}
+        {focusedCategoryDetails && (
+          <div style={{
+            background: "#F8FAFC",
+            border: `1.5px solid ${S.cardBorder_v}`,
+            borderRadius: "16px",
+            padding: "20px",
+            marginTop: "24px",
+            boxShadow: "0 2px 8px rgba(0, 0, 0, 0.01)",
+            transition: "all 0.3s ease-in-out"
+          }}>
+            <div style={{ display: "flex", alignItems: "center", justifyContext: "space-between", flexWrap: "wrap", gap: "12px", marginBottom: "12px" }}>
+              <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                <span style={{ fontSize: "26px" }}>{focusedCategoryDetails.icon}</span>
+                <div>
+                  <h4 style={{ margin: 0, fontSize: "16px", fontWeight: 800, color: "#0F172A" }}>
+                    {focusedCategoryDetails.name} Alignment
+                  </h4>
+                  <p style={{ margin: "2px 0 0 0", fontSize: "12.5px", color: S.dim_v }}>
+                    {focusedCategoryDetails.desc}
+                  </p>
+                </div>
+              </div>
+              
+              <div style={{
+                fontSize: "12px",
+                fontWeight: 700,
+                padding: "4px 12px",
+                borderRadius: "99px",
+                background: focusedCategoryLabel.bg,
+                color: focusedCategoryLabel.color,
+                border: `1px solid ${focusedCategoryLabel.border}`
+              }}>
+                {focusedCategoryLabel.text} — {scores[focusedCat]}%
+              </div>
+            </div>
+
+            <div style={{
+              background: "#ffffff",
+              border: `1px solid ${S.cardBorder_v}`,
+              borderRadius: "12px",
+              padding: "16px",
+              fontSize: "13.5px",
+              color: S.muted_v,
+              lineHeight: 1.6
+            }}>
+              📋 <strong>Personalized Recommendation:</strong> {focusedCategoryAdvice}
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Financial Analysis */}
@@ -1734,100 +2085,9 @@ function ResultPage({ career, answers, setPage, theme }) {
           ].map(([label,val])=>(
             <div key={label} style={{background:"#f8fafc",border:`1px solid ${S.cardBorder_v}`,borderRadius:"10px",padding:"12px"}}>
               <div style={{fontSize:"11px",color:S.dim_v,marginBottom:"4px"}}>{label}</div>
-              <div style={{fontWeight:700,fontSize:"13px",color:"#0f172a"}}>₹{val}</div>
+              <div style={{fontWeight:700,fontSize:"13px",color:"#0f172a"}}>{val && val.startsWith("₹") ? val : (val ? `₹${val}` : "N/A")}</div>
             </div>
           ))}
-        </div>
-        <div style={{
-          background: "rgba(13, 148, 136, 0.04)",
-          border: "1px solid rgba(13, 148, 136, 0.15)",
-          borderRadius: "12px",
-          padding: "16px",
-          fontSize: "13.5px",
-          color: S.muted_v,
-          display: "flex",
-          alignItems: "center",
-          gap: "10px",
-          marginTop: "16px"
-        }}>
-          <span style={{ fontSize: "18px" }}>💡</span>
-          <div>
-            Financial Capacity Score: <strong style={{
-              color: scores.financial >= 70 ? "#059669" : scores.financial >= 45 ? "#D97706" : "#DC2626"
-            }}>{scores.financial}%</strong>
-            {scores.financial < 50 
-              ? " — We recommend exploring government colleges, direct admission schemes, and applying for the scholarship options listed below." 
-              : " — Your budget parameters align well with the expectations for this career path."}
-          </div>
-        </div>
-      </div>
-
-      {/* Scholarships */}
-      <div style={{...S.resultCard, marginBottom: "20px"}}>
-        <div style={S.resultCardTitle}>🎓 Potential Scholarship Opportunities & Benefits</div>
-        
-        <div style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
-          gap: "20px"
-        }}>
-          <div style={{
-            background: "#F8FAFC",
-            border: `1.5px solid ${S.cardBorder_v}`,
-            borderRadius: "14px",
-            padding: "18px"
-          }}>
-            <div style={{ fontWeight: 700, fontSize: "14px", color: "#7C3AED", marginBottom: "12px", display: "flex", alignItems: "center", gap: "6px" }}>
-              <span>🌐</span> General Scholarships
-            </div>
-            {SCHOLARSHIPS.general.map(sc => (
-              <div key={sc} style={{ fontSize: "13px", color: S.muted_v, marginBottom: "8px", lineHeight: 1.5, display: "flex", alignItems: "flex-start", gap: "6px" }}>
-                <span style={{ color: "#7C3AED" }}>•</span>
-                <span>{sc}</span>
-              </div>
-            ))}
-          </div>
-          
-          <div style={{
-            background: "#F8FAFC",
-            border: `1.5px solid ${S.cardBorder_v}`,
-            borderRadius: "14px",
-            padding: "18px"
-          }}>
-            <div style={{ fontWeight: 700, fontSize: "14px", color: "#0284c7", marginBottom: "12px", display: "flex", alignItems: "center", gap: "6px" }}>
-              <span>🏛️</span> Government Scholarships
-            </div>
-            {SCHOLARSHIPS.govt.map(sc => (
-              <div key={sc} style={{ fontSize: "13px", color: S.muted_v, marginBottom: "8px", lineHeight: 1.5, display: "flex", alignItems: "flex-start", gap: "6px" }}>
-                <span style={{ color: "#0284c7" }}>•</span>
-                <span>{sc}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-        
-        <div style={{
-          marginTop: "20px",
-          background: "rgba(219, 39, 119, 0.03)",
-          border: "1px solid rgba(219, 39, 119, 0.15)",
-          borderRadius: "14px",
-          padding: "20px"
-        }}>
-          <div style={{ fontWeight: 700, fontSize: "14px", color: "#db2777", marginBottom: "10px", display: "flex", alignItems: "center", gap: "6px" }}>
-            <span>👩</span> Scholarships & Fee Concessions Specially for Girls
-          </div>
-          <div style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
-            gap: "10px"
-          }}>
-            {SCHOLARSHIPS.girls.map(sc => (
-              <div key={sc} style={{ fontSize: "13px", color: S.muted_v, lineHeight: 1.5, display: "flex", alignItems: "flex-start", gap: "6px" }}>
-                <span style={{ color: "#db2777" }}>•</span>
-                <span>{sc}</span>
-              </div>
-            ))}
-          </div>
         </div>
       </div>
 
