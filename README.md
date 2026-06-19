@@ -2,7 +2,7 @@
 
 **Live Site:** [https://meraki-path.onrender.com](https://meraki-path.onrender.com)
 
-[![Deploy to Render](https://render.com/images/deploy-to-render.svg)](https://render.com/deploy?repo=https://github.com/shruti053/Meraki-Path)
+[![Deploy to Render](https://render.com/images/deploy-to-render.svg)](https://render.com/deploy?repo=https://github.com/shruti053/Career-counselling)
 
 **Mindstix** is an AI-powered career evaluation platform that helps students assess their alignment with 17 different career paths across Science, Commerce, and Arts using a 6-category assessment. It provides an encouraging, AI-personalized 4-month preparation roadmap with curated educational resources.
 
