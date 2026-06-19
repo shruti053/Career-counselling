@@ -585,7 +585,17 @@ function Navbar({ setPage, theme }) {
   const S = s(theme);
   return (
     <nav style={S.nav}>
-      <div style={S.logo}>Mindstix</div>
+      <div
+        style={{ ...S.logo, display: "flex", alignItems: "center", gap: "8px", cursor: "pointer" }}
+        onClick={() => setPage("home")}
+      >
+        <img
+          src="/logo.png"
+          alt="Mindstix logo"
+          style={{ height: "36px", width: "auto", objectFit: "contain" }}
+        />
+        <span>Mindstix</span>
+      </div>
       <div style={S.navLinks}>
         {["home","careers","about"].map(p=>(
           <button 
@@ -2702,8 +2712,11 @@ export default function App() {
         }}>
           {/* Brand column */}
           <div>
-            <div style={{ fontSize: "22px", fontWeight: 800, color: "#F1F5F9", marginBottom: "12px", letterSpacing: "-0.5px" }}>
-              Mindstix
+            <div style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "12px" }}>
+              <img src="/logo.png" alt="Mindstix logo" style={{ height: "40px", width: "auto", objectFit: "contain", filter: "brightness(1.1)" }} />
+              <div style={{ fontSize: "22px", fontWeight: 800, color: "#F1F5F9", letterSpacing: "-0.5px" }}>
+                Mindstix
+              </div>
             </div>
             <p style={{ fontSize: "13.5px", lineHeight: 1.75, color: "#64748B", marginBottom: "20px", maxWidth: "240px" }}>
               Empowering students across India with evidence-based career intelligence, AI-driven roadmaps, and real financial insights — completely free.
