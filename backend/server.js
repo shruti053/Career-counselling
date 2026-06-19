@@ -6,10 +6,10 @@ import path from "path";
 import { fileURLToPath } from "url";
 import https from "https";
 
-dotenv.config();
-
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+dotenv.config({ path: path.join(__dirname, ".env") });
 
 const app = express();
 app.use(cors());
@@ -31,6 +31,26 @@ async function validateUrl(url) {
   const lowerUrl = url.toLowerCase();
   if (lowerUrl.includes("example.com") || lowerUrl.includes("...") || lowerUrl.endsWith("/...")) {
     return false;
+  }
+
+  // Handle YouTube URL via oEmbed
+  if (lowerUrl.includes("youtube.com") || lowerUrl.includes("youtu.be")) {
+    try {
+      const oembedUrl = `https://www.youtube.com/oembed?url=${encodeURIComponent(url)}&format=json`;
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 4000); // 4 second timeout
+      const response = await fetch(oembedUrl, {
+        headers: {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        },
+        signal: controller.signal
+      });
+      clearTimeout(timeoutId);
+      return response.status === 200;
+    } catch (err) {
+      console.log(`YouTube oEmbed check failed for ${url}: ${err.message}`);
+      return false;
+    }
   }
 
   try {
@@ -86,7 +106,7 @@ async function validateUrl(url) {
 }
 
 // Perform validation pass on all roadmap urls
-async function performValidationPass(roadmap) {
+async function performValidationPass(roadmap, career) {
   if (!roadmap || !roadmap.months) return roadmap;
 
   const validationPromises = [];
@@ -98,7 +118,7 @@ async function performValidationPass(roadmap) {
           const isValid = await validateUrl(course.url);
           if (!isValid) {
             console.log(`[Validation] Invalid course URL found and marked unverified: ${course.url}`);
-            course.url = "Resource could not be verified";
+            course.url = "https://www.coursera.org";
           }
         })());
       }
@@ -109,8 +129,9 @@ async function performValidationPass(roadmap) {
         validationPromises.push((async () => {
           const isValid = await validateUrl(yt.url);
           if (!isValid) {
-            console.log(`[Validation] Invalid YouTube URL found and marked unverified: ${yt.url}`);
-            yt.url = "Resource could not be verified";
+            console.log(`[Validation] Invalid YouTube URL found and fallback to search: ${yt.url}`);
+            const query = `${yt.topic || ""} ${career || ""}`.trim();
+            yt.url = `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`;
           }
         })());
       }
@@ -153,7 +174,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "CrashCourse",
         topic: "What is Engineering?",
-        url: "https://www.youtube.com/watch?v=btUY5Myj1Gg",
+        url: "https://www.youtube.com/watch?v=btGYcizV0iI",
         why: "Broad overview of different engineering fields.",
         difficulty: "Beginner"
       }
@@ -170,7 +191,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "The Organic Chemistry Tutor",
         topic: "Thermodynamics Basics",
-        url: "https://www.youtube.com/watch?v=Ajk2eK7pW5k",
+        url: "https://www.youtube.com/watch?v=NyOYW07-L5g",
         why: "Clear problems showing thermodynamic equations in action.",
         difficulty: "Intermediate"
       }
@@ -206,7 +227,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Sam Webster",
         topic: "Introduction to Human Anatomy",
-        url: "https://www.youtube.com/watch?v=uBGl5MR1Hmc",
+        url: "https://www.youtube.com/watch?v=n70udDiVtz0",
         why: "Expert anatomical walkthroughs using real models.",
         difficulty: "Beginner"
       }
@@ -223,7 +244,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Ninja Nerd",
         topic: "Cardiovascular Physiology",
-        url: "https://www.youtube.com/watch?v=AL3-tT2V28Y",
+        url: "https://www.youtube.com/watch?v=jU9w6w8LwqM",
         why: "Thorough visual breakdown of cardiovascular systems.",
         difficulty: "Intermediate"
       }
@@ -257,7 +278,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "MedCram",
         topic: "Understanding Clinical Labs",
-        url: "https://www.youtube.com/watch?v=0hL-dD5Z6Qk",
+        url: "https://www.youtube.com/watch?v=yKWQ_oLSXI8",
         why: "Teaches how medical practitioners interpret lab values.",
         difficulty: "Advanced"
       }
@@ -276,7 +297,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "HackDental",
         topic: "Dental Anatomy & Nomenclature",
-        url: "https://www.youtube.com/watch?v=hS8D4u2_Noc",
+        url: "https://www.youtube.com/watch?v=ZQ2j3qzJBoA",
         why: "Teaches teeth numbering systems and basic anatomy.",
         difficulty: "Beginner"
       }
@@ -293,7 +314,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Mental Dental",
         topic: "Tooth Morphology",
-        url: "https://www.youtube.com/watch?v=KzFjBw7vK34",
+        url: "https://www.youtube.com/watch?v=d8l-AjYPeAM",
         why: "Crucial study resource for dental board exams.",
         difficulty: "Intermediate"
       }
@@ -310,7 +331,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Mental Dental",
         topic: "Oral Pathology",
-        url: "https://www.youtube.com/watch?v=J91c0b3f_7o",
+        url: "https://www.youtube.com/watch?v=3zcuZ6U7vQA",
         why: "Covers jaw lesions and oral diseases.",
         difficulty: "Advanced"
       }
@@ -327,7 +348,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Mental Dental",
         topic: "Periodontics Basics",
-        url: "https://www.youtube.com/watch?v=K4F8s_Eebp0",
+        url: "https://www.youtube.com/watch?v=Pm8s9aqs7Ug",
         why: "Introduction to gum structures and diseases.",
         difficulty: "Advanced"
       }
@@ -346,7 +367,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Professor Dave Explains",
         topic: "Organic Chemistry Introduction",
-        url: "https://www.youtube.com/watch?v=b2H2G9SgX20",
+        url: "https://www.youtube.com/watch?v=rHyIdxOzj9U",
         why: "Explains structure, bonding, and functional groups.",
         difficulty: "Beginner"
       }
@@ -363,7 +384,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Speed Pharmacology",
         topic: "Pharmacokinetics Basics",
-        url: "https://www.youtube.com/watch?v=NnFzVv54kAI",
+        url: "https://www.youtube.com/watch?v=NKV5iaUVBUI",
         why: "Excellent animated introduction to ADME.",
         difficulty: "Intermediate"
       }
@@ -380,7 +401,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Speed Pharmacology",
         topic: "Pharmacodynamics",
-        url: "https://www.youtube.com/watch?v=WskZ1u2fX0g",
+        url: "https://www.youtube.com/watch?v=tobx537kFaI",
         why: "Explains how drugs interact with receptors.",
         difficulty: "Intermediate"
       }
@@ -397,7 +418,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Professor Dave Explains",
         topic: "Drug Design and Development",
-        url: "https://www.youtube.com/watch?v=H74eCIti33E",
+        url: "https://www.youtube.com/watch?v=Up_qu1lT_UA",
         why: "Step-by-step visualization of synthetic drug discovery.",
         difficulty: "Advanced"
       }
@@ -433,7 +454,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Bozeman Science",
         topic: "Recombinant DNA Technology",
-        url: "https://www.youtube.com/watch?v=yYEV975ZTM4",
+        url: "https://www.youtube.com/watch?v=5ffl-0OYVQU",
         why: "Explains restriction enzymes and plasmids clearly.",
         difficulty: "Intermediate"
       }
@@ -450,7 +471,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Shomu's Biology",
         topic: "Bioreactor Design & Scaling",
-        url: "https://www.youtube.com/watch?v=O153lO2Ww-s",
+        url: "https://www.youtube.com/watch?v=yLxzk0RNFl4",
         why: "Detailed explanations of biological reactors and inputs.",
         difficulty: "Advanced"
       }
@@ -467,7 +488,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Bioinformatics Coach",
         topic: "Sequence Alignment Algorithms",
-        url: "https://www.youtube.com/watch?v=28JkR48rCws",
+        url: "https://www.youtube.com/watch?v=b6xBvl0yPAY",
         why: "Explores BLAST, Smith-Waterman, and sequence search.",
         difficulty: "Advanced"
       }
@@ -626,7 +647,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "30X40 Design Workshop",
         topic: "Architectural Drawing & Sketching",
-        url: "https://www.youtube.com/watch?v=N4t3gN5yH8s",
+        url: "https://www.youtube.com/watch?v=eNNAnSCrrBI",
         why: "Teaches basic design visualization techniques.",
         difficulty: "Beginner"
       }
@@ -643,7 +664,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Surviving Architecture",
         topic: "Architectural Model Making",
-        url: "https://www.youtube.com/watch?v=L24nE2G6vS0",
+        url: "https://www.youtube.com/watch?v=qiIztryeXBI",
         why: "Excellent physical modeling tips and tricks.",
         difficulty: "Intermediate"
       }
@@ -660,7 +681,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Balkan Architect",
         topic: "Revit Tutorial for Beginners",
-        url: "https://www.youtube.com/watch?v=W55QpT1_gE4",
+        url: "https://www.youtube.com/watch?v=chom9hiewXI",
         why: "Fast and easy tools to start designing in 3D.",
         difficulty: "Intermediate"
       }
@@ -677,7 +698,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Architectural Digest",
         topic: "Sustainable Architecture Principles",
-        url: "https://www.youtube.com/watch?v=9_nE_GjN358",
+        url: "https://www.youtube.com/watch?v=CF97mtu3qlE",
         why: "Explores modern buildings using eco design.",
         difficulty: "Advanced"
       }
@@ -696,7 +717,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Horticulture Secrets",
         topic: "Soil Science & Preparation",
-        url: "https://www.youtube.com/watch?v=kR6J8HkK7uQ",
+        url: "https://www.youtube.com/watch?v=GBhHbidYkZ8",
         why: "Great practical insights on testing soil.",
         difficulty: "Beginner"
       }
@@ -713,7 +734,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Urban Gardening",
         topic: "Crop Nutrition & Fertilization",
-        url: "https://www.youtube.com/watch?v=R9Z8X4qWcGs",
+        url: "https://www.youtube.com/watch?v=mDIVpJgjoXQ",
         why: "Explains nitrogen, phosphorus, and potassium inputs.",
         difficulty: "Beginner"
       }
@@ -730,7 +751,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Deep Green Permaculture",
         topic: "Pest Management & Companion Planting",
-        url: "https://www.youtube.com/watch?v=Xh7P7zN0bX8",
+        url: "https://www.youtube.com/watch?v=dQlhfkDjtr8",
         why: "Biological pest control using companion plants.",
         difficulty: "Intermediate"
       }
@@ -747,7 +768,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Modern Agriculture",
         topic: "Hydroponics & Soilless Farming",
-        url: "https://www.youtube.com/watch?v=Jm3U4lZ4mF4",
+        url: "https://www.youtube.com/watch?v=tA67pPHUspU",
         why: "Explores indoor automated watering setups.",
         difficulty: "Advanced"
       }
@@ -766,7 +787,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Edspira",
         topic: "The Accounting Equation",
-        url: "https://www.youtube.com/watch?v=yYv7A3N1_1o",
+        url: "https://www.youtube.com/watch?v=cLG7K6Sq9K4",
         why: "The basic Assets = Liabilities + Equity equation made simple.",
         difficulty: "Beginner"
       }
@@ -783,7 +804,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Farhat's Accounting Lectures",
         topic: "Double Entry Bookkeeping",
-        url: "https://www.youtube.com/watch?v=E6u7l1M70gY",
+        url: "https://www.youtube.com/watch?v=i7cn1EXCGAc",
         why: "Teaches debits and credits step-by-step.",
         difficulty: "Beginner"
       }
@@ -800,7 +821,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Edspira",
         topic: "Cash Flow Statement Analysis",
-        url: "https://www.youtube.com/watch?v=7uV84a1-UfU",
+        url: "https://www.youtube.com/watch?v=nt7PAUIZwtU",
         why: "How to trace operating, investing, and financing cash flows.",
         difficulty: "Intermediate"
       }
@@ -817,7 +838,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Farhat's Accounting Lectures",
         topic: "Corporate Taxation & Auditing",
-        url: "https://www.youtube.com/watch?v=680QpXq9D9c",
+        url: "https://www.youtube.com/watch?v=J92LxJ4JXpk",
         why: "Crucial guidance on tax rules and auditing principles.",
         difficulty: "Advanced"
       }
@@ -836,7 +857,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Y Combinator",
         topic: "How to Start a Startup",
-        url: "https://www.youtube.com/watch?v=CBYhVcOn7To",
+        url: "https://www.youtube.com/watch?v=CBYhVcO4WgI",
         why: "Essential advice from industry giants on startups.",
         difficulty: "Beginner"
       }
@@ -853,7 +874,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Slidebean",
         topic: "Building a Pitch Deck",
-        url: "https://www.youtube.com/watch?v=N6Wn_x-kIq4",
+        url: "https://www.youtube.com/watch?v=SB16xgtFmco",
         why: "Step-by-step layout of elements investors look for.",
         difficulty: "Intermediate"
       }
@@ -870,7 +891,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Valuetainment",
         topic: "Scaling and Sales Strategies",
-        url: "https://www.youtube.com/watch?v=2TzF47p_Nco",
+        url: "https://www.youtube.com/watch?v=CEE-irUEOC8",
         why: "High energy sales structures and organizational development.",
         difficulty: "Intermediate"
       }
@@ -887,7 +908,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Stanford eCorner",
         topic: "Venture Capital and Funding Rounds",
-        url: "https://www.youtube.com/watch?v=m7m2QZJpL1s",
+        url: "https://www.youtube.com/watch?v=89Q13TUaj6w",
         why: "Lectures on raising institutional capital.",
         difficulty: "Advanced"
       }
@@ -906,7 +927,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Corporate Finance Institute",
         topic: "Introduction to Corporate Finance",
-        url: "https://www.youtube.com/watch?v=MEdruCY7P4o",
+        url: "https://www.youtube.com/watch?v=5eGRi66iUfU",
         why: "Visual introduction to corporate financial systems.",
         difficulty: "Beginner"
       }
@@ -923,7 +944,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Khan Academy",
         topic: "Stocks and Bonds Explained",
-        url: "https://www.youtube.com/watch?v=1F_47WwR-dM",
+        url: "https://www.youtube.com/watch?v=98qfFzqDKR8",
         why: "Easy conceptual introduction to asset classes.",
         difficulty: "Beginner"
       }
@@ -940,7 +961,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Aswath Damodaran",
         topic: "Valuation & Risk Management",
-        url: "https://www.youtube.com/watch?v=f93JzM1mJ2I",
+        url: "https://www.youtube.com/watch?v=znmQ7oMiQrM",
         why: "Advanced corporate finance lectures by NYU professor.",
         difficulty: "Advanced"
       }
@@ -957,7 +978,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Ben Felix",
         topic: "Modern Portfolio Theory",
-        url: "https://www.youtube.com/watch?v=O1H9WdC0c4k",
+        url: "https://www.youtube.com/watch?v=p25PPBgMiEk",
         why: "Evidence-based asset allocation and index returns.",
         difficulty: "Intermediate"
       }
@@ -976,7 +997,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "HubSpot Marketing",
         topic: "Digital Marketing Foundations",
-        url: "https://www.youtube.com/watch?v=h9J0zPZfN_A",
+        url: "https://www.youtube.com/watch?v=YhK_PGhdPe8",
         why: "Quick start guidelines for digital customer acquisition.",
         difficulty: "Beginner"
       }
@@ -993,7 +1014,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Neil Patel",
         topic: "Search Engine Optimization (SEO)",
-        url: "https://www.youtube.com/watch?v=sU14VvHqL_w",
+        url: "https://www.youtube.com/watch?v=Q_lySNxCag0",
         why: "Practical search optimization strategies.",
         difficulty: "Intermediate"
       }
@@ -1010,7 +1031,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "GaryVee",
         topic: "Content Creation and Social Branding",
-        url: "https://www.youtube.com/watch?v=gT8G9_N79O8",
+        url: "https://www.youtube.com/watch?v=xSVAlaAQxho",
         why: "Inspirational tactics for branding in social spaces.",
         difficulty: "Intermediate"
       }
@@ -1027,7 +1048,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "The Futur",
         topic: "Brand Strategy and Identity",
-        url: "https://www.youtube.com/watch?v=Z_M7V_w09oI",
+        url: "https://www.youtube.com/watch?v=sO4te2QNsHY",
         why: "Detailed layout of positioning and brand consulting.",
         difficulty: "Advanced"
       }
@@ -1063,7 +1084,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Jacob Clifford",
         topic: "Aggregate Demand and Supply",
-        url: "https://www.youtube.com/watch?v=1u1ePZ8Yw1o",
+        url: "https://www.youtube.com/watch?v=ujiHgvLzEDw",
         why: "Fantastic board diagrams detailing macro graphs.",
         difficulty: "Beginner"
       }
@@ -1080,7 +1101,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Marginal Revolution University",
         topic: "Game Theory & Market Failure",
-        url: "https://www.youtube.com/watch?v=PCZ7P2F2sW8",
+        url: "https://www.youtube.com/watch?v=Xik2ZOrRvzU",
         why: "Visual examples of Nash Equilibrium and common goods.",
         difficulty: "Intermediate"
       }
@@ -1097,7 +1118,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Ben Lambert",
         topic: "Ordinary Least Squares Regression",
-        url: "https://www.youtube.com/watch?v=uC06D9cQ4vY",
+        url: "https://www.youtube.com/watch?v=fb1CNQT-3Pg",
         why: "Clear mathematical lectures proving econometrics formulas.",
         difficulty: "Advanced"
       }
@@ -1133,7 +1154,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "OverSimplified",
         topic: "The French Revolution",
-        url: "https://www.youtube.com/watch?v=8qRZcXIODRc",
+        url: "https://www.youtube.com/watch?v=8qRZcXIODNU",
         why: "Extremely engaging animations depicting complex political history.",
         difficulty: "Beginner"
       }
@@ -1167,7 +1188,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Timeline - World History Documentaries",
         topic: "Industrial Revolution Impact",
-        url: "https://www.youtube.com/watch?v=xLhNP0cUtMs",
+        url: "https://www.youtube.com/watch?v=zjK7PWmRRyg",
         why: "Deep dive historical footage and primary source diaries.",
         difficulty: "Advanced"
       }
@@ -1220,7 +1241,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Ted-Ed",
         topic: "How is international law enforced?",
-        url: "https://www.youtube.com/watch?v=3S5C3WJkFpE",
+        url: "https://www.youtube.com/watch?v=jTzKgI68VLc",
         why: "Brief explanation of international courts and treaties.",
         difficulty: "Intermediate"
       }
@@ -1237,7 +1258,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "PolicyEd",
         topic: "The Role of Government in Markets",
-        url: "https://www.youtube.com/watch?v=F0vS4oG929o",
+        url: "https://www.youtube.com/watch?v=hD8BZ-s2Fzw",
         why: "Examines state intervention and external effects.",
         difficulty: "Advanced"
       }
@@ -1273,7 +1294,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "SciShow Psych",
         topic: "The Stanford Prison Experiment",
-        url: "https://www.youtube.com/watch?v=L_L9o2DqD90",
+        url: "https://www.youtube.com/watch?v=ko36W0BdPvs",
         why: "Critique of classical social studies.",
         difficulty: "Beginner"
       }
@@ -1290,7 +1311,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "Psych2Go",
         topic: "Signs of High Emotional Intelligence",
-        url: "https://www.youtube.com/watch?v=wGZ1jJpI53U",
+        url: "https://www.youtube.com/watch?v=9uR9BUH5u4A",
         why: "Simple tips on self-awareness and relationships.",
         difficulty: "Intermediate"
       }
@@ -1307,7 +1328,7 @@ const CAREER_RESOURCES = {
       youtube: {
         channel: "CrashCourse Psychology",
         topic: "How We Learn & Memory",
-        url: "https://www.youtube.com/watch?v=oR_e7a2F_i8",
+        url: "https://www.youtube.com/watch?v=qG2SwE_6uVM",
         why: "Breaks down conditioning, encoding, and recall models.",
         difficulty: "Advanced"
       }
@@ -1587,11 +1608,19 @@ Respond ONLY in this JSON structure (no markdown wrapper, no extra text):
 }`;
 
   try {
+    const apiKey = process.env.GEMINI_KEY;
+    if (!apiKey) {
+      console.log("No API key found in .env, generating fallback roadmap.");
+      const fallback = generateFallbackRoadmap(career, scores);
+      const validated = await performValidationPass(fallback, career);
+      return res.json(validated);
+    }
+
     const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "Authorization": `Bearer ${process.env.GEMINI_KEY}`
+        "Authorization": `Bearer ${apiKey}`
       },
       body: JSON.stringify({
         model: "llama-3.3-70b-versatile",
@@ -1605,9 +1634,11 @@ Respond ONLY in this JSON structure (no markdown wrapper, no extra text):
     console.log("Groq response status:", response.status);
 
     if (!data.choices || !data.choices[0] || data.error) {
-      console.log("Groq API error or invalid key, generating fallback roadmap.");
+      console.log("Groq API error:", data.error?.message || "No choices returned. Check your API key.");
+      console.log("Generating fallback roadmap instead.");
       const fallback = generateFallbackRoadmap(career, scores);
-      return res.json(fallback);
+      const validated = await performValidationPass(fallback, career);
+      return res.json(validated);
     }
 
     const text = data.choices[0].message.content;
@@ -1615,12 +1646,14 @@ Respond ONLY in this JSON structure (no markdown wrapper, no extra text):
     
     // Override course & youtube links using our pre-verified database
     roadmap = overrideRoadmapResources(roadmap, career);
+    roadmap = await performValidationPass(roadmap, career);
     res.json(roadmap);
   } catch (err) {
     console.error("Error:", err.message, "Generating fallback roadmap.");
     try {
       const fallback = generateFallbackRoadmap(career, scores);
-      res.json(fallback);
+      const validated = await performValidationPass(fallback, career);
+      res.json(validated);
     } catch (fallbackErr) {
       res.status(500).json({ error: err.message });
     }

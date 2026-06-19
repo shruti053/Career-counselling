@@ -3,7 +3,9 @@
 .dark  { --card: rgba(18, 10, 37, 0.75); --border: rgba(192, 132, 252, 0.15); }
 .light { --card: #ffffff;                 --border: #e2e8f0; }
 
-body { background: #05010F; transition: background 0.3s; }
+body { transition: background 0.3s; }
+body.dark { background: #080d1a; }
+body.light { background: #F8FAFC; }
 button:hover { opacity: 0.85; }
 
 /* ── PREMIUM DARK MODE ONLY STYLES ── */

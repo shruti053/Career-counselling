@@ -117,7 +117,7 @@ function s(theme) {
   return {
     app:{minHeight:"100vh",background:appBg,color:appColor,fontFamily:dark?"'Space Grotesk',sans-serif":"'Segoe UI',sans-serif",transition:"background .3s,color .3s"},
     nav:{display:"flex",alignItems:"center",justifyContent:"space-between",padding:"18px 40px",borderBottom:`1px solid ${cardBorder}`,background:navBg,position:"sticky",top:0,zIndex:100,backdropFilter:"blur(10px)",transition:"background .3s"},
-    logo:{fontSize:"20px",fontWeight:700,background:dark?"linear-gradient(90deg,#3B82F6,#2DD4BF)":"linear-gradient(90deg,#2563EB,#14B8A6)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent",letterSpacing:"-0.5px"},
+    logo:{fontSize:"20px",fontWeight:700,background:dark?"linear-gradient(90deg,#3B82F6,#2DD4BF)":"linear-gradient(90deg,#2563EB,#14B8A6)",WebkitBackgroundClip:"text",backgroundClip:"text",WebkitTextFillColor:"transparent",color:"transparent",display:"inline-block",letterSpacing:"-0.5px"},
     navLinks:{display:"flex",gap:"28px"},
     navLink:{background:"none",border:"none",color:muted,fontSize:"14px",fontWeight:dark?500:400,cursor:"pointer",fontFamily:"inherit"},
     navBtn:{background:dark?"#3B82F6":"#2563EB",border:"none",color:"#fff",padding:"9px 20px",borderRadius:dark?"15px":"8px",fontSize:"14px",fontWeight:dark?500:600,cursor:"pointer",fontFamily:"inherit",boxShadow:dark?"0 6px 20px rgba(139,92,246,0.25)":"none"},
@@ -125,33 +125,33 @@ function s(theme) {
     hero:{textAlign:"center",padding:"90px 24px 70px",background:heroBg},
     badge:{display:"inline-block",background:dark?"rgba(139,92,246,.12)":"rgba(56,189,248,.1)",border:dark?"1px solid rgba(59,130,246,.3)":"1px solid rgba(37,99,235,.3)",color:dark?"#2DD4BF":"#14B8A6",padding:"6px 16px",borderRadius:"999px",fontSize:"12px",fontWeight:600,letterSpacing:"1px",marginBottom:"28px",textTransform:"uppercase"},
     heroTitle:{fontSize:dark?"clamp(56px,6vw,64px)":"clamp(32px,5vw,60px)",fontWeight:700,lineHeight:1.1,marginBottom:"22px",letterSpacing:dark?"-0.02em":"-1.5px"},
-    heroHL:{background:dark?"linear-gradient(90deg,#3B82F6,#2DD4BF)":"linear-gradient(90deg,#2563EB,#14B8A6)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"},
+    heroHL:{background:dark?"linear-gradient(90deg,#3B82F6,#2DD4BF)":"linear-gradient(90deg,#2563EB,#14B8A6)",WebkitBackgroundClip:"text",backgroundClip:"text",WebkitTextFillColor:"transparent",color:"transparent",display:"inline-block"},
     heroSub:{maxWidth:"560px",margin:"0 auto 40px",color:muted,fontSize:dark?"16px":"17px",lineHeight:1.7,fontWeight:dark?400:400},
     heroBtns:{display:"flex",gap:"14px",justifyContent:"center",flexWrap:"wrap"},
     primaryBtn:{background:dark?"#3B82F6":"#2563EB",border:"none",color:"#fff",padding:"14px 32px",borderRadius:dark?"15px":"10px",fontSize:"16px",fontWeight:700,cursor:"pointer",fontFamily:"inherit",boxShadow:dark?"0 10px 30px rgba(139,92,246,0.30)":"none"},
     outlineBtn:{background:"transparent",border:`1px solid ${dark?"rgba(192,132,252,0.35)":"#94a3b8"}`,color:dark?"#D8B4FE":muted,padding:"14px 32px",borderRadius:dark?"15px":"10px",fontSize:"16px",cursor:"pointer",fontFamily:"inherit"},
     smallBtn:{background:dark?"linear-gradient(135deg,#8B5CF6,#A855F7)":"linear-gradient(135deg,#38bdf8,#6366f1)",border:"none",color:"#fff",padding:"10px 20px",borderRadius:dark?"15px":"8px",fontSize:"14px",fontWeight:600,cursor:"pointer",fontFamily:"inherit",boxShadow:dark?"0 6px 20px rgba(139,92,246,0.25)":"none"},
     statsRow:{display:"flex",justifyContent:"center",gap:"48px",padding:"32px 24px",flexWrap:"wrap",borderTop:`1px solid ${statsBorder}`,borderBottom:`1px solid ${statsBorder}`,background:statsBg},
-    statNum:{fontSize:"32px",fontWeight:800,background:dark?"linear-gradient(90deg,#3B82F6,#2DD4BF)":"linear-gradient(90deg,#2563EB,#14B8A6)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"},
+    statNum:{fontSize:"32px",fontWeight:800,background:dark?"linear-gradient(90deg,#3B82F6,#2DD4BF)":"linear-gradient(90deg,#2563EB,#14B8A6)",WebkitBackgroundClip:"text",backgroundClip:"text",WebkitTextFillColor:"transparent",color:"transparent",display:"inline-block"},
     statLabel:{fontSize:"13px",color:dim,marginTop:"4px"},
     section:{padding:"72px 24px"},
     sectionTitle:{textAlign:"center",fontSize:dark?"clamp(36px,4.5vw,40px)":"clamp(24px,4vw,38px)",fontWeight:700,marginBottom:"12px",letterSpacing:"-0.5px"},
     sectionSub:{textAlign:"center",color:dim,maxWidth:"560px",margin:"0 auto 48px",fontSize:"15px",lineHeight:1.7},
     careerGrid:{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(180px,1fr))",gap:"14px",maxWidth:"1100px",margin:"0 auto"},
-    careerCard:{background:card,border:dark?"1px solid rgba(192,132,252,0.15)":`2px solid ${cardBorder}`,borderRadius:"14px",padding:"20px 16px",cursor:"pointer",transition:"all 0.3s cubic-bezier(0.16, 1, 0.3, 1)",textAlign:"center",boxShadow:dark?"0 0 20px rgba(139,92,246,0.1)":"0 2px 10px rgba(0,0,0,.06)",backdropFilter:dark?"blur(20px)":"none"},
+    careerCard:{background:card,border:dark?"1px solid rgba(192,132,252,0.15)":`2px solid ${cardBorder}`,borderRadius:"14px",padding:"20px 16px",cursor:"pointer",transition:"all 0.3s cubic-bezier(0.16, 1, 0.3, 1)",textAlign:"center",boxShadow:dark?"0 0 20px rgba(139,92,246,0.1)":"0 2px 10px rgba(0,0,0,.06)"},
     careerCardActive:{background:dark?"rgba(24,16,50,0.85)":"rgba(56,189,248,.08)",borderColor:dark?"#A855F7":"#38bdf8",boxShadow:dark?"0 0 25px rgba(168,85,247,0.3)":"0 0 24px rgba(56,189,248,.15)",transform:"translateY(-4px)"},
     quizWrap:{maxWidth:"700px",margin:"0 auto",padding:"40px 24px"},
-    card:{background:card,border:dark?"1px solid rgba(192,132,252,0.15)":`1px solid ${cardBorder}`,borderRadius:"16px",padding:"28px",boxShadow:dark?"0 0 20px rgba(139,92,246,0.1)":"0 4px 20px rgba(0,0,0,.07)",backdropFilter:dark?"blur(20px)":"none"},
+    card:{background:card,border:dark?"1px solid rgba(192,132,252,0.15)":`1px solid ${cardBorder}`,borderRadius:"16px",padding:"28px",boxShadow:dark?"0 0 20px rgba(139,92,246,0.1)":"0 4px 20px rgba(0,0,0,.07)"},
     optionBtn:{display:"block",width:"100%",textAlign:"left",background:optBg,border:`1px solid ${optBorder}`,color:optColor,padding:"14px 18px",borderRadius:"10px",marginBottom:"10px",cursor:"pointer",fontFamily:"inherit",fontSize:"14px",transition:"all .15s"},
     optionCorrect:{background:dark?"rgba(34,197,94,.15)":"rgba(34,197,94,.1)",borderColor:"#22c55e",color:dark?"#4ade80":"#16a34a"},
     optionWrong:{background:dark?"rgba(239,68,68,.15)":"rgba(239,68,68,.1)",borderColor:"#ef4444",color:dark?"#f87171":"#dc2626"},
     progressBar:{height:"8px",background:cardBorder,borderRadius:"99px",overflow:"hidden"},
     progressFill:{height:"100%",background:dark?"linear-gradient(90deg,#8B5CF6,#A855F7)":"linear-gradient(90deg,#38bdf8,#6366f1)",borderRadius:"99px",transition:"width .4s ease"},
     resultWrap:{maxWidth:"900px",margin:"0 auto",padding:"40px 24px"},
-    resultCard:{background:card,border:dark?"1px solid rgba(192,132,252,0.15)":`1px solid ${cardBorder}`,borderRadius:"14px",padding:"22px",boxShadow:dark?"0 0 20px rgba(139,92,246,0.1)":"0 2px 12px rgba(0,0,0,.06)",backdropFilter:dark?"blur(20px)":"none"},
+    resultCard:{background:card,border:dark?"1px solid rgba(192,132,252,0.15)":`1px solid ${cardBorder}`,borderRadius:"14px",padding:"22px",boxShadow:dark?"0 0 20px rgba(139,92,246,0.1)":"0 2px 12px rgba(0,0,0,.06)"},
     resultCardTitle:{fontSize:"12px",color:dim,fontWeight:700,textTransform:"uppercase",letterSpacing:"1px",marginBottom:"12px"},
     roadmapWrap:{maxWidth:"860px",margin:"0 auto",padding:"40px 24px"},
-    monthCard:{background:card,border:dark?"1px solid rgba(192,132,252,0.15)":`1px solid ${cardBorder}`,borderRadius:"16px",padding:"28px",marginBottom:"20px",boxShadow:dark?"0 0 20px rgba(139,92,246,0.1)":"0 2px 14px rgba(0,0,0,.07)",backdropFilter:dark?"blur(20px)":"none"},
+    monthCard:{background:card,border:dark?"1px solid rgba(192,132,252,0.15)":`1px solid ${cardBorder}`,borderRadius:"16px",padding:"28px",marginBottom:"20px",boxShadow:dark?"0 0 20px rgba(139,92,246,0.1)":"0 2px 14px rgba(0,0,0,.07)"},
     tag:{display:"inline-block",padding:"3px 10px",borderRadius:"999px",fontSize:"12px",fontWeight:600,marginRight:"6px",marginBottom:"6px"},
     footer:{textAlign:"center",padding:"28px 24px",borderTop:`1px solid ${cardBorder}`,color:dim,fontSize:"13px",background:dark?"transparent":"#f8fafc"},
     card_v:card, cardBorder_v:cardBorder, muted_v:muted, dim_v:dim, dark_v:dark, optBg_v:optBg, optBorder_v:optBorder,
@@ -278,7 +278,7 @@ function calcScores(answers, career) {
   };
 }
 
-// ── GEMINI ROADMAP ────────────────────────────────────────────────────────────
+// ── MINDSTIX ROADMAP ──────────────────────────────────────────────────────────
 async function fetchRoadmap(career, scores) {
   const careerLabel = CAREERS.find(c => c.id === career)?.label || career;
 
@@ -318,9 +318,9 @@ function LandingPage({ setPage, theme }) {
   const dark = theme==="dark";
   const features = [
     {icon:"🔬",title:"9 Science Careers",desc:"Comprehensive coverage of all major science career paths in India."},
-    {icon:"📊",title:"6-Category Assessment",desc:"Aptitude, academic, financial, commitment, soft skills & expectations."},
+    {icon:"📊",title:"7-Dimensional Assessment",desc:"Analytical, Problem Solving, Curiosity, Commitment, Persistence, Academic & Financial parameters."},
     {icon:"💰",title:"Financial Reality Check",desc:"Real cost breakdown with govt vs private college fees, ROI analysis."},
-    {icon:"🗺️",title:"AI Personalized Roadmap",desc:"Gemini AI generates a custom 4-month plan based on your profile."},
+    {icon:"🗺️",title:"AI Personalized Roadmap",desc:"Mindstix AI generates a custom 4-month plan based on your profile."},
     {icon:"🎓",title:"Scholarship Finder",desc:"General, government & girl-specific scholarships all in one place."},
     {icon:"🔄",title:"Alternative Careers",desc:"If one path is tough, instantly discover better-suited alternatives."},
   ];
@@ -336,7 +336,7 @@ function LandingPage({ setPage, theme }) {
         </div>
       </section>
       <div style={S.statsRow}>
-        {[["17","Stream Careers"],["40","Assessment Questions"],["6","Score Categories"],["AI","Roadmap"]].map(([n,l])=>(
+        {[["17","Stream Careers"],["40","Assessment Questions"],["7","Scored Dimensions"],["AI","Roadmap"]].map(([n,l])=>(
           <div key={l} style={{textAlign:"center"}}><div style={S.statNum}>{n}</div><div style={S.statLabel}>{l}</div></div>
         ))}
       </div>
@@ -366,7 +366,7 @@ function LandingPage({ setPage, theme }) {
         <p style={S.sectionSub}>Comprehensive assessment of fit across multiple dimensions.</p>
         <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(240px,1fr))",gap:"18px",maxWidth:"1000px",margin:"0 auto"}}>
           {features.map(f=>(
-            <div key={f.title} className="elevated-card" style={{background:S.card_v,border:dark ? `1px solid rgba(192, 132, 252, 0.15)` : `1px solid ${S.cardBorder_v}`,borderRadius:"16px",padding:"24px",boxShadow:dark?"0 0 20px rgba(139,92,246,0.1)":"0 2px 12px rgba(0,0,0,.07)",backdropFilter:dark?"blur(20px)":"none"}}>
+            <div key={f.title} className="elevated-card" style={{background:S.card_v,border:dark ? `1px solid rgba(192, 132, 252, 0.15)` : `1px solid ${S.cardBorder_v}`,borderRadius:"16px",padding:"24px",boxShadow:dark?"0 0 20px rgba(139,92,246,0.1)":"0 2px 12px rgba(0,0,0,.07)"}}>
               <div style={{fontSize:"28px",marginBottom:"12px"}}>{f.icon}</div>
               <div style={{fontWeight:700,fontSize:"15px",marginBottom:"7px"}}>{f.title}</div>
               <div style={{color:S.dim_v,fontSize:"13px",lineHeight:1.6}}>{f.desc}</div>
@@ -1378,6 +1378,8 @@ function ResultPage({ career, answers, setPage, theme }) {
     {label:"Technical Curiosity", key:"curiosity",  color:"#4ade80", icon:"🔍"},
     {label:"Learning Commitment", key:"commitment", color:"#f472b6", icon:"📚"},
     {label:"Persistence Level",   key:"persistence",color:"#fb923c", icon:"💪"},
+    {label:"Academic Readiness",  key:"academic",   color: dark ? "#C084FC" : "#8b5cf6", icon:"🎓"},
+    {label:"Financial Capacity",  key:"financial",  color: dark ? "#2DD4BF" : "#14b8a6", icon:"💰"},
   ];
 
   return (
@@ -1496,7 +1498,7 @@ function RoadmapPage({ career, answers, setPage, theme }) {
       <div style={{textAlign:"center",marginBottom:"36px"}}>
         <div style={S.badge}>🗺️ AI-Generated Roadmap</div>
         <h2 style={{fontSize:"clamp(22px,4vw,34px)",fontWeight:800,marginBottom:"8px"}}>Your {careerData?.label} Roadmap</h2>
-        <p style={{color:S.muted_v,fontSize:"14px"}}>Personalized by Gemini AI based on your 6-category assessment</p>
+        <p style={{color:S.muted_v,fontSize:"14px"}}>Personalized by Mindstix AI based on your 7-dimensional assessment</p>
       </div>
 
       {/* ── FIX 2: Back to Report always visible — even while loading ── */}
@@ -1512,7 +1514,7 @@ function RoadmapPage({ career, answers, setPage, theme }) {
       {loading && (
         <div style={{textAlign:"center",padding:"60px 0"}}>
           <div style={{fontSize:"44px",marginBottom:"16px",display:"inline-block",animation:"spin 1.5s linear infinite"}}>⚙️</div>
-          <p style={{color:S.muted_v,fontSize:"16px"}}>Gemini AI is building your personalized roadmap...</p>
+          <p style={{color:S.muted_v,fontSize:"16px"}}>Mindstix AI is building your personalized roadmap...</p>
           <p style={{color:S.dim_v,fontSize:"13px",marginTop:"6px"}}>This takes about 5-10 seconds</p>
           <style>{`@keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}`}</style>
         </div>
@@ -1772,9 +1774,9 @@ function AboutPage({ theme }) {
       <div style={{maxWidth:"700px",margin:"0 auto"}}>
         {[
           ["01","Choose Your Academic Stream & Career","Select between Science, Commerce, or Arts, then pick from the filtered career paths with complete details."],
-          ["02","Complete 6-Category Assessment","18 questions covering aptitude, academics, finances, commitment, soft skills and expectations."],
-          ["03","Get Your Full Report","6 individual scores, financial analysis, and scholarship opportunities including girl-specific benefits."],
-          ["04","AI Roadmap + Alternatives","Gemini generates a 4-month personalized plan. Not satisfied? Explore better-suited alternatives instantly."],
+          ["02","Complete 7-Dimensional Assessment","40 questions covering analytical, problem solving, curiosity, commitment, persistence, academic readiness, and financial capacity parameters."],
+          ["03","Get Your Full Report","7 individual scores, financial analysis, and scholarship opportunities including girl-specific benefits."],
+          ["04","AI Roadmap + Alternatives","Mindstix AI generates a 4-month personalized plan. Not satisfied? Explore better-suited alternatives instantly."],
         ].map(([num,title,desc])=>(
           <div key={num} className="elevated-card" style={{display:"flex",gap:"20px",alignItems:"flex-start",marginBottom:"24px",padding:"22px",background:S.card_v,border:`1px solid ${S.cardBorder_v}`,borderRadius:"14px"}}>
             <div style={{minWidth:"44px",height:"44px",borderRadius:"10px",background:theme === "dark" ? "linear-gradient(135deg,#8B5CF6,#A855F7)" : "linear-gradient(135deg,#38bdf8,#6366f1)",display:"flex",alignItems:"center",justifyContent:"center",fontWeight:800,fontSize:"15px",color:"#fff"}}>{num}</div>
@@ -1835,6 +1837,11 @@ export default function App() {
   const [theme, setTheme]                   = useState("dark");
   const toggleTheme = () => setTheme(p=>p==="dark"?"light":"dark");
   const S = s(theme);
+
+  useEffect(() => {
+    document.body.className = theme;
+    document.body.style.background = theme === "dark" ? "#080d1a" : "#F8FAFC";
+  }, [theme]);
 
   // Sync state changes to localStorage
   useEffect(() => {
