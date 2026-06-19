@@ -1,7 +1,7 @@
 # Mindstix (Meraki Path) — Career Guidance System
 
 > **AI-Powered Career Evaluation Platform for Indian Students**
-> Live: [https://meraki-path.onrender.com](https://meraki-path.onrender.com)
+> Live: [https://mindstix.onrender.com](https://mindstix.onrender.com)
 
 ---
 

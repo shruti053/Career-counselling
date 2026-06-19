@@ -1,6 +1,6 @@
 # Mindstix (Meraki Path)
 
-**Live Site:** [https://meraki-path.onrender.com](https://meraki-path.onrender.com)
+**Live Site:** [https://mindstix.onrender.com](https://mindstix.onrender.com)
 
 [![Deploy to Render](https://render.com/images/deploy-to-render.svg)](https://render.com/deploy?repo=https://github.com/shruti053/Career-counselling)
 
