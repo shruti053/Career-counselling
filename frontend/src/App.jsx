@@ -598,6 +598,21 @@ function Navbar({ setPage, theme }) {
             {p === "careers" ? "Careers" : (p.charAt(0).toUpperCase()+p.slice(1))}
           </button>
         ))}
+        <a
+          href="https://mindstixfoundation.org/contact"
+          target="_blank"
+          rel="noreferrer"
+          style={{
+            ...S.navLink,
+            textDecoration: "none",
+            display: "inline-flex",
+            alignItems: "center"
+          }}
+          onMouseEnter={(e) => e.currentTarget.style.color = "#4F46E5"}
+          onMouseLeave={(e) => e.currentTarget.style.color = S.muted_v}
+        >
+          Contact Us
+        </a>
       </div>
       <div style={{display:"flex",alignItems:"center"}}>
         <button 
@@ -2669,7 +2684,174 @@ export default function App() {
       {page==="roadmap"      && <RoadmapPage      career={selectedCareer} answers={answers} setPage={setPage} theme={theme}/>}
       {page==="alternatives" && <AlternativesPage career={selectedCareer} answers={answers} setAnswers={setAnswers} setPage={setPage} setSelectedCareer={setSelectedCareer} theme={theme}/>}
       {page==="about"        && <AboutPage        theme={theme}/>}
-      <footer style={S.footer}>© 2024 Mindstix — Built for Students, by Students</footer>
+      {/* ── PROFESSIONAL FOOTER ─────────────────────────────────────────── */}
+      <footer style={{
+        background: "#0F172A",
+        color: "#94A3B8",
+        fontFamily: "'Space Grotesk', 'Inter', sans-serif",
+        marginTop: "auto"
+      }}>
+        {/* Main footer grid */}
+        <div style={{
+          maxWidth: "1100px",
+          margin: "0 auto",
+          padding: "56px 24px 40px",
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
+          gap: "40px"
+        }}>
+          {/* Brand column */}
+          <div>
+            <div style={{ fontSize: "22px", fontWeight: 800, color: "#F1F5F9", marginBottom: "12px", letterSpacing: "-0.5px" }}>
+              Mindstix
+            </div>
+            <p style={{ fontSize: "13.5px", lineHeight: 1.75, color: "#64748B", marginBottom: "20px", maxWidth: "240px" }}>
+              Empowering students across India with evidence-based career intelligence, AI-driven roadmaps, and real financial insights — completely free.
+            </p>
+            <div style={{ display: "flex", gap: "10px" }}>
+              {[
+                { label: "🌐", href: "https://mindstixfoundation.org", title: "Website" },
+                { label: "📧", href: "mailto:contact@mindstixfoundation.org", title: "Email" },
+              ].map(({ label, href, title }) => (
+                <a key={title} href={href} target="_blank" rel="noreferrer" title={title}
+                  style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    width: "36px",
+                    height: "36px",
+                    borderRadius: "8px",
+                    background: "rgba(255,255,255,0.05)",
+                    border: "1px solid rgba(255,255,255,0.08)",
+                    fontSize: "16px",
+                    textDecoration: "none",
+                    transition: "all 0.2s"
+                  }}
+                  onMouseEnter={(e) => { e.currentTarget.style.background = "rgba(79,70,229,0.25)"; e.currentTarget.style.borderColor = "#4F46E5"; }}
+                  onMouseLeave={(e) => { e.currentTarget.style.background = "rgba(255,255,255,0.05)"; e.currentTarget.style.borderColor = "rgba(255,255,255,0.08)"; }}
+                >
+                  {label}
+                </a>
+              ))}
+            </div>
+          </div>
+
+          {/* Platform links */}
+          <div>
+            <div style={{ fontSize: "12px", fontWeight: 700, color: "#475569", textTransform: "uppercase", letterSpacing: "1px", marginBottom: "16px" }}>Platform</div>
+            {[
+              { label: "Home", action: "home" },
+              { label: "Career Streams", action: "stream" },
+              { label: "About Us", action: "about" },
+            ].map(({ label, action }) => (
+              <div key={label} style={{ marginBottom: "10px" }}>
+                <button
+                  onClick={() => setPage(action)}
+                  style={{
+                    background: "none",
+                    border: "none",
+                    color: "#64748B",
+                    fontSize: "13.5px",
+                    cursor: "pointer",
+                    padding: 0,
+                    fontFamily: "inherit",
+                    transition: "color 0.2s"
+                  }}
+                  onMouseEnter={(e) => e.currentTarget.style.color = "#F1F5F9"}
+                  onMouseLeave={(e) => e.currentTarget.style.color = "#64748B"}
+                >
+                  {label}
+                </button>
+              </div>
+            ))}
+            <div style={{ marginBottom: "10px" }}>
+              <a
+                href="https://mindstixfoundation.org/contact"
+                target="_blank"
+                rel="noreferrer"
+                style={{ color: "#64748B", fontSize: "13.5px", textDecoration: "none", transition: "color 0.2s" }}
+                onMouseEnter={(e) => e.currentTarget.style.color = "#F1F5F9"}
+                onMouseLeave={(e) => e.currentTarget.style.color = "#64748B"}
+              >Contact Us</a>
+            </div>
+          </div>
+
+          {/* Features column */}
+          <div>
+            <div style={{ fontSize: "12px", fontWeight: 700, color: "#475569", textTransform: "uppercase", letterSpacing: "1px", marginBottom: "16px" }}>Features</div>
+            {[
+              "7-Dimensional Assessment",
+              "AI Personalized Roadmap",
+              "Financial Reality Check",
+              "Scholarship Finder",
+              "Alternative Career Explorer",
+            ].map((item) => (
+              <div key={item} style={{ color: "#64748B", fontSize: "13.5px", marginBottom: "10px", lineHeight: 1.5 }}>{item}</div>
+            ))}
+          </div>
+
+          {/* Contact / About column */}
+          <div>
+            <div style={{ fontSize: "12px", fontWeight: 700, color: "#475569", textTransform: "uppercase", letterSpacing: "1px", marginBottom: "16px" }}>About Mindstix</div>
+            <p style={{ fontSize: "13.5px", color: "#64748B", lineHeight: 1.75, marginBottom: "16px" }}>
+              Mindstix Foundation is a student-led non-profit initiative dedicated to democratising quality career counselling for every student in India — regardless of background or location.
+            </p>
+            <a
+              href="https://mindstixfoundation.org"
+              target="_blank"
+              rel="noreferrer"
+              style={{
+                display: "inline-block",
+                padding: "8px 18px",
+                background: "rgba(79,70,229,0.15)",
+                border: "1px solid rgba(79,70,229,0.35)",
+                borderRadius: "8px",
+                color: "#818CF8",
+                fontSize: "13px",
+                fontWeight: 600,
+                textDecoration: "none",
+                transition: "all 0.2s"
+              }}
+              onMouseEnter={(e) => { e.currentTarget.style.background = "rgba(79,70,229,0.3)"; }}
+              onMouseLeave={(e) => { e.currentTarget.style.background = "rgba(79,70,229,0.15)"; }}
+            >
+              Visit Foundation Site →
+            </a>
+          </div>
+        </div>
+
+        {/* Bottom bar */}
+        <div style={{
+          borderTop: "1px solid rgba(255,255,255,0.06)",
+          padding: "20px 24px",
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "space-between",
+          alignItems: "center",
+          gap: "12px",
+          maxWidth: "1100px",
+          margin: "0 auto"
+        }}>
+          <span style={{ fontSize: "12.5px", color: "#475569" }}>
+            © 2024 Mindstix Foundation. All rights reserved. Built for students, by students.
+          </span>
+          <div style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
+            {[
+              { label: "Privacy Policy", href: "https://mindstixfoundation.org/privacy" },
+              { label: "Terms of Use", href: "https://mindstixfoundation.org/terms" },
+              { label: "Contact", href: "https://mindstixfoundation.org/contact" },
+            ].map(({ label, href }) => (
+              <a key={label} href={href} target="_blank" rel="noreferrer"
+                style={{ color: "#475569", fontSize: "12.5px", textDecoration: "none", transition: "color 0.2s" }}
+                onMouseEnter={(e) => e.currentTarget.style.color = "#94A3B8"}
+                onMouseLeave={(e) => e.currentTarget.style.color = "#475569"}
+              >
+                {label}
+              </a>
+            ))}
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
