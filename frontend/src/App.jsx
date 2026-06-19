@@ -94,67 +94,343 @@ const SCHOLARSHIPS = {
   ],
 };
 
-// ── STYLE FACTORY ─────────────────────────────────────────────────────────────
 function s(theme) {
-  const dark       = theme==="dark";
-  const card       = dark?"#111827":"#ffffff";
-  const cardBorder = dark?"rgba(45, 212, 191, 0.12)":"#e2e8f0";
-  const navBg      = dark?"rgba(11, 18, 32, 0.8)":"rgba(248, 250, 252, 0.8)";
-  const appBg      = dark
-    ?"linear-gradient(180deg, #0B1220 0%, #080d1a 100%)"
-    :"#F8FAFC";
-  const appColor   = dark?"#E5E7EB":"#0F172A";
-  const muted      = dark?"#9CA3AF":"#475569";
-  const dim        = dark?"#9CA3AF":"#64748B";
-  const optBg      = dark?"#1F2937":"#F1F5F9";
-  const optBorder  = dark?"#374151":"#CBD5E1";
-  const optColor   = dark?"#E5E7EB":"#0F172A";
-  const statsBg    = dark?"#111827":"#EFF6FF";
-  const statsBorder= dark?"#1F2937":"#DBEAFE";
-  const heroBg     = dark
-    ?"radial-gradient(circle at top, rgba(59, 130, 246, 0.15), transparent 45%)"
-    :"radial-gradient(ellipse 70% 50% at 50% 0%, rgba(37, 99, 235, 0.08), transparent)";
+  // Always use premium light theme values
+  const card       = "#ffffff";
+  const cardBorder = "#E2E8F0";
+  const navBg      = "rgba(255, 255, 255, 0.85)";
+  const appBg      = "#FCFDFD";
+  const appColor   = "#1E293B";
+  const muted      = "#475569";
+  const dim        = "#64748B";
+  const optBg      = "#F8FAFC";
+  const optBorder  = "#E2E8F0";
+  const optColor   = "#0F172A";
+  const statsBg    = "#F8FAFC";
+  const statsBorder= "#E2E8F0";
+  const heroBg     = "radial-gradient(ellipse 70% 60% at 50% 0%, rgba(79, 70, 229, 0.05), rgba(79, 70, 229, 0.01) 60%, transparent)";
+
   return {
-    app:{minHeight:"100vh",background:appBg,color:appColor,fontFamily:dark?"'Space Grotesk',sans-serif":"'Segoe UI',sans-serif",transition:"background .3s,color .3s"},
-    nav:{display:"flex",alignItems:"center",justifyContent:"space-between",padding:"18px 40px",borderBottom:`1px solid ${cardBorder}`,background:navBg,position:"sticky",top:0,zIndex:100,backdropFilter:"blur(10px)",transition:"background .3s"},
-    logo:{fontSize:"20px",fontWeight:700,background:dark?"linear-gradient(90deg,#3B82F6,#2DD4BF)":"linear-gradient(90deg,#2563EB,#14B8A6)",WebkitBackgroundClip:"text",backgroundClip:"text",WebkitTextFillColor:"transparent",color:"transparent",display:"inline-block",letterSpacing:"-0.5px"},
-    navLinks:{display:"flex",gap:"28px"},
-    navLink:{background:"none",border:"none",color:muted,fontSize:"14px",fontWeight:dark?500:400,cursor:"pointer",fontFamily:"inherit"},
-    navBtn:{background:dark?"#3B82F6":"#2563EB",border:"none",color:"#fff",padding:"9px 20px",borderRadius:dark?"15px":"8px",fontSize:"14px",fontWeight:dark?500:600,cursor:"pointer",fontFamily:"inherit",boxShadow:dark?"0 6px 20px rgba(139,92,246,0.25)":"none"},
-    toggleBtn:{background:dark?"rgba(18,10,37,0.75)":"#e2e8f0",border:`1px solid ${cardBorder}`,color:muted,padding:"7px 14px",borderRadius:"999px",fontSize:"13px",fontWeight:600,cursor:"pointer",fontFamily:"inherit",marginRight:"10px",transition:"background .3s"},
-    hero:{textAlign:"center",padding:"90px 24px 70px",background:heroBg},
-    badge:{display:"inline-block",background:dark?"rgba(139,92,246,.12)":"rgba(56,189,248,.1)",border:dark?"1px solid rgba(59,130,246,.3)":"1px solid rgba(37,99,235,.3)",color:dark?"#2DD4BF":"#14B8A6",padding:"6px 16px",borderRadius:"999px",fontSize:"12px",fontWeight:600,letterSpacing:"1px",marginBottom:"28px",textTransform:"uppercase"},
-    heroTitle:{fontSize:dark?"clamp(56px,6vw,64px)":"clamp(32px,5vw,60px)",fontWeight:700,lineHeight:1.1,marginBottom:"22px",letterSpacing:dark?"-0.02em":"-1.5px"},
-    heroHL:{background:dark?"linear-gradient(90deg,#3B82F6,#2DD4BF)":"linear-gradient(90deg,#2563EB,#14B8A6)",WebkitBackgroundClip:"text",backgroundClip:"text",WebkitTextFillColor:"transparent",color:"transparent",display:"inline-block"},
-    heroSub:{maxWidth:"560px",margin:"0 auto 40px",color:muted,fontSize:dark?"16px":"17px",lineHeight:1.7,fontWeight:dark?400:400},
-    heroBtns:{display:"flex",gap:"14px",justifyContent:"center",flexWrap:"wrap"},
-    primaryBtn:{background:dark?"#3B82F6":"#2563EB",border:"none",color:"#fff",padding:"14px 32px",borderRadius:dark?"15px":"10px",fontSize:"16px",fontWeight:700,cursor:"pointer",fontFamily:"inherit",boxShadow:dark?"0 10px 30px rgba(139,92,246,0.30)":"none"},
-    outlineBtn:{background:"transparent",border:`1px solid ${dark?"rgba(192,132,252,0.35)":"#94a3b8"}`,color:dark?"#D8B4FE":muted,padding:"14px 32px",borderRadius:dark?"15px":"10px",fontSize:"16px",cursor:"pointer",fontFamily:"inherit"},
-    smallBtn:{background:dark?"linear-gradient(135deg,#8B5CF6,#A855F7)":"linear-gradient(135deg,#38bdf8,#6366f1)",border:"none",color:"#fff",padding:"10px 20px",borderRadius:dark?"15px":"8px",fontSize:"14px",fontWeight:600,cursor:"pointer",fontFamily:"inherit",boxShadow:dark?"0 6px 20px rgba(139,92,246,0.25)":"none"},
-    statsRow:{display:"flex",justifyContent:"center",gap:"48px",padding:"32px 24px",flexWrap:"wrap",borderTop:`1px solid ${statsBorder}`,borderBottom:`1px solid ${statsBorder}`,background:statsBg},
-    statNum:{fontSize:"32px",fontWeight:800,background:dark?"linear-gradient(90deg,#3B82F6,#2DD4BF)":"linear-gradient(90deg,#2563EB,#14B8A6)",WebkitBackgroundClip:"text",backgroundClip:"text",WebkitTextFillColor:"transparent",color:"transparent",display:"inline-block"},
-    statLabel:{fontSize:"13px",color:dim,marginTop:"4px"},
-    section:{padding:"72px 24px"},
-    sectionTitle:{textAlign:"center",fontSize:dark?"clamp(36px,4.5vw,40px)":"clamp(24px,4vw,38px)",fontWeight:700,marginBottom:"12px",letterSpacing:"-0.5px"},
-    sectionSub:{textAlign:"center",color:dim,maxWidth:"560px",margin:"0 auto 48px",fontSize:"15px",lineHeight:1.7},
-    careerGrid:{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(180px,1fr))",gap:"14px",maxWidth:"1100px",margin:"0 auto"},
-    careerCard:{background:card,border:dark?"1px solid rgba(192,132,252,0.15)":`2px solid ${cardBorder}`,borderRadius:"14px",padding:"20px 16px",cursor:"pointer",transition:"all 0.3s cubic-bezier(0.16, 1, 0.3, 1)",textAlign:"center",boxShadow:dark?"0 0 20px rgba(139,92,246,0.1)":"0 2px 10px rgba(0,0,0,.06)"},
-    careerCardActive:{background:dark?"rgba(24,16,50,0.85)":"rgba(56,189,248,.08)",borderColor:dark?"#A855F7":"#38bdf8",boxShadow:dark?"0 0 25px rgba(168,85,247,0.3)":"0 0 24px rgba(56,189,248,.15)",transform:"translateY(-4px)"},
-    quizWrap:{maxWidth:"700px",margin:"0 auto",padding:"40px 24px"},
-    card:{background:card,border:dark?"1px solid rgba(192,132,252,0.15)":`1px solid ${cardBorder}`,borderRadius:"16px",padding:"28px",boxShadow:dark?"0 0 20px rgba(139,92,246,0.1)":"0 4px 20px rgba(0,0,0,.07)"},
-    optionBtn:{display:"block",width:"100%",textAlign:"left",background:optBg,border:`1px solid ${optBorder}`,color:optColor,padding:"14px 18px",borderRadius:"10px",marginBottom:"10px",cursor:"pointer",fontFamily:"inherit",fontSize:"14px",transition:"all .15s"},
-    optionCorrect:{background:dark?"rgba(34,197,94,.15)":"rgba(34,197,94,.1)",borderColor:"#22c55e",color:dark?"#4ade80":"#16a34a"},
-    optionWrong:{background:dark?"rgba(239,68,68,.15)":"rgba(239,68,68,.1)",borderColor:"#ef4444",color:dark?"#f87171":"#dc2626"},
-    progressBar:{height:"8px",background:cardBorder,borderRadius:"99px",overflow:"hidden"},
-    progressFill:{height:"100%",background:dark?"linear-gradient(90deg,#8B5CF6,#A855F7)":"linear-gradient(90deg,#38bdf8,#6366f1)",borderRadius:"99px",transition:"width .4s ease"},
-    resultWrap:{maxWidth:"900px",margin:"0 auto",padding:"40px 24px"},
-    resultCard:{background:card,border:dark?"1px solid rgba(192,132,252,0.15)":`1px solid ${cardBorder}`,borderRadius:"14px",padding:"22px",boxShadow:dark?"0 0 20px rgba(139,92,246,0.1)":"0 2px 12px rgba(0,0,0,.06)"},
-    resultCardTitle:{fontSize:"12px",color:dim,fontWeight:700,textTransform:"uppercase",letterSpacing:"1px",marginBottom:"12px"},
-    roadmapWrap:{maxWidth:"860px",margin:"0 auto",padding:"40px 24px"},
-    monthCard:{background:card,border:dark?"1px solid rgba(192,132,252,0.15)":`1px solid ${cardBorder}`,borderRadius:"16px",padding:"28px",marginBottom:"20px",boxShadow:dark?"0 0 20px rgba(139,92,246,0.1)":"0 2px 14px rgba(0,0,0,.07)"},
-    tag:{display:"inline-block",padding:"3px 10px",borderRadius:"999px",fontSize:"12px",fontWeight:600,marginRight:"6px",marginBottom:"6px"},
-    footer:{textAlign:"center",padding:"28px 24px",borderTop:`1px solid ${cardBorder}`,color:dim,fontSize:"13px",background:dark?"transparent":"#f8fafc"},
-    card_v:card, cardBorder_v:cardBorder, muted_v:muted, dim_v:dim, dark_v:dark, optBg_v:optBg, optBorder_v:optBorder,
+    app: {
+      minHeight: "100vh",
+      background: appBg,
+      color: appColor,
+      fontFamily: "'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+      transition: "background-color 0.3s, color 0.3s"
+    },
+    nav: {
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "space-between",
+      padding: "16px 40px",
+      borderBottom: `1px solid ${cardBorder}`,
+      background: navBg,
+      position: "sticky",
+      top: 0,
+      zIndex: 100,
+      backdropFilter: "blur(12px)",
+      transition: "background-color 0.3s"
+    },
+    logo: {
+      fontSize: "20px",
+      fontWeight: 700,
+      background: "linear-gradient(90deg, #4F46E5, #3B82F6)",
+      WebkitBackgroundClip: "text",
+      backgroundClip: "text",
+      WebkitTextFillColor: "transparent",
+      color: "transparent",
+      display: "inline-block",
+      letterSpacing: "-0.5px"
+    },
+    navLinks: {
+      display: "flex",
+      gap: "28px"
+    },
+    navLink: {
+      background: "none",
+      border: "none",
+      color: muted,
+      fontSize: "14px",
+      fontWeight: 500,
+      cursor: "pointer",
+      fontFamily: "inherit",
+      transition: "color 0.2s"
+    },
+    navBtn: {
+      background: "#4F46E5",
+      border: "none",
+      color: "#fff",
+      padding: "9px 20px",
+      borderRadius: "10px",
+      fontSize: "14px",
+      fontWeight: 600,
+      cursor: "pointer",
+      fontFamily: "inherit",
+      transition: "all 0.2s ease-in-out"
+    },
+    toggleBtn: {
+      display: "none" /* Hide theme toggle button completely */
+    },
+    hero: {
+      textAlign: "center",
+      padding: "100px 24px 80px",
+      background: heroBg
+    },
+    badge: {
+      display: "inline-block",
+      background: "rgba(79, 70, 229, 0.05)",
+      border: "1px solid rgba(79, 70, 229, 0.15)",
+      color: "#4F46E5",
+      padding: "6px 16px",
+      borderRadius: "999px",
+      fontSize: "11px",
+      fontWeight: 700,
+      letterSpacing: "1px",
+      marginBottom: "28px",
+      textTransform: "uppercase"
+    },
+    heroTitle: {
+      fontSize: "clamp(34px, 5.5vw, 62px)",
+      fontWeight: 800,
+      lineHeight: 1.15,
+      marginBottom: "24px",
+      letterSpacing: "-0.03em",
+      color: "#0F172A"
+    },
+    heroHL: {
+      background: "linear-gradient(90deg, #4F46E5 0%, #3B82F6 100%)",
+      WebkitBackgroundClip: "text",
+      backgroundClip: "text",
+      WebkitTextFillColor: "transparent",
+      color: "transparent",
+      display: "inline-block"
+    },
+    heroSub: {
+      maxWidth: "600px",
+      margin: "0 auto 40px",
+      color: dim,
+      fontSize: "17px",
+      lineHeight: 1.65,
+      fontWeight: 400
+    },
+    heroBtns: {
+      display: "flex",
+      gap: "14px",
+      justifyContent: "center",
+      flexWrap: "wrap"
+    },
+    primaryBtn: {
+      background: "linear-gradient(135deg, #4F46E5 0%, #3B82F6 100%)",
+      border: "none",
+      color: "#fff",
+      padding: "14px 32px",
+      borderRadius: "12px",
+      fontSize: "16px",
+      fontWeight: 600,
+      cursor: "pointer",
+      fontFamily: "inherit",
+      transition: "all 0.25s cubic-bezier(0.16, 1, 0.3, 1)"
+    },
+    outlineBtn: {
+      background: "#ffffff",
+      border: `1px solid ${cardBorder}`,
+      color: muted,
+      padding: "14px 32px",
+      borderRadius: "12px",
+      fontSize: "16px",
+      fontWeight: 500,
+      cursor: "pointer",
+      fontFamily: "inherit",
+      boxShadow: "0 1px 2px rgba(0,0,0,0.02)",
+      transition: "all 0.2s ease-in-out"
+    },
+    smallBtn: {
+      background: "linear-gradient(135deg, #4F46E5 0%, #3B82F6 100%)",
+      border: "none",
+      color: "#fff",
+      padding: "10px 20px",
+      borderRadius: "10px",
+      fontSize: "14px",
+      fontWeight: 600,
+      cursor: "pointer",
+      fontFamily: "inherit",
+      transition: "all 0.2s"
+    },
+    statsRow: {
+      display: "flex",
+      justifyContent: "center",
+      gap: "56px",
+      padding: "36px 24px",
+      flexWrap: "wrap",
+      borderTop: `1px solid ${statsBorder}`,
+      borderBottom: `1px solid ${statsBorder}`,
+      background: statsBg
+    },
+    statNum: {
+      fontSize: "36px",
+      fontWeight: 800,
+      background: "linear-gradient(90deg, #4F46E5 0%, #3B82F6 100%)",
+      WebkitBackgroundClip: "text",
+      backgroundClip: "text",
+      WebkitTextFillColor: "transparent",
+      color: "transparent",
+      display: "inline-block"
+    },
+    statLabel: {
+      fontSize: "13px",
+      color: dim,
+      fontWeight: 500,
+      marginTop: "4px"
+    },
+    section: {
+      padding: "80px 24px"
+    },
+    sectionTitle: {
+      textAlign: "center",
+      fontSize: "clamp(26px, 4vw, 38px)",
+      fontWeight: 800,
+      color: "#0F172A",
+      marginBottom: "12px",
+      letterSpacing: "-0.02em"
+    },
+    sectionSub: {
+      textAlign: "center",
+      color: dim,
+      maxWidth: "580px",
+      margin: "0 auto 52px",
+      fontSize: "15px",
+      lineHeight: 1.7
+    },
+    careerGrid: {
+      display: "grid",
+      gridTemplateColumns: "repeat(auto-fill, minmax(190px, 1fr))",
+      gap: "18px",
+      maxWidth: "1100px",
+      margin: "0 auto"
+    },
+    careerCard: {
+      background: card,
+      border: `1px solid ${cardBorder}`,
+      borderRadius: "16px",
+      padding: "24px 20px",
+      cursor: "pointer",
+      transition: "all 0.3s cubic-bezier(0.16, 1, 0.3, 1)",
+      textAlign: "center",
+      boxShadow: "0 2px 8px rgba(0,0,0,.02)"
+    },
+    careerCardActive: {
+      background: "#ffffff",
+      borderColor: "#4F46E5",
+      boxShadow: "0 8px 30px rgba(79, 70, 229, 0.08), 0 0 1px rgba(79, 70, 229, 0.2)",
+      transform: "translateY(-4px)"
+    },
+    quizWrap: {
+      maxWidth: "760px",
+      margin: "0 auto",
+      padding: "40px 24px"
+    },
+    card: {
+      background: card,
+      border: `1px solid ${cardBorder}`,
+      borderRadius: "20px",
+      padding: "32px",
+      boxShadow: "0 4px 20px rgba(0,0,0,.02), 0 1px 3px rgba(0,0,0,.01)"
+    },
+    optionBtn: {
+      display: "block",
+      width: "100%",
+      textAlign: "left",
+      background: optBg,
+      border: `1px solid ${optBorder}`,
+      color: optColor,
+      padding: "16px 20px",
+      borderRadius: "12px",
+      marginBottom: "12px",
+      cursor: "pointer",
+      fontFamily: "inherit",
+      fontSize: "14px.5",
+      fontWeight: 500,
+      transition: "all 0.2s cubic-bezier(0.16, 1, 0.3, 1)"
+    },
+    optionCorrect: {
+      background: "rgba(34, 197, 94, 0.08)",
+      borderColor: "#22c55e",
+      color: "#16a34a"
+    },
+    optionWrong: {
+      background: "rgba(239, 68, 68, 0.08)",
+      borderColor: "#ef4444",
+      color: "#dc2626"
+    },
+    progressBar: {
+      height: "8px",
+      background: "#E2E8F0",
+      borderRadius: "99px",
+      overflow: "hidden"
+    },
+    progressFill: {
+      height: "100%",
+      background: "linear-gradient(90deg, #4F46E5 0%, #3B82F6 100%)",
+      borderRadius: "99px",
+      transition: "width .4s ease"
+    },
+    resultWrap: {
+      maxWidth: "960px",
+      margin: "0 auto",
+      padding: "40px 24px"
+    },
+    resultCard: {
+      background: card,
+      border: `1px solid ${cardBorder}`,
+      borderRadius: "20px",
+      padding: "28px",
+      boxShadow: "0 4px 20px rgba(0,0,0,.02)"
+    },
+    resultCardTitle: {
+      fontSize: "12px",
+      color: dim,
+      fontWeight: 700,
+      textTransform: "uppercase",
+      letterSpacing: "1px",
+      marginBottom: "16px"
+    },
+    roadmapWrap: {
+      maxWidth: "880px",
+      margin: "0 auto",
+      padding: "40px 24px"
+    },
+    monthCard: {
+      background: card,
+      border: `1px solid ${cardBorder}`,
+      borderRadius: "20px",
+      padding: "32px",
+      marginBottom: "24px",
+      boxShadow: "0 4px 20px rgba(0,0,0,.02)"
+    },
+    tag: {
+      display: "inline-block",
+      padding: "4px 12px",
+      borderRadius: "999px",
+      fontSize: "12px",
+      fontWeight: 600,
+      marginRight: "8px",
+      marginBottom: "8px"
+    },
+    footer: {
+      textAlign: "center",
+      padding: "32px 24px",
+      borderTop: `1px solid ${cardBorder}`,
+      color: dim,
+      fontSize: "13px",
+      background: "#F8FAFC"
+    },
+    card_v: card,
+    cardBorder_v: cardBorder,
+    muted_v: muted,
+    dim_v: dim,
+    dark_v: false,
+    optBg_v: optBg,
+    optBorder_v: optBorder,
   };
 }
 
@@ -292,30 +568,39 @@ async function fetchRoadmap(career, scores) {
 }
 
 // ── NAVBAR ────────────────────────────────────────────────────────────────────
-function Navbar({ setPage, theme, toggleTheme }) {
+function Navbar({ setPage, theme }) {
   const S = s(theme);
   return (
     <nav style={S.nav}>
       <div style={S.logo}>Mindstix</div>
       <div style={S.navLinks}>
         {["home","careers","about"].map(p=>(
-          <button key={p} style={S.navLink} onClick={()=>setPage(p === "careers" ? "stream" : p)}>
+          <button 
+            key={p} 
+            style={S.navLink} 
+            onClick={()=>setPage(p === "careers" ? "stream" : p)}
+            onMouseEnter={(e) => e.currentTarget.style.color = "#4F46E5"}
+            onMouseLeave={(e) => e.currentTarget.style.color = S.muted_v}
+          >
             {p === "careers" ? "Careers" : (p.charAt(0).toUpperCase()+p.slice(1))}
           </button>
         ))}
       </div>
       <div style={{display:"flex",alignItems:"center"}}>
-        <button style={S.toggleBtn} onClick={toggleTheme}>{theme==="dark"?"☀️ Light":"🌙 Dark"}</button>
-        <button style={S.navBtn} onClick={()=>setPage("stream")}>Get Started →</button>
+        <button 
+          style={S.navBtn} 
+          className="primary-btn-glow" 
+          onClick={()=>setPage("stream")}
+        >
+          Get Started →
+        </button>
       </div>
     </nav>
   );
 }
 
-// ── LANDING PAGE ──────────────────────────────────────────────────────────────
 function LandingPage({ setPage, theme }) {
   const S = s(theme);
-  const dark = theme==="dark";
   const features = [
     {icon:"🔬",title:"9 Science Careers",desc:"Comprehensive coverage of all major science career paths in India."},
     {icon:"📊",title:"7-Dimensional Assessment",desc:"Analytical, Problem Solving, Curiosity, Commitment, Persistence, Academic & Financial parameters."},
@@ -331,16 +616,18 @@ function LandingPage({ setPage, theme }) {
         <h1 style={S.heroTitle}>Find Your Career Reality<br/><span style={S.heroHL}>Before You Begin</span></h1>
         <p style={S.heroSub}>Multidisciplinary assessment covering reasoning, aptitude, personality, and alignment parameters — plus a customized preparation roadmap.</p>
         <div style={S.heroBtns}>
-          <button style={S.primaryBtn} onClick={()=>setPage("stream")}>Start Free Assessment →</button>
-          <button style={S.outlineBtn} onClick={()=>setPage("about")}>How It Works</button>
+          <button style={S.primaryBtn} className="primary-btn-glow" onClick={()=>setPage("stream")}>Start Free Assessment →</button>
+          <button style={S.outlineBtn} className="outline-btn-glow" onClick={()=>setPage("about")}>How It Works</button>
         </div>
       </section>
+      
       <div style={S.statsRow}>
         {[["17","Stream Careers"],["40","Assessment Questions"],["7","Scored Dimensions"],["AI","Roadmap"]].map(([n,l])=>(
           <div key={l} style={{textAlign:"center"}}><div style={S.statNum}>{n}</div><div style={S.statLabel}>{l}</div></div>
         ))}
       </div>
-      <section style={{...S.section, borderTop:`1px solid ${S.cardBorder_v}`, background: dark ? "rgba(11,18,32,0.4)" : "#ffffff"}}>
+
+      <section style={{...S.section, borderTop:`1px solid ${S.cardBorder_v}`, background: "#ffffff"}}>
         <h2 style={S.sectionTitle}>How the Platform Works</h2>
         <p style={S.sectionSub}>A systematic approach to discovering and preparing for your career path.</p>
         <div style={{display:"grid", gridTemplateColumns:"repeat(auto-fit,minmax(180px,1fr))", gap:"20px", maxWidth:"1000px", margin:"0 auto"}}>
@@ -351,25 +638,38 @@ function LandingPage({ setPage, theme }) {
             {step:"4", title:"AI Recommendations", desc:"AI generates personalized career recommendations and fit alignment."},
             {step:"5", title:"Explore Roadmap", desc:"Explore detailed career roadmap and curated learning resources."}
           ].map((item)=>(
-            <div key={item.step} style={{background:S.card_v, border:`1px solid ${S.cardBorder_v}`, borderRadius:"16px", padding:"28px 24px", position:"relative", transition:"all 0.3s", textAlign:"left"}}>
-              <div style={{position:"absolute", top:"-15px", left:"20px", width:"30px", height:"30px", borderRadius:"50%", background: dark ? "#3B82F6" : "#2563EB", color:"#ffffff", display:"flex", alignItems:"center", justifyContent:"center", fontWeight:800, fontSize:"14px", boxShadow:"0 4px 10px rgba(37,99,235,0.3)"}}>
+            <div 
+              key={item.step} 
+              className="elevated-card"
+              style={{
+                background: S.card_v, 
+                border: `1px solid ${S.cardBorder_v}`, 
+                borderRadius: "16px", 
+                padding: "32px 24px", 
+                position: "relative", 
+                textAlign: "left",
+                boxShadow: "0 2px 10px rgba(0,0,0,0.02)"
+              }}
+            >
+              <div style={{position:"absolute", top:"-15px", left:"20px", width:"30px", height:"30px", borderRadius:"50%", background: "#4F46E5", color:"#ffffff", display:"flex", alignItems:"center", justifyContent:"center", fontWeight:800, fontSize:"14px", boxShadow:"0 4px 10px rgba(79, 70, 229, 0.25)"}}>
                 {item.step}
               </div>
-              <div style={{fontWeight:700, fontSize:"15px", marginTop:"10px", marginBottom:"8px", color: dark ? "#ffffff" : "#0f172a"}}>{item.title}</div>
+              <div style={{fontWeight:700, fontSize:"15px", marginTop:"10px", marginBottom:"8px", color: "#0f172a"}}>{item.title}</div>
               <div style={{color:S.dim_v, fontSize:"13px", lineHeight:1.6}}>{item.desc}</div>
             </div>
           ))}
         </div>
       </section>
-      <section style={S.section}>
+
+      <section style={{...S.section, borderTop:`1px solid ${S.cardBorder_v}`, background: "#F8FAFC"}}>
         <h2 style={S.sectionTitle}>Complete Career Intelligence</h2>
         <p style={S.sectionSub}>Comprehensive assessment of fit across multiple dimensions.</p>
-        <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(240px,1fr))",gap:"18px",maxWidth:"1000px",margin:"0 auto"}}>
+        <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(240px,1fr))",gap:"22px",maxWidth:"1000px",margin:"0 auto"}}>
           {features.map(f=>(
-            <div key={f.title} className="elevated-card" style={{background:S.card_v,border:dark ? `1px solid rgba(192, 132, 252, 0.15)` : `1px solid ${S.cardBorder_v}`,borderRadius:"16px",padding:"24px",boxShadow:dark?"0 0 20px rgba(139,92,246,0.1)":"0 2px 12px rgba(0,0,0,.07)"}}>
-              <div style={{fontSize:"28px",marginBottom:"12px"}}>{f.icon}</div>
-              <div style={{fontWeight:700,fontSize:"15px",marginBottom:"7px"}}>{f.title}</div>
-              <div style={{color:S.dim_v,fontSize:"13px",lineHeight:1.6}}>{f.desc}</div>
+            <div key={f.title} className="elevated-card" style={{background:S.card_v,border:`1px solid ${S.cardBorder_v}`,borderRadius:"20px",padding:"28px",boxShadow:"0 2px 12px rgba(0,0,0,.02)"}}>
+              <div style={{fontSize:"28px",marginBottom:"16px"}}>{f.icon}</div>
+              <div style={{fontWeight:700,fontSize:"16px",color: "#0f172a",marginBottom:"8px"}}>{f.title}</div>
+              <div style={{color:S.dim_v,fontSize:"13.5px",lineHeight:1.65}}>{f.desc}</div>
             </div>
           ))}
         </div>
@@ -381,34 +681,33 @@ function LandingPage({ setPage, theme }) {
 // ── STREAM SELECTION PAGE ────────────────────────────────────────────────────────
 function StreamSelectionPage({ setPage, setSelectedStream, theme }) {
   const S = s(theme);
-  const dark = theme === "dark";
   const streams = [
     {
       id: "science",
       label: "Science",
       icon: "🔬",
       desc: "Engineering, MBBS, BDS, B.Pharm, Biotechnology, Data Science, AI/ML, Architecture, Agriculture.",
-      color: dark ? "rgba(139,92,246,.1)" : "rgba(56,189,248,.1)",
-      borderColor: dark ? "#8B5CF6" : "#38bdf8",
-      glow: dark ? "rgba(139,92,246,.15)" : "rgba(56,189,248,.15)"
+      color: "rgba(99, 102, 241, 0.06)",
+      borderColor: "#818CF8",
+      glow: "rgba(99, 102, 241, 0.15)"
     },
     {
       id: "commerce",
       label: "Commerce",
       icon: "💼",
       desc: "Accounting, B.Com, Chartered Accountancy (CA), Entrepreneurship, Finance, Banking, Investment Analysis, and Marketing, Advertising & Sales.",
-      color: "rgba(74,222,128,.1)",
-      borderColor: "#4ade80",
-      glow: "rgba(74,222,128,.15)"
+      color: "rgba(16, 185, 129, 0.06)",
+      borderColor: "#34D399",
+      glow: "rgba(16, 185, 129, 0.15)"
     },
     {
       id: "arts",
       label: "Arts & Humanities",
       icon: "🎨",
       desc: "Economics, Public Policy, Governance, Political Science, History, Archives Research, and Clinical & Counselling Psychology.",
-      color: "rgba(244,114,182,.1)",
-      borderColor: "#f472b6",
-      glow: "rgba(244,114,182,.15)"
+      color: "rgba(244, 63, 94, 0.06)",
+      borderColor: "#FB7185",
+      glow: "rgba(244, 63, 94, 0.15)"
     }
   ];
 
@@ -435,13 +734,13 @@ function StreamSelectionPage({ setPage, setSelectedStream, theme }) {
             key={stream.id} 
             style={{
               background: S.card_v,
-              border: `2px solid ${S.cardBorder_v}`,
+              border: `1px solid ${S.cardBorder_v}`,
               borderRadius: "20px",
-              padding: "32px 24px",
+              padding: "36px 24px",
               cursor: "pointer",
               transition: "all 0.25s ease-in-out",
               textAlign: "center",
-              boxShadow: dark ? "none" : "0 4px 20px rgba(0,0,0,.04)",
+              boxShadow: "0 4px 20px rgba(0,0,0,.02)",
               position: "relative",
               overflow: "hidden"
             }}
@@ -449,12 +748,12 @@ function StreamSelectionPage({ setPage, setSelectedStream, theme }) {
             onMouseEnter={(e) => {
               e.currentTarget.style.transform = "translateY(-6px)";
               e.currentTarget.style.borderColor = stream.borderColor;
-              e.currentTarget.style.boxShadow = `0 10px 30px ${stream.glow}`;
+              e.currentTarget.style.boxShadow = `0 12px 30px ${stream.glow}`;
             }}
             onMouseLeave={(e) => {
               e.currentTarget.style.transform = "translateY(0)";
               e.currentTarget.style.borderColor = S.cardBorder_v;
-              e.currentTarget.style.boxShadow = dark ? "none" : "0 4px 20px rgba(0,0,0,.04)";
+              e.currentTarget.style.boxShadow = "0 4px 20px rgba(0,0,0,.02)";
             }}
           >
             <div style={{
@@ -472,9 +771,9 @@ function StreamSelectionPage({ setPage, setSelectedStream, theme }) {
             </div>
             <h3 style={{
               fontSize: "20px",
-              fontWeight: 800,
+              fontWeight: 700,
               marginBottom: "12px",
-              color: dark ? "#ffffff" : "#0f172a"
+              color: "#0F172A"
             }}>
               {stream.label}
             </h3>
@@ -535,29 +834,29 @@ function CareersPage({ setPage, selectedStream, setSelectedCareer, setAnswers, t
             marginBottom: "16px"
           }} 
           onClick={() => setPage("stream")}
+          className="outline-btn-glow"
         >
           ← Back to Stream Selection
         </button>
       </div>
       <h2 style={S.sectionTitle}>Choose Your {streamLabel} Career</h2>
-      <p style={S.sectionSub}>Select the career path you want to assess. We will evaluate your fit across 6 categories.</p>
+      <p style={S.sectionSub}>Select the career path you want to assess. We will evaluate your fit across 7 dimensions.</p>
       <div style={S.careerGrid}>
         {filteredCareers.map(c=>(
           <div key={c.id} className="career-card" style={{...S.careerCard,...(active===c.id?S.careerCardActive:{})}} onClick={()=>setActive(c.id)}>
             <div style={{fontSize:"30px",marginBottom:"8px"}}>{c.icon}</div>
-            <div style={{fontWeight:700,fontSize:"13px",marginBottom:"4px"}}>{c.label}</div>
-            <div style={{color:S.dim_v,fontSize:"11px",lineHeight:1.4}}>{c.desc}</div>
+            <div style={{fontWeight:700,fontSize:"14px",color: "#0f172a",marginBottom:"4px"}}>{c.label}</div>
+            <div style={{color:S.dim_v,fontSize:"12px",lineHeight:1.4}}>{c.desc}</div>
           </div>
         ))}
       </div>
       <div style={{textAlign:"center",marginTop:"36px"}}>
-        <button style={{...S.primaryBtn,opacity:active?1:0.4}} onClick={handleStart}>Begin Assessment →</button>
+        <button style={{...S.primaryBtn,opacity:active?1:0.4}} className="primary-btn-glow" onClick={handleStart}>Begin Assessment →</button>
       </div>
     </section>
   );
 }
 
-// ── QUIZ PAGE ─────────────────────────────────────────────────────────────────
 function QuizPage({ career, setSelectedCareer, setPage, answers, setAnswers, theme }) {
   const S = s(theme);
   let questions = [];
@@ -697,8 +996,8 @@ function QuizPage({ career, setSelectedCareer, setPage, answers, setAnswers, the
             left: 0,
             width: "100vw",
             height: "100vh",
-            backgroundColor: theme === "dark" ? "rgba(5, 11, 20, 0.9)" : "rgba(15, 23, 42, 0.75)",
-            backdropFilter: "blur(12px)",
+            backgroundColor: "rgba(15, 23, 42, 0.4)",
+            backdropFilter: "blur(8px)",
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
@@ -707,14 +1006,13 @@ function QuizPage({ career, setSelectedCareer, setPage, answers, setAnswers, the
           }}>
             <div style={{
               background: S.card_v,
-              border: `2px solid ${theme === "dark" ? "#1e3a5f" : "#e2e8f0"}`,
+              border: `1px solid ${S.cardBorder_v}`,
               borderRadius: "24px",
               maxWidth: "500px",
               width: "100%",
               padding: "40px 32px",
               textAlign: "center",
-              boxShadow: "0 20px 40px rgba(0,0,0,0.3)",
-              fontFamily: "'Segoe UI', sans-serif"
+              boxShadow: "0 20px 40px rgba(0, 0, 0, 0.06)",
             }}>
               <div style={{
                 display: "inline-flex",
@@ -723,7 +1021,7 @@ function QuizPage({ career, setSelectedCareer, setPage, answers, setAnswers, the
                 width: "80px",
                 height: "80px",
                 borderRadius: "50%",
-                background: "rgba(239, 68, 68, 0.15)",
+                background: "rgba(239, 68, 68, 0.08)",
                 color: "#ef4444",
                 fontSize: "44px",
                 marginBottom: "24px"
@@ -732,9 +1030,9 @@ function QuizPage({ career, setSelectedCareer, setPage, answers, setAnswers, the
               </div>
               <h3 style={{
                 fontSize: "22px",
-                fontWeight: 800,
+                fontWeight: 700,
                 marginBottom: "16px",
-                color: theme === "dark" ? "#ffffff" : "#0f172a",
+                color: "#0f172a",
                 lineHeight: 1.4
               }}>
                 Confirm Assessment Termination
@@ -743,9 +1041,7 @@ function QuizPage({ career, setSelectedCareer, setPage, answers, setAnswers, the
                 fontSize: "15px",
                 color: S.muted_v,
                 lineHeight: 1.6,
-                marginBottom: "32px",
-                marginLeft: 0,
-                marginRight: 0
+                marginBottom: "32px"
               }}>
                 You are about to end your career evaluation. Your progress will be permanently lost.
               </p>
@@ -769,24 +1065,21 @@ function QuizPage({ career, setSelectedCareer, setPage, answers, setAnswers, the
                     fontFamily: "inherit",
                     transition: "background 0.2s"
                   }}
-                  onMouseEnter={(e) => e.currentTarget.style.background = "#dc2626"}
-                  onMouseLeave={(e) => e.currentTarget.style.background = "#ef4444"}
                 >
                   🔴 Yes, End Assessment
                 </button>
                 <button
                   onClick={() => setShowExitConfirm(false)}
                   style={{
-                    background: theme === "dark" ? "linear-gradient(135deg,#8B5CF6,#A855F7)" : "linear-gradient(135deg,#38bdf8,#6366f1)",
+                    background: "linear-gradient(135deg, #4F46E5 0%, #3B82F6 100%)",
                     border: "none",
                     color: "#fff",
                     padding: "14px",
-                    borderRadius: theme === "dark" ? "15px" : "12px",
+                    borderRadius: "12px",
                     fontSize: "15px",
                     fontWeight: 700,
                     cursor: "pointer",
                     fontFamily: "inherit",
-                    boxShadow: theme === "dark" ? "0 10px 30px rgba(139,92,246,0.3)" : "none",
                     transition: "all 0.3s cubic-bezier(0.16, 1, 0.3, 1)"
                   }}
                   className="primary-btn-glow"
@@ -797,147 +1090,146 @@ function QuizPage({ career, setSelectedCareer, setPage, answers, setAnswers, the
             </div>
           </div>
         )}
+        
         <div style={{ maxWidth: "800px", margin: "0 auto", padding: "40px 24px" }}>
-        <div style={{ textAlign: "center", marginBottom: "32px" }}>
-          <div style={S.badge}>📋 Review Your Responses</div>
-          <h2 style={{ fontSize: "clamp(22px,4vw,34px)", fontWeight: 800, marginBottom: "8px" }}>Assessment Summary</h2>
-          <p style={{ color: S.muted_v, fontSize: "14px" }}>
-            You have answered <strong>{answeredCount}</strong> of <strong>{questions.length}</strong> questions.
-          </p>
-        </div>
-
-        {validationError && (
-          <div style={{
-            background: "rgba(239, 68, 68, 0.15)",
-            border: "1px solid #ef4444",
-            color: "#f87171",
-            borderRadius: "10px",
-            padding: "12px 16px",
-            marginBottom: "16px",
-            fontSize: "14px",
-            fontWeight: 600
-          }}>
-            ⚠️ {validationError}
+          <div style={{ textAlign: "center", marginBottom: "32px" }}>
+            <div style={S.badge}>📋 Review Your Responses</div>
+            <h2 style={{ fontSize: "clamp(22px,4vw,34px)", fontWeight: 800, marginBottom: "8px" }}>Assessment Summary</h2>
+            <p style={{ color: S.muted_v, fontSize: "14px" }}>
+              You have answered <strong>{answeredCount}</strong> of <strong>{questions.length}</strong> questions.
+            </p>
           </div>
-        )}
 
-        <div style={{ marginBottom: "24px" }}>
-          {questions.map((question, idx) => {
-            const answerIdx = answers[idx];
-            const hasAnswer = answerIdx !== null;
-            const optionText = hasAnswer ? question.opts[answerIdx].t : "";
-            
-            return (
-              <div key={idx} style={{
-                background: S.card_v,
-                border: `1px solid ${hasAnswer ? S.cardBorder_v : "#ef4444"}`,
-                borderRadius: "12px",
-                padding: "18px",
-                marginBottom: "12px",
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "center",
-                gap: "16px",
-                boxShadow: theme === "dark" ? "none" : "0 2px 8px rgba(0,0,0,.04)"
-              }}>
-                <div style={{ flex: 1 }}>
-                  <div style={{ fontSize: "13.5px", fontWeight: 700, color: S.dim_v, marginBottom: "4px" }}>
-                    Question {idx + 1}
+          {validationError && (
+            <div style={{
+              background: "rgba(239, 68, 68, 0.08)",
+              border: "1px solid #ef4444",
+              color: "#dc2626",
+              borderRadius: "10px",
+              padding: "12px 16px",
+              marginBottom: "16px",
+              fontSize: "14px",
+              fontWeight: 600
+            }}>
+              ⚠️ {validationError}
+            </div>
+          )}
+
+          <div style={{ marginBottom: "24px" }}>
+            {questions.map((question, idx) => {
+              const answerIdx = answers[idx];
+              const hasAnswer = answerIdx !== null;
+              const optionText = hasAnswer ? question.opts[answerIdx].t : "";
+              
+              return (
+                <div key={idx} style={{
+                  background: S.card_v,
+                  border: `1px solid ${hasAnswer ? S.cardBorder_v : "#fca5a5"}`,
+                  borderRadius: "14px",
+                  padding: "20px",
+                  marginBottom: "12px",
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                  gap: "16px",
+                  boxShadow: "0 2px 8px rgba(0,0,0,.02)"
+                }}>
+                  <div style={{ flex: 1 }}>
+                    <div style={{ fontSize: "13px", fontWeight: 700, color: S.dim_v, marginBottom: "4px" }}>
+                      Question {idx + 1}
+                    </div>
+                    <div style={{ fontSize: "15px", fontWeight: 600, marginBottom: "6px", color: "#0F172A" }}>{question.q}</div>
+                    <div style={{
+                      fontSize: "14px",
+                      color: hasAnswer ? "#4F46E5" : "#ef4444",
+                      fontWeight: 600
+                    }}>
+                      {hasAnswer ? `✓ Answered: ${optionText}` : "⚠️ Unanswered"}
+                    </div>
                   </div>
-                  <div style={{ fontSize: "15px", fontWeight: 600, marginBottom: "6px" }}>{question.q}</div>
-                  <div style={{
-                    fontSize: "14px",
-                    color: hasAnswer ? (theme === "dark" ? "#C084FC" : "#0284c7") : "#ef4444",
-                    fontWeight: 500
-                  }}>
-                    {hasAnswer ? `✓ Answered: ${optionText}` : "⚠️ Unanswered"}
-                  </div>
+                  <button
+                    onClick={() => {
+                      setCurrent(idx);
+                      setShowReview(false);
+                    }}
+                    style={{
+                      ...S.outlineBtn,
+                      padding: "8px 16px",
+                      fontSize: "12px",
+                      fontWeight: 700,
+                      borderRadius: "8px",
+                      whiteSpace: "nowrap"
+                    }}
+                    className="outline-btn-glow"
+                  >
+                    Edit
+                  </button>
                 </div>
-                <button
-                  onClick={() => {
-                    setCurrent(idx);
-                    setShowReview(false);
-                  }}
-                  style={{
-                    ...S.outlineBtn,
-                    padding: "8px 16px",
-                    fontSize: "12px",
-                    fontWeight: 700,
-                    borderRadius: "8px",
-                    whiteSpace: "nowrap"
-                  }}
-                >
-                  Edit
-                </button>
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
+
+          <div style={{ display: "flex", justifyContent: "space-between", gap: "12px", marginTop: "24px" }}>
+            <button
+              onClick={() => setShowReview(false)}
+              style={{
+                ...S.outlineBtn,
+                flex: 1,
+                padding: "14px",
+                fontWeight: 700
+              }}
+              className="outline-btn-glow"
+            >
+              ← Back to Quiz
+            </button>
+            
+            <button
+              onClick={handleSubmit}
+              style={{
+                ...S.primaryBtn,
+                flex: 1,
+                padding: "14px",
+                fontWeight: 700,
+                opacity: answeredCount === questions.length ? 1 : 0.4,
+                cursor: answeredCount === questions.length ? "pointer" : "not-allowed"
+              }}
+              className="primary-btn-glow"
+            >
+              Generate Final Report →
+            </button>
+          </div>
         </div>
 
-        <div style={{ display: "flex", justifyContent: "space-between", gap: "12px", marginTop: "24px" }}>
-          <button
-            onClick={() => setShowReview(false)}
-            style={{
-              ...S.outlineBtn,
-              flex: 1,
-              padding: "14px",
-              fontWeight: 700
-            }}
-          >
-            ← Back to Quiz
-          </button>
-          
-          <button
-            onClick={handleSubmit}
-            style={{
-              ...S.primaryBtn,
-              flex: 1,
-              padding: "14px",
-              fontWeight: 700,
-              opacity: answeredCount === questions.length ? 1 : 0.4,
-              cursor: answeredCount === questions.length ? "pointer" : "not-allowed"
-            }}
-          >
-            Generate Final Report →
-          </button>
-        </div>
-      </div>
-      <button 
-        onClick={() => setShowExitConfirm(true)}
-        style={{
-          position: "fixed",
-          top: "100px",
-          right: "24px",
-          background: "linear-gradient(135deg, #ef4444, #f97316)",
-          border: "none",
-          color: "#fff",
-          padding: "10px 22px",
-          borderRadius: "4px",
-          fontSize: "13.5px",
-          fontWeight: 700,
-          cursor: "pointer",
-          zIndex: 90,
-          boxShadow: theme === "dark" 
-            ? "0 0 20px rgba(239, 68, 68, 0.4)" 
-            : "0 4px 15px rgba(239, 68, 68, 0.35)",
-          fontFamily: "inherit",
-          transition: "all 0.2s ease-in-out"
-        }}
-        onMouseEnter={(e) => {
-          e.currentTarget.style.transform = "scale(1.04)";
-          e.currentTarget.style.boxShadow = theme === "dark" 
-            ? "0 0 25px rgba(239, 68, 68, 0.6)" 
-            : "0 6px 20px rgba(239, 68, 68, 0.5)";
-        }}
-        onMouseLeave={(e) => {
-          e.currentTarget.style.transform = "scale(1)";
-          e.currentTarget.style.boxShadow = theme === "dark" 
-            ? "0 0 20px rgba(239, 68, 68, 0.4)" 
-            : "0 4px 15px rgba(239, 68, 68, 0.35)";
-        }}
-      >
-        Quit
-      </button>
+        <button 
+          onClick={() => setShowExitConfirm(true)}
+          style={{
+            position: "fixed",
+            bottom: "24px",
+            right: "24px",
+            background: "#FEF2F2",
+            border: "1px solid #FCA5A5",
+            color: "#EF4444",
+            padding: "12px 24px",
+            borderRadius: "999px",
+            fontSize: "13.5px",
+            fontWeight: 700,
+            cursor: "pointer",
+            zIndex: 90,
+            boxShadow: "0 4px 15px rgba(239, 68, 68, 0.08)",
+            fontFamily: "inherit",
+            transition: "all 0.2s ease-in-out"
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.transform = "scale(1.04)";
+            e.currentTarget.style.background = "#FEE2E2";
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.transform = "scale(1)";
+            e.currentTarget.style.background = "#FEF2F2";
+          }}
+        >
+          Quit Assessment
+        </button>
       </>
     );
   }
@@ -951,8 +1243,8 @@ function QuizPage({ career, setSelectedCareer, setPage, answers, setAnswers, the
           left: 0,
           width: "100vw",
           height: "100vh",
-          backgroundColor: theme === "dark" ? "rgba(5, 11, 20, 0.9)" : "rgba(15, 23, 42, 0.75)",
-          backdropFilter: "blur(12px)",
+          backgroundColor: "rgba(15, 23, 42, 0.4)",
+          backdropFilter: "blur(8px)",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
@@ -961,14 +1253,13 @@ function QuizPage({ career, setSelectedCareer, setPage, answers, setAnswers, the
         }}>
           <div style={{
             background: S.card_v,
-            border: `2px solid ${theme === "dark" ? "#1e3a5f" : "#e2e8f0"}`,
+            border: `1px solid ${S.cardBorder_v}`,
             borderRadius: "24px",
             maxWidth: "500px",
             width: "100%",
             padding: "40px 32px",
             textAlign: "center",
-            boxShadow: "0 20px 40px rgba(0,0,0,0.3)",
-            fontFamily: "'Segoe UI', sans-serif"
+            boxShadow: "0 20px 40px rgba(0, 0, 0, 0.06)",
           }}>
             <div style={{
               display: "inline-flex",
@@ -977,7 +1268,7 @@ function QuizPage({ career, setSelectedCareer, setPage, answers, setAnswers, the
               width: "80px",
               height: "80px",
               borderRadius: "50%",
-              background: "rgba(239, 68, 68, 0.15)",
+              background: "rgba(239, 68, 68, 0.08)",
               color: "#ef4444",
               fontSize: "44px",
               marginBottom: "24px"
@@ -986,9 +1277,9 @@ function QuizPage({ career, setSelectedCareer, setPage, answers, setAnswers, the
             </div>
             <h3 style={{
               fontSize: "22px",
-              fontWeight: 800,
+              fontWeight: 700,
               marginBottom: "16px",
-              color: theme === "dark" ? "#ffffff" : "#0f172a",
+              color: "#0f172a",
               lineHeight: 1.4
             }}>
               Confirm Assessment Termination
@@ -997,9 +1288,7 @@ function QuizPage({ career, setSelectedCareer, setPage, answers, setAnswers, the
               fontSize: "15px",
               color: S.muted_v,
               lineHeight: 1.6,
-              marginBottom: "32px",
-              marginLeft: 0,
-              marginRight: 0
+              marginBottom: "32px"
             }}>
               You are about to end your career evaluation. Your progress will be permanently lost.
             </p>
@@ -1023,24 +1312,21 @@ function QuizPage({ career, setSelectedCareer, setPage, answers, setAnswers, the
                   fontFamily: "inherit",
                   transition: "background 0.2s"
                 }}
-                onMouseEnter={(e) => e.currentTarget.style.background = "#dc2626"}
-                onMouseLeave={(e) => e.currentTarget.style.background = "#ef4444"}
               >
                 🔴 Yes, End Assessment
               </button>
               <button
                 onClick={() => setShowExitConfirm(false)}
                 style={{
-                  background: theme === "dark" ? "linear-gradient(135deg,#8B5CF6,#A855F7)" : "linear-gradient(135deg,#38bdf8,#6366f1)",
+                  background: "linear-gradient(135deg, #4F46E5 0%, #3B82F6 100%)",
                   border: "none",
                   color: "#fff",
                   padding: "14px",
-                  borderRadius: theme === "dark" ? "15px" : "12px",
+                  borderRadius: "12px",
                   fontSize: "15px",
                   fontWeight: 700,
                   cursor: "pointer",
                   fontFamily: "inherit",
-                  boxShadow: theme === "dark" ? "0 10px 30px rgba(139,92,246,0.3)" : "none",
                   transition: "all 0.3s cubic-bezier(0.16, 1, 0.3, 1)"
                 }}
                 className="primary-btn-glow"
@@ -1051,269 +1337,249 @@ function QuizPage({ career, setSelectedCareer, setPage, answers, setAnswers, the
           </div>
         </div>
       )}
+      
       <div style={{ maxWidth: "1100px", margin: "0 auto", padding: "40px 24px" }}>
-      <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", gap: "24px" }}>
-        
-        {/* Left Column: Question Card */}
-        <div style={{ flex: "1 1 650px", minWidth: "280px" }}>
+        <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", gap: "24px" }}>
           
-          {validationError && (
-            <div style={{
-              background: "rgba(239, 68, 68, 0.15)",
-              border: "1px solid #ef4444",
-              color: "#f87171",
-              borderRadius: "10px",
-              padding: "12px 16px",
-              marginBottom: "16px",
-              fontSize: "14px",
-              fontWeight: 600
-            }}>
-              ⚠️ {validationError}
-            </div>
-          )}
-
-          {career === "engineering" && (
-            <div style={{
-              background: theme === "dark" ? "rgba(139, 92, 246, 0.08)" : "rgba(56, 189, 248, 0.08)",
-              border: theme === "dark" ? "1px solid rgba(139, 92, 246, 0.2)" : "1px solid rgba(56, 189, 248, 0.2)",
-              borderRadius: "12px",
-              padding: "16px",
-              marginBottom: "16px",
-              boxShadow: theme === "dark" ? "none" : "0 2px 8px rgba(0,0,0,.02)"
-            }}>
-              <h2 style={{ fontSize: "16px", fontWeight: 800, margin: "0 0 6px 0", color: theme === "dark" ? "#C084FC" : "#38bdf8" }}>
-                Engineering Alignment Assessment
-              </h2>
-              <p style={{ margin: 0, fontSize: "13px", color: S.muted_v, lineHeight: 1.5 }}>
-                "There are no right or wrong answers. Each option represents a different way people naturally think and work. Choose the option that feels MOST like you."
-              </p>
-            </div>
-          )}
-
-          <div style={S.card}>
-            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "20px" }}>
-              <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-                <span style={{ fontSize: "24px" }}>{catInfo.icon}</span>
-                <div>
-                  <div style={{ fontWeight: 700, fontSize: "15px", color: catInfo.color }}>{catInfo.label}</div>
-                  <div style={{ fontSize: "12px", color: S.dim_v }}>Question {current + 1} of {questions.length}</div>
-                </div>
-              </div>
-              
+          {/* Left Column: Question Card */}
+          <div style={{ flex: "1 1 650px", minWidth: "280px" }}>
+            
+            {validationError && (
               <div style={{
-                fontSize: "11px",
-                background: S.optBg_v,
-                border: `1px solid ${S.cardBorder_v}`,
-                padding: "4px 10px",
-                borderRadius: "999px",
-                color: S.muted_v,
+                background: "rgba(239, 68, 68, 0.08)",
+                border: "1px solid #ef4444",
+                color: "#dc2626",
+                borderRadius: "10px",
+                padding: "12px 16px",
+                marginBottom: "16px",
+                fontSize: "14px",
                 fontWeight: 600
               }}>
-                {catInfo.label}: {catIndex} / {catQuestions.length}
+                ⚠️ {validationError}
               </div>
-            </div>
+            )}
 
-            <div style={{ fontSize: "17px", fontWeight: 600, marginBottom: "22px", lineHeight: 1.5 }}>
-              {q.q}
-            </div>
+            {career === "engineering" && (
+              <div style={{
+                background: "rgba(79, 70, 229, 0.04)",
+                border: "1px solid rgba(79, 70, 229, 0.15)",
+                borderRadius: "12px",
+                padding: "16px",
+                marginBottom: "16px",
+                boxShadow: "0 2px 8px rgba(0,0,0,.01)"
+              }}>
+                <h2 style={{ fontSize: "16px", fontWeight: 700, margin: "0 0 6px 0", color: "#4F46E5" }}>
+                  Engineering Alignment Assessment
+                </h2>
+                <p style={{ margin: 0, fontSize: "13px", color: S.muted_v, lineHeight: 1.5 }}>
+                  "There are no right or wrong answers. Each option represents a different way people naturally think and work. Choose the option that feels MOST like you."
+                </p>
+              </div>
+            )}
 
-            {q.opts.map((opt, i) => {
-              const isSelected = i === answers[current];
-              const isFocused = i === focusedOptionIndex;
-              return (
-                <button key={i}
-                  style={{
-                    ...S.optionBtn,
-                    transition: "all 0.2s ease-in-out",
-                    ...(isSelected ? {
-                      background: theme === "dark" ? "rgba(139, 92, 246, 0.15)" : "rgba(56, 189, 248, 0.12)",
-                      borderColor: theme === "dark" ? "#8B5CF6" : "#38bdf8",
-                      color: theme === "dark" ? "#C084FC" : "#38bdf8",
-                      fontWeight: 600,
-                    } : {}),
-                    ...(isFocused ? {
-                      borderColor: theme === "dark" ? "#A855F7" : "#38bdf8",
-                      boxShadow: theme === "dark" 
-                        ? "0 0 15px rgba(139, 92, 246, 0.45)" 
-                        : "0 0 12px rgba(56, 189, 248, 0.35)",
-                      background: isSelected 
-                        ? (theme === "dark" ? "rgba(139, 92, 246, 0.22)" : "rgba(56, 189, 248, 0.18)") 
-                        : (theme === "dark" ? "rgba(139, 92, 246, 0.08)" : "rgba(56, 189, 248, 0.05)")
-                    } : {})
-                  }}
-                  onClick={() => handleOptionSelect(i)}
-                  onMouseEnter={() => setFocusedOptionIndex(i)}
-                >
-                  <span style={{
-                    marginRight: "10px",
-                    fontWeight: isSelected ? 700 : 400,
-                    color: isSelected ? (theme === "dark" ? "#C084FC" : "#38bdf8") : S.dim_v,
-                  }}>
-                    {isSelected ? "●" : String.fromCharCode(65 + i) + "."}
-                  </span>
-                  {opt.t}
-                </button>
-              );
-            })}
-
-            <div style={{ display: "flex", justifyContent: "space-between", gap: "12px", marginTop: "24px" }}>
-              <button
-                onClick={handlePrev}
-                disabled={current === 0}
-                style={{
-                  ...S.outlineBtn,
-                  flex: 1,
-                  opacity: current === 0 ? 0.4 : 1,
-                  cursor: current === 0 ? "not-allowed" : "pointer",
-                  padding: "12px"
-                }}
-              >
-                ← Previous
-              </button>
-              
-              <button
-                onClick={handleNext}
-                style={{
-                  ...S.primaryBtn,
-                  flex: 1,
-                  padding: "12px"
-                }}
-              >
-                {current + 1 < questions.length ? "Next Question →" : "Review & Submit →"}
-              </button>
-            </div>
-          </div>
-        </div>
-
-        {/* Right Column: Sidebar */}
-        <div style={{ flex: "1 1 300px", minWidth: "280px" }}>
-          
-          {/* Progress Tracker Card */}
-          <div style={S.card}>
-            <div style={{ fontWeight: 800, fontSize: "15px", marginBottom: "12px" }}>Progress Tracker</div>
-            <div style={{ display: "flex", justifyContent: "space-between", fontSize: "13px", marginBottom: "6px" }}>
-              <span style={{ color: S.muted_v }}>Completed</span>
-              <span style={{ fontWeight: 700, color: theme === "dark" ? "#C084FC" : "#38bdf8" }}>{percentComplete}%</span>
-            </div>
-            <div style={{ ...S.progressBar, marginBottom: "14px" }}>
-              <div style={{ ...S.progressFill, width: `${percentComplete}%` }} />
-            </div>
-            
-            <div style={{ display: "flex", justifyContent: "space-between", fontSize: "12px", color: S.muted_v }}>
-              <span>Answered: <strong>{answeredCount}</strong></span>
-              <span>Unanswered: <strong>{unansweredCount}</strong></span>
-            </div>
-          </div>
-
-          {/* Question Navigator Card */}
-          <div style={{ ...S.card, marginTop: "18px" }}>
-            <div style={{ fontWeight: 800, fontSize: "15px", marginBottom: "4px" }}>Question Navigator</div>
-            <div style={{ fontSize: "12px", color: S.dim_v, marginBottom: "14px" }}>Jump freely to any question:</div>
-            
-            <div style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(6, 1fr)",
-              gap: "6px"
-            }}>
-              {questions.map((_, idx) => {
-                const isCurrent = idx === current;
-                const isAnswered = answers[idx] !== null;
+            <div style={S.card}>
+              <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "20px" }}>
+                <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                  <span style={{ fontSize: "24px" }}>{catInfo.icon}</span>
+                  <div>
+                    <div style={{ fontWeight: 700, fontSize: "15px", color: catInfo.color }}>{catInfo.label}</div>
+                    <div style={{ fontSize: "12px", color: S.dim_v }}>Question {current + 1} of {questions.length}</div>
+                  </div>
+                </div>
                 
-                let bg = S.optBg_v;
-                let border = S.optBorder_v;
-                let color = S.muted_v;
-                
-                if (isCurrent) {
-                  bg = theme === "dark" ? "rgba(139, 92, 246, 0.2)" : "#e0f2fe";
-                  border = theme === "dark" ? "#8B5CF6" : "#38bdf8";
-                  color = theme === "dark" ? "#C084FC" : "#38bdf8";
-                } else if (isAnswered) {
-                  bg = theme === "dark" ? "rgba(34, 197, 94, 0.15)" : "#dcfce7";
-                  border = "#22c55e";
-                  color = theme === "dark" ? "#4ade80" : "#16a34a";
-                }
-                
+                <div style={{
+                  fontSize: "11px",
+                  background: S.optBg_v,
+                  border: `1px solid ${S.cardBorder_v}`,
+                  padding: "4px 10px",
+                  borderRadius: "999px",
+                  color: S.muted_v,
+                  fontWeight: 600
+                }}>
+                  {catIndex} / {catQuestions.length}
+                </div>
+              </div>
+
+              <div style={{ fontSize: "17px", fontWeight: 600, color: "#0F172A", marginBottom: "22px", lineHeight: 1.5 }}>
+                {q.q}
+              </div>
+
+              {q.opts.map((opt, i) => {
+                const isSelected = i === answers[current];
+                const isFocused = i === focusedOptionIndex;
                 return (
-                  <button
-                    key={idx}
-                    onClick={() => {
-                      setCurrent(idx);
-                      setShowReview(false);
-                    }}
+                  <button key={i}
                     style={{
-                      background: bg,
-                      border: `2px solid ${border}`,
-                      color: color,
-                      borderRadius: "8px",
-                      padding: "8px 0",
-                      fontWeight: 700,
-                      cursor: "pointer",
-                      fontSize: "12px",
-                      textAlign: "center",
-                      transition: "all 0.15s"
+                      ...S.optionBtn,
+                      transition: "all 0.2s ease-in-out",
+                      ...(isSelected ? {
+                        background: "rgba(79, 70, 229, 0.05)",
+                        borderColor: "#4F46E5",
+                        color: "#4F46E5",
+                        fontWeight: 600,
+                      } : {}),
+                      ...(isFocused ? {
+                        borderColor: "#4F46E5",
+                        boxShadow: "0 0 12px rgba(79, 70, 229, 0.15)",
+                        background: isSelected 
+                          ? "rgba(79, 70, 229, 0.08)"
+                          : "rgba(79, 70, 229, 0.02)"
+                      } : {})
                     }}
+                    onClick={() => handleOptionSelect(i)}
+                    onMouseEnter={() => setFocusedOptionIndex(i)}
                   >
-                    {idx + 1}
+                    <span style={{
+                      marginRight: "10px",
+                      fontWeight: isSelected ? 700 : 400,
+                      color: isSelected ? "#4F46E5" : S.dim_v,
+                    }}>
+                      {isSelected ? "●" : String.fromCharCode(65 + i) + "."}
+                    </span>
+                    {opt.t}
                   </button>
                 );
               })}
+
+              <div style={{ display: "flex", justifyContent: "space-between", gap: "12px", marginTop: "24px" }}>
+                <button
+                  onClick={handlePrev}
+                  disabled={current === 0}
+                  style={{
+                    ...S.outlineBtn,
+                    flex: 1,
+                    opacity: current === 0 ? 0.4 : 1,
+                    cursor: current === 0 ? "not-allowed" : "pointer",
+                    padding: "12px"
+                  }}
+                  className="outline-btn-glow"
+                >
+                  ← Previous
+                </button>
+                
+                <button
+                  onClick={handleNext}
+                  style={{
+                    ...S.primaryBtn,
+                    flex: 1,
+                    padding: "12px"
+                  }}
+                  className="primary-btn-glow"
+                >
+                  {current + 1 < questions.length ? "Next Question →" : "Review & Submit →"}
+                </button>
+              </div>
+            </div>
+          </div>
+
+          {/* Right Column: Sidebar */}
+          <div style={{ flex: "1 1 300px", minWidth: "280px" }}>
+            
+            {/* Progress Tracker Card */}
+            <div style={S.card}>
+              <div style={{ fontWeight: 700, fontSize: "15px", color: "#0f172a", marginBottom: "12px" }}>Progress Tracker</div>
+              <div style={{ display: "flex", justifyContent: "space-between", fontSize: "13px", marginBottom: "6px" }}>
+                <span style={{ color: S.muted_v }}>Completed</span>
+                <span style={{ fontWeight: 700, color: "#4F46E5" }}>{percentComplete}%</span>
+              </div>
+              <div style={{ ...S.progressBar, marginBottom: "14px" }}>
+                <div style={{ ...S.progressFill, width: `${percentComplete}%` }} />
+              </div>
+              
+              <div style={{ display: "flex", justifyContent: "space-between", fontSize: "12px", color: S.muted_v }}>
+                <span>Answered: <strong>{answeredCount}</strong></span>
+                <span>Unanswered: <strong>{unansweredCount}</strong></span>
+              </div>
             </div>
 
-            <button
-              onClick={() => setShowReview(true)}
-              style={{
-                ...S.outlineBtn,
-                width: "100%",
-                marginTop: "16px",
-                padding: "10px",
-                fontSize: "13px",
-                fontWeight: 700
-              }}
-            >
-              📋 Review Assessment ({answeredCount}/{questions.length})
-            </button>
+            {/* Question Navigator Card */}
+            <div style={{ ...S.card, marginTop: "18px" }}>
+              <div style={{ fontWeight: 700, fontSize: "15px", color: "#0f172a", marginBottom: "4px" }}>Question Navigator</div>
+              <div style={{ fontSize: "12px", color: S.dim_v, marginBottom: "14px" }}>Jump freely to any question:</div>
+              
+              <div style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(6, 1fr)",
+                gap: "6px"
+              }}>
+                {questions.map((_, idx) => {
+                  const isCurrent = idx === current;
+                  const isAnswered = answers[idx] !== null;
+                  
+                  let bg = S.optBg_v;
+                  let border = S.optBorder_v;
+                  let color = S.muted_v;
+                  
+                  if (isCurrent) {
+                    bg = "#EFF6FF";
+                    border = "#3B82F6";
+                    color = "#2563EB";
+                  } else if (isAnswered) {
+                    bg = "#F0FDF4";
+                    border = "#22C55E";
+                    color = "#16A34A";
+                  }
+                  
+                  return (
+                    <button
+                      key={idx}
+                      onClick={() => {
+                        setCurrent(idx);
+                        setShowReview(false);
+                      }}
+                      style={{
+                        background: bg,
+                        border: `1.5px solid ${border}`,
+                        color: color,
+                        borderRadius: "8px",
+                        padding: "8px 0",
+                        fontWeight: 700,
+                        cursor: "pointer",
+                        fontSize: "12px",
+                        transition: "all 0.15s ease-in-out"
+                      }}
+                    >
+                      {idx + 1}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
           </div>
         </div>
-
       </div>
-    </div>
-    <button 
-      onClick={() => setShowExitConfirm(true)}
-      style={{
-        position: "fixed",
-        top: "100px",
-        right: "24px",
-        background: "linear-gradient(135deg, #ef4444, #f97316)",
-        border: "none",
-        color: "#fff",
-        padding: "10px 22px",
-        borderRadius: "4px",
-        fontSize: "13.5px",
-        fontWeight: 700,
-        cursor: "pointer",
-        zIndex: 90,
-        boxShadow: theme === "dark" 
-          ? "0 0 20px rgba(239, 68, 68, 0.4)" 
-          : "0 4px 15px rgba(239, 68, 68, 0.35)",
-        fontFamily: "inherit",
-        transition: "all 0.2s ease-in-out"
-      }}
-      onMouseEnter={(e) => {
-        e.currentTarget.style.transform = "scale(1.04)";
-        e.currentTarget.style.boxShadow = theme === "dark" 
-          ? "0 0 25px rgba(239, 68, 68, 0.6)" 
-          : "0 6px 20px rgba(239, 68, 68, 0.5)";
-      }}
-      onMouseLeave={(e) => {
-        e.currentTarget.style.transform = "scale(1)";
-        e.currentTarget.style.boxShadow = theme === "dark" 
-          ? "0 0 20px rgba(239, 68, 68, 0.4)" 
-          : "0 4px 15px rgba(239, 68, 68, 0.35)";
-      }}
-    >
-      Quit
-    </button>
-  </>
+
+      <button 
+        onClick={() => setShowExitConfirm(true)}
+        style={{
+          position: "fixed",
+          bottom: "24px",
+          right: "24px",
+          background: "#FEF2F2",
+          border: "1px solid #FCA5A5",
+          color: "#EF4444",
+          padding: "12px 24px",
+          borderRadius: "999px",
+          fontSize: "13.5px",
+          fontWeight: 700,
+          cursor: "pointer",
+          zIndex: 90,
+          boxShadow: "0 4px 15px rgba(239, 68, 68, 0.08)",
+          fontFamily: "inherit",
+          transition: "all 0.2s ease-in-out"
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.transform = "scale(1.04)";
+          e.currentTarget.style.background = "#FEE2E2";
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.transform = "scale(1)";
+          e.currentTarget.style.background = "#FEF2F2";
+        }}
+      >
+        Quit Assessment
+      </button>
+    </>
   );
 }
 
@@ -1323,14 +1589,22 @@ function ScoreBar({ label, score, color, icon }) {
   return (
     <div style={{marginBottom:"18px"}}>
       <div style={{display:"flex",justifyContent:"space-between",marginBottom:"6px"}}>
-        <span style={{fontWeight:600,fontSize:"14px"}}>{icon} {label}</span>
+        <span style={{fontWeight:600,fontSize:"14px",color:"#1E293B"}}>{icon} {label}</span>
         <div style={{display:"flex",alignItems:"center",gap:"8px"}}>
-          <span style={{fontSize:"12px",padding:"2px 8px",borderRadius:"999px",background:`${color}22`,color:color,fontWeight:600}}>{level}</span>
+          <span style={{
+            fontSize:"11px",
+            padding:"2px 8px",
+            borderRadius:"999px",
+            background:`${color}12`,
+            border:`1px solid ${color}33`,
+            color:color,
+            fontWeight:700
+          }}>{level}</span>
           <span style={{fontWeight:800,fontSize:"16px",color:color}}>{score}%</span>
         </div>
       </div>
-      <div style={{height:"10px",background:"rgba(100,116,139,.2)",borderRadius:"99px",overflow:"hidden"}}>
-        <div style={{height:"100%",width:`${score}%`,background:`linear-gradient(90deg,${color},${color}99)`,borderRadius:"99px",transition:"width 1s ease"}}/>
+      <div style={{height:"10px",background:"#F1F5F9",borderRadius:"99px",overflow:"hidden"}}>
+        <div style={{height:"100%",width:`${score}%`,background:`linear-gradient(90deg, ${color}CC, ${color})`,borderRadius:"99px",transition:"width 1s ease"}}/>
       </div>
     </div>
   );
@@ -1339,14 +1613,10 @@ function ScoreBar({ label, score, color, icon }) {
 // ── RESULT PAGE ───────────────────────────────────────────────────────────────
 function ResultPage({ career, answers, setPage, theme }) {
   const S = s(theme);
-  const dark = theme==="dark";
   const scores = calcScores(answers, career);
-  const careerData = CAREERS.find(c=>c.id===career);
+  const careerData = CAREERS.find(c => c.id === career);
   const fin = careerData?.fin;
   const overall = scores.fitScore;
-
-  const isEng = career === "engineering";
-  const isCommOrArts = COMMERCE_ARTS_QUIZZES[career] !== undefined;
 
   const strongThresh = 75;
   const moderateThresh = 50;
@@ -1355,55 +1625,96 @@ function ResultPage({ career, answers, setPage, theme }) {
   const minScore = 25;
 
   let verdict = "Emerging Aptitude for Development 💡";
-  let verdictColor = dark ? "#3B82F6" : "#2563EB";
+  let verdictColor = "#2563EB";
   let verdictDesc = "Emerging aptitude in reasoning and decision-making. We encourage exploring these foundations and developing your skills step-by-step using the personalized roadmap.";
 
   if (overall >= strongThresh) {
     verdict = "High Career Alignment 🌟";
-    verdictColor = dark ? "#4ade80" : "#16a34a";
+    verdictColor = "#16a34a";
     verdictDesc = "Excellent natural alignment detected. You demonstrate a strong cognitive match, commitment, and key aptitude profiles suited for success in this path.";
   } else if (overall >= moderateThresh) {
     verdict = "Good Career Alignment Detected ✅";
-    verdictColor = dark ? "#3B82F6" : "#0284c7";
+    verdictColor = "#0284c7";
     verdictDesc = "Good career alignment detected. Your responses show a solid foundation in reasoning and prioritization. With focused refinement, you show high potential to excel.";
   } else if (overall >= exploreThresh) {
     verdict = "Strong Analytical Potential with Room for Refinement 📈";
-    verdictColor = dark ? "#fbbf24" : "#ca8a04";
+    verdictColor = "#ca8a04";
     verdictDesc = "Strong analytical potential with room for refinement. You demonstrate a good aptitude in reasoning and decision-making. Your roadmap will help guide skill development.";
   }
 
   const scoreCategories = [
-    {label:"Analytical Thinking", key:"analytical", color: dark ? "#8B5CF6" : "#38bdf8", icon:"🧠"},
-    {label:"Problem Solving",     key:"problem",    color:"#818cf8", icon:"⚙️"},
-    {label:"Technical Curiosity", key:"curiosity",  color:"#4ade80", icon:"🔍"},
-    {label:"Learning Commitment", key:"commitment", color:"#f472b6", icon:"📚"},
-    {label:"Persistence Level",   key:"persistence",color:"#fb923c", icon:"💪"},
-    {label:"Academic Readiness",  key:"academic",   color: dark ? "#C084FC" : "#8b5cf6", icon:"🎓"},
-    {label:"Financial Capacity",  key:"financial",  color: dark ? "#2DD4BF" : "#14b8a6", icon:"💰"},
+    {label:"Analytical Thinking", key:"analytical", color: "#0284c7", icon:"🧠"},
+    {label:"Problem Solving",     key:"problem",    color:"#4F46E5", icon:"⚙️"},
+    {label:"Technical Curiosity", key:"curiosity",  color:"#059669", icon:"🔍"},
+    {label:"Learning Commitment", key:"commitment", color:"#D946EF", icon:"📚"},
+    {label:"Persistence Level",   key:"persistence",color:"#EA580C", icon:"💪"},
+    {label:"Academic Readiness",  key:"academic",   color: "#7C3AED", icon:"🎓"},
+    {label:"Financial Capacity",  key:"financial",  color: "#0D9488", icon:"💰"},
   ];
 
   return (
     <div style={S.resultWrap}>
       <div style={{textAlign:"center",marginBottom:"36px"}}>
         <div style={S.badge}>📊 Your Assessment Report</div>
-        <h2 style={{fontSize:"clamp(24px,4vw,36px)",fontWeight:800,marginBottom:"8px"}}>{careerData?.label} — Career Analysis</h2>
+        <h2 style={{fontSize:"clamp(24px,4vw,36px)",fontWeight:800,marginBottom:"8px",color:"#0F172A"}}>{careerData?.label} — Career Analysis</h2>
       </div>
 
       {/* Overall score + verdict */}
-      <div style={{display:"grid",gridTemplateColumns:"160px 1fr",gap:"20px",marginBottom:"24px",alignItems:"center"}}>
-        <div style={{width:"140px",height:"140px",borderRadius:"50%",background:dark?"linear-gradient(135deg,#0d2240,#1e3a5f)":"#f0f9ff",border:`5px solid ${verdictColor}`,display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center",boxShadow:`0 0 30px ${verdictColor}44`,margin:"0 auto"}}>
-          <div style={{fontSize:"36px",fontWeight:800,color:verdictColor}}>{overall}</div>
-          <div style={{fontSize:"11px",color:S.dim_v,marginTop:"2px"}}>Score ({minScore}-{maxScore})</div>
-        </div>
-        <div style={{...S.resultCard}}>
-          <div style={{color:verdictColor,fontWeight:800,fontSize:"20px",marginBottom:"6px"}}>{verdict}</div>
-          <div style={{color:S.muted_v,fontSize:"14px",lineHeight:1.7}}>
-            {verdictDesc}
+      <div style={{
+        display: "flex",
+        flexDirection: "row",
+        flexWrap: "wrap",
+        gap: "24px",
+        marginBottom: "32px",
+        alignItems: "stretch"
+      }}>
+        <div style={{
+          flex: "1 1 200px",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          background: "#ffffff",
+          border: `1.5px solid ${S.cardBorder_v}`,
+          borderRadius: "20px",
+          padding: "32px 24px",
+          boxShadow: "0 4px 20px rgba(0, 0, 0, 0.02)",
+          textAlign: "center"
+        }}>
+          <div style={{
+            position: "relative",
+            width: "120px",
+            height: "120px",
+            borderRadius: "50%",
+            background: `rgba(79, 70, 229, 0.03)`,
+            border: `6px solid ${verdictColor}`,
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            boxShadow: `0 8px 24px rgba(79, 70, 229, 0.08)`,
+            margin: "0 auto 12px"
+          }}>
+            <span style={{ fontSize: "38px", fontWeight: 800, color: "#0F172A", fontFamily: "'Space Grotesk', sans-serif" }}>{overall}</span>
+            <span style={{ fontSize: "10px", color: S.dim_v, fontWeight: 600, letterSpacing: "0.5px", textTransform: "uppercase" }}>Fit Score</span>
           </div>
+          <div style={{ fontSize: "12px", color: S.dim_v, fontWeight: 500 }}>Min: {minScore} | Max: {maxScore}</div>
+        </div>
+        
+        <div style={{
+          ...S.resultCard,
+          flex: "2 1 400px",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          borderLeft: `5px solid ${verdictColor}`
+        }}>
+          <div style={{ color: verdictColor, fontWeight: 800, fontSize: "20px", marginBottom: "8px" }}>{verdict}</div>
+          <p style={{ color: S.muted_v, fontSize: "14.5px", lineHeight: 1.7, margin: 0 }}>{verdictDesc}</p>
         </div>
       </div>
 
-      {/* 6 Score Bars */}
+      {/* 7 Score Bars */}
       <div style={{...S.resultCard,marginBottom:"20px"}}>
         <div style={S.resultCardTitle}>📊 Detailed Score Breakdown</div>
         {scoreCategories.map(sc=>(
@@ -1421,43 +1732,134 @@ function ResultPage({ career, answers, setPage, theme }) {
             ["⏱️ Duration",fin?.dur],["💼 Starting Salary",fin?.start],
             ["📈 Long-term Salary",fin?.long],["📊 ROI",fin?.roi],
           ].map(([label,val])=>(
-            <div key={label} style={{background:dark?"rgba(18,10,37,0.4)":"#f8fafc",border:`1px solid ${S.cardBorder_v}`,borderRadius:"10px",padding:"12px"}}>
+            <div key={label} style={{background:"#f8fafc",border:`1px solid ${S.cardBorder_v}`,borderRadius:"10px",padding:"12px"}}>
               <div style={{fontSize:"11px",color:S.dim_v,marginBottom:"4px"}}>{label}</div>
-              <div style={{fontWeight:700,fontSize:"13px",color:dark?"#e8edf5":"#0f172a"}}>₹{val}</div>
+              <div style={{fontWeight:700,fontSize:"13px",color:"#0f172a"}}>₹{val}</div>
             </div>
           ))}
         </div>
-        <div style={{background:dark ? "rgba(139,92,246,.08)" : "rgba(56,189,248,.08)",border:dark ? "1px solid rgba(139,92,246,.2)" : "1px solid rgba(56,189,248,.2)",borderRadius:"10px",padding:"12px",fontSize:"13px",color:S.muted_v}}>
-          💡 Financial Capacity Score: <strong style={{color:scores.financial>=70?"#4ade80":scores.financial>=45?"#fbbf24":"#f87171"}}>{scores.financial}%</strong>
-          {scores.financial < 50 ? " — Explore government colleges and scholarship options below." : " — Your financial profile is well-suited for this career."}
+        <div style={{
+          background: "rgba(13, 148, 136, 0.04)",
+          border: "1px solid rgba(13, 148, 136, 0.15)",
+          borderRadius: "12px",
+          padding: "16px",
+          fontSize: "13.5px",
+          color: S.muted_v,
+          display: "flex",
+          alignItems: "center",
+          gap: "10px",
+          marginTop: "16px"
+        }}>
+          <span style={{ fontSize: "18px" }}>💡</span>
+          <div>
+            Financial Capacity Score: <strong style={{
+              color: scores.financial >= 70 ? "#059669" : scores.financial >= 45 ? "#D97706" : "#DC2626"
+            }}>{scores.financial}%</strong>
+            {scores.financial < 50 
+              ? " — We recommend exploring government colleges, direct admission schemes, and applying for the scholarship options listed below." 
+              : " — Your budget parameters align well with the expectations for this career path."}
+          </div>
         </div>
       </div>
 
       {/* Scholarships */}
-      <div style={{...S.resultCard,marginBottom:"20px"}}>
-        <div style={S.resultCardTitle}>🎓 Potential Scholarship Opportunities and Fee Benefits</div>
-        <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:"16px"}}>
-          <div>
-            <div style={{fontWeight:700,fontSize:"13px",color:dark ? "#C084FC" : "#38bdf8",marginBottom:"8px"}}>🌐 General Scholarships</div>
-            {SCHOLARSHIPS.general.map(sc=><div key={sc} style={{fontSize:"12px",color:S.muted_v,marginBottom:"6px",lineHeight:1.5}}>• {sc}</div>)}
+      <div style={{...S.resultCard, marginBottom: "20px"}}>
+        <div style={S.resultCardTitle}>🎓 Potential Scholarship Opportunities & Benefits</div>
+        
+        <div style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
+          gap: "20px"
+        }}>
+          <div style={{
+            background: "#F8FAFC",
+            border: `1.5px solid ${S.cardBorder_v}`,
+            borderRadius: "14px",
+            padding: "18px"
+          }}>
+            <div style={{ fontWeight: 700, fontSize: "14px", color: "#7C3AED", marginBottom: "12px", display: "flex", alignItems: "center", gap: "6px" }}>
+              <span>🌐</span> General Scholarships
+            </div>
+            {SCHOLARSHIPS.general.map(sc => (
+              <div key={sc} style={{ fontSize: "13px", color: S.muted_v, marginBottom: "8px", lineHeight: 1.5, display: "flex", alignItems: "flex-start", gap: "6px" }}>
+                <span style={{ color: "#7C3AED" }}>•</span>
+                <span>{sc}</span>
+              </div>
+            ))}
           </div>
-          <div>
-            <div style={{fontWeight:700,fontSize:"13px",color:"#818cf8",marginBottom:"8px"}}>🏛️ Government Scholarships</div>
-            {SCHOLARSHIPS.govt.map(sc=><div key={sc} style={{fontSize:"12px",color:S.muted_v,marginBottom:"6px",lineHeight:1.5}}>• {sc}</div>)}
+          
+          <div style={{
+            background: "#F8FAFC",
+            border: `1.5px solid ${S.cardBorder_v}`,
+            borderRadius: "14px",
+            padding: "18px"
+          }}>
+            <div style={{ fontWeight: 700, fontSize: "14px", color: "#0284c7", marginBottom: "12px", display: "flex", alignItems: "center", gap: "6px" }}>
+              <span>🏛️</span> Government Scholarships
+            </div>
+            {SCHOLARSHIPS.govt.map(sc => (
+              <div key={sc} style={{ fontSize: "13px", color: S.muted_v, marginBottom: "8px", lineHeight: 1.5, display: "flex", alignItems: "flex-start", gap: "6px" }}>
+                <span style={{ color: "#0284c7" }}>•</span>
+                <span>{sc}</span>
+              </div>
+            ))}
           </div>
         </div>
-        <div style={{marginTop:"16px",background:"rgba(244,114,182,.08)",border:"1px solid rgba(244,114,182,.3)",borderRadius:"10px",padding:"14px"}}>
-          <div style={{fontWeight:700,fontSize:"13px",color:"#f472b6",marginBottom:"8px"}}>👩 Scholarships & Benefits Specifically for Girls</div>
-          {SCHOLARSHIPS.girls.map(sc=><div key={sc} style={{fontSize:"12px",color:S.muted_v,marginBottom:"6px",lineHeight:1.5}}>• {sc}</div>)}
+        
+        <div style={{
+          marginTop: "20px",
+          background: "rgba(219, 39, 119, 0.03)",
+          border: "1px solid rgba(219, 39, 119, 0.15)",
+          borderRadius: "14px",
+          padding: "20px"
+        }}>
+          <div style={{ fontWeight: 700, fontSize: "14px", color: "#db2777", marginBottom: "10px", display: "flex", alignItems: "center", gap: "6px" }}>
+            <span>👩</span> Scholarships & Fee Concessions Specially for Girls
+          </div>
+          <div style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
+            gap: "10px"
+          }}>
+            {SCHOLARSHIPS.girls.map(sc => (
+              <div key={sc} style={{ fontSize: "13px", color: S.muted_v, lineHeight: 1.5, display: "flex", alignItems: "flex-start", gap: "6px" }}>
+                <span style={{ color: "#db2777" }}>•</span>
+                <span>{sc}</span>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
 
       {/* Action buttons */}
-      <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:"12px",marginTop:"8px"}}>
-        <button style={{...S.primaryBtn,width:"100%"}} onClick={()=>setPage("roadmap")}>🗺️ View AI Roadmap</button>
-        <button style={{...S.outlineBtn,width:"100%",borderColor:"#f472b6",color:"#f472b6"}} onClick={()=>setPage("alternatives")}>🔄 Explore Alternative Careers</button>
+      <div style={{
+        display: "grid",
+        gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
+        gap: "12px",
+        marginTop: "16px"
+      }}>
+        <button 
+          style={{ ...S.primaryBtn, width: "100%" }} 
+          className="primary-btn-glow"
+          onClick={() => setPage("roadmap")}
+        >
+          🗺️ View AI Roadmap
+        </button>
+        <button 
+          style={{ ...S.outlineBtn, width: "100%", borderColor: "#DB2777", color: "#DB2777", background: "rgba(219, 39, 119, 0.02)" }} 
+          className="outline-btn-glow"
+          onClick={() => setPage("alternatives")}
+        >
+          🔄 Explore Alternative Careers
+        </button>
       </div>
-      <button style={{...S.outlineBtn,width:"100%",marginTop:"12px"}} onClick={()=>setPage("stream")}>← Try Another Career</button>
+      <button 
+        style={{ ...S.outlineBtn, width: "100%", marginTop: "12px" }} 
+        className="outline-btn-glow"
+        onClick={() => setPage("stream")}
+      >
+        ← Try Another Career
+      </button>
     </div>
   );
 }
@@ -1470,18 +1872,19 @@ function RoadmapPage({ career, answers, setPage, theme }) {
   const [loading, setLoading]   = useState(true);
   const [error, setError]       = useState(null);
   const careerData = CAREERS.find(c=>c.id===career);
-  const dark = theme === "dark";
+  
   const tagColors = [
-    {bg: dark ? "rgba(139,92,246,.15)" : "rgba(56,189,248,.15)", color: dark ? "#C084FC" : "#38bdf8"},
-    {bg:"rgba(99,102,241,.15)",color:"#818cf8"},
-    {bg:"rgba(34,197,94,.15)",color:"#4ade80"},{bg:"rgba(251,191,36,.15)",color:"#fbbf24"},
+    { bg: "rgba(79, 70, 229, 0.08)", color: "#4F46E5" },
+    { bg: "rgba(13, 148, 136, 0.08)", color: "#0D9488" },
+    { bg: "rgba(219, 39, 119, 0.08)", color: "#DB2777" },
+    { bg: "rgba(217, 70, 239, 0.08)", color: "#D946EF" },
   ];
 
   const getDiffStyle = (diff) => {
     const d = (diff || "Beginner").toLowerCase();
-    if (d.includes("adv")) return { bg: "rgba(239, 68, 68, 0.15)", color: "#f87171" };
-    if (d.includes("int")) return { bg: "rgba(251, 191, 36, 0.15)", color: "#fbbf24" };
-    return { bg: "rgba(34, 197, 94, 0.15)", color: "#4ade80" };
+    if (d.includes("adv")) return { bg: "rgba(220, 38, 38, 0.08)", color: "#DC2626" };
+    if (d.includes("int")) return { bg: "rgba(217, 119, 6, 0.08)", color: "#D97706" };
+    return { bg: "rgba(22, 163, 74, 0.08)", color: "#16A34A" };
   };
 
   async function generate() {
@@ -1497,16 +1900,15 @@ function RoadmapPage({ career, answers, setPage, theme }) {
     <div style={S.roadmapWrap}>
       <div style={{textAlign:"center",marginBottom:"36px"}}>
         <div style={S.badge}>🗺️ AI-Generated Roadmap</div>
-        <h2 style={{fontSize:"clamp(22px,4vw,34px)",fontWeight:800,marginBottom:"8px"}}>Your {careerData?.label} Roadmap</h2>
+        <h2 style={{fontSize:"clamp(22px,4vw,34px)",fontWeight:800,marginBottom:"8px",color:"#0F172A"}}>Your {careerData?.label} Roadmap</h2>
         <p style={{color:S.muted_v,fontSize:"14px"}}>Personalized by Mindstix AI based on your 7-dimensional assessment</p>
       </div>
 
-      {/* ── FIX 2: Back to Report always visible — even while loading ── */}
       <div style={{display:"flex",gap:"12px",marginBottom:"28px",flexWrap:"wrap"}}>
-        <button style={{...S.outlineBtn,padding:"10px 22px",fontSize:"14px"}} onClick={()=>setPage("result")}>
+        <button style={{...S.outlineBtn,padding:"10px 22px",fontSize:"14px"}} className="outline-btn-glow" onClick={()=>setPage("result")}>
           ← Back to Report
         </button>
-        <button style={{...S.outlineBtn,padding:"10px 22px",fontSize:"14px",borderColor:"#f472b6",color:"#f472b6"}} onClick={()=>setPage("alternatives")}>
+        <button style={{...S.outlineBtn,padding:"10px 22px",fontSize:"14px",borderColor:"#DB2777",color:"#DB2777",background:"rgba(219, 39, 119, 0.02)"}} className="outline-btn-glow" onClick={()=>setPage("alternatives")}>
           🔄 Alternative Careers
         </button>
       </div>
@@ -1521,83 +1923,125 @@ function RoadmapPage({ career, answers, setPage, theme }) {
       )}
 
       {error && (
-        <div style={{background:"rgba(239,68,68,.1)",border:"1px solid #ef4444",borderRadius:"12px",padding:"24px",textAlign:"center"}}>
-          <p style={{color:"#f87171",fontWeight:600,marginBottom:"12px"}}>{error}</p>
-          <button style={S.primaryBtn} onClick={generate}>Try Again</button>
+        <div style={{background:"rgba(239,68,68,.05)",border:"1px solid #ef4444",borderRadius:"12px",padding:"24px",textAlign:"center"}}>
+          <p style={{color:"#ef4444",fontWeight:600,marginBottom:"12px"}}>{error}</p>
+          <button style={S.primaryBtn} className="primary-btn-glow" onClick={generate}>Try Again</button>
         </div>
       )}
 
       {roadmap && !loading && (
         <>
           <div style={{
-            background: dark ? "linear-gradient(135deg,rgba(139,92,246,.15),rgba(168,85,247,.15))" : "linear-gradient(135deg,rgba(56,189,248,.1),rgba(99,102,241,.1))",
-            border: dark ? "1px solid rgba(139,92,246,.25)" : "1px solid rgba(56,189,248,.2)",
-            borderRadius: "14px",
-            padding: "20px",
-            marginBottom: "24px"
+            background: "linear-gradient(135deg, rgba(79, 70, 229, 0.05) 0%, rgba(59, 130, 246, 0.03) 100%)",
+            border: "1px solid rgba(79, 70, 229, 0.15)",
+            borderRadius: "16px",
+            padding: "24px",
+            marginBottom: "32px",
+            boxShadow: "0 4px 12px rgba(79, 70, 229, 0.01)"
           }}>
-            <p style={{color:S.muted_v,fontSize:"15px",lineHeight:1.7}}>{roadmap.summary}</p>
+            <p style={{color:"#1E293B",fontSize:"15px",lineHeight:1.7,margin:0,fontWeight:500}}>{roadmap.summary}</p>
           </div>
 
           {/* Strengths & Gaps */}
-          <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:"16px",marginBottom:"24px"}}>
+          <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(280px,1fr))",gap:"16px",marginBottom:"24px"}}>
             <div style={S.resultCard}>
-              <div style={S.resultCardTitle}>✅ Your Strengths</div>
-              {roadmap.strengths?.map(str=><div key={str} style={{fontSize:"13px",color:S.muted_v,marginBottom:"6px"}}>• {str}</div>)}
+              <div style={{ ...S.resultCardTitle, color: "#16A34A" }}>✅ Your Strengths</div>
+              {roadmap.strengths?.map(str=>(
+                <div key={str} style={{fontSize:"13.5px",color:S.muted_v,marginBottom:"8px",lineHeight:1.5,display:"flex",alignItems:"flex-start",gap:"6px"}}>
+                  <span style={{color:"#16A34A"}}>•</span>
+                  <span>{str}</span>
+                </div>
+              ))}
             </div>
             <div style={S.resultCard}>
-              <div style={S.resultCardTitle}>📈 Skills to Develop</div>
-              {roadmap.gaps?.map(g=><div key={g} style={{fontSize:"13px",color:S.muted_v,marginBottom:"6px"}}>• {g}</div>)}
+              <div style={{ ...S.resultCardTitle, color: "#4F46E5" }}>📈 Skills to Develop</div>
+              {roadmap.gaps?.map(g=>(
+                <div key={g} style={{fontSize:"13.5px",color:S.muted_v,marginBottom:"8px",lineHeight:1.5,display:"flex",alignItems:"flex-start",gap:"6px"}}>
+                  <span style={{color:"#4F46E5"}}>•</span>
+                  <span>{g}</span>
+                </div>
+              ))}
             </div>
           </div>
 
           {/* Month cards */}
           {roadmap.months?.map((m,i)=>(
             <div key={i} style={S.monthCard}>
-              <div style={{display:"flex",alignItems:"center",gap:"14px",marginBottom:"18px"}}>
-                <div style={{minWidth:"50px",height:"50px",borderRadius:"12px",background:dark ? "linear-gradient(135deg,#8B5CF6,#A855F7)" : "linear-gradient(135deg,#38bdf8,#6366f1)",display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center",color:"#fff"}}>
-                  <span style={{fontSize:"9px",fontWeight:600,opacity:.8}}>MONTH</span>
-                  <span style={{fontSize:"18px",fontWeight:800,lineHeight:1}}>{m.month}</span>
+              <div style={{display:"flex",alignItems:"center",gap:"16px",marginBottom:"20px"}}>
+                <div style={{
+                  minWidth: "60px",
+                  height: "60px",
+                  borderRadius: "14px",
+                  background: "linear-gradient(135deg, #4F46E5 0%, #3B82F6 100%)",
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  color: "#fff",
+                  boxShadow: "0 4px 12px rgba(79, 70, 229, 0.2)"
+                }}>
+                  <span style={{fontSize:"9px",fontWeight:700,letterSpacing:"1px",opacity:.9}}>MONTH</span>
+                  <span style={{fontSize:"22px",fontWeight:800,lineHeight:1}}>{m.month}</span>
                 </div>
                 <div>
-                  <div style={{fontWeight:800,fontSize:"17px"}}>{m.title}</div>
-                  <div style={{color:dark ? "#C084FC" : "#38bdf8",fontSize:"12px"}}>Focus: {m.focus}</div>
+                  <div style={{fontWeight:800,fontSize:"18px",color:"#0F172A"}}>{m.title}</div>
+                  <div style={{color:"#4F46E5",fontSize:"13px",fontWeight:600,marginTop:"2px"}}>Focus: {m.focus}</div>
                 </div>
               </div>
-              <div style={{marginBottom:"16px"}}>
+              
+              <div style={{marginBottom:"20px"}}>
                 <div style={{fontSize:"11px",fontWeight:700,color:S.dim_v,textTransform:"uppercase",letterSpacing:"1px",marginBottom:"8px"}}>📚 Topics</div>
                 <div style={{display:"flex",flexWrap:"wrap",gap:"6px"}}>
                   {m.topics?.map((t,ti)=><span key={ti} style={{...S.tag,...tagColors[ti%tagColors.length]}}>{t}</span>)}
                 </div>
               </div>
+              
               {m.courses?.length>0 && (
-                <div style={{marginBottom:"16px"}}>
-                  <div style={{fontSize:"11px",fontWeight:700,color:S.dim_v,textTransform:"uppercase",letterSpacing:"1px",marginBottom:"8px"}}>📚 Courses</div>
+                <div style={{marginBottom:"20px"}}>
+                  <div style={{fontSize:"11px",fontWeight:700,color:S.dim_v,textTransform:"uppercase",letterSpacing:"1px",marginBottom:"10px"}}>📚 Recommended Courses</div>
                   {m.courses.map((c,ci)=>{
                     const isVerified = c.url && c.url !== "Resource could not be verified";
                     const diffStyle = getDiffStyle(c.difficulty);
                     return (
-                      <div key={ci} style={{background:S.dark_v?"rgba(5,11,20,.4)":"#f8fafc",border:`1px solid ${S.cardBorder_v}`,borderRadius:"10px",padding:"14px",marginBottom:"10px"}}>
-                        <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start",gap:"10px",flexWrap:"wrap",marginBottom:"6px"}}>
+                      <div key={ci} style={{background:"#f8fafc",border:`1px solid ${S.cardBorder_v}`,borderRadius:"12px",padding:"16px",marginBottom:"12px",boxShadow:"0 1px 2px rgba(0,0,0,0.01)"}}>
+                        <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start",gap:"10px",flexWrap:"wrap",marginBottom:"8px"}}>
                           <div>
-                            <span style={{fontWeight:700,fontSize:"14px",color:S.dark_v?"#e8edf5":"#0f172a"}}>{c.name}</span>
-                            <span style={{color:S.dim_v,fontSize:"11px",marginLeft:"8px"}}>({c.platform})</span>
+                            <span style={{fontWeight:800,fontSize:"14.5px",color:"#0f172a"}}>{c.name}</span>
+                            <span style={{color:S.dim_v,fontSize:"12px",marginLeft:"8px"}}>({c.platform})</span>
                           </div>
                           <div style={{display:"flex",gap:"6px",alignItems:"center"}}>
-                            <span style={{background:diffStyle.bg,color:diffStyle.color,padding:"2px 8px",borderRadius:"99px",fontSize:"10px",fontWeight:700}}>
+                            <span style={{background:diffStyle.bg,color:diffStyle.color,padding:"3px 8px",borderRadius:"99px",fontSize:"10px",fontWeight:700}}>
                               {c.difficulty || "Beginner"}
                             </span>
-                            {c.free&&<span style={{background:"rgba(34,197,94,.15)",color:"#4ade80",padding:"2px 6px",borderRadius:"99px",fontSize:"10px",fontWeight:700}}>FREE</span>}
+                            {c.free&&<span style={{background:"rgba(22, 163, 74, 0.08)",color:"#16A34A",padding:"3px 8px",borderRadius:"99px",fontSize:"10px",fontWeight:700}}>FREE</span>}
                             {isVerified ? (
-                              <a href={c.url} target="_blank" rel="noreferrer" style={{background:dark ? "rgba(139,92,246,.15)" : "rgba(56,189,248,.15)",color:dark ? "#C084FC" : "#38bdf8",padding:"4px 12px",borderRadius:"6px",fontSize:"11px",fontWeight:600,textDecoration:"none"}}>Open →</a>
+                              <a href={c.url} target="_blank" rel="noreferrer" style={{
+                                background: "rgba(79, 70, 229, 0.08)",
+                                color: "#4F46E5",
+                                padding: "6px 14px",
+                                borderRadius: "8px",
+                                fontSize: "12px",
+                                fontWeight: 700,
+                                textDecoration: "none",
+                                transition: "all 0.2s"
+                              }}
+                              onMouseEnter={(e) => {
+                                e.currentTarget.style.background = "#4F46E5";
+                                e.currentTarget.style.color = "#ffffff";
+                              }}
+                              onMouseLeave={(e) => {
+                                e.currentTarget.style.background = "rgba(79, 70, 229, 0.08)";
+                                e.currentTarget.style.color = "#4F46E5";
+                              }}
+                              >Open Course →</a>
                             ) : (
-                              <span style={{background:"rgba(100,116,139,.15)",color:S.dim_v,padding:"4px 12px",borderRadius:"6px",fontSize:"11px",fontWeight:600,cursor:"not-allowed"}}>Resource could not be verified</span>
+                              <span style={{background:"#F1F5F9",color:S.dim_v,padding:"6px 14px",borderRadius:"8px",fontSize:"12px",fontWeight:600,cursor:"not-allowed"}}>Unverified</span>
                             )}
                           </div>
                         </div>
                         {c.why && (
-                          <div style={{fontSize:"12.5px",color:S.muted_v,lineHeight:1.5,marginTop:"6px",borderLeft:`2px solid ${S.cardBorder_v}`,paddingLeft:"8px"}}>
-                            💡 <strong>Why recommended:</strong> {c.why}
+                          <div style={{fontSize:"13px",color:S.muted_v,lineHeight:1.5,marginTop:"8px",borderLeft:`3px solid #E2E8F0`,paddingLeft:"10px"}}>
+                            💡 <strong>Why:</strong> {c.why}
                           </div>
                         )}
                       </div>
@@ -1605,33 +2049,52 @@ function RoadmapPage({ career, answers, setPage, theme }) {
                   })}
                 </div>
               )}
+              
               {m.youtube?.length>0 && (
-                <div style={{marginBottom:"16px"}}>
-                  <div style={{fontSize:"11px",fontWeight:700,color:S.dim_v,textTransform:"uppercase",letterSpacing:"1px",marginBottom:"8px"}}>▶️ YouTube</div>
+                <div style={{marginBottom:"20px"}}>
+                  <div style={{fontSize:"11px",fontWeight:700,color:S.dim_v,textTransform:"uppercase",letterSpacing:"1px",marginBottom:"10px"}}>▶️ YouTube Resources</div>
                   {m.youtube.map((y,yi)=>{
                     const isVerified = y.url && y.url !== "Resource could not be verified";
                     const diffStyle = getDiffStyle(y.difficulty);
                     return (
-                      <div key={yi} style={{background:S.dark_v?"rgba(5,11,20,.4)":"#f8fafc",border:`1px solid ${S.cardBorder_v}`,borderRadius:"10px",padding:"14px",marginBottom:"10px"}}>
-                        <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start",gap:"10px",flexWrap:"wrap",marginBottom:"6px"}}>
+                      <div key={yi} style={{background:"#f8fafc",border:`1px solid ${S.cardBorder_v}`,borderRadius:"12px",padding:"16px",marginBottom:"12px",boxShadow:"0 1px 2px rgba(0,0,0,0.01)"}}>
+                        <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start",gap:"10px",flexWrap:"wrap",marginBottom:"8px"}}>
                           <div>
-                            <span style={{fontWeight:700,fontSize:"14px",color:S.dark_v?"#e8edf5":"#0f172a"}}>{y.channel}</span>
-                            <span style={{color:S.dim_v,fontSize:"11px",marginLeft:"8px"}}>— Topic: {y.topic}</span>
+                            <span style={{fontWeight:800,fontSize:"14.5px",color:"#0f172a"}}>{y.channel}</span>
+                            <span style={{color:S.dim_v,fontSize:"12px",marginLeft:"8px"}}>— Topic: {y.topic}</span>
                           </div>
                           <div style={{display:"flex",gap:"6px",alignItems:"center"}}>
-                            <span style={{background:diffStyle.bg,color:diffStyle.color,padding:"2px 8px",borderRadius:"99px",fontSize:"10px",fontWeight:700}}>
+                            <span style={{background:diffStyle.bg,color:diffStyle.color,padding:"3px 8px",borderRadius:"99px",fontSize:"10px",fontWeight:700}}>
                               {y.difficulty || "Beginner"}
                             </span>
                             {isVerified ? (
-                              <a href={y.url} target="_blank" rel="noreferrer" style={{background:"rgba(239,68,68,.15)",color:"#f87171",padding:"4px 12px",borderRadius:"6px",fontSize:"11px",fontWeight:600,textDecoration:"none"}}>Watch →</a>
+                              <a href={y.url} target="_blank" rel="noreferrer" style={{
+                                background: "rgba(220, 38, 38, 0.08)",
+                                color: "#DC2626",
+                                padding: "6px 14px",
+                                borderRadius: "8px",
+                                fontSize: "12px",
+                                fontWeight: 700,
+                                textDecoration: "none",
+                                transition: "all 0.2s"
+                              }}
+                              onMouseEnter={(e) => {
+                                e.currentTarget.style.background = "#DC2626";
+                                e.currentTarget.style.color = "#ffffff";
+                              }}
+                              onMouseLeave={(e) => {
+                                e.currentTarget.style.background = "rgba(220, 38, 38, 0.08)";
+                                e.currentTarget.style.color = "#DC2626";
+                              }}
+                              >Watch Video →</a>
                             ) : (
-                              <span style={{background:"rgba(100,116,139,.15)",color:S.dim_v,padding:"4px 12px",borderRadius:"6px",fontSize:"11px",fontWeight:600,cursor:"not-allowed"}}>Resource could not be verified</span>
+                              <span style={{background:"#F1F5F9",color:S.dim_v,padding:"6px 14px",borderRadius:"8px",fontSize:"12px",fontWeight:600,cursor:"not-allowed"}}>Unverified</span>
                             )}
                           </div>
                         </div>
                         {y.why && (
-                          <div style={{fontSize:"12.5px",color:S.muted_v,lineHeight:1.5,marginTop:"6px",borderLeft:`2px solid ${S.cardBorder_v}`,paddingLeft:"8px"}}>
-                            💡 <strong>Why recommended:</strong> {y.why}
+                          <div style={{fontSize:"13px",color:S.muted_v,lineHeight:1.5,marginTop:"8px",borderLeft:`3px solid #E2E8F0`,paddingLeft:"10px"}}>
+                            💡 <strong>Why:</strong> {y.why}
                           </div>
                         )}
                       </div>
@@ -1639,28 +2102,49 @@ function RoadmapPage({ career, answers, setPage, theme }) {
                   })}
                 </div>
               )}
-              <div style={{background:S.dark_v?"rgba(139,92,246,.08)":"#f0f9ff",border:S.dark_v?"1px solid rgba(139,92,246,.2)":"1px solid rgba(56,189,248,.2)",borderRadius:"8px",padding:"12px 14px"}}>
-                <span style={{color:S.dark_v?"#C084FC":"#38bdf8",fontWeight:700,fontSize:"12px"}}>🎯 Month Goal: </span>
-                <span style={{color:S.muted_v,fontSize:"13px"}}>{m.goal}</span>
+              
+              <div style={{
+                background: "rgba(79, 70, 229, 0.03)",
+                border: "1px solid rgba(79, 70, 229, 0.15)",
+                borderRadius: "10px",
+                padding: "14px 16px"
+              }}>
+                <span style={{color:"#4F46E5",fontWeight:700,fontSize:"13px"}}>🎯 Month Goal: </span>
+                <span style={{color:S.muted_v,fontSize:"13.5px",lineHeight:1.5}}>{m.goal}</span>
               </div>
             </div>
           ))}
 
-          <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:"16px",marginBottom:"20px"}}>
+          <div style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+            gap: "20px",
+            marginBottom: "24px"
+          }}>
             <div style={S.resultCard}>
-              <div style={S.resultCardTitle}>🏆 Certifications to Earn</div>
-              {roadmap.certifications?.map((c,i)=><div key={i} style={{fontSize:"13px",color:S.muted_v,marginBottom:"6px"}}>• {c}</div>)}
+              <div style={{ ...S.resultCardTitle, color: "#D97706" }}>🏆 Certifications to Earn</div>
+              {roadmap.certifications?.map((c,i)=>(
+                <div key={i} style={{fontSize:"13.5px",color:S.muted_v,marginBottom:"8px",lineHeight:1.5,display:"flex",alignItems:"flex-start",gap:"6px"}}>
+                  <span style={{color:"#D97706"}}>•</span>
+                  <span>{c}</span>
+                </div>
+              ))}
             </div>
             <div style={S.resultCard}>
-              <div style={S.resultCardTitle}>💰 Scholarships to Apply</div>
-              {roadmap.scholarships?.map((sc,i)=><div key={i} style={{fontSize:"13px",color:S.muted_v,marginBottom:"6px"}}>• {sc}</div>)}
+              <div style={{ ...S.resultCardTitle, color: "#0D9488" }}>💰 Scholarships to Apply</div>
+              {roadmap.scholarships?.map((sc,i)=>(
+                <div key={i} style={{fontSize:"13.5px",color:S.muted_v,marginBottom:"8px",lineHeight:1.5,display:"flex",alignItems:"flex-start",gap:"6px"}}>
+                  <span style={{color:"#0D9488"}}>•</span>
+                  <span>{sc}</span>
+                </div>
+              ))}
             </div>
           </div>
 
           {roadmap.tip && (
             <div style={{
-              background: dark ? "linear-gradient(135deg,rgba(168,85,247,.15),rgba(139,92,246,.15))" : "linear-gradient(135deg,rgba(99,102,241,.1),rgba(56,189,248,.1))",
-              border: dark ? "1px solid rgba(168,85,247,.3)" : "1px solid rgba(99,102,241,.3)",
+              background: "linear-gradient(135deg, rgba(79, 70, 229, 0.05) 0%, rgba(59, 130, 246, 0.03) 100%)",
+              border: "1px solid rgba(79, 70, 229, 0.15)",
               borderRadius: "12px",
               padding: "18px 22px",
               marginBottom: "24px",
@@ -1671,11 +2155,15 @@ function RoadmapPage({ career, answers, setPage, theme }) {
             </div>
           )}
 
-          {/* ── FIX 2: Bottom nav — same as top ── */}
-          <div style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:"12px",flexWrap:"wrap"}}>
-            <button style={{...S.primaryBtn}} onClick={generate}>🔄 Regenerate</button>
-            <button style={{...S.outlineBtn}} onClick={()=>setPage("result")}>← Back to Report</button>
-            <button style={{...S.outlineBtn,borderColor:"#f472b6",color:"#f472b6"}} onClick={()=>setPage("alternatives")}>🔄 Alternatives</button>
+          <div style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
+            gap: "12px",
+            marginTop: "12px"
+          }}>
+            <button style={S.primaryBtn} className="primary-btn-glow" onClick={generate}>🔄 Regenerate Roadmap</button>
+            <button style={S.outlineBtn} className="outline-btn-glow" onClick={()=>setPage("result")}>← Back to Report</button>
+            <button style={{...S.outlineBtn,borderColor:"#DB2777",color:"#DB2777",background:"rgba(219, 39, 119, 0.02)"}} className="outline-btn-glow" onClick={()=>setPage("alternatives")}>🔄 Alternative Careers</button>
           </div>
         </>
       )}
@@ -1695,36 +2183,48 @@ function AlternativesPage({ career, answers, setAnswers, setPage, setSelectedCar
     <div style={S.resultWrap}>
       <div style={{textAlign:"center",marginBottom:"32px"}}>
         <div style={S.badge}>🔄 Alternative Career Paths</div>
-        <h2 style={{fontSize:"clamp(22px,4vw,34px)",fontWeight:800,marginBottom:"8px"}}>Better-Suited Alternatives</h2>
+        <h2 style={{fontSize:"clamp(22px,4vw,34px)",fontWeight:800,marginBottom:"8px",color:"#0F172A"}}>Better-Suited Alternatives</h2>
         <p style={{color:S.muted_v,fontSize:"14px",maxWidth:"500px",margin:"0 auto"}}>
           Based on your aptitude, budget, and interests — these careers may be a better fit than {currentCareer?.label}.
         </p>
       </div>
 
       {/* Comparison table */}
-      <div style={{...S.resultCard,marginBottom:"20px",overflowX:"auto"}}>
-        <div style={S.resultCardTitle}>📊 Side-by-Side Comparison</div>
-        <table style={{width:"100%",borderCollapse:"collapse",fontSize:"13px"}}>
+      <div style={{...S.resultCard,marginBottom:"24px",overflowX:"auto"}}>
+        <div style={{ ...S.resultCardTitle, marginBottom: "12px" }}>📊 Side-by-Side Comparison</div>
+        <table style={{width:"100%",borderCollapse:"collapse",fontSize:"13.5px"}}>
           <thead>
-            <tr style={{borderBottom:`1px solid ${S.cardBorder_v}`}}>
+            <tr style={{borderBottom:`1.5px solid ${S.cardBorder_v}`, background: "#F8FAFC"}}>
               {["Career","Duration","Govt Cost","Starting Salary","ROI"].map(h=>(
-                <th key={h} style={{textAlign:"left",padding:"8px 12px",color:S.dim_v,fontWeight:700,fontSize:"11px",textTransform:"uppercase"}}>{h}</th>
+                <th key={h} style={{textAlign:"left",padding:"12px 16px",color:S.dim_v,fontWeight:700,fontSize:"11px",textTransform:"uppercase",letterSpacing:"0.5px"}}>{h}</th>
               ))}
             </tr>
           </thead>
           <tbody>
             {[currentCareer,...altCareers].map((c,i)=>(
-              <tr key={c.id} style={{borderBottom:`1px solid ${S.cardBorder_v}`,background:i===0?(theme === "dark" ? "rgba(139,92,246,.1)" : "rgba(56,189,248,.05)"):"transparent"}}>
-                <td style={{padding:"10px 12px",fontWeight:i===0?700:400}}>
-                  {c.icon} {c.label} {i===0&&<span style={{fontSize:"10px",color:theme === "dark" ? "#C084FC" : "#38bdf8",marginLeft:"4px"}}>(current)</span>}
+              <tr 
+                key={c.id} 
+                style={{
+                  borderBottom:`1px solid ${S.cardBorder_v}`,
+                  background:i===0?"rgba(79, 70, 229, 0.03)":"transparent",
+                  transition: "background 0.2s"
+                }}
+              >
+                <td style={{padding:"14px 16px",fontWeight:i===0?700:500,color:i===0?"#4F46E5":"#0F172A"}}>
+                  {c.icon} {c.label} {i===0&&<span style={{fontSize:"10px",color:"#4F46E5",fontWeight:700,marginLeft:"6px",textTransform:"uppercase",background:"rgba(79, 70, 229, 0.08)",padding:"2px 6px",borderRadius:"4px"}}>(current)</span>}
                 </td>
-                <td style={{padding:"10px 12px",color:S.muted_v}}>{c.fin.dur}</td>
-                <td style={{padding:"10px 12px",color:S.muted_v}}>₹{c.fin.govt}</td>
-                <td style={{padding:"10px 12px",color:S.muted_v}}>₹{c.fin.start}</td>
-                <td style={{padding:"10px 12px"}}>
-                  <span style={{padding:"2px 8px",borderRadius:"99px",fontSize:"11px",fontWeight:600,
-                    background:c.fin.roi==="High"||c.fin.roi==="Very High"?"rgba(34,197,94,.1)":"rgba(251,191,36,.1)",
-                    color:c.fin.roi==="High"||c.fin.roi==="Very High"?"#4ade80":"#fbbf24"}}>
+                <td style={{padding:"14px 16px",color:S.muted_v}}>{c.fin.dur}</td>
+                <td style={{padding:"14px 16px",color:S.muted_v,fontWeight:600}}>₹{c.fin.govt}</td>
+                <td style={{padding:"14px 16px",color:S.muted_v,fontWeight:600}}>₹{c.fin.start}</td>
+                <td style={{padding:"14px 16px"}}>
+                  <span style={{
+                    padding:"4px 10px",
+                    borderRadius:"99px",
+                    fontSize:"11px",
+                    fontWeight:700,
+                    background:c.fin.roi==="High"||c.fin.roi==="Very High"?"rgba(22, 163, 74, 0.08)":"rgba(217, 119, 6, 0.08)",
+                    color:c.fin.roi==="High"||c.fin.roi==="Very High"?"#16A34A":"#D97706"
+                  }}>
                     {c.fin.roi}
                   </span>
                 </td>
@@ -1735,31 +2235,35 @@ function AlternativesPage({ career, answers, setAnswers, setPage, setSelectedCar
       </div>
 
       {/* Alt career cards */}
-      <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(260px,1fr))",gap:"16px",marginBottom:"24px"}}>
+      <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(280px,1fr))",gap:"20px",marginBottom:"32px"}}>
         {altCareers.map(c=>(
           <div key={c.id} style={S.resultCard}>
-            <div style={{fontSize:"32px",marginBottom:"10px"}}>{c.icon}</div>
-            <div style={{fontWeight:800,fontSize:"16px",marginBottom:"6px"}}>{c.label}</div>
-            <div style={{color:S.dim_v,fontSize:"12px",marginBottom:"12px",lineHeight:1.5}}>{c.desc}</div>
-            <div style={{fontSize:"12px",color:S.muted_v,marginBottom:"4px"}}>⏱️ {c.fin.dur} &nbsp;|&nbsp; 💰 Govt: ₹{c.fin.govt}</div>
-            <div style={{fontSize:"12px",color:S.muted_v,marginBottom:"16px"}}>💼 Start: ₹{c.fin.start}/yr</div>
-            <button style={{...S.smallBtn,width:"100%"}} onClick={()=>{
-              setSelectedCareer(c.id);
-              const isScience = c.stream === "science";
-              const isCommOrArts = COMMERCE_ARTS_QUIZZES[c.id] !== undefined;
-              const expectedLength = isScience ? 40 : (isCommOrArts ? 40 : 15);
-              setAnswers(Array(expectedLength).fill(null));
-              localStorage.setItem("career_reality_current_q", "0");
-              localStorage.setItem("career_reality_show_review", "false");
-              setPage("quiz");
-            }}>
+            <div style={{fontSize:"36px",marginBottom:"12px"}}>{c.icon}</div>
+            <div style={{fontWeight:800,fontSize:"18px",color:"#0F172A",marginBottom:"8px"}}>{c.label}</div>
+            <div style={{color:S.dim_v,fontSize:"13px",marginBottom:"16px",lineHeight:1.5}}>{c.desc}</div>
+            <div style={{fontSize:"13px",color:S.muted_v,marginBottom:"6px"}}>⏱️ {c.fin.dur} &nbsp;|&nbsp; 💰 Govt: ₹{c.fin.govt}</div>
+            <div style={{fontSize:"13px",color:S.muted_v,marginBottom:"20px"}}>💼 Start: ₹{c.fin.start}/yr</div>
+            <button 
+              style={{...S.smallBtn,width:"100%",marginTop:"8px"}} 
+              className="primary-btn-glow"
+              onClick={()=>{
+                setSelectedCareer(c.id);
+                const isScience = c.stream === "science";
+                const isCommOrArts = COMMERCE_ARTS_QUIZZES[c.id] !== undefined;
+                const expectedLength = isScience ? 40 : (isCommOrArts ? 40 : 15);
+                setAnswers(Array(expectedLength).fill(null));
+                localStorage.setItem("career_reality_current_q", "0");
+                localStorage.setItem("career_reality_show_review", "false");
+                setPage("quiz");
+              }}
+            >
               Assess for {c.label} →
             </button>
           </div>
         ))}
       </div>
 
-      <button style={{...S.outlineBtn,width:"100%"}} onClick={()=>setPage("result")}>← Back to My Report</button>
+      <button style={{...S.outlineBtn,width:"100%"}} className="outline-btn-glow" onClick={()=>setPage("result")}>← Back to My Report</button>
     </div>
   );
 }
@@ -1778,11 +2282,37 @@ function AboutPage({ theme }) {
           ["03","Get Your Full Report","7 individual scores, financial analysis, and scholarship opportunities including girl-specific benefits."],
           ["04","AI Roadmap + Alternatives","Mindstix AI generates a 4-month personalized plan. Not satisfied? Explore better-suited alternatives instantly."],
         ].map(([num,title,desc])=>(
-          <div key={num} className="elevated-card" style={{display:"flex",gap:"20px",alignItems:"flex-start",marginBottom:"24px",padding:"22px",background:S.card_v,border:`1px solid ${S.cardBorder_v}`,borderRadius:"14px"}}>
-            <div style={{minWidth:"44px",height:"44px",borderRadius:"10px",background:theme === "dark" ? "linear-gradient(135deg,#8B5CF6,#A855F7)" : "linear-gradient(135deg,#38bdf8,#6366f1)",display:"flex",alignItems:"center",justifyContent:"center",fontWeight:800,fontSize:"15px",color:"#fff"}}>{num}</div>
+          <div 
+            key={num} 
+            className="elevated-card" 
+            style={{
+              display:"flex",
+              gap:"20px",
+              alignItems:"flex-start",
+              marginBottom:"24px",
+              padding:"24px",
+              background:"#ffffff",
+              border:`1.5px solid ${S.cardBorder_v}`,
+              borderRadius:"16px",
+              boxShadow:"0 4px 20px rgba(0, 0, 0, 0.02)"
+            }}
+          >
+            <div style={{
+              minWidth:"48px",
+              height:"48px",
+              borderRadius:"12px",
+              background:"linear-gradient(135deg, #4F46E5 0%, #3B82F6 100%)",
+              display:"flex",
+              alignItems:"center",
+              justifyContent:"center",
+              fontWeight:800,
+              fontSize:"16px",
+              color:"#fff",
+              boxShadow:"0 4px 10px rgba(79, 70, 229, 0.15)"
+            }}>{num}</div>
             <div>
-              <div style={{fontWeight:700,fontSize:"16px",marginBottom:"5px"}}>{title}</div>
-              <div style={{color:S.dim_v,fontSize:"13px",lineHeight:1.6}}>{desc}</div>
+              <div style={{fontWeight:800,fontSize:"17px",color:"#0F172A",marginBottom:"6px"}}>{title}</div>
+              <div style={{color:S.dim_v,fontSize:"14px",lineHeight:1.6}}>{desc}</div>
             </div>
           </div>
         ))}
@@ -1834,14 +2364,14 @@ export default function App() {
       return Array(15).fill(null);
     }
   });
-  const [theme, setTheme]                   = useState("dark");
-  const toggleTheme = () => setTheme(p=>p==="dark"?"light":"dark");
+  const theme = "light";
+  const toggleTheme = () => {};
   const S = s(theme);
 
   useEffect(() => {
-    document.body.className = theme;
-    document.body.style.background = theme === "dark" ? "#080d1a" : "#F8FAFC";
-  }, [theme]);
+    document.body.className = "light";
+    document.body.style.background = "#FCFDFD";
+  }, []);
 
   // Sync state changes to localStorage
   useEffect(() => {

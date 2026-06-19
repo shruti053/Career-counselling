@@ -1,52 +1,84 @@
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-.dark  { --card: rgba(18, 10, 37, 0.75); --border: rgba(192, 132, 252, 0.15); }
-.light { --card: #ffffff;                 --border: #e2e8f0; }
-
-body { transition: background 0.3s; }
-body.dark { background: #080d1a; }
-body.light { background: #F8FAFC; }
-button:hover { opacity: 0.85; }
-
-/* ── PREMIUM DARK MODE ONLY STYLES ── */
-
-.dark, .dark * {
-  font-family: 'Space Grotesk', sans-serif !important;
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-/* Base button animations and state */
-.dark button {
+body {
+  background-color: #F8FAFC;
+  color: #1E293B;
+  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Apply premium font globally to inputs, buttons and select elements */
+button, input, select, textarea {
+  font-family: inherit;
+}
+
+button:hover {
+  opacity: 0.95;
+}
+
+/* Custom modern scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Premium card and button classes */
+.elevated-card {
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 
-.dark button:not([disabled]):hover {
-  opacity: 1 !important;
-  transform: translateY(-2px);
-}
-
-/* Hover styles for primary buttons in Dark Mode */
-.dark .primary-btn-glow:not([disabled]):hover {
-  transform: translateY(-3px) scale(1.01);
-  box-shadow: 0 12px 35px rgba(139, 92, 246, 0.45), 0 0 20px rgba(168, 85, 247, 0.2) !important;
-}
-
-/* Hover style for outline buttons in Dark Mode */
-.dark .outline-btn-glow:not([disabled]):hover {
-  background: rgba(139, 92, 246, 0.08) !important;
-  border-color: rgba(192, 132, 252, 0.4) !important;
-  box-shadow: 0 0 15px rgba(139, 92, 246, 0.15) !important;
-}
-
-/* Hover styles for elevated cards in Dark Mode */
-.dark .career-card,
-.dark .elevated-card {
-  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
-}
-
-.dark .career-card:hover,
-.dark .elevated-card:hover {
+.elevated-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 10px 25px rgba(139, 92, 246, 0.2), 0 0 45px rgba(168, 85, 247, 0.12) !important;
-  border-color: rgba(192, 132, 252, 0.3) !important;
-  background: rgba(24, 16, 50, 0.85) !important; /* Hover State: #181032, slightly transparent */
+  box-shadow: 0 12px 30px rgba(79, 70, 229, 0.06), 0 0 1px rgba(79, 70, 229, 0.1) !important;
+  border-color: #C7D2FE !important; /* Soft indigo-200 border on hover */
+}
+
+.career-card {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.career-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.03), 0 0 1px rgba(0, 0, 0, 0.1) !important;
+  border-color: #CBD5E1 !important;
+}
+
+/* Primary Button Glow on Hover (Notion / Apple style) */
+.primary-btn-glow {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.primary-btn-glow:not([disabled]):hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(79, 70, 229, 0.25) !important;
+}
+
+.primary-btn-glow:not([disabled]):active {
+  transform: translateY(0);
+}
+
+.outline-btn-glow {
+  transition: all 0.2s ease-in-out !important;
+}
+
+.outline-btn-glow:not([disabled]):hover {
+  background: #F1F5F9 !important;
+  border-color: #94A3B8 !important;
 }
