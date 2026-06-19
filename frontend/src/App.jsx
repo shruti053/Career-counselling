@@ -905,7 +905,9 @@ function QuizPage({ career, setSelectedCareer, setPage, answers, setAnswers, the
   }
   const [current, setCurrent] = useState(() => {
     const saved = localStorage.getItem("career_reality_current_q");
-    return saved ? parseInt(saved, 10) : 0;
+    const parsed = saved ? parseInt(saved, 10) : 0;
+    // Clamp to valid range for the current quiz length
+    return Math.min(Math.max(parsed, 0), Math.max(questions.length - 1, 0));
   });
   const [showReview, setShowReview] = useState(() => {
     return localStorage.getItem("career_reality_show_review") === "true";
@@ -936,14 +938,20 @@ function QuizPage({ career, setSelectedCareer, setPage, answers, setAnswers, the
     localStorage.setItem("career_reality_show_review", showReview ? "true" : "false");
   }, [showReview]);
 
-  const q = questions[current];
-  const catInfo = CATEGORIES.find(c => c.id === q.cat);
-  const catQuestions = questions.filter(x => x.cat === q.cat);
-  const catIndex = catQuestions.indexOf(q) + 1;
+  // ── Safety: clamp current to valid range (guards against stale localStorage) ──
+  const safeCurrent = Math.min(Math.max(current, 0), Math.max(questions.length - 1, 0));
+  if (safeCurrent !== current && questions.length > 0) {
+    setCurrent(safeCurrent);
+  }
+
+  const q = questions[safeCurrent] || null;
+  const catInfo = q ? (CATEGORIES.find(c => c.id === q.cat) || CATEGORIES[0]) : CATEGORIES[0];
+  const catQuestions = q ? questions.filter(x => x.cat === q.cat) : [];
+  const catIndex = q ? catQuestions.indexOf(q) + 1 : 1;
 
   const answeredCount = answers.filter(a => a !== null).length;
   const unansweredCount = questions.length - answeredCount;
-  const percentComplete = Math.round((answeredCount / questions.length) * 100);
+  const percentComplete = Math.round((answeredCount / Math.max(questions.length, 1)) * 100);
 
   // Clear validation error when user changes option or current question
   useEffect(() => {
@@ -1001,18 +1009,18 @@ function QuizPage({ career, setSelectedCareer, setPage, answers, setAnswers, the
       if (e.key === "ArrowUp") {
         e.preventDefault();
         setFocusedOptionIndex((prev) => {
-          const max = q.opts.length;
+          const max = q?.opts?.length || 4;
           return (prev - 1 + max) % max;
         });
       } else if (e.key === "ArrowDown") {
         e.preventDefault();
         setFocusedOptionIndex((prev) => {
-          const max = q.opts.length;
+          const max = q?.opts?.length || 4;
           return (prev + 1) % max;
         });
       } else if (e.key === "Enter") {
         e.preventDefault();
-        if (answers[current] !== focusedOptionIndex) {
+        if (answers[safeCurrent] !== focusedOptionIndex) {
           handleOptionSelect(focusedOptionIndex);
         } else {
           handleNext();
@@ -1021,7 +1029,7 @@ function QuizPage({ career, setSelectedCareer, setPage, answers, setAnswers, the
     };
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [current, answers, showReview, focusedOptionIndex, q]);
+  }, [safeCurrent, answers, showReview, focusedOptionIndex, q]);
 
   // Render the review screen view
   if (showReview) {
